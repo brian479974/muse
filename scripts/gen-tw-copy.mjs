@@ -4,7 +4,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { toTw } from './zh-hant.mjs';
 
-const files = ['src/i18n.ts', 'src/generation-copy.ts', 'src/studio-copy.ts', 'src/hero-study.tsx'];
+const files = ['src/i18n.ts', 'src/generation-copy.ts', 'src/studio-copy.ts', 'src/home-showcase.tsx'];
 
 function blockEnd(src, open) {
   const [o, c] = src[open] === '[' ? ['[', ']'] : ['{', '}'];

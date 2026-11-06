@@ -9,7 +9,7 @@
 ## 跟原站的差別
 
 - **介面三語**：簡／繁／EN 三個獨立按鈕切換；繁體由 `scripts/zh-hant.mjs`（OpenCC 片語級轉換＋台灣用語修正）產生，介面字典用 `scripts/gen-tw-copy.mjs`、素材清單用 `scripts/mirror-filter.mjs` 自動補上。
-- **外觀改版**：暗色藝廊配色（顏色由 `scripts/apply-theme.py` 依 `scripts/theme-gallery-dark.json` 整批對應產生）、新名稱 Muse 繆思與新 Logo（`public/brand/logo-mark.svg`）。
+- **外觀改版（鼠尾草綠）**：淺鼠尾草綠底、墨綠主色、金色點綴、襯線大標；桌機改為上方導覽；首頁加入動畫主視覺、圖片跑馬燈、三大分類卡與三步驟圖解（`src/home-showcase.tsx`）。配色由 `scripts/apply-theme.py` 依 `scripts/theme-sage.json` 對應原站淺色樣式產生，新版面與動畫在 `src/theme-sage.css`。新名稱 Muse 繆思與新 Logo（`public/brand/logo-mark.svg`）。
 
 - **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除；首頁示意圖也改用上游圖庫的公開圖片。
 - **不收錄擴展分類**：內衣、泳裝、曲線、雙人等擴展分類不收錄，對應的開關與「素材庫」篩選一併隱藏。

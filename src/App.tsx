@@ -27,7 +27,7 @@ import {
   X,
 } from 'lucide-react';
 import { copy } from './i18n';
-import { HeroStudy } from './hero-study';
+import { HomeHero, HomeLibrary, HomeMarquee, HomeSteps, showcaseText } from './home-showcase';
 import { hasPoseDepth, withPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
 import { CardStudio } from './card-studio';
@@ -842,6 +842,34 @@ export default function App() {
             <img src={`${import.meta.env.BASE_URL}brand/logo-mark.svg`} alt="" />
             <strong>Muse · 繆思</strong>
           </button>
+          <nav className="top-nav" aria-label={t.library}>
+            {navItems
+              .filter((item) => item.key !== 'saved')
+              .map(({ key, label }) => (
+                <button
+                  key={key}
+                  className={view === key && !projectOpen ? 'active' : ''}
+                  onClick={() => {
+                    changeView(key);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                >
+                  {label}
+                </button>
+              ))}
+            <button className={view === 'studio' ? 'active' : ''} onClick={openStudio}>
+              {studioCopy[lang].title}
+            </button>
+            <button
+              className={view === 'saved' && !projectOpen ? 'active' : ''}
+              onClick={() => changeView('saved')}
+            >
+              {t.saved}
+            </button>
+            <button className={projectOpen ? 'active' : ''} onClick={() => setPanel('project')}>
+              {t.projectAboutShort}
+            </button>
+          </nav>
           <div className="header-actions">
             <button className="header-board" onClick={openStudio} aria-label={t.boardOpen}>
               <LayoutPanelLeft size={17} />
@@ -873,50 +901,36 @@ export default function App() {
                 </button>
               ))}
             </div>
-            <span className="studio-badge">
-              REFERENCE STUDIO
-              <span />
-            </span>
           </div>
         </header>
 
         <main className={`library-main library-main-${view}`} hidden={view === 'studio'}>
           {showHero && (
-            <section className="intro" aria-label={t.brand}>
-              <div className="intro-copy">
-                <p className="eyebrow">
-                  <span />
-                  {t.introLabel}
-                </p>
-                <h1>
-                  {t.introA}
-                  <br />
-                  <em>{t.introB}</em>
-                </h1>
-                <p className="intro-description">{t.introText}</p>
-                <a className="intro-link" href="#collection">
-                  {t.introLink}
-                  <ArrowDown size={15} />
-                </a>
-              </div>
-              <HeroStudy lang={lang} onOpenStudio={openStudio} />
-            </section>
+            <>
+              <HomeHero
+                lang={lang}
+                references={eligible.length}
+                images={catalog?.stats.images || 0}
+                onOpenStudio={openStudio}
+              />
+              <HomeMarquee items={eligible} onOpen={openDetail} />
+              <HomeLibrary
+                lang={lang}
+                items={eligible}
+                counts={{
+                  pose: eligible.filter((item) => item.kind === 'pose').length,
+                  costume: eligible.filter((item) => item.kind === 'costume').length,
+                  character: eligible.filter((item) => item.kind === 'character').length,
+                }}
+                onView={(next) => {
+                  changeView(next);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+              />
+              <HomeSteps lang={lang} onOpenStudio={openStudio} />
+              <span className="home-kicker collection-kicker">{showcaseText(lang).collectionKicker}</span>
+            </>
           )}
-          <div className="collection-summary">
-            <span>
-              <strong>{catalog?.stats.references.toLocaleString(localeOf(lang)) || '—'}</strong>{' '}
-              {t.referenceCount}
-            </span>
-            <i />
-            <span>
-              <strong>{catalog?.stats.images.toLocaleString(localeOf(lang)) || '—'}</strong> {t.viewCount}
-            </span>
-            <span className="summary-right">
-              <Layers2 size={14} />
-              POSE + COSTUME + CHARACTER
-            </span>
-          </div>
-
           <section className="collection" id="collection" aria-labelledby="collection-heading">
             <div className="collection-header">
               <div>
@@ -1260,6 +1274,15 @@ export default function App() {
           <footer>
             <span className="footer-wordmark">Muse.</span>
             <p>{t.footer}</p>
+            <a
+              className="footer-credit"
+              href="https://github.com/hongye007/open-pose-costume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {lang === 'en' ? 'Original · open-pose-costume' : '原作 · open-pose-costume'}
+              <ArrowUpRight size={13} />
+            </a>
             <button onClick={() => setPanel('usage')}>
               {t.usage}
               <ArrowUpRight size={13} />
