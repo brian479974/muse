@@ -30,8 +30,8 @@ function contentSecurityPolicy(): Plugin {
   };
 }
 
-// GitHub Pages 專案網站部署在 /muse/ 子路徑下（建置與預覽）；本機開發仍用根路徑。
+// 正式網址 https://muse.markforged.tw/ 在網域根目錄；要部署到子路徑時用 VITE_BASE 指定。
 export default defineConfig(({ command, isPreview }) => ({
-  base: command === 'build' || isPreview ? process.env.VITE_BASE || '/muse/' : '/',
+  base: command === 'build' || isPreview ? process.env.VITE_BASE || '/' : '/',
   plugins: [react(), contentSecurityPolicy()],
 }));

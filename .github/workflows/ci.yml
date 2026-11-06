@@ -19,7 +19,8 @@ jobs:
       - run: node scripts/mirror-filter.mjs
       - name: Verify no custom assets are shipped
         run: test ! -e public/custom
-      - run: npm run build -- --base /${{ github.event.repository.name }}/
+      # 自訂網域 muse.markforged.tw 在根目錄，用預設 base '/'
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
