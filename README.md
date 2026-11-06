@@ -11,6 +11,7 @@
 - **介面三語**：簡／繁／EN 三個獨立按鈕切換；繁體由 `scripts/zh-hant.mjs`（OpenCC 片語級轉換＋台灣用語修正）產生，介面字典用 `scripts/gen-tw-copy.mjs`、素材清單用 `scripts/mirror-filter.mjs` 自動補上。
 - **外觀改版（鼠尾草綠）**：淺鼠尾草綠底、墨綠主色、金色點綴、襯線大標；桌機改為上方導覽；首頁加入動畫主視覺、圖片跑馬燈、三大分類卡與三步驟圖解（`src/home-showcase.tsx`）。配色由 `scripts/apply-theme.py` 依 `scripts/theme-sage.json` 對應原站淺色樣式產生，新版面與動畫在 `src/theme-sage.css`。新名稱 Muse 繆思與新 Logo（`public/brand/logo-mark.svg`）。
 
+- **Muse 自製素材**：男性人物 4 張、男性姿勢線稿 4 張（2026-11-06，Codex 與 Grok 生成的虛構成人角色），圖片在 `public/muse-assets/`、資料在 `data/muse-extras.json`，由 `scripts/mirror-filter.mjs` 併入素材清單。
 - **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除；首頁示意圖也改用上游圖庫的公開圖片。
 - **不收錄擴展分類**：內衣、泳裝、曲線、雙人等擴展分類不收錄，對應的開關與「素材庫」篩選一併隱藏。
 - **參考圖卡取代一鍵生圖（安全考量）**：網站不再呼叫任何生圖 API、不存任何金鑰，也沒有轉送伺服器。搭配台挑好姿勢／服裝／人物後，瀏覽器在本機把三張參考圖＋英文提示詞排成一張圖卡（`src/reference-card.ts`），使用者下載圖卡、複製提示詞，自己貼到 ChatGPT 生成。提示詞註明圖庫人物為 AI 生成的虛構成人角色、要求完整著裝，避免被平台擋下。舊版存在瀏覽器的金鑰與生成紀錄，開站時會自動清除。

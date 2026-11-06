@@ -32,12 +32,28 @@ export function isCustomAsset(value: string, kind?: Kind, base = siteBase()): bo
   }
 }
 
+/** Muse 自製素材的圖片放在本站 /muse-assets/，清單裡存的是站內路徑，載入時轉成完整網址 */
+function resolveMuseAssets(item: Catalog['items'][number], base: URL) {
+  const abs = (value: string) => new URL(value.replace(/^\//, ''), base).href;
+  return {
+    ...item,
+    variants: item.variants.map((variant) => ({
+      ...variant,
+      thumbnail: abs(variant.thumbnail),
+      image: abs(variant.image),
+      original: abs(variant.original),
+    })),
+  };
+}
+
 export function resolveCustomAssets(catalog: Catalog, base = siteBase()): Catalog {
   if (!base) return catalog;
   return {
     ...catalog,
     items: catalog.items.map((item) =>
-      item.collection !== 'custom'
+      item.source === 'muse'
+        ? resolveMuseAssets(item, base)
+        : item.collection !== 'custom'
         ? item
         : {
             ...item,

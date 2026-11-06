@@ -1159,7 +1159,7 @@ export default function App() {
                               <ArrowUpRight size={20} />
                             </span>
                           </button>
-                          {item.kind === 'pose' && (
+                          {item.kind === 'pose' && item.variants.length > 1 && (
                             <div className="pose-angle-strip" aria-label={t.angles}>
                               {item.variants.map((variant) => (
                                 <button

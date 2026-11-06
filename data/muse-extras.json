@@ -1,0 +1,433 @@
+{
+ "note": "Muse 自製素材（不屬於上游圖庫）。圖片在 public/muse-assets/，由 scripts/mirror-filter.mjs 併入素材清單。",
+ "items": [
+  {
+   "id": "muse-char-m001",
+   "kind": "character",
+   "code": "MCH-001",
+   "title": {
+    "zh": "短发侧分 · 人脸",
+    "en": "Side-parted short hair · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "短发侧分 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Side-parted short hair · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m001_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m001.webp",
+     "image": "/muse-assets/character/images/muse-char-m001.webp",
+     "original": "/muse-assets/character/originals/muse-char-m001.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m002",
+   "kind": "character",
+   "code": "MCH-002",
+   "title": {
+    "zh": "浅胡渣短发 · 人脸",
+    "en": "Short hair with light stubble · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "浅胡渣短发 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short hair with light stubble · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m002_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m002.webp",
+     "image": "/muse-assets/character/images/muse-char-m002.webp",
+     "original": "/muse-assets/character/originals/muse-char-m002.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m003",
+   "kind": "character",
+   "code": "MCH-003",
+   "title": {
+    "zh": "短黑发 · 人脸",
+    "en": "Short black hair · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "短黑发 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short black hair · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m003_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m003.webp",
+     "image": "/muse-assets/character/images/muse-char-m003.webp",
+     "original": "/muse-assets/character/originals/muse-char-m003.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m004",
+   "kind": "character",
+   "code": "MCH-004",
+   "title": {
+    "zh": "胡渣短发 · 人脸",
+    "en": "Short hair with stubble · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "胡渣短发 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short hair with stubble · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m004_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m004.webp",
+     "image": "/muse-assets/character/images/muse-char-m004.webp",
+     "original": "/muse-assets/character/originals/muse-char-m004.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m001",
+   "kind": "pose",
+   "code": "MPS-001",
+   "title": {
+    "zh": "站立・对立式平衡・手扶腰（男）",
+    "en": "Standing contrapposto with hand on hip (male)"
+   },
+   "category": {
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "站立・对立式平衡・手扶腰（男）",
+    "en": "Standing contrapposto with hand on hip (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m001_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m001.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m001.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m002",
+   "kind": "pose",
+   "code": "MPS-002",
+   "title": {
+    "zh": "坐姿・前倾・手肘撑膝（男）",
+    "en": "Seated, leaning forward with elbows on knees (male)"
+   },
+   "category": {
+    "id": "sitting",
+    "zh": "坐姿",
+    "en": "Sitting"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "坐姿・前倾・手肘撑膝（男）",
+    "en": "Seated, leaning forward with elbows on knees (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m002_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m002.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m002.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m003",
+   "kind": "pose",
+   "code": "MPS-003",
+   "title": {
+    "zh": "站立・放松・单手扶腰（男）",
+    "en": "Relaxed standing with one hand on hip (male)"
+   },
+   "category": {
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "站立・放松・单手扶腰（男）",
+    "en": "Relaxed standing with one hand on hip (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m003_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m003.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m003.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m004",
+   "kind": "pose",
+   "code": "MPS-004",
+   "title": {
+    "zh": "坐姿・前倾・双手交握（男）",
+    "en": "Seated, leaning forward with hands clasped (male)"
+   },
+   "category": {
+    "id": "sitting",
+    "zh": "坐姿",
+    "en": "Sitting"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "坐姿・前倾・双手交握（男）",
+    "en": "Seated, leaning forward with hands clasped (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m004_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m004.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m004.png"
+    }
+   ]
+  }
+ ]
+}
