@@ -5256,3 +5256,126 @@ dialog::backdrop {
 .hero-study {
   background: #1a1c21;
 }
+
+/* ── 參考圖卡（取代原本的 API 生圖結果區）── */
+.card-result {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.card-preview {
+  display: grid;
+  place-items: center;
+  min-height: 420px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #16171b;
+  padding: 18px;
+}
+.card-preview .studio-placeholder {
+  border: 0;
+  background: none;
+}
+.card-preview-image {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: zoom-in;
+  transition: opacity 0.25s;
+}
+.card-preview-image img {
+  width: 100%;
+  max-height: 72vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 18px 40px #00000066;
+}
+.card-preview-image.is-updating {
+  opacity: 0.55;
+}
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.card-actions .primary-button,
+.card-actions .secondary-button {
+  flex: 1 1 200px;
+  justify-content: center;
+  min-height: 48px;
+}
+.card-steps {
+  margin: 0;
+  padding: 16px 18px 16px 38px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #1a1c21;
+  color: #c9c6be;
+  font-size: 13px;
+  line-height: 1.9;
+}
+.card-steps li::marker {
+  color: var(--blue);
+  font-weight: 700;
+}
+.card-lightbox {
+  width: min(1100px, 94vw);
+  padding: 20px;
+}
+.card-lightbox img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+@media (max-width: 700px) {
+  .card-preview {
+    min-height: 260px;
+    padding: 10px;
+  }
+  .card-actions {
+    position: sticky;
+    bottom: 76px;
+    z-index: 5;
+    padding: 10px;
+    margin: 0 -10px;
+    background: #121316ee;
+    backdrop-filter: blur(8px);
+    border-radius: 14px;
+  }
+}
+
+/* ── 語言切換：三個獨立按鈕（桌機、手機都顯示）── */
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #1a1c21;
+}
+.language-switch button {
+  min-width: 34px;
+  height: 28px;
+  padding: 0 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8f9094;
+}
+.language-switch button:hover {
+  color: var(--ink);
+}
+.language-switch button[aria-pressed='true'] {
+  background: var(--blue);
+  color: #16171b;
+}
+@media (max-width: 700px) {
+  .language-switch button {
+    min-width: 32px;
+    height: 30px;
+    padding: 0 8px;
+  }
+}

@@ -11,7 +11,6 @@ import {
   Copy,
   Download,
   ExternalLink,
-  Globe2,
   Github,
   Grid2X2,
   Info,
@@ -29,28 +28,12 @@ import {
 } from 'lucide-react';
 import { copy } from './i18n';
 import { HeroStudy } from './hero-study';
-import { hasPoseDepth, isDepthVariant, withPoseDepth } from './pose-depth';
+import { hasPoseDepth, withPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
-import { ImageSettings, ImageSettingsButton } from './generation-ui';
-import { GenerationStudio } from './generation-studio';
+import { CardStudio } from './card-studio';
 import { studioCopy } from './studio-copy';
-import { extractCostume } from './costume-extraction';
-import { CostumeExtractionDialog } from './costume-extraction-ui';
-import { generationCopy } from './generation-copy';
-import {
-  defaultImageConfig,
-  generateReferenceImage,
-  ImageGenerationError,
-  loadImageConfig,
-  normalizeImageConfig,
-  validateReferenceFile,
-} from './generation';
-import type {
-  UploadedImageReference,
-  GenerationJob,
-  ImageConfig,
-  ImageReference,
-} from './generation';
+import { ImageGenerationError, validateReferenceFile } from './generation';
+import type { UploadedImageReference, ImageReference } from './generation';
 import {
   angles,
   copyText,
@@ -77,7 +60,6 @@ const browserLang = (): Lang => {
   if (!n.startsWith('zh')) return 'en';
   return /hant|-tw|-hk|-mo/.test(n) ? 'tw' : 'zh';
 };
-const nextLang: Record<Lang, Lang> = { zh: 'tw', tw: 'en', en: 'zh' };
 const isIds = (v: unknown): v is string[] =>
   Array.isArray(v) && v.every((id) => typeof id === 'string');
 const isBoard = (v: unknown): v is Board =>
@@ -152,21 +134,12 @@ export default function App() {
   const [characterReference, setCharacterReference] = useState<UploadedImageReference | null>(null);
   const [costumeReference, setCostumeReference] = useState<UploadedImageReference | null>(null);
   const [costumeLoading, setCostumeLoading] = useState(false);
-  const [pendingCostume, setPendingCostume] = useState<File | null>(null);
-  const [costumeDialogOpen, setCostumeDialogOpen] = useState(false);
-  const [extractedCostume, setExtractedCostume] = useState<File | null>(null);
-  const [extractionError, setExtractionError] = useState('');
-  const costumeController = useRef<AbortController | null>(null);
   const [characterLoading, setCharacterLoading] = useState(false);
   const [characterError, setCharacterError] = useState('');
   const [studioAngle, setStudioAngle] = useState('front');
   const characterTask = useRef(0);
   const costumeTask = useRef(0);
-  const [panel, setPanel] = useState<'project' | 'settings' | 'usage' | null>(null);
-  const [imageConfig, setImageConfig] = useState(loadImageConfig);
-  const [generationJob, setGenerationJob] = useState<GenerationJob | null>(null);
-  const generationController = useRef<AbortController | null>(null);
-  const imageReady = !!(imageConfig.baseUrl && imageConfig.apiKey && imageConfig.model);
+  const [panel, setPanel] = useState<'project' | 'usage' | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(initialParams.get('item'));
   const [detailAngle, setDetailAngle] = useState(initialParams.get('detailAngle') || angle);
   const [toast, setToast] = useState('');
@@ -213,13 +186,21 @@ export default function App() {
     setLimit(24);
   }, [query, view, category, hair, collection, tag, style, country, kind, extended, sort]);
   useEffect(() => () => clearTimeout(toastTimer.current), []);
-  useEffect(() => () => generationController.current?.abort(), []);
+  // 舊版曾把生圖服務的 API 金鑰與生成紀錄存在瀏覽器；網站已不再使用，開站時一併清掉
+  useEffect(() => {
+    try {
+      localStorage.removeItem('opc-image-settings');
+      sessionStorage.removeItem('opc-image-session-key');
+      indexedDB.deleteDatabase('opc-generation-history');
+    } catch {
+      /* 瀏覽器不允許存取儲存空間時略過 */
+    }
+  }, []);
   useEffect(() => () => downloadController.current?.abort(), []);
   useEffect(
     () => () => {
       characterTask.current++;
       costumeTask.current++;
-      costumeController.current?.abort();
     },
     [],
   );
@@ -501,7 +482,7 @@ export default function App() {
   }
   function addToBoard(item: Reference) {
     if (item.kind === 'costume') {
-      cancelCostumeExtraction();
+      costumeTask.current++;
       setCostumeLoading(false);
       setCostumeReference(null);
       setCharacterError('');
@@ -577,115 +558,8 @@ export default function App() {
       }
     }
   }
-  function cancelGeneration() {
-    generationController.current?.abort();
-    generationController.current = null;
-    setGenerationJob((old) => (old ? { ...old, status: 'cancelled' } : null));
-  }
-  async function runGeneration(
-    references: ImageReference[],
-    prompt: string,
-    options: Pick<ImageConfig, 'size' | 'quality'>,
-  ) {
-    generationController.current?.abort();
-    const controller = new AbortController();
-    generationController.current = controller;
-    const requestConfig = { ...imageConfig, ...options };
-    const model = requestConfig.model.trim();
-    const details = { model, references, prompt, ...options };
-    setGenerationJob({ ...details, status: 'loading' });
-    try {
-      const result = await generateReferenceImage(
-        requestConfig,
-        references,
-        prompt,
-        controller.signal,
-      );
-      if (generationController.current === controller)
-        setGenerationJob({ ...details, status: 'success', result });
-    } catch (failure) {
-      if (generationController.current !== controller || controller.signal.aborted) return;
-      const t = generationCopy[lang];
-      const code = failure instanceof ImageGenerationError ? failure.code : 'networkFailed';
-      const summary = t[code as keyof typeof t] || t.networkFailed;
-      const detail = failure instanceof ImageGenerationError ? failure.message : '';
-      setGenerationJob({
-        ...details,
-        status: 'error',
-        error: `${summary}${detail ? `\n${detail}` : ''}`,
-      });
-    }
-  }
-  function cancelCostumeExtraction() {
-    costumeTask.current++;
-    costumeController.current?.abort();
-    costumeController.current = null;
-    setCostumeLoading(false);
-    setPendingCostume(null);
-    setCostumeDialogOpen(false);
-    setExtractedCostume(null);
-    setExtractionError('');
-  }
-  async function selectReferenceFile(file: File, kind: 'character' | 'costume') {
-    if (kind === 'character') return applyReferenceFile(file, kind);
-    cancelCostumeExtraction();
-    setCostumeDialogOpen(true);
-    const task = costumeTask.current;
-    try {
-      await validateReferenceFile(file, 'costume');
-      if (task !== costumeTask.current) return false;
-      setPendingCostume(file);
-      setCharacterError('');
-      return true;
-    } catch (error) {
-      if (task === costumeTask.current) {
-        const code = error instanceof ImageGenerationError ? error.code : 'costumeInvalid';
-        setExtractionError(
-          generationCopy[lang][code as keyof typeof generationCopy.zh] ||
-            generationCopy[lang].costumeInvalid,
-        );
-      }
-      return false;
-    }
-  }
-  async function runCostumeExtraction() {
-    if (!pendingCostume || costumeController.current) return;
-    try {
-      normalizeImageConfig(imageConfig);
-    } catch {
-      setExtractionError(generationCopy[lang].missingConfig);
-      setPanel('settings');
-      return;
-    }
-    const task = ++costumeTask.current;
-    const controller = new AbortController();
-    costumeController.current = controller;
-    setCostumeLoading(true);
-    setExtractedCostume(null);
-    setExtractionError('');
-    let preview = '';
-    try {
-      const file = await extractCostume(imageConfig, pendingCostume, controller.signal);
-      preview = URL.createObjectURL(file);
-      const image = new Image();
-      image.src = preview;
-      await image.decode();
-      if (task === costumeTask.current) setExtractedCostume(file);
-    } catch (error) {
-      if (task === costumeTask.current) {
-        const code = error instanceof ImageGenerationError ? error.code : 'networkFailed';
-        const detail = error instanceof ImageGenerationError ? error.message : '';
-        setExtractionError(
-          `${studioCopy[lang].costumeExtractionFailed} ${generationCopy[lang][code as keyof typeof generationCopy.zh] || generationCopy[lang].networkFailed}${detail ? `\n${detail}` : ''}`,
-        );
-      }
-    } finally {
-      if (preview) URL.revokeObjectURL(preview);
-      if (task === costumeTask.current) {
-        costumeController.current = null;
-        setCostumeLoading(false);
-      }
-    }
+  function selectReferenceFile(file: File, kind: 'character' | 'costume') {
+    return applyReferenceFile(file, kind);
   }
   async function applyReferenceFile(file: File, kind: 'character' | 'costume') {
     const taskRef = kind === 'character' ? characterTask : costumeTask;
@@ -738,16 +612,11 @@ export default function App() {
         },
       });
       preview = ''; // Ownership passes to the reference cleanup effect.
-      if (kind === 'costume') {
-        cancelCostumeExtraction();
-        notify(studioCopy[lang].costumeExtracted);
-      }
       return true;
     } catch (error) {
       if (task === taskRef.current) {
         const code = error instanceof ImageGenerationError ? error.code : `${kind}Invalid`;
-        if (kind === 'costume') setExtractionError(generationCopy[lang].costumeInvalid);
-        else setCharacterError(code);
+        setCharacterError(code);
       }
       return false;
     } finally {
@@ -765,7 +634,7 @@ export default function App() {
   }
   function chooseStudioReference(item: Reference, angle = 'front') {
     if (item.kind === 'costume') {
-      cancelCostumeExtraction();
+      costumeTask.current++;
       setCostumeLoading(false);
       setCostumeReference(null);
       setCharacterError('');
@@ -784,7 +653,7 @@ export default function App() {
   }
   function removeStudioReference(kind: Reference['kind']) {
     if (kind === 'costume') {
-      cancelCostumeExtraction();
+      costumeTask.current++;
       setCostumeLoading(false);
       setCostumeReference(null);
       setCharacterError('');
@@ -974,11 +843,6 @@ export default function App() {
             <strong>Muse · 繆思</strong>
           </button>
           <div className="header-actions">
-            <ImageSettingsButton
-              lang={lang}
-              ready={imageReady}
-              onClick={() => setPanel('settings')}
-            />
             <button className="header-board" onClick={openStudio} aria-label={t.boardOpen}>
               <LayoutPanelLeft size={17} />
               {boardCount > 0 && <small>{boardCount}</small>}
@@ -990,18 +854,25 @@ export default function App() {
             >
               <Info size={17} />
             </button>
-            <button
-              className="language-button"
-              onClick={() => setLang(nextLang[lang])}
-              aria-label={t.language}
-            >
-              <Globe2 size={16} />
-              <span className={lang === 'zh' ? 'current-language' : ''}>简</span>
-              <span className="language-slash">/</span>
-              <span className={lang === 'tw' ? 'current-language' : ''}>繁</span>
-              <span className="language-slash">/</span>
-              <span className={lang === 'en' ? 'current-language' : ''}>EN</span>
-            </button>
+            <div className="language-switch" role="group" aria-label={t.language}>
+              {(
+                [
+                  ['zh', '简'],
+                  ['tw', '繁'],
+                  ['en', 'EN'],
+                ] as const
+              ).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  aria-pressed={lang === value}
+                  lang={value === 'zh' ? 'zh-CN' : value === 'tw' ? 'zh-TW' : 'en'}
+                  onClick={() => setLang(value)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
             <span className="studio-badge">
               REFERENCE STUDIO
               <span />
@@ -1403,13 +1274,11 @@ export default function App() {
           </footer>
         </main>
         <main className="studio-main" hidden={view !== 'studio'}>
-          <GenerationStudio
+          <CardStudio
             lang={lang}
             references={studioReferences}
             items={eligible}
             poseItem={boardPose}
-            job={generationJob}
-            config={imageConfig}
             characterLoading={characterLoading || costumeLoading}
             characterError={characterError}
             poseDepth={poseDepth}
@@ -1418,50 +1287,7 @@ export default function App() {
             onRemove={removeStudioReference}
             onAngle={setStudioAngle}
             onUpload={(file, kind) => void selectReferenceFile(file, kind)}
-            onOpenCostumeUpload={() => {
-              cancelCostumeExtraction();
-              setCostumeDialogOpen(true);
-            }}
-            onSettings={() => setPanel('settings')}
-            onRun={(references, prompt, options) => void runGeneration(references, prompt, options)}
-            onCancel={cancelGeneration}
             notify={notify}
-            onRestore={(record, references, source) => {
-              if (generationJob?.status === 'loading') return;
-              characterTask.current++;
-              cancelCostumeExtraction();
-              setCostumeLoading(false);
-              setCharacterLoading(false);
-              setCharacterError('');
-              const costume = references.find((ref) => ref.kind === 'costume');
-              setCostumeReference(costume && 'file' in costume ? costume : null);
-              const character = references.find((ref) => ref.kind === 'character');
-              setCharacterReference(character && 'file' in character ? character : null);
-              const nextBoard: Board = {};
-              for (const reference of references) {
-                if ('file' in reference) continue;
-                const item = items.find(
-                  (item) =>
-                    item.kind === reference.kind &&
-                    item.variants.some((variant) => variant.id === reference.variant.id),
-                );
-                if (item) nextBoard[reference.kind] = item.id;
-              }
-              setBoard(nextBoard);
-              const pose = references.find((ref) => ref.kind === 'pose');
-              setStudioAngle(pose?.variant.angle || 'front');
-              setPoseDepth(!!pose && isDepthVariant(pose.variant));
-              setGenerationJob({
-                model: record.model,
-                prompt: record.prompt,
-                references,
-                result: source,
-                status: 'success',
-                size: record.size,
-                quality: record.quality,
-                restored: true,
-              });
-            }}
           />
         </main>
       </div>
@@ -1567,17 +1393,12 @@ export default function App() {
                 </button>
                 <button
                   className="text-action reference-generate"
-                  disabled={!imageReady || characterLoading || costumeLoading}
+                  disabled={characterLoading || costumeLoading}
                   onClick={() => beginGeneration(selected)}
                 >
                   <Sparkles size={14} />
-                  {generationCopy[lang].generate}
+                  {studioCopy[lang].makeCard}
                 </button>
-                {!imageReady && (
-                  <span className="reference-generate-hint">
-                    {generationCopy[lang].configureFirst}
-                  </span>
-                )}
               </div>
             </div>
             <div className="detail-actions">
@@ -1632,43 +1453,6 @@ export default function App() {
         </Modal>
       )}
 
-      {costumeDialogOpen && (
-        <CostumeExtractionDialog
-          lang={lang}
-          file={pendingCostume}
-          result={extractedCostume}
-          loading={costumeLoading}
-          error={extractionError}
-          onUpload={(file) => void selectReferenceFile(file, 'costume')}
-          onExtract={() => void runCostumeExtraction()}
-          onUseOriginal={() => {
-            if (pendingCostume && !costumeLoading)
-              void applyReferenceFile(pendingCostume, 'costume');
-          }}
-          onConfirm={() => {
-            if (extractedCostume && !costumeLoading)
-              void applyReferenceFile(extractedCostume, 'costume');
-          }}
-          onClose={cancelCostumeExtraction}
-        />
-      )}
-      {panel === 'settings' && (
-        <ImageSettings
-          config={imageConfig}
-          lang={lang}
-          onClose={() => setPanel(null)}
-          onSave={(config) => {
-            setImageConfig(config);
-            setPanel(null);
-            notify(generationCopy[lang].saved);
-          }}
-          onClear={() => {
-            setImageConfig({ ...defaultImageConfig });
-            setPanel(null);
-            notify(generationCopy[lang].cleared);
-          }}
-        />
-      )}
       {panel === 'usage' && (
         <Modal onClose={() => setPanel(null)} label={t.usage} className="about-modal">
           <div className="panel-heading">

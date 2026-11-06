@@ -1,39 +1,37 @@
-import { defineConfig, type ProxyOptions } from 'vite';
+import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
-function imageProxy(target: string): ProxyOptions {
+// 正式版加上內容安全政策：只允許本站程式、本站資料與五個上游圖庫的圖片，
+// 不允許連到任何其他網站（網站已經沒有生圖 API，用不到對外連線）。
+const galleries = [
+  'https://ai-pose-gallery.pages.dev',
+  'https://ai-pose-depth-gallery.pages.dev',
+  'https://ai-costume-gallery.pages.dev',
+  'https://ai-costume-anime-gallery.pages.dev',
+  'https://ai-portrait-gallery.pages.dev',
+].join(' ');
+const csp = [
+  "default-src 'self'",
+  "script-src 'self'",
+  "style-src 'self' 'unsafe-inline'",
+  `img-src 'self' data: blob: ${galleries}`,
+  `connect-src 'self' ${galleries}`,
+  "font-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'none'",
+].join('; ');
+function contentSecurityPolicy(): Plugin {
   return {
-    target,
-    changeOrigin: true,
-    followRedirects: false,
-    timeout: 240_000,
-    proxyTimeout: 240_000,
-    rewrite: () => '/v1/images/edits',
-    bypass(req) {
-      // This is a local image-edit transport, never an arbitrary URL proxy.
-      if (
-        req.method !== 'POST' ||
-        (req.headers.origin && req.headers.origin !== `http://${req.headers.host}`)
-      )
-        return false;
-    },
-    configure(proxy) {
-      proxy.on('proxyReq', (request) => request.removeHeader('cookie'));
-      proxy.on('proxyRes', (response) => {
-        delete response.headers['set-cookie'];
-      });
-    },
+    name: 'muse-csp',
+    apply: 'build',
+    transformIndexHtml: (html) =>
+      html.replace('<meta charset="UTF-8" />', `<meta charset="UTF-8" />\n    <meta http-equiv="Content-Security-Policy" content="${csp}" />`),
   };
 }
 
 // GitHub Pages 專案網站部署在 /muse/ 子路徑下（建置與預覽）；本機開發仍用根路徑。
 export default defineConfig(({ command, isPreview }) => ({
   base: command === 'build' || isPreview ? process.env.VITE_BASE || '/muse/' : '/',
-  plugins: [react()],
-  server: {
-    proxy: {
-      '^/__opc-image/site/v1/images/edits$': imageProxy('https://atomflow.vip'),
-      '^/__opc-image/api/v1/images/edits$': imageProxy('https://api.atomflow.vip'),
-    },
-  },
+  plugins: [react(), contentSecurityPolicy()],
 }));
