@@ -1,0 +1,31 @@
+# Open Pose & Costume（非官方鏡像）
+
+姿勢、服裝與人物參考圖庫，可以把三種參考組合起來一鍵生成角色圖。
+
+- 網站：https://brian479974.github.io/open-pose-costume/
+- 原專案：https://github.com/hongye007/open-pose-costume（作者 hongye007 · [@HongyeMain](https://x.com/HongyeMain)）
+- 原站：https://omilic.com/
+
+## 這個鏡像跟原站的差別
+
+- **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除；首頁示意圖也改用上游圖庫的公開圖片。
+- **不收錄擴展分類**：內衣、泳裝、曲線、雙人等擴展分類不收錄，對應的開關與「素材庫」篩選一併隱藏。
+- **一鍵生圖直接連服務商**：原站透過自己的伺服器排隊轉送；本站沒有伺服器，瀏覽器直接把請求送到你設定的生圖服務（預設 atomflow，需自備 API 金鑰）。金鑰只存在你的瀏覽器，不經過本站。
+- **不給搜尋引擎收錄**（`noindex`）。
+
+素材清單由 `scripts/mirror-filter.mjs` 從原站清單過濾產生，並檢查所有圖片都指向上游圖庫。
+
+## 授權與素材來源
+
+- 程式碼：MIT（見 [LICENSE](LICENSE)，著作權屬原專案貢獻者）。
+- 參考圖片：瀏覽時由瀏覽器直接從各原作者網站載入，本倉庫不存放這些圖檔；著作權屬原作者，僅供個人非商業用途。來源見 [SOURCES.md](SOURCES.md) 與 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 本機開發
+
+```bash
+npm ci
+npm run dev        # http://127.0.0.1:5199/
+npm run build      # 輸出到 dist/，子路徑 /open-pose-costume/
+```
+
+推到 `main` 後由 GitHub Actions 自動建置並部署到 GitHub Pages。

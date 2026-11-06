@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+test-results/
+playwright-report/
+.env*
+!.env.example
+*.tsbuildinfo
+artifacts/
+.wrangler/
+/worker/worker-configuration.d.ts
+/data/image-download-manifest.json*
+/data/image-download-summary.json
+/data/image-download.lock

@@ -1,0 +1,36 @@
+{
+  "syncedAt": "2026-11-02T04:59:39.475Z",
+  "imagesDownloaded": 0,
+  "sources": [
+    {
+      "name": "pose",
+      "url": "https://ai-pose-gallery.pages.dev/",
+      "records": 1439,
+      "sha256": "49a24362511e422e8481962e19dfc33742155d57fbd91d3c936beb4f77531d98"
+    },
+    {
+      "name": "costume",
+      "url": "https://ai-costume-gallery.pages.dev/",
+      "records": 1407,
+      "sha256": "a8c7315a57d2fb5c527199f673c1aa123b6ce143912e3bce6457331f0f13420a"
+    },
+    {
+      "name": "pose-zh",
+      "url": "https://raw.githubusercontent.com/anhao/ai-pose-gallery-zh/main/data/pose-zh.json",
+      "records": 1439,
+      "sha256": "d9a8e2796df7870ef8bac5920f1646103ad05b452b76efa76c11b4854f5f8f96"
+    },
+    {
+      "name": "portrait",
+      "url": "https://ai-portrait-gallery.pages.dev/data/images.js",
+      "records": 1499,
+      "sha256": "562f12dcdb27db8e1fca6edeab8269d1f276d9d82245c4a9b0a988e8a71f1965"
+    },
+    {
+      "name": "costume-anime",
+      "url": "https://ai-costume-anime-gallery.pages.dev/",
+      "records": 1320,
+      "sha256": "7a6b353c2a57ed6064863553fb122d6cc732e4f390d6babd46d0e81f14d47f87"
+    }
+  ]
+}
