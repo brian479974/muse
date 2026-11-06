@@ -1,12 +1,14 @@
-# Open Pose & Costume（非官方鏡像）
+# Muse 繆思
 
-姿勢、服裝與人物參考圖庫，可以把三種參考組合起來一鍵生成角色圖。
+姿勢、服裝與人物參考圖庫，可以把三種參考組合起來一鍵生成角色圖。改編自開源專案 open-pose-costume（非官方版本）。
 
 - 網站：https://brian479974.github.io/open-pose-costume/
 - 原專案：https://github.com/hongye007/open-pose-costume（作者 hongye007 · [@HongyeMain](https://x.com/HongyeMain)）
 - 原站：https://omilic.com/
 
-## 這個鏡像跟原站的差別
+## 跟原站的差別
+
+- **外觀改版**：暗色藝廊配色（顏色由 `scripts/apply-theme.py` 依 `scripts/theme-gallery-dark.json` 整批對應產生）、新名稱 Muse 繆思與新 Logo（`public/brand/logo-mark.svg`）。
 
 - **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除；首頁示意圖也改用上游圖庫的公開圖片。
 - **不收錄擴展分類**：內衣、泳裝、曲線、雙人等擴展分類不收錄，對應的開關與「素材庫」篩選一併隱藏。

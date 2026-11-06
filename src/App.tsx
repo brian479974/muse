@@ -189,8 +189,8 @@ export default function App() {
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
     document.title =
       lang === 'zh'
-        ? 'Open Pose & Costume · 姿势与服装参考库'
-        : 'Open Pose & Costume · Reference studio';
+        ? 'Muse 繆思 · 姿势与服装参考库'
+        : 'Muse · Pose & costume reference atelier';
     storageSet('opc-language', lang);
   }, [lang]);
   useEffect(() => {
@@ -827,7 +827,7 @@ export default function App() {
         >
           <span className="brand-mark">
             <img
-              src={`${import.meta.env.BASE_URL}brand/logo-mark.png`}
+              src={`${import.meta.env.BASE_URL}brand/logo-mark.svg`}
               alt=""
               width={44}
               height={44}
@@ -835,9 +835,10 @@ export default function App() {
           </span>
           <span>
             <strong>
-              open<span className="brand-dot">.</span>
+              Muse<span className="brand-dot">.</span>
             </strong>
-            <span className="brand-sub">POSE & COSTUME</span>
+            <span className="brand-zh">繆思</span>
+            <span className="brand-sub">REFERENCE ATELIER</span>
           </span>
         </a>
         <p className="nav-heading">{t.library}</p>
@@ -873,26 +874,6 @@ export default function App() {
               <ChevronRight size={14} />
             </button>
             <a
-              className="social-link"
-              href="https://x.com/HongyeMain"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={t.xProfile}
-              title={t.xProfile}
-            >
-              <svg
-                width={16}
-                height={16}
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.835L0 1.154h7.594l5.243 6.932 6.064-6.933ZM17.61 20.645h2.039L6.486 3.24H4.298L17.61 20.645Z" />
-              </svg>
-              @HongyeMain
-              <ArrowUpRight size={14} />
-            </a>
-            <a
               className="social-link github-link"
               href="https://github.com/hongye007/open-pose-costume"
               target="_blank"
@@ -901,19 +882,7 @@ export default function App() {
               title={t.githubRepo}
             >
               <Github size={16} />
-              GitHub / open-pose-costume
-              <ArrowUpRight size={14} />
-            </a>
-            <a
-              className="social-link github-link"
-              href="https://github.com/hongye007/open-pose-costume-skill"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={t.skillRepo}
-              title={t.skillRepo}
-            >
-              <Sparkles size={16} />
-              <span>Skill / open-pose-costume-skill</span>
+              {lang === 'zh' ? '原作 · open-pose-costume' : 'Original · open-pose-costume'}
               <ArrowUpRight size={14} />
             </a>
           </div>
@@ -985,8 +954,8 @@ export default function App() {
             }}
             aria-label={t.projectHome}
           >
-            <img src={`${import.meta.env.BASE_URL}brand/logo-mark.png`} alt="" />
-            <strong>open-pose-costume</strong>
+            <img src={`${import.meta.env.BASE_URL}brand/logo-mark.svg`} alt="" />
+            <strong>Muse · 繆思</strong>
           </button>
           <div className="header-actions">
             <ImageSettingsButton
@@ -1400,7 +1369,7 @@ export default function App() {
             )}
           </section>
           <footer>
-            <span className="footer-wordmark">open.</span>
+            <span className="footer-wordmark">Muse.</span>
             <p>{t.footer}</p>
             <button onClick={() => setPanel('usage')}>
               {t.usage}
@@ -1723,8 +1692,8 @@ export default function App() {
           <p className="project-intro">{t.projectAboutIntro}</p>
           <p className="project-intro mirror-note">
             {lang === 'zh'
-              ? '本站是开源项目 open-pose-costume 的非官方镜像，程序代码依 MIT 授权使用；参考图片直接从各原作者网站加载，版权归原作者所有，仅供个人非商业用途。原站：'
-              : 'This is an unofficial mirror of the open-source open-pose-costume project, used under its MIT code license. Reference images load directly from the original creators’ sites and remain theirs; personal, non-commercial use only. Original site: '}
+              ? 'Muse 繆思改编自开源项目 open-pose-costume（作者 hongye007），程序代码依 MIT 授权使用；参考图片直接从各原作者网站加载，版权归原作者所有，仅供个人非商业用途。原站：'
+              : 'Muse is adapted from the open-source open-pose-costume project by hongye007, used under its MIT code license. Reference images load directly from the original creators’ sites and remain theirs; personal, non-commercial use only. Original site: '}
             <a href="https://omilic.com/" target="_blank" rel="noopener noreferrer">
               omilic.com
             </a>
