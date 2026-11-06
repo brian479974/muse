@@ -5,13 +5,14 @@ import vocabulary from '../data/vocabulary.json';
 export type View = 'all' | 'pose' | 'costume' | 'character' | 'saved' | 'studio';
 export type Sort = 'curated' | 'name' | 'code';
 export const angles = ['front', 'high', 'low', 'side', 'diag'] as const;
-export const subjectTagIds = ['female', 'male', 'model', 'dance'] as const;
+export const subjectTagIds = ['female', 'male', 'unisex', 'model', 'dance'] as const;
 export function isSubjectTag(id: string) {
   return subjectTagIds.some((value) => value === id);
 }
 const tagVocabulary: Record<string, Record<Lang, string>> = {
   female: { zh: '女性', tw: '女性', en: 'Female' },
   male: { zh: '男性', tw: '男性', en: 'Male' },
+  unisex: { zh: '中性', tw: '中性', en: 'Unisex' },
   model: { zh: '模特', tw: '模特', en: 'Model' },
   dance: { zh: '舞蹈', tw: '舞蹈', en: 'Dance' },
   photo: { zh: '写实', tw: '寫實', en: 'Photographic' },
@@ -117,8 +118,27 @@ export function matchesExtension(item: Reference, collection: string, tag: strin
   return (
     (collection === 'all' ||
       (collection === 'custom' ? item.collection === 'custom' : !item.collection)) &&
-    (tag === 'all' || !!item.tags?.some((value) => value.id === tag))
+    (tag === 'all' ||
+      !!item.tags?.some((value) => value.id === tag) ||
+      // 篩「男性」或「女性」時，中性服裝也算在內
+      ((tag === 'male' || tag === 'female') && !!item.tags?.some((value) => value.id === 'unisex')))
   );
+}
+
+/** 性別配對：服裝要跟人物同性別；標示「中性」的服裝男女都可以。沒有性別資訊（例如使用者上傳）就不限制。 */
+export type FitGender = 'male' | 'female' | 'unisex';
+export function genderOf(item?: Pick<Reference, 'tags'>): FitGender | null {
+  const ids = item?.tags?.map((tag) => tag.id) || [];
+  if (ids.includes('unisex')) return 'unisex';
+  if (ids.includes('male')) return 'male';
+  if (ids.includes('female')) return 'female';
+  return null;
+}
+export function genderCompatible(a?: Pick<Reference, 'tags'>, b?: Pick<Reference, 'tags'>): boolean {
+  const ga = genderOf(a),
+    gb = genderOf(b);
+  if (!ga || !gb || ga === 'unisex' || gb === 'unisex') return true;
+  return ga === gb;
 }
 
 export function sortItems(items: Reference[], sort: Sort, lang: Lang): Reference[] {

@@ -1,5 +1,5 @@
 {
- "note": "Muse 自製素材（不屬於上游圖庫）。圖片在 public/muse-assets/，由 scripts/mirror-filter.mjs 併入素材清單。",
+ "note": "自製素材資料。圖片在 public/muse-assets/，由 scripts/mirror-filter.mjs 併入素材清單。",
  "items": [
   {
    "id": "muse-char-m001",
@@ -15,8 +15,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -73,8 +73,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -131,8 +131,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -189,8 +189,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -247,8 +247,8 @@
     "en": "Standing"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -296,8 +296,8 @@
     "en": "Sitting"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -345,8 +345,8 @@
     "en": "Standing"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -394,8 +394,8 @@
     "en": "Sitting"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -443,8 +443,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -501,8 +501,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "中发",
+    "en": "Medium hair"
    },
    "extended": false,
    "tags": [
@@ -559,8 +559,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -617,8 +617,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -675,8 +675,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -733,8 +733,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "中长发",
+    "en": "Medium-long hair"
    },
    "extended": false,
    "tags": [
@@ -791,8 +791,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -849,8 +849,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -907,8 +907,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "中发",
+    "en": "Medium hair"
    },
    "extended": false,
    "tags": [
@@ -965,8 +965,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -1023,8 +1023,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "长发",
+    "en": "Long hair"
    },
    "extended": false,
    "tags": [
@@ -1081,8 +1081,8 @@
     "en": "Face"
    },
    "series": {
-    "zh": "Muse 男性人物",
-    "en": "Muse male characters"
+    "zh": "短发",
+    "en": "Short hair"
    },
    "extended": false,
    "tags": [
@@ -1139,8 +1139,8 @@
     "en": "Standing"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1188,8 +1188,8 @@
     "en": "Standing"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1237,8 +1237,8 @@
     "en": "Leaning"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1286,8 +1286,8 @@
     "en": "Crouching"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1335,8 +1335,8 @@
     "en": "Kneeling"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1384,8 +1384,8 @@
     "en": "Sitting"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1433,8 +1433,8 @@
     "en": "Standing"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1482,8 +1482,8 @@
     "en": "Twisting"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1531,8 +1531,8 @@
     "en": "Gestures"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1580,8 +1580,8 @@
     "en": "Sitting"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1629,8 +1629,8 @@
     "en": "Standing"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1678,8 +1678,8 @@
     "en": "Lying"
    },
    "series": {
-    "zh": "Muse 男性姿势",
-    "en": "Muse male poses"
+    "zh": "全身 · 基础",
+    "en": "Full body · essentials"
    },
    "extended": false,
    "tags": [
@@ -1727,15 +1727,15 @@
     "en": "Spring"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -1781,15 +1781,15 @@
     "en": "Spring"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -1835,15 +1835,15 @@
     "en": "Summer"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -1889,15 +1889,15 @@
     "en": "Summer"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -1943,15 +1943,15 @@
     "en": "Autumn"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -1997,15 +1997,15 @@
     "en": "Autumn"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -2051,15 +2051,15 @@
     "en": "Winter"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -2105,15 +2105,15 @@
     "en": "Winter"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -2159,15 +2159,15 @@
     "en": "Spring"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -2213,15 +2213,15 @@
     "en": "Summer"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -2267,15 +2267,15 @@
     "en": "Autumn"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [
     {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
+     "id": "unisex",
+     "zh": "中性",
+     "en": "Unisex"
     },
     {
      "id": "photo",
@@ -2321,8 +2321,8 @@
     "en": "Party"
    },
    "series": {
-    "zh": "Muse 男装",
-    "en": "Muse menswear"
+    "zh": "服装参考",
+    "en": "Costume reference"
    },
    "extended": false,
    "tags": [

@@ -16,6 +16,7 @@ import { generationCopy } from './generation-copy';
 import { studioCopy } from './studio-copy';
 import type { ImageReference } from './generation';
 import { copy } from './i18n';
+import { genderCompatible, genderOf } from './library';
 import { hasPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
 import type { Kind, Lang, Reference } from './types';
@@ -146,16 +147,45 @@ export function CardStudio({
       window.prompt(t.copyPrompt, prompt);
     }
   }
+  // 目前搭配台上的圖庫項目（上傳的圖沒有性別資訊，回傳 undefined）
+  function boardItem(kind: Kind): Reference | undefined {
+    const ref = references.find((value) => value.kind === kind);
+    if (!ref || 'file' in ref) return undefined;
+    return items.find(
+      (item) =>
+        item.kind === kind &&
+        item.variants.some((v) => v.id === ref.variant.id || v.original === ref.variant.original),
+    );
+  }
+  const currentCharacter = boardItem('character');
+  const currentCostume = boardItem('costume');
+  // 挑選視窗只列出能跟對方搭配的項目
+  const pickerItems =
+    picker === 'costume' && currentCharacter
+      ? items.filter((item) => item.kind !== 'costume' || genderCompatible(item, currentCharacter))
+      : picker === 'character' && currentCostume
+        ? items.filter((item) => item.kind !== 'character' || genderCompatible(item, currentCostume))
+        : items;
+  const pick = <T,>(list: T[]) => list[Math.floor(Math.random() * list.length)];
+  // 隨機搭配：先抽人物，再從能搭配的服裝、同性別的姿勢裡抽
   function randomize() {
-    for (const kind of kinds) {
-      const candidates = items.filter((item) => item.kind === kind);
+    const others = (kind: Kind) => {
       const current = references.find((reference) => reference.kind === kind);
-      const alternatives = candidates.filter(
+      const all = items.filter((item) => item.kind === kind);
+      const rest = all.filter(
         (item) => !item.variants.some((variant) => variant.original === current?.variant.original),
       );
-      const pool = alternatives.length ? alternatives : candidates;
-      if (pool.length) onChoose(pool[Math.floor(Math.random() * pool.length)]);
-    }
+      return rest.length ? rest : all;
+    };
+    const character = pick(others('character'));
+    if (!character) return;
+    const gender = genderOf(character);
+    const costumes = others('costume').filter((item) => genderCompatible(item, character));
+    const sameGenderPoses = others('pose').filter((item) => !gender || genderOf(item) === gender);
+    const poses = sameGenderPoses.length ? sameGenderPoses : others('pose');
+    onChoose(character);
+    if (costumes.length) onChoose(pick(costumes));
+    if (poses.length) onChoose(pick(poses));
     setCustomPrompt(null);
   }
 
@@ -277,6 +307,7 @@ export function CardStudio({
             })}
           </div>
           <p className="studio-upload-note">{t.uploadHint}</p>
+          <p className="studio-upload-note">{t.genderHint}</p>
           {characterError && (
             <p className="studio-inline-error" role="alert">
               {g[characterError as keyof typeof g] || characterError}
@@ -468,7 +499,7 @@ export function CardStudio({
       {picker && (
         <ReferencePicker
           kind={picker}
-          items={items}
+          items={pickerItems}
           lang={lang}
           poseDepth={poseDepth}
           depthDisabled={false}

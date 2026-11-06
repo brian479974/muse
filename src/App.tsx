@@ -38,6 +38,7 @@ import {
   angles,
   copyText,
   filterReferences,
+  genderCompatible,
   readTagFilters,
   referenceTagLabel,
   sortItems,
@@ -480,6 +481,22 @@ export default function App() {
     setSaved((old) => (exists ? old.filter((id) => id !== item.id) : [...old, item.id]));
     notify(exists ? t.removedToast : t.savedToast);
   }
+  // 服裝與人物性別不符時，保留剛選的那一個、移除另一個（中性服裝不受限）
+  const itemById = useMemo(() => new Map(items.map((item) => [item.id, item])), [items]);
+  function withoutGenderConflict(next: Board, changed: Reference['kind']): Board {
+    const costume = next.costume ? itemById.get(next.costume) : undefined;
+    const character = next.character ? itemById.get(next.character) : undefined;
+    if (!costume || !character || genderCompatible(costume, character)) return next;
+    if (changed === 'costume') return { ...next, character: undefined };
+    if (changed === 'character') return { ...next, costume: undefined };
+    return next;
+  }
+  function genderConflictNotice(item: Reference) {
+    if (item.kind === 'costume' && boardCharacter && !characterReference && !genderCompatible(item, boardCharacter))
+      notify(studioCopy[lang].genderRemovedCharacter);
+    if (item.kind === 'character' && boardCostume && !costumeReference && !genderCompatible(item, boardCostume))
+      notify(studioCopy[lang].genderRemovedCostume);
+  }
   function addToBoard(item: Reference) {
     if (item.kind === 'costume') {
       costumeTask.current++;
@@ -493,8 +510,14 @@ export default function App() {
       setCharacterReference(null);
       setCharacterError('');
     }
-    setBoard((old) => ({ ...old, [item.kind]: onBoard(item) ? undefined : item.id }));
+    const adding = !onBoard(item);
+    setBoard((old) =>
+      adding
+        ? withoutGenderConflict({ ...old, [item.kind]: item.id }, item.kind)
+        : { ...old, [item.kind]: undefined },
+    );
     notify(t.boardToast);
+    if (adding) genderConflictNotice(item);
   }
   function openDetail(item: Reference) {
     setDetailAngle(cardAngles[item.id] || angle);
@@ -649,7 +672,8 @@ export default function App() {
       setStudioAngle(
         item.variants.some((variant) => variant.angle === angle) ? angle : item.variants[0].angle,
       );
-    setBoard((old) => ({ ...old, [item.kind]: item.id }));
+    setBoard((old) => withoutGenderConflict({ ...old, [item.kind]: item.id }, item.kind));
+    genderConflictNotice(item);
   }
   function removeStudioReference(kind: Reference['kind']) {
     if (kind === 'costume') {
@@ -1553,7 +1577,6 @@ export default function App() {
               {t.projectSourcesCodeB}
             </p>
             <p>{t.projectSourcesImages}</p>
-            <p>{t.projectSourcesOwn}</p>
           </section>
         </Modal>
       )}
