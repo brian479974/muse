@@ -890,3 +890,40 @@ footer {
     animation: none !important;
   }
 }
+
+/* ── 關於面板：Muse 的強化項目、來源與授權 ── */
+.project-points {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.project-points li {
+  display: grid;
+  gap: 3px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+}
+.project-points strong {
+  font-size: 14px;
+  color: var(--accent);
+}
+.project-points span {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.project-sources p {
+  margin: 0 0 6px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.project-sources a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

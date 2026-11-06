@@ -6,6 +6,7 @@ const convert = OpenCC.Converter({ from: 'cn', to: 'twp' });
 const fixes = [
   ['臺', '台'],
   ['型別', '類型'],
+  ['自制', '自製'],
   ['賬號', '帳號'],
   ['賬戶', '帳戶'],
   ['獲取', '取得'],

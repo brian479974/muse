@@ -1274,15 +1274,6 @@ export default function App() {
           <footer>
             <span className="footer-wordmark">Muse.</span>
             <p>{t.footer}</p>
-            <a
-              className="footer-credit"
-              href="https://github.com/hongye007/open-pose-costume"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {lang === 'en' ? 'Original · open-pose-costume' : '原作 · open-pose-costume'}
-              <ArrowUpRight size={13} />
-            </a>
             <button onClick={() => setPanel('usage')}>
               {t.usage}
               <ArrowUpRight size={13} />
@@ -1507,7 +1498,7 @@ export default function App() {
         <Modal onClose={() => setPanel(null)} label={t.projectAbout} className="project-modal">
           <div className="panel-heading project-heading">
             <div>
-              <span className="section-kicker">OPEN SOURCE REFERENCE STUDIO</span>
+              <span className="section-kicker">ABOUT MUSE</span>
               <h2>{t.projectAboutTitle}</h2>
             </div>
             <button className="icon-button" aria-label={t.close} onClick={() => setPanel(null)}>
@@ -1515,16 +1506,6 @@ export default function App() {
             </button>
           </div>
           <p className="project-intro">{t.projectAboutIntro}</p>
-          <p className="project-intro mirror-note">
-            {lang === 'zh'
-              ? 'Muse 繆思改编自开源项目 open-pose-costume（作者 hongye007），程序代码依 MIT 授权使用；参考图片直接从各原作者网站加载，版权归原作者所有，仅供个人非商业用途。原站：'
-              : lang === 'tw'
-                ? 'Muse 繆思改編自開源專案 open-pose-costume（作者 hongye007），程式碼依 MIT 授權使用；參考圖片直接從各原作者網站載入，著作權歸原作者所有，僅供個人非商業用途。原站：'
-                : 'Muse is adapted from the open-source open-pose-costume project by hongye007, used under its MIT code license. Reference images load directly from the original creators’ sites and remain theirs; personal, non-commercial use only. Original site: '}
-            <a href="https://omilic.com/" target="_blank" rel="noopener noreferrer">
-              omilic.com
-            </a>
-          </p>
           <div className="project-stats" aria-label={t.projectScale}>
             <div>
               <strong>{catalog?.stats.references.toLocaleString(localeOf(lang)) || '—'}</strong>
@@ -1548,49 +1529,31 @@ export default function App() {
             </div>
           </div>
           <section className="project-section">
-            <h3>{t.projectRepositories}</h3>
-            <a
-              className="project-link"
-              href="https://github.com/hongye007/open-pose-costume"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Github size={18} />
-              <span>
-                <strong>open-pose-costume</strong>
-                <small>github.com/hongye007/open-pose-costume</small>
-              </span>
-              <ExternalLink size={15} />
-            </a>
-            <a
-              className="project-link"
-              href="https://github.com/hongye007/open-pose-costume-skill"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Sparkles size={18} />
-              <span>
-                <strong>open-pose-costume-skill</strong>
-                <small>github.com/hongye007/open-pose-costume-skill</small>
-              </span>
-              <ExternalLink size={15} />
-            </a>
+            <h3>{t.projectBuiltTitle}</h3>
+            <ul className="project-points">
+              {t.projectPoints.map(([title, text]) => (
+                <li key={title}>
+                  <strong>{title}</strong>
+                  <span>{text}</span>
+                </li>
+              ))}
+            </ul>
           </section>
-          <section className="project-section project-author">
-            <h3>{t.projectAuthor}</h3>
-            <div>
-              <span className="author-mark">H</span>
-              <span>
-                <strong>hongye007</strong>
-                <small>@HongyeMain</small>
-              </span>
-              <a href="https://github.com/hongye007" target="_blank" rel="noopener noreferrer">
-                GitHub <ExternalLink size={13} />
+          <section className="project-section project-sources">
+            <h3>{t.projectSourcesTitle}</h3>
+            <p>
+              {t.projectSourcesCodeA}{' '}
+              <a
+                href="https://github.com/hongye007/open-pose-costume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                open-pose-costume
               </a>
-              <a href="https://x.com/HongyeMain" target="_blank" rel="noopener noreferrer">
-                X <ExternalLink size={13} />
-              </a>
-            </div>
+              {t.projectSourcesCodeB}
+            </p>
+            <p>{t.projectSourcesImages}</p>
+            <p>{t.projectSourcesOwn}</p>
           </section>
         </Modal>
       )}
