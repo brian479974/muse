@@ -1273,55 +1273,6 @@
    ]
   },
   {
-   "id": "muse-pose-m008",
-   "kind": "pose",
-   "code": "MPS-008",
-   "title": {
-    "zh": "深蹲・前臂靠膝（男）",
-    "en": "Deep squat, forearms on knees (male)"
-   },
-   "category": {
-    "id": "crouching",
-    "zh": "蹲姿",
-    "en": "Crouching"
-   },
-   "series": {
-    "zh": "全身 · 基础",
-    "en": "Full body · essentials"
-   },
-   "extended": false,
-   "tags": [
-    {
-     "id": "male",
-     "zh": "男性",
-     "en": "Male"
-    }
-   ],
-   "keywords": {
-    "zh": "深蹲・前臂靠膝（男）",
-    "en": "Deep squat, forearms on knees (male)"
-   },
-   "source": "muse",
-   "provenance": {
-    "provider": "Codex (OpenAI GPT Image)",
-    "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
-   },
-   "variants": [
-    {
-     "id": "muse-pose-m008_front",
-     "angle": "front",
-     "label": {
-      "zh": "正面",
-      "en": "Front"
-     },
-     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m008.webp",
-     "image": "/muse-assets/pose/images/muse-pose-m008.webp",
-     "original": "/muse-assets/pose/originals/muse-pose-m008.png"
-    }
-   ]
-  },
-  {
    "id": "muse-pose-m009",
    "kind": "pose",
    "code": "MPS-009",
