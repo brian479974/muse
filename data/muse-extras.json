@@ -428,6 +428,1938 @@
      "original": "/muse-assets/pose/originals/muse-pose-m004.png"
     }
    ]
+  },
+  {
+   "id": "muse-char-m005",
+   "kind": "character",
+   "code": "MCH-005",
+   "title": {
+    "zh": "寸头 · 人脸",
+    "en": "Buzz cut · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "寸头 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Buzz cut · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m005_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m005.webp",
+     "image": "/muse-assets/character/images/muse-char-m005.webp",
+     "original": "/muse-assets/character/originals/muse-char-m005.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m006",
+   "kind": "character",
+   "code": "MCH-006",
+   "title": {
+    "zh": "耳际卷发 · 人脸",
+    "en": "Ear-length wavy hair · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "耳际卷发 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Ear-length wavy hair · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "medium"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m006_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m006.webp",
+     "image": "/muse-assets/character/images/muse-char-m006.webp",
+     "original": "/muse-assets/character/originals/muse-char-m006.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m007",
+   "kind": "character",
+   "code": "MCH-007",
+   "title": {
+    "zh": "短发络腮胡 · 人脸",
+    "en": "Short hair with full beard · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "短发络腮胡 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short hair with full beard · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m007_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m007.webp",
+     "image": "/muse-assets/character/images/muse-char-m007.webp",
+     "original": "/muse-assets/character/originals/muse-char-m007.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m008",
+   "kind": "character",
+   "code": "MCH-008",
+   "title": {
+    "zh": "卷发渐层 · 人脸",
+    "en": "Curly hair with fade · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "卷发渐层 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Curly hair with fade · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m008_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m008.webp",
+     "image": "/muse-assets/character/images/muse-char-m008.webp",
+     "original": "/muse-assets/character/originals/muse-char-m008.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m009",
+   "kind": "character",
+   "code": "MCH-009",
+   "title": {
+    "zh": "灰白后梳 · 人脸",
+    "en": "Salt-and-pepper combed back · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "灰白后梳 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Salt-and-pepper combed back · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m009_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m009.webp",
+     "image": "/muse-assets/character/images/muse-char-m009.webp",
+     "original": "/muse-assets/character/originals/muse-char-m009.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m010",
+   "kind": "character",
+   "code": "MCH-010",
+   "title": {
+    "zh": "低马尾 · 人脸",
+    "en": "Low ponytail · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "低马尾 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Low ponytail · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "medium-long"
+   },
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m010_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m010.webp",
+     "image": "/muse-assets/character/images/muse-char-m010.webp",
+     "original": "/muse-assets/character/originals/muse-char-m010.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m011",
+   "kind": "character",
+   "code": "MCH-011",
+   "title": {
+    "zh": "侧分短发 · 人脸",
+    "en": "Side-parted short hair · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "侧分短发 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Side-parted short hair · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m011_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m011.webp",
+     "image": "/muse-assets/character/images/muse-char-m011.webp",
+     "original": "/muse-assets/character/originals/muse-char-m011.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m012",
+   "kind": "character",
+   "code": "MCH-012",
+   "title": {
+    "zh": "短卷发山羊胡 · 人脸",
+    "en": "Short wavy hair with goatee · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "短卷发山羊胡 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short wavy hair with goatee · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m012_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m012.webp",
+     "image": "/muse-assets/character/images/muse-char-m012.webp",
+     "original": "/muse-assets/character/originals/muse-char-m012.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m013",
+   "kind": "character",
+   "code": "MCH-013",
+   "title": {
+    "zh": "中分刘海 · 人脸",
+    "en": "Curtain bangs · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "中分刘海 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Curtain bangs · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "medium"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m013_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m013.webp",
+     "image": "/muse-assets/character/images/muse-char-m013.webp",
+     "original": "/muse-assets/character/originals/muse-char-m013.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m014",
+   "kind": "character",
+   "code": "MCH-014",
+   "title": {
+    "zh": "鬓角斑白短胡 · 人脸",
+    "en": "Graying temples with short beard · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "鬓角斑白短胡 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Graying temples with short beard · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m014_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m014.webp",
+     "image": "/muse-assets/character/images/muse-char-m014.webp",
+     "original": "/muse-assets/character/originals/muse-char-m014.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m015",
+   "kind": "character",
+   "code": "MCH-015",
+   "title": {
+    "zh": "及肩长发 · 人脸",
+    "en": "Shoulder-length hair · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "及肩长发 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Shoulder-length hair · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "long"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m015_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m015.webp",
+     "image": "/muse-assets/character/images/muse-char-m015.webp",
+     "original": "/muse-assets/character/originals/muse-char-m015.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-char-m016",
+   "kind": "character",
+   "code": "MCH-016",
+   "title": {
+    "zh": "油头削边 · 人脸",
+    "en": "Slicked-back undercut · Face"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face"
+   },
+   "series": {
+    "zh": "Muse 男性人物",
+    "en": "Muse male characters"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "油头削边 · 人脸。AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Slicked-back undercut · Face. Fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的虛構成人角色"
+   },
+   "variants": [
+    {
+     "id": "muse-char-m016_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-char-m016.webp",
+     "image": "/muse-assets/character/images/muse-char-m016.webp",
+     "original": "/muse-assets/character/originals/muse-char-m016.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m005",
+   "kind": "pose",
+   "code": "MPS-005",
+   "title": {
+    "zh": "行走・自然摆臂（男）",
+    "en": "Walking mid-stride (male)"
+   },
+   "category": {
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "行走・自然摆臂（男）",
+    "en": "Walking mid-stride (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m005_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m005.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m005.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m006",
+   "kind": "pose",
+   "code": "MPS-006",
+   "title": {
+    "zh": "站立・双手抱胸（男）",
+    "en": "Standing with arms crossed (male)"
+   },
+   "category": {
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "站立・双手抱胸（男）",
+    "en": "Standing with arms crossed (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m006_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m006.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m006.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m007",
+   "kind": "pose",
+   "code": "MPS-007",
+   "title": {
+    "zh": "靠墙・双脚交叉（男）",
+    "en": "Leaning on a wall, ankles crossed (male)"
+   },
+   "category": {
+    "id": "leaning",
+    "zh": "前倾",
+    "en": "Leaning"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "靠墙・双脚交叉（男）",
+    "en": "Leaning on a wall, ankles crossed (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m007_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m007.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m007.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m008",
+   "kind": "pose",
+   "code": "MPS-008",
+   "title": {
+    "zh": "深蹲・前臂靠膝（男）",
+    "en": "Deep squat, forearms on knees (male)"
+   },
+   "category": {
+    "id": "crouching",
+    "zh": "蹲姿",
+    "en": "Crouching"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "深蹲・前臂靠膝（男）",
+    "en": "Deep squat, forearms on knees (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m008_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m008.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m008.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m008.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m009",
+   "kind": "pose",
+   "code": "MPS-009",
+   "title": {
+    "zh": "单膝跪地（男）",
+    "en": "Kneeling on one knee (male)"
+   },
+   "category": {
+    "id": "kneeling",
+    "zh": "跪立",
+    "en": "Kneeling"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "单膝跪地（男）",
+    "en": "Kneeling on one knee (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m009_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m009.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m009.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m010",
+   "kind": "pose",
+   "code": "MPS-010",
+   "title": {
+    "zh": "席地而坐・单膝立起（男）",
+    "en": "Sitting on the floor, one knee up (male)"
+   },
+   "category": {
+    "id": "sitting",
+    "zh": "坐姿",
+    "en": "Sitting"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "席地而坐・单膝立起（男）",
+    "en": "Sitting on the floor, one knee up (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m010_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m010.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m010.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m011",
+   "kind": "pose",
+   "code": "MPS-011",
+   "title": {
+    "zh": "奔跑（男）",
+    "en": "Running (male)"
+   },
+   "category": {
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "奔跑（男）",
+    "en": "Running (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m011_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m011.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m011.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m012",
+   "kind": "pose",
+   "code": "MPS-012",
+   "title": {
+    "zh": "回头・扭身（男）",
+    "en": "Looking back over the shoulder (male)"
+   },
+   "category": {
+    "id": "twisting",
+    "zh": "扭身",
+    "en": "Twisting"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "回头・扭身（男）",
+    "en": "Looking back over the shoulder (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m012_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m012.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m012.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m013",
+   "kind": "pose",
+   "code": "MPS-013",
+   "title": {
+    "zh": "思考・托腮（男）",
+    "en": "Thinking, hand on chin (male)"
+   },
+   "category": {
+    "id": "gestures",
+    "zh": "手势与表情动作",
+    "en": "Gestures"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "思考・托腮（男）",
+    "en": "Thinking, hand on chin (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m013_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m013.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m013.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m014",
+   "kind": "pose",
+   "code": "MPS-014",
+   "title": {
+    "zh": "盘腿坐（男）",
+    "en": "Sitting cross-legged (male)"
+   },
+   "category": {
+    "id": "sitting",
+    "zh": "坐姿",
+    "en": "Sitting"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "盘腿坐（男）",
+    "en": "Sitting cross-legged (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m014_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m014.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m014.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m015",
+   "kind": "pose",
+   "code": "MPS-015",
+   "title": {
+    "zh": "伸展・双臂上举（男）",
+    "en": "Stretching, arms overhead (male)"
+   },
+   "category": {
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "伸展・双臂上举（男）",
+    "en": "Stretching, arms overhead (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m015_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m015.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m015.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-pose-m016",
+   "kind": "pose",
+   "code": "MPS-016",
+   "title": {
+    "zh": "侧卧・手撑头（男）",
+    "en": "Lying on the side, head on hand (male)"
+   },
+   "category": {
+    "id": "lying",
+    "zh": "卧姿",
+    "en": "Lying"
+   },
+   "series": {
+    "zh": "Muse 男性姿势",
+    "en": "Muse male poses"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    }
+   ],
+   "keywords": {
+    "zh": "侧卧・手撑头（男）",
+    "en": "Lying on the side, head on hand (male)"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的結構線稿"
+   },
+   "variants": [
+    {
+     "id": "muse-pose-m016_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m016.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m016.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m001",
+   "kind": "costume",
+   "code": "MCO-001",
+   "title": {
+    "zh": "米色工装外套 · 白T · 藏青卡其裤",
+    "en": "Beige chore jacket · white tee · navy chinos"
+   },
+   "category": {
+    "id": "spring",
+    "zh": "春日穿搭",
+    "en": "Spring"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "米色 工装外套 白色 T恤 藏青 卡其裤 白色 帆布鞋",
+    "en": "beige chore jacket white t-shirt navy chinos white canvas sneakers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m001_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m001.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m001.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m001.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m002",
+   "kind": "costume",
+   "code": "MCO-002",
+   "title": {
+    "zh": "浅色牛仔外套 · 灰色连帽衫",
+    "en": "Light denim jacket · gray hoodie"
+   },
+   "category": {
+    "id": "spring",
+    "zh": "春日穿搭",
+    "en": "Spring"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "浅色 牛仔外套 灰色 连帽衫 黑色 牛仔裤 白色 运动鞋",
+    "en": "light denim jacket gray hoodie black jeans white sneakers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m002_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m002.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m002.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m002.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m003",
+   "kind": "costume",
+   "code": "MCO-003",
+   "title": {
+    "zh": "鼠尾草绿亚麻短袖衬衫 · 米色短裤",
+    "en": "Sage linen camp shirt · cream shorts"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "鼠尾草绿 亚麻 短袖 衬衫 米色 短裤 棕色 拖鞋",
+    "en": "sage green linen camp collar shirt cream shorts brown sandals"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m003_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m003.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m003.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m003.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m004",
+   "kind": "costume",
+   "code": "MCO-004",
+   "title": {
+    "zh": "白色牛津衬衫 · 浅灰西裤 · 乐福鞋",
+    "en": "White oxford shirt · light gray trousers · loafers"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "白色 牛津 衬衫 浅灰 西裤 棕色 皮带 乐福鞋",
+    "en": "white oxford shirt light gray trousers brown belt tan suede loafers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m004_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m004.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m004.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m004.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m005",
+   "kind": "costume",
+   "code": "MCO-005",
+   "title": {
+    "zh": "驼色大衣 · 灰色高领毛衣 · 切尔西靴",
+    "en": "Camel overcoat · gray turtleneck · Chelsea boots"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "驼色 大衣 灰色 高领 毛衣 炭灰 西裤 深棕 切尔西靴",
+    "en": "camel overcoat gray turtleneck charcoal trousers brown chelsea boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m005_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m005.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m005.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m005.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m006",
+   "kind": "costume",
+   "code": "MCO-006",
+   "title": {
+    "zh": "米白麻花毛衣 · 棕色灯芯绒裤",
+    "en": "Cream cable knit · brown corduroys"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "米白 麻花 毛衣 棕色 灯芯绒 长裤 乐福鞋",
+    "en": "cream cable knit sweater brown corduroy trousers penny loafers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Codex (OpenAI GPT Image)",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m006_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m006.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m006.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m006.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m007",
+   "kind": "costume",
+   "code": "MCO-007",
+   "title": {
+    "zh": "黑色羽绒外套 · 毛线帽 · 黑色牛仔裤",
+    "en": "Black puffer · beanie · black jeans"
+   },
+   "category": {
+    "id": "winter",
+    "zh": "冬日穿搭",
+    "en": "Winter"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "黑色 羽绒服 连帽 毛线帽 深灰 卫衣 黑色 牛仔裤 高帮 运动鞋",
+    "en": "black hooded puffer jacket beanie gray sweatshirt black jeans high-top sneakers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m007_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m007.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m007.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m007.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m008",
+   "kind": "costume",
+   "code": "MCO-008",
+   "title": {
+    "zh": "藏青双排扣大衣 · 围巾 · 灰色法兰绒裤",
+    "en": "Navy peacoat · scarf · gray flannels"
+   },
+   "category": {
+    "id": "winter",
+    "zh": "冬日穿搭",
+    "en": "Winter"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "藏青 双排扣 大衣 米色 围巾 浅蓝 衬衫 灰色 法兰绒 长裤 黑色 德比鞋",
+    "en": "navy peacoat cream scarf light blue shirt gray flannel trousers black derby shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m008_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m008.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m008.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m008.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m009",
+   "kind": "costume",
+   "code": "MCO-009",
+   "title": {
+    "zh": "卡其长风衣 · 黑色针织衫 · 阔腿裤",
+    "en": "Khaki trench · black knit · wide trousers"
+   },
+   "category": {
+    "id": "spring",
+    "zh": "春日穿搭",
+    "en": "Spring"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "卡其 长风衣 黑色 针织衫 黑色 阔腿裤 德比鞋",
+    "en": "khaki trench coat black knit sweater black wide-leg trousers derby shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m009_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m009.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m009.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m009.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m010",
+   "kind": "costume",
+   "code": "MCO-010",
+   "title": {
+    "zh": "藏青Polo衫 · 卡其短裤",
+    "en": "Navy polo · beige chino shorts"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "藏青 Polo衫 短袖 卡其 短裤 白色 帆布鞋",
+    "en": "navy polo shirt beige chino shorts white canvas sneakers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m010_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m010.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m010.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m010.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m011",
+   "kind": "costume",
+   "code": "MCO-011",
+   "title": {
+    "zh": "橄榄绿野战外套 · 原色牛仔裤 · 皮靴",
+    "en": "Olive field jacket · raw denim · boots"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "橄榄绿 野战外套 白色 T恤 原色 牛仔裤 棕色 系带 皮靴",
+    "en": "olive field jacket white t-shirt raw denim jeans brown leather boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m011_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m011.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m011.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m011.png"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m012",
+   "kind": "costume",
+   "code": "MCO-012",
+   "title": {
+    "zh": "炭灰西装 · 白衬衫 · 酒红领带",
+    "en": "Charcoal suit · white shirt · burgundy tie"
+   },
+   "category": {
+    "id": "party",
+    "zh": "派对礼服",
+    "en": "Party"
+   },
+   "series": {
+    "zh": "Muse 男装",
+    "en": "Muse menswear"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "炭灰 西装 两件式 白色 衬衫 酒红 针织 领带 黑色 牛津鞋",
+    "en": "charcoal two-piece suit white dress shirt burgundy knit tie black oxford shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Grok",
+    "created": "2026-11-06",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m012_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m012.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m012.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m012.png"
+    }
+   ]
   }
  ]
 }
