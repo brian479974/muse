@@ -2,12 +2,13 @@
 
 姿勢、服裝與人物參考圖庫，可以把三種參考組合起來一鍵生成角色圖。改編自開源專案 open-pose-costume（非官方版本）。
 
-- 網站：https://brian479974.github.io/open-pose-costume/
+- 網站：https://brian479974.github.io/muse/
 - 原專案：https://github.com/hongye007/open-pose-costume（作者 hongye007 · [@HongyeMain](https://x.com/HongyeMain)）
 - 原站：https://omilic.com/
 
 ## 跟原站的差別
 
+- **介面三語**：簡體中文／繁體中文／英文切換；繁體由 `scripts/zh-hant.mjs`（OpenCC 片語級轉換＋台灣用語修正）產生，介面字典用 `scripts/gen-tw-copy.mjs`、素材清單用 `scripts/mirror-filter.mjs` 自動補上。
 - **外觀改版**：暗色藝廊配色（顏色由 `scripts/apply-theme.py` 依 `scripts/theme-gallery-dark.json` 整批對應產生）、新名稱 Muse 繆思與新 Logo（`public/brand/logo-mark.svg`）。
 
 - **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除；首頁示意圖也改用上游圖庫的公開圖片。
@@ -27,7 +28,7 @@
 ```bash
 npm ci
 npm run dev        # http://127.0.0.1:5199/
-npm run build      # 輸出到 dist/，子路徑 /open-pose-costume/
+npm run build      # 輸出到 dist/，子路徑 /muse/
 ```
 
 推到 `main` 後由 GitHub Actions 自動建置並部署到 GitHub Pages。

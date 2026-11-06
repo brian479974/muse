@@ -32,6 +32,17 @@ const labels = {
     open: '放大查看',
     close: '关闭',
   },
+  tw: {
+    title: '三種參考，一個角色',
+    pose: '姿勢',
+    costume: '服飾',
+    character: '人物',
+    result: '生成結果',
+    resultHint: '選好三種參考，在搭配台一鍵生成',
+    resultAction: '前往搭配台',
+    open: '放大檢視',
+    close: '關閉',
+  },
   en: {
     title: 'Three references. One character.',
     pose: 'Pose',

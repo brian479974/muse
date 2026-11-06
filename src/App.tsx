@@ -66,10 +66,18 @@ import { ReferenceFilters, ReferenceBadges, CategoryFilter } from './reference-f
 import { FilterSelect } from './filter-select';
 import type { Sort, View } from './library';
 import type { Catalog, Lang, Reference, Variant } from './types';
+import { localeOf } from './types';
 
 type Board = { pose?: string; costume?: string; character?: string };
 const initialParams = new URLSearchParams(window.location.search);
-const isLanguage = (v: unknown): v is Lang => v === 'zh' || v === 'en';
+const isLanguage = (v: unknown): v is Lang => v === 'zh' || v === 'tw' || v === 'en';
+// 瀏覽器是繁體中文（台灣、香港、澳門或標明 Hant）就預設繁體，其他中文預設簡體
+const browserLang = (): Lang => {
+  const n = navigator.language.toLowerCase();
+  if (!n.startsWith('zh')) return 'en';
+  return /hant|-tw|-hk|-mo/.test(n) ? 'tw' : 'zh';
+};
+const nextLang: Record<Lang, Lang> = { zh: 'tw', tw: 'en', en: 'zh' };
 const isIds = (v: unknown): v is string[] =>
   Array.isArray(v) && v.every((id) => typeof id === 'string');
 const isBoard = (v: unknown): v is Board =>
@@ -86,7 +94,7 @@ export default function App() {
     const value = initialParams.get('lang');
     return isLanguage(value)
       ? value
-      : storageGet('opc-language', navigator.language.startsWith('zh') ? 'zh' : 'en', isLanguage);
+      : storageGet('opc-language', browserLang(), isLanguage);
   });
   const t = copy[lang];
   const [showDomainNotice, setShowDomainNotice] = useState(() =>
@@ -186,11 +194,13 @@ export default function App() {
     return () => controller.abort();
   }, [reload]);
   useEffect(() => {
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    document.documentElement.lang = localeOf(lang);
     document.title =
       lang === 'zh'
         ? 'Muse 繆思 · 姿势与服装参考库'
-        : 'Muse · Pose & costume reference atelier';
+        : lang === 'tw'
+          ? 'Muse 繆思 · 姿勢與服裝參考庫'
+          : 'Muse · Pose & costume reference atelier';
     storageSet('opc-language', lang);
   }, [lang]);
   useEffect(() => {
@@ -699,13 +709,17 @@ export default function App() {
         file,
         title:
           kind === 'character'
-            ? { zh: '人物参考', en: 'Character reference' }
-            : { zh: '服饰参考', en: 'Outfit reference' },
+            ? { zh: '人物参考', tw: '人物參考', en: 'Character reference' }
+            : { zh: '服饰参考', tw: '服飾參考', en: 'Outfit reference' },
         keywords: {
           zh:
             kind === 'character'
               ? '保留所附人物的五官、脸型、发型发色、肤色、体型比例与画风'
               : '采用所附服饰图片中的穿搭、配色、版型和材质，不采用服装模特的身份和姿势',
+          tw:
+            kind === 'character'
+              ? '保留所附人物的五官、臉型、髮型髮色、膚色、體型比例與畫風'
+              : '採用所附服飾圖片中的穿搭、配色、版型和材質，不採用服裝模特的身分和姿勢',
           en:
             kind === 'character'
               ? 'Preserve the attached character’s face, hairstyle, hair color, skin tone, proportions and visual style'
@@ -715,7 +729,9 @@ export default function App() {
           id: `${kind}-upload`,
           angle: 'front',
           label:
-            kind === 'character' ? { zh: '人物', en: 'Character' } : { zh: '服饰', en: 'Costume' },
+            kind === 'character'
+              ? { zh: '人物', tw: '人物', en: 'Character' }
+              : { zh: '服饰', tw: '服飾', en: 'Costume' },
           thumbnail: preview,
           image: preview,
           original: preview,
@@ -852,7 +868,7 @@ export default function App() {
             >
               <Icon size={19} />
               <span>{label}</span>
-              <small>{count.toLocaleString(lang)}</small>
+              <small>{count.toLocaleString(localeOf(lang))}</small>
             </button>
           ))}
         </nav>
@@ -882,7 +898,7 @@ export default function App() {
               title={t.githubRepo}
             >
               <Github size={16} />
-              {lang === 'zh' ? '原作 · open-pose-costume' : 'Original · open-pose-costume'}
+              {lang === 'en' ? 'Original · open-pose-costume' : '原作 · open-pose-costume'}
               <ArrowUpRight size={14} />
             </a>
           </div>
@@ -976,11 +992,13 @@ export default function App() {
             </button>
             <button
               className="language-button"
-              onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
+              onClick={() => setLang(nextLang[lang])}
               aria-label={t.language}
             >
               <Globe2 size={16} />
-              <span className={lang === 'zh' ? 'current-language' : ''}>中</span>
+              <span className={lang === 'zh' ? 'current-language' : ''}>简</span>
+              <span className="language-slash">/</span>
+              <span className={lang === 'tw' ? 'current-language' : ''}>繁</span>
               <span className="language-slash">/</span>
               <span className={lang === 'en' ? 'current-language' : ''}>EN</span>
             </button>
@@ -1015,12 +1033,12 @@ export default function App() {
           )}
           <div className="collection-summary">
             <span>
-              <strong>{catalog?.stats.references.toLocaleString(lang) || '—'}</strong>{' '}
+              <strong>{catalog?.stats.references.toLocaleString(localeOf(lang)) || '—'}</strong>{' '}
               {t.referenceCount}
             </span>
             <i />
             <span>
-              <strong>{catalog?.stats.images.toLocaleString(lang) || '—'}</strong> {t.viewCount}
+              <strong>{catalog?.stats.images.toLocaleString(localeOf(lang)) || '—'}</strong> {t.viewCount}
             </span>
             <span className="summary-right">
               <Layers2 size={14} />
@@ -1034,7 +1052,7 @@ export default function App() {
                 <span className="section-kicker">THE COLLECTION</span>
                 <h2 id="collection-heading">
                   {pageTitle}
-                  <span>{visible.length.toLocaleString(lang)}</span>
+                  <span>{visible.length.toLocaleString(localeOf(lang))}</span>
                 </h2>
               </div>
             </div>
@@ -1155,7 +1173,7 @@ export default function App() {
             </div>
             <div className="result-toolbar library-result-toolbar">
               <span aria-live="polite">
-                {visible.length.toLocaleString(lang)} {t.results}
+                {visible.length.toLocaleString(localeOf(lang))} {t.results}
               </span>
               <div className="library-display-options" role="group" aria-label={t.displayOptions}>
                 {resultKinds.has('pose') && (
@@ -1351,7 +1369,7 @@ export default function App() {
                 <div ref={loadMoreRef} className="load-more">
                   <p>
                     {t.shown} {Math.min(limit, visible.length)} {t.of}{' '}
-                    {visible.length.toLocaleString(lang)}
+                    {visible.length.toLocaleString(localeOf(lang))}
                   </p>
                   {limit < visible.length ? (
                     <button
@@ -1693,30 +1711,32 @@ export default function App() {
           <p className="project-intro mirror-note">
             {lang === 'zh'
               ? 'Muse 繆思改编自开源项目 open-pose-costume（作者 hongye007），程序代码依 MIT 授权使用；参考图片直接从各原作者网站加载，版权归原作者所有，仅供个人非商业用途。原站：'
-              : 'Muse is adapted from the open-source open-pose-costume project by hongye007, used under its MIT code license. Reference images load directly from the original creators’ sites and remain theirs; personal, non-commercial use only. Original site: '}
+              : lang === 'tw'
+                ? 'Muse 繆思改編自開源專案 open-pose-costume（作者 hongye007），程式碼依 MIT 授權使用；參考圖片直接從各原作者網站載入，著作權歸原作者所有，僅供個人非商業用途。原站：'
+                : 'Muse is adapted from the open-source open-pose-costume project by hongye007, used under its MIT code license. Reference images load directly from the original creators’ sites and remain theirs; personal, non-commercial use only. Original site: '}
             <a href="https://omilic.com/" target="_blank" rel="noopener noreferrer">
               omilic.com
             </a>
           </p>
           <div className="project-stats" aria-label={t.projectScale}>
             <div>
-              <strong>{catalog?.stats.references.toLocaleString(lang) || '—'}</strong>
+              <strong>{catalog?.stats.references.toLocaleString(localeOf(lang)) || '—'}</strong>
               <span>{t.projectReferences}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.images.toLocaleString(lang) || '—'}</strong>
+              <strong>{catalog?.stats.images.toLocaleString(localeOf(lang)) || '—'}</strong>
               <span>{t.projectImages}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.poseGroups.toLocaleString(lang) || '—'}</strong>
+              <strong>{catalog?.stats.poseGroups.toLocaleString(localeOf(lang)) || '—'}</strong>
               <span>{t.projectPoses}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.costumes.toLocaleString(lang) || '—'}</strong>
+              <strong>{catalog?.stats.costumes.toLocaleString(localeOf(lang)) || '—'}</strong>
               <span>{t.projectCostumes}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.characters.toLocaleString(lang) || '—'}</strong>
+              <strong>{catalog?.stats.characters.toLocaleString(localeOf(lang)) || '—'}</strong>
               <span>{t.projectCharacters}</span>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import { useEffect, useId, useRef, useState } from 'react';
 import type { CSSProperties, KeyboardEvent } from 'react';
 import { Check, ChevronDown } from 'lucide-react';
+import { localeOf } from './types';
+import type { Lang } from './types';
 
 export interface FilterOption {
   value: string;
@@ -22,7 +24,7 @@ export function FilterSelect({
   value: string;
   options: FilterOption[];
   onChange: (value: string) => void;
-  lang: string;
+  lang: Lang;
 }) {
   const id = useId();
   const trigger = useRef<HTMLButtonElement>(null);
@@ -180,7 +182,7 @@ export function FilterSelect({
       >
         <span className="filter-select-value">{selected?.label || value}</span>
         {selected?.count !== undefined && (
-          <span className="filter-select-count">{selected.count.toLocaleString(lang)}</span>
+          <span className="filter-select-count">{selected.count.toLocaleString(localeOf(lang))}</span>
         )}
         <ChevronDown size={14} aria-hidden="true" />
       </button>
@@ -219,7 +221,7 @@ export function FilterSelect({
               </span>
               <span className="filter-select-option-label">{option.label}</span>
               {option.count !== undefined && (
-                <span className="filter-select-count">{option.count.toLocaleString(lang)}</span>
+                <span className="filter-select-count">{option.count.toLocaleString(localeOf(lang))}</span>
               )}
             </div>
           </div>

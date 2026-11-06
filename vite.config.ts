@@ -26,9 +26,9 @@ function imageProxy(target: string): ProxyOptions {
   };
 }
 
-// GitHub Pages 專案網站部署在 /open-pose-costume/ 子路徑下（建置與預覽）；本機開發仍用根路徑。
+// GitHub Pages 專案網站部署在 /muse/ 子路徑下（建置與預覽）；本機開發仍用根路徑。
 export default defineConfig(({ command, isPreview }) => ({
-  base: command === 'build' || isPreview ? process.env.VITE_BASE || '/open-pose-costume/' : '/',
+  base: command === 'build' || isPreview ? process.env.VITE_BASE || '/muse/' : '/',
   plugins: [react()],
   server: {
     proxy: {

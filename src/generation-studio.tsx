@@ -40,6 +40,7 @@ import { hasPoseDepth } from './pose-depth';
 import { compatiblePoseAlternatives } from './studio-randomize';
 import { Modal, RemoteImage } from './ui';
 import type { Kind, Lang, Reference } from './types';
+import { localeOf } from './types';
 
 const kinds: Kind[] = ['pose', 'costume', 'character'];
 const referenceIcons = { pose: PersonStanding, costume: Shirt, character: UserRound };
@@ -166,7 +167,7 @@ function ReferencePicker({
           <CategoryFilter items={available} filters={filters} lang={lang} onChange={setCategory} />
         </ReferenceFilters>
         <p className="studio-picker-count" role="status">
-          {filtered.length.toLocaleString(lang === 'zh' ? 'zh-CN' : 'en')} {t.referenceCount}
+          {filtered.length.toLocaleString(localeOf(lang))} {t.referenceCount}
         </p>
       </header>
       <div className="studio-picker-scroll" ref={scrollRef}>
@@ -262,7 +263,7 @@ function HistoryThumbnail({
       <button onClick={onRestore} aria-label={studioCopy[lang].restore}>
         {source && <img src={source} alt={generationCopy[lang].generated} />}
         <span>
-          {new Date(record.createdAt).toLocaleString(lang === 'zh' ? 'zh-CN' : 'en', {
+          {new Date(record.createdAt).toLocaleString(localeOf(lang), {
             month: 'short',
             day: 'numeric',
             hour: '2-digit',
@@ -923,9 +924,9 @@ export function GenerationStudio({
                 <p style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>{job.status === 'cancelled' ? t.keepWorking : job.error}</p>
                 {job.status === 'error' && <button className="secondary-button" onClick={async (event) => {
                   const button = event.currentTarget;
-                  try { await navigator.clipboard.writeText(job.error || ''); button.textContent = lang === 'zh' ? '已复制' : 'Copied'; }
-                  catch { window.prompt(lang === 'zh' ? '请复制诊断信息' : 'Copy diagnostics', job.error || ''); }
-                }}>{lang === 'zh' ? '复制诊断信息' : 'Copy diagnostics'}</button>}
+                  try { await navigator.clipboard.writeText(job.error || ''); button.textContent = lang === 'zh' ? '已复制' : lang === 'tw' ? '已複製' : 'Copied'; }
+                  catch { window.prompt(lang === 'zh' ? '请复制诊断信息' : lang === 'tw' ? '請複製診斷資訊' : 'Copy diagnostics', job.error || ''); }
+                }}>{lang === 'zh' ? '复制诊断信息' : lang === 'tw' ? '複製診斷資訊' : 'Copy diagnostics'}</button>}
                 <button
                   className="primary-button"
                   disabled={!ready}
