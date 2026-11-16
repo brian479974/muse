@@ -30,6 +30,7 @@ import {
 import type { Style } from './reference-picker';
 import { aspectKeys, buildCardPrompt, renderReferenceCard } from './reference-card';
 import type { Aspect } from './reference-card';
+import { track } from './stats';
 
 export function CardStudio({
   lang,
@@ -137,10 +138,13 @@ export function CardStudio({
     link.href = card.url;
     link.download = `muse-reference-card-${stamp}.jpg`;
     link.click();
+    // 匿名統計：圖卡裡的圖庫參考各 +1（使用者上傳的圖不回報）
+    track('card', kinds.map(boardItem));
   }
   async function copyPrompt() {
     try {
       await navigator.clipboard.writeText(prompt);
+      track('prompt', kinds.map(boardItem));
       setCopied(true);
       notify(t.promptCopied);
     } catch {
@@ -308,6 +312,7 @@ export function CardStudio({
           </div>
           <p className="studio-upload-note">{t.uploadHint}</p>
           <p className="studio-upload-note">{t.genderHint}</p>
+          <p className="studio-upload-note">{t.uploadConsent}</p>
           {characterError && (
             <p className="studio-inline-error" role="alert">
               {g[characterError as keyof typeof g] || characterError}
@@ -493,6 +498,14 @@ export function CardStudio({
             <li>{t.step2}</li>
             <li>{t.step3}</li>
           </ol>
+          <details className="studio-face-tips">
+            <summary>{copy[lang].aboutFaceTitle}</summary>
+            <ul>
+              {copy[lang].aboutFaceTips.map((tip) => (
+                <li key={tip}>{tip}</li>
+              ))}
+            </ul>
+          </details>
           <p className="studio-settings-note">{t.privacyNote}</p>
         </section>
       </div>

@@ -1,7 +1,9 @@
-// 首頁展示區：主視覺（三張參考漂浮＋圖卡彈出）、圖片跑馬燈、三大分類卡、三步驟圖解。
+// 首頁展示區：主視覺（三張參考漂浮＋圖卡彈出）、圖片跑馬燈、三大分類卡、熱門排行、三步驟圖解。
 // 圖片一律取自圖庫上游原站（瀏覽器直接載入），不使用自建素材。
 import { ArrowDown, ArrowRight } from 'lucide-react';
-import type { Lang, Reference } from './types';
+import type { Kind, Lang, Reference } from './types';
+import { MIN_RANKED } from './stats';
+import type { RankedReference } from './stats';
 import { localeOf } from './types';
 
 const showcaseCopy = {
@@ -37,6 +39,9 @@ const showcaseCopy = {
     step3Text: '上传图卡、贴上提示词，送出就生成。',
     chat: '（图卡）照这张参考图卡生成',
     collectionKicker: 'THE COLLECTION',
+    popularKicker: 'MOST USED',
+    popularTitle: '热门参考',
+    popularText: '依「放进参考图卡并下载」的次数排名。只统计次数，不记录任何个人资料。',
   },
   tw: {
     kicker: 'POSE · OUTFIT · CHARACTER',
@@ -63,13 +68,16 @@ const showcaseCopy = {
     stepsTitle: '三步驟，交給 ChatGPT',
     stepsText: '不用 API 金鑰。可以上傳自己的圖片，圖片只留在你的瀏覽器裡；圖卡在本機排好，下載就能用。',
     step1: '挑選參考',
-    step1Text: '從相簿挑選姿勢與服裝，也可以上傳自己的服裝或人物圖片。',
+    step1Text: '從圖庫挑選姿勢與服裝，也可以上傳自己的服裝或人物圖片。',
     step2: '下載參考圖卡',
     step2Text: '三張參考加上英文提示詞，自動排成一張圖。',
     step3: '貼到 ChatGPT',
     step3Text: '上傳圖卡、貼上提示詞，送出就生成。',
     chat: '（圖卡）照這張參考圖卡生成',
     collectionKicker: 'THE COLLECTION',
+    popularKicker: 'MOST USED',
+    popularTitle: '熱門參考',
+    popularText: '依「放進參考圖卡並下載」的次數排名。只統計次數，不記錄任何個人資料。',
   },
   en: {
     kicker: 'POSE · OUTFIT · CHARACTER',
@@ -103,6 +111,9 @@ const showcaseCopy = {
     step3Text: 'Upload the card, paste the prompt and send.',
     chat: '(card) Generate from this reference card',
     collectionKicker: 'THE COLLECTION',
+    popularKicker: 'MOST USED',
+    popularTitle: 'Most used references',
+    popularText: 'Ranked by how often each reference is put on a reference card and downloaded. Only counts are kept, never personal data.',
   },
 };
 export const showcaseText = (lang: Lang) => showcaseCopy[lang];
@@ -329,6 +340,58 @@ export function HomeLibrary({
             </span>
             <b className="n">{counts[tile.kind].toLocaleString(localeOf(lang))}</b>
           </button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+/** 熱門排行：姿勢、服裝、人物各列前 10 名；某類型被用過的參考不到 MIN_RANKED 張就不列，全部不到就整區不顯示 */
+export function HomePopular({
+  lang,
+  ranks,
+  onOpen,
+}: {
+  lang: Lang;
+  ranks: Record<Kind, RankedReference[]>;
+  onOpen: (item: Reference) => void;
+}) {
+  const t = showcaseText(lang);
+  const columns = (['pose', 'costume', 'character'] as const).filter(
+    (kind) => ranks[kind].length >= MIN_RANKED,
+  );
+  if (!columns.length) return null;
+  const titles = { pose: t.pose, costume: t.costume, character: t.character };
+  const times = (n: number) =>
+    lang === 'en'
+      ? `${n.toLocaleString('en')} ${n === 1 ? 'use' : 'uses'}`
+      : `${n.toLocaleString(localeOf(lang))} 次`;
+  return (
+    <section className="home-block home-popular" aria-labelledby="home-popular-title">
+      <div className="home-heading">
+        <div>
+          <span className="home-kicker">{t.popularKicker}</span>
+          <h2 id="home-popular-title">{t.popularTitle}</h2>
+        </div>
+        <p>{t.popularText}</p>
+      </div>
+      <div className="popular-columns">
+        {columns.map((kind) => (
+          <div className={`popular-column ${kind}`} key={kind}>
+            <h3>{titles[kind]}</h3>
+            <ol>
+              {ranks[kind].map(({ item, count }, index) => (
+                <li key={item.id}>
+                  <button type="button" onClick={() => onOpen(item)}>
+                    <span className="rank">{index + 1}</span>
+                    <Img src={thumb(item)} />
+                    <span className="name">{item.title[lang]}</span>
+                    <small>{times(count)}</small>
+                  </button>
+                </li>
+              ))}
+            </ol>
+          </div>
         ))}
       </div>
     </section>

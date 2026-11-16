@@ -927,3 +927,115 @@ footer {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* ── 熱門排行（首頁）：依參考圖卡下載次數，姿勢／服裝／人物各前 10 名 ── */
+.popular-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+.popular-column {
+  min-width: 0;
+  padding: 20px 16px 10px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--paper);
+}
+.popular-column h3 {
+  margin: 0 0 8px 4px;
+  font-family: var(--serif);
+  font-size: 21px;
+}
+.popular-column ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.popular-column li + li {
+  border-top: 1px solid var(--line);
+}
+.popular-column button {
+  display: grid;
+  grid-template-columns: 24px 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 7px 4px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.popular-column button:hover {
+  background: var(--bg);
+}
+.popular-column .rank {
+  font-family: var(--latin);
+  font-size: 19px;
+  color: var(--muted);
+  text-align: center;
+}
+.popular-column li:nth-child(-n + 3) .rank {
+  color: var(--gold);
+  font-weight: 700;
+}
+.popular-column img {
+  width: 46px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #fff;
+}
+.popular-column.pose img {
+  object-fit: contain;
+  padding: 3px;
+}
+.popular-column .name {
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.popular-column small {
+  font-size: 12px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+@media (max-width: 780px) {
+  .popular-columns {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 86%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+  }
+  .popular-column {
+    scroll-snap-align: start;
+  }
+}
+
+/* ── 圖卡頁：讓 AI 每次生出同一張臉 ── */
+.studio-face-tips {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+.studio-face-tips summary {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  cursor: pointer;
+}
+.studio-face-tips ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+}

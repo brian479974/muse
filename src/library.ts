@@ -3,7 +3,7 @@ import { localeOf } from './types';
 import vocabulary from '../data/vocabulary.json';
 
 export type View = 'all' | 'pose' | 'costume' | 'character' | 'saved' | 'studio';
-export type Sort = 'curated' | 'name' | 'code';
+export type Sort = 'curated' | 'popular' | 'name' | 'code';
 export const angles = ['front', 'high', 'low', 'side', 'diag'] as const;
 export const subjectTagIds = ['female', 'male', 'unisex', 'model', 'dance'] as const;
 export function isSubjectTag(id: string) {
@@ -141,7 +141,20 @@ export function genderCompatible(a?: Pick<Reference, 'tags'>, b?: Pick<Reference
   return ga === gb;
 }
 
-export function sortItems(items: Reference[], sort: Sort, lang: Lang): Reference[] {
+export function sortItems(
+  items: Reference[],
+  sort: Sort,
+  lang: Lang,
+  counts: Record<string, number> = {},
+): Reference[] {
+  // 熱門：依參考圖卡下載次數由高到低；同次數（含沒用過的）照交替瀏覽順序
+  if (sort === 'popular') {
+    const order = sortItems(items, 'curated', lang);
+    const rank = new Map(order.map((item, index) => [item.id, index]));
+    return [...order].sort(
+      (a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || rank.get(a.id)! - rank.get(b.id)!,
+    );
+  }
   if (sort !== 'curated')
     return [...items].sort((a, b) =>
       sort === 'code'

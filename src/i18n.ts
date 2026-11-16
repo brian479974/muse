@@ -37,7 +37,7 @@ export const copy = {
       'Muse 繆思是姿势、服装与人物的角色设计参考库。挑好参考后，可直接产生一张参考图卡，交给 ChatGPT 等 AI 工具生成角色图像。',
     projectBuiltTitle: 'Muse 的设计与强化',
     projectPoints: [
-      ['安全优先的架构', '网站不串接任何生图 API、不保存 API 密钥；你上传的服装或人物图片只在你的浏览器里使用，不会传到任何服务器。参考图卡在本机排版，并以内容安全政策限制对外连线。'],
+      ['安全优先的架构', '网站不串接任何生图 API、不保存 API 密钥；你上传的服装或人物图片只在你的浏览器里使用，不会传到任何服务器。参考图卡在本机排版，并以内容安全政策限制对外连线。唯一对外回报的是匿名使用次数：只记哪张图库参考被下载或复制提示词，用来排热门，不记录 IP、不使用 cookie。'],
       ['参考图卡工作流', '可从图库挑选，也可上传自己的服装或人物图片；三格参考加上英文提示词一次输出，下载即可交给 AI 工具使用，提示词已针对常见平台规范优化。'],
       ['重新设计的介面', '简体中文、繁体中文、英文三语切换，桌机与手机介面全面重新设计。'],
     ],
@@ -96,6 +96,7 @@ export const copy = {
     results: '条参考',
     sort: '排序',
     curated: '交替浏览',
+    popular: '热门（下载次数）',
     name: '按名称',
     code: '按编号',
     angle: '展示视角',
@@ -181,6 +182,15 @@ export const copy = {
     aboutUse: '素材可免费用于作品制作，包括商业作品、编辑和参考。',
     aboutRestriction:
       '姿势与服饰的图片数据本身（包括加工后的图片）禁止再分发、转载或转售。人物库标注 CC0，同时请求避免转载与再分发；各类素材以原站具体规则为准。',
+    aboutImpersonation:
+      '不得用来冒充真实人物：生成的图片不可假装是某个真人；上传的人物照片只能是你本人，或已取得本人同意。',
+    aboutFaceTitle: '让 AI 每次生出同一张脸',
+    aboutFaceTips: [
+      '要固定长相，人物选「人脸」分类的图：正面、浅色背景、拍到肩膀，五官最清楚。',
+      '要参考服装和整体氛围，人物改选「人物造型」分类的图。',
+      '同一个角色每次都用同一张人物图。先按收藏，下次从「我的收藏」直接找到它。',
+      '上传自己的人物照片时用原始档，不要用截图或缩图，脸部细节才保得住。',
+    ],
     aboutRights: '本项目的代码开源许可不适用于图片及素材数据。',
     aboutCaveat:
       '姿势为人偶线稿，服装与人物均为 AI 生成的虚构素材。创作时请自行核对细节及相关权利。',
@@ -230,8 +240,8 @@ export const copy = {
       'Muse 繆思是姿勢、服裝與人物的角色設計參考庫。挑好參考後，可直接產生一張參考圖卡，交給 ChatGPT 等 AI 工具生成角色影像。',
     projectBuiltTitle: 'Muse 的設計與強化',
     projectPoints: [
-      ['安全優先的架構', '網站不串接任何生圖 API、不儲存 API 金鑰；你上傳的服裝或人物圖片只在你的瀏覽器裡使用，不會傳到任何伺服器。參考圖卡在本機排版，並以內容安全政策限制對外連線。'],
-      ['參考圖卡工作流', '可從相簿挑選，也可上傳自己的服裝或人物圖片；三格參考加上英文提示詞一次輸出，下載即可交給 AI 工具使用，提示詞已針對常見平台規範最佳化。'],
+      ['安全優先的架構', '網站不串接任何生圖 API、不儲存 API 金鑰；你上傳的服裝或人物圖片只在你的瀏覽器裡使用，不會傳到任何伺服器。參考圖卡在本機排版，並以內容安全政策限制對外連線。唯一對外回報的是匿名使用次數：只記哪張圖庫參考被下載或複製提示詞，用來排熱門，不記錄 IP、不使用 cookie。'],
+      ['參考圖卡工作流', '可從圖庫挑選，也可上傳自己的服裝或人物圖片；三格參考加上英文提示詞一次輸出，下載即可交給 AI 工具使用，提示詞已針對常見平台規範最佳化。'],
       ['重新設計的介面', '簡體中文、繁體中文、英文三語切換，桌機與手機介面全面重新設計。'],
     ],
     projectSourcesTitle: '來源與授權',
@@ -258,7 +268,7 @@ export const copy = {
     chooseCharacter: '從人物庫選擇',
     hairLength: '髮長',
     allHair: '全部發長',
-    hairLengths: { short: '短髮', medium: '中發', 'medium-long': '中長髮', long: '長髮' },
+    hairLengths: { short: '短髮', medium: '中髮', 'medium-long': '中長髮', long: '長髮' },
     characterLibraryNote:
       '可從人物庫選擇或上傳圖片；上傳的圖片只在此瀏覽器中使用，不會傳到任何伺服器。',
     saved: '我的收藏',
@@ -289,6 +299,7 @@ export const copy = {
     results: '條參考',
     sort: '排序',
     curated: '交替瀏覽',
+    popular: '熱門（下載次數）',
     name: '按名稱',
     code: '按編號',
     angle: '展示視角',
@@ -374,6 +385,15 @@ export const copy = {
     aboutUse: '素材可免費用於作品製作，包括商業作品、編輯和參考。',
     aboutRestriction:
       '姿勢與服飾的圖片資料本身（包括加工後的圖片）禁止再分發、轉載或轉售。人物庫標註 CC0，同時請求避免轉載與再分發；各類素材以原站具體規則為準。',
+    aboutImpersonation:
+      '不得用來冒充真實人物：生成的圖片不可假裝是某個真人；上傳的人物照片只能是你本人，或已取得本人同意。',
+    aboutFaceTitle: '讓 AI 每次生出同一張臉',
+    aboutFaceTips: [
+      '要固定長相，人物選「人臉」分類的圖：正面、淺色背景、拍到肩膀，五官最清楚。',
+      '要參考服裝和整體氛圍，人物改選「人物造型」分類的圖。',
+      '同一個角色每次都用同一張人物圖。先按收藏，下次從「我的收藏」直接找到它。',
+      '上傳自己的人物照片時用原始檔，不要用截圖或縮圖，臉部細節才保得住。',
+    ],
     aboutRights: '本專案的程式碼開源許可不適用於圖片及素材資料。',
     aboutCaveat:
       '姿勢為人偶線稿，服裝與人物均為 AI 生成的虛構素材。創作時請自行核對細節及相關權利。',
@@ -423,7 +443,7 @@ export const copy = {
       'Muse is a character-design reference library of poses, outfits and characters. Pick your references and export a reference card ready for ChatGPT or other AI tools.',
     projectBuiltTitle: 'What Muse adds',
     projectPoints: [
-      ['Security-first architecture', 'No image-generation API and no stored API keys. Outfit or character photos you upload are used only inside your browser and are never sent to any server. Reference cards are laid out locally, and a content security policy restricts outside connections.'],
+      ['Security-first architecture', 'No image-generation API and no stored API keys. Outfit or character photos you upload are used only inside your browser and are never sent to any server. Reference cards are laid out locally, and a content security policy restricts outside connections. The only thing sent out is an anonymous usage count — which library reference was downloaded or had its prompt copied — used to rank popular references. No IP addresses are stored and no cookies are used.'],
       ['Reference-card workflow', 'Pick from the library or upload your own outfit or character photos. Three reference panels plus an English prompt in one image, ready to download and use with AI tools; the prompt is tuned for common platform policies.'],
       ['Redesigned interface', 'Simplified Chinese, Traditional Chinese and English, with a fully redesigned desktop and mobile experience.'],
     ],
@@ -484,6 +504,7 @@ export const copy = {
     results: 'references',
     sort: 'Sort',
     curated: 'Alternating',
+    popular: 'Most used',
     name: 'By name',
     code: 'By code',
     angle: 'Preview angle',
@@ -572,6 +593,15 @@ export const copy = {
       'Images may be used for free when creating works, including commercial works, editing and reference.',
     aboutRestriction:
       'Pose and costume image data may not be redistributed, republished or resold, including edited versions. The portrait source states CC0 while requesting no republication or redistribution. Refer to each source’s specific terms.',
+    aboutImpersonation:
+      'Do not use Muse to impersonate real people: generated images must not be passed off as a real person, and uploaded character photos must be of yourself or someone who has given consent.',
+    aboutFaceTitle: 'Getting the same face every time',
+    aboutFaceTips: [
+      'To keep a face consistent, pick a character from the “Face” category: front-facing, plain light background, framed to the shoulders.',
+      'To borrow an outfit and overall mood, pick from the “Styling” category instead.',
+      'Use the same character image every time. Bookmark it so you can find it again under Saved references.',
+      'When uploading your own character photo, use the original file rather than a screenshot or thumbnail so facial details survive.',
+    ],
     aboutRights:
       'This project’s open-source code license does not cover the images or material data.',
     aboutCaveat:

@@ -27,7 +27,16 @@ import {
   X,
 } from 'lucide-react';
 import { copy } from './i18n';
-import { HomeHero, HomeLibrary, HomeMarquee, HomeSteps, showcaseText } from './home-showcase';
+import {
+  HomeHero,
+  HomeLibrary,
+  HomeMarquee,
+  HomePopular,
+  HomeSteps,
+  showcaseText,
+} from './home-showcase';
+import { loadStats, rankByKind, track } from './stats';
+import type { Stats } from './stats';
 import { hasPoseDepth, withPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
 import { CardStudio } from './card-studio';
@@ -125,11 +134,13 @@ export default function App() {
     : 'front';
   const [cardAngles, setCardAngles] = useState<Record<string, string>>({});
   const [sort, setSort] = useState<Sort>(
-    ['name', 'code'].includes(initialParams.get('sort') || '')
+    ['popular', 'name', 'code'].includes(initialParams.get('sort') || '')
       ? (initialParams.get('sort') as Sort)
       : 'curated',
   );
   const [limit, setLimit] = useState(24);
+  // 匿名使用次數（熱門排序與排行榜用）；取不到就是 null，相關介面不顯示
+  const [stats, setStats] = useState<Stats | null>(null);
   const [saved, setSaved] = useState(() => storageGet('opc-saved', [], isIds));
   const [board, setBoard] = useState<Board>(() => storageGet('opc-board', {}, isBoard));
   const [characterReference, setCharacterReference] = useState<UploadedImageReference | null>(null);
@@ -198,6 +209,15 @@ export default function App() {
     }
   }, []);
   useEffect(() => () => downloadController.current?.abort(), []);
+  useEffect(() => {
+    let active = true;
+    void loadStats().then((value) => {
+      if (active) setStats(value);
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
   useEffect(
     () => () => {
       characterTask.current++;
@@ -286,8 +306,9 @@ export default function App() {
         filterReferences(byView, { category, hair, collection, tag, style, country, kind, query }),
         sort,
         lang,
+        stats?.counts,
       ),
-    [byView, category, hair, collection, tag, style, country, kind, query, sort, lang],
+    [byView, category, hair, collection, tag, style, country, kind, query, sort, lang, stats],
   );
   useEffect(() => {
     const sentinel = loadMoreRef.current;
@@ -312,6 +333,8 @@ export default function App() {
     return () => observer.disconnect();
   }, [visible, limit, view, selectedId, panel]);
   const resultKinds = new Set(visible.map((item) => item.kind));
+  const hasStats = !!stats && Object.keys(stats.counts).length > 0;
+  const ranks = useMemo(() => rankByKind(eligible, stats?.counts || {}), [eligible, stats]);
   const showHero = view === 'all';
   const characterCategory = byView.some(
     (item) => item.category.id === category && item.kind === 'character',
@@ -569,6 +592,7 @@ export default function App() {
       (document.querySelector('dialog[open]') || document.body).appendChild(link);
       link.click();
       link.remove();
+      track('ref', [item]);
       // Give the browser time to start reading the file before releasing it.
       setTimeout(() => URL.revokeObjectURL(url), 60_000);
       notify(t.downloadStarted);
@@ -951,6 +975,7 @@ export default function App() {
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
               />
+              <HomePopular lang={lang} ranks={ranks} onOpen={openDetail} />
               <HomeSteps lang={lang} onOpenStudio={openStudio} />
               <span className="home-kicker collection-kicker">{showcaseText(lang).collectionKicker}</span>
             </>
@@ -1108,6 +1133,9 @@ export default function App() {
                     <option value="curated">
                       {resultKinds.size > 1 ? t.curated : t.defaultOrder}
                     </option>
+                    {(hasStats || sort === 'popular') && (
+                      <option value="popular">{t.popular}</option>
+                    )}
                     <option value="name">{t.name}</option>
                     <option value="code">{t.code}</option>
                   </select>
@@ -1425,7 +1453,13 @@ export default function App() {
               <h3>{t.keywords}</h3>
               <p>{selected.keywords[lang]}</p>
               <div className="reference-description-actions">
-                <button className="text-action" onClick={() => clipboard(selected.keywords[lang])}>
+                <button
+                  className="text-action"
+                  onClick={() => {
+                    track('prompt', [selected]);
+                    void clipboard(selected.keywords[lang]);
+                  }}
+                >
                   <Copy size={14} />
                   {t.copyPrompt}
                 </button>
@@ -1514,8 +1548,17 @@ export default function App() {
             {t.aboutUse}
             <strong className="usage-restriction">{t.aboutRestriction}</strong>
           </p>
+          <p>
+            <strong className="usage-restriction">{t.aboutImpersonation}</strong>
+          </p>
           <p>{t.aboutRights}</p>
           <p>{t.aboutCaveat}</p>
+          <h3>{t.aboutFaceTitle}</h3>
+          <ul className="usage-steps">
+            {t.aboutFaceTips.map((tip) => (
+              <li key={tip}>{tip}</li>
+            ))}
+          </ul>
         </Modal>
       )}
       {panel === 'project' && (

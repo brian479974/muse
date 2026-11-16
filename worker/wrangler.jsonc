@@ -1,0 +1,15 @@
+// Muse 匿名使用次數統計。部署在 Brian 個人 Cloudflare 帳號（workers.dev 子網域 brian479974）。
+// D1 資料庫 muse-stats 建在亞太區（APAC）。資料表見 schema.sql。
+{
+  "name": "muse-stats",
+  "main": "index.js",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "muse-stats",
+      "database_id": "a81c73cb-ad23-44b9-8c97-bf05c3038781"
+    }
+  ]
+}
