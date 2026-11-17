@@ -267,7 +267,7 @@ export const copy = {
     character: '人物參考',
     chooseCharacter: '從人物庫選擇',
     hairLength: '髮長',
-    allHair: '全部發長',
+    allHair: '全部髮長',
     hairLengths: { short: '短髮', medium: '中髮', 'medium-long': '中長髮', long: '長髮' },
     characterLibraryNote:
       '可從人物庫選擇或上傳圖片；上傳的圖片只在此瀏覽器中使用，不會傳到任何伺服器。',
