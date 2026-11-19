@@ -118,11 +118,11 @@ const showcaseCopy = {
 };
 export const showcaseText = (lang: Lang) => showcaseCopy[lang];
 
-// 主視覺固定用這三張（上游圖庫）
+// 主視覺固定用這三張（姿勢＝Muse 自製，服裝與人物＝上游圖庫）
 const hero = {
   pose: {
-    thumb: 'https://ai-pose-gallery.pages.dev/thumbs/full_single_P021_front.jpg',
-    image: 'https://ai-pose-gallery.pages.dev/img/full_single_P021_front.png',
+    thumb: `${import.meta.env.BASE_URL}muse-assets/pose/thumbnails/full_single_P021_front.webp`,
+    image: `${import.meta.env.BASE_URL}muse-assets/pose/images/full_single_P021_front.webp`,
   },
   costume: {
     thumb: 'https://ai-costume-gallery.pages.dev/thumbs/SPR-0083.webp',

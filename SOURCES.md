@@ -4,8 +4,8 @@ Portrait metadata, WebP thumbnails and PNG originals: https://ai-portrait-galler
 
 | Dataset                                                          | Source                                      | Creator                        |
 | ---------------------------------------------------------------- | ------------------------------------------- | ------------------------------ |
-| Pose metadata, thumbnails, full-resolution references            | https://ai-pose-gallery.pages.dev/          | ギア · https://x.com/giaaibusi |
-| Optional pose depth-map thumbnails and originals                 | https://ai-pose-depth-gallery.pages.dev/    | ギア · https://x.com/giaaibusi |
+| Pose metadata (IDs, names, categories)                           | https://ai-pose-gallery.pages.dev/          | ギア · https://x.com/giaaibusi |
+| Pose line art and depth maps (since 2026-11-19)                  | Muse-made, `public/muse-assets/pose/`       | Muse (AI-generated mannequins) |
 | Costume metadata, thumbnails, WebP previews, PNG originals       | https://ai-costume-gallery.pages.dev/       | ギア · https://x.com/giaaibusi |
 | Anime costume metadata, thumbnails, WebP previews, PNG originals | https://ai-costume-anime-gallery.pages.dev/ | ギア · https://x.com/giaaibusi |
 | Chinese pose names                                               | https://github.com/anhao/ai-pose-gallery-zh | Anhao                          |

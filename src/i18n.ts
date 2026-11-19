@@ -45,7 +45,7 @@ export const copy = {
     projectSourcesCodeA: '程序基础：开源项目',
     projectSourcesCodeB: '（MIT 授权）。',
     projectSourcesImages:
-      '参考图片：姿势与服装来自 AI Pose Gallery 与 AI Costume Gallery，人物来自 AI Portrait Gallery；图片由原站直接载入，著作权归原作者所有，使用规则以各原站说明为准。',
+      '参考图片：姿势线稿与深度图由 Muse 自制（AI 生成的无脸人偶，姿势名称参考 AI Pose Gallery）；服装来自 AI Costume Gallery，人物来自 AI Portrait Gallery，这两类图片由原站直接载入，著作权归原作者所有，使用规则以各原站说明为准。',
     projectScale: '项目数据规模',
     projectReferences: '组参考',
     projectImages: '张图片',
@@ -248,7 +248,7 @@ export const copy = {
     projectSourcesCodeA: '程式基礎：開源專案',
     projectSourcesCodeB: '（MIT 授權）。',
     projectSourcesImages:
-      '參考圖片：姿勢與服裝來自 AI Pose Gallery 與 AI Costume Gallery，人物來自 AI Portrait Gallery；圖片由原站直接載入，著作權歸原作者所有，使用規則以各原站說明為準。',
+      '參考圖片：姿勢線稿與深度圖由 Muse 自製（AI 生成的無臉人偶，姿勢名稱參考 AI Pose Gallery）；服裝來自 AI Costume Gallery，人物來自 AI Portrait Gallery，這兩類圖片由原站直接載入，著作權歸原作者所有，使用規則以各原站說明為準。',
     projectScale: '專案資料規模',
     projectReferences: '組參考',
     projectImages: '張圖片',
@@ -451,7 +451,7 @@ export const copy = {
     projectSourcesCodeA: 'Code base: the open-source project',
     projectSourcesCodeB: ' (MIT License).',
     projectSourcesImages:
-      'Reference images: poses and outfits from AI Pose Gallery and AI Costume Gallery, characters from AI Portrait Gallery. Images load directly from the original sites and remain the property of their creators; see each site for usage terms.',
+      'Reference images: pose line art and depth maps are made by Muse (AI-generated faceless mannequins; pose names follow AI Pose Gallery). Outfits come from AI Costume Gallery and characters from AI Portrait Gallery; those images load directly from the original sites and remain the property of their creators; see each site for usage terms.',
     projectScale: 'Project data scale',
     projectReferences: 'references',
     projectImages: 'images',

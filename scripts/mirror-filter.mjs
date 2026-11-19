@@ -28,8 +28,12 @@ for (const item of items)
 const extrasPath = 'data/muse-extras.json';
 const extras = existsSync(extrasPath) ? JSON.parse(readFileSync(extrasPath, 'utf8')).items : [];
 const known = new Set(items.map((item) => item.id));
+// Muse 自製取代上游同編號素材（replaces === 'upstream'）：沿用原編號、原位置，收藏與使用次數不受影響
+const position = new Map(items.map((item, index) => [item.id, index]));
 for (const extra of extras) {
-  if (known.has(extra.id)) throw new Error(`自製素材 id 重複：${extra.id}`);
+  if (extra.replaces === 'upstream' && !position.has(extra.id))
+    throw new Error(`要取代的上游素材不存在：${extra.id}`);
+  if (known.has(extra.id) && extra.replaces !== 'upstream') throw new Error(`自製素材 id 重複：${extra.id}`);
   for (const variant of extra.variants)
     for (const url of [
       variant.thumbnail,
@@ -40,7 +44,8 @@ for (const extra of extras) {
       if (!url.startsWith('/muse-assets/')) throw new Error(`自製素材網址不在 /muse-assets/：${extra.id} ${url}`);
       if (!existsSync(`public${url}`)) throw new Error(`自製素材檔案不存在：public${url}`);
     }
-  items.push(extra);
+  if (extra.replaces === 'upstream') items[position.get(extra.id)] = extra;
+  else items.push(extra);
   known.add(extra.id);
 }
 
