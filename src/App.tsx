@@ -62,6 +62,16 @@ import type { Catalog, Lang, Reference, Variant } from './types';
 import { localeOf } from './types';
 
 type Board = { pose?: string; costume?: string; character?: string };
+// Card angle strip: full English names ("High angle", "Three-quarter") cannot fit a thumbnail at a
+// readable 11px, so the strip uses short forms; the button's aria-label keeps the full name.
+const shortAngleEn: Record<string, string> = {
+  front: 'Front',
+  high: 'High',
+  low: 'Low',
+  side: 'Side',
+  diag: '3/4',
+};
+
 const initialParams = new URLSearchParams(window.location.search);
 const isLanguage = (v: unknown): v is Lang => v === 'zh' || v === 'tw' || v === 'en';
 // 瀏覽器是繁體中文（台灣、香港、澳門或標明 Hant）就預設繁體，其他中文預設簡體
@@ -1235,7 +1245,9 @@ export default function App() {
                                     />
                                   </span>
                                   <span className="pose-angle-thumb-label">
-                                    {variant.label[lang]}
+                                    {lang === 'en'
+                                      ? (shortAngleEn[variant.angle] ?? variant.label[lang])
+                                      : variant.label[lang]}
                                   </span>
                                 </button>
                               ))}

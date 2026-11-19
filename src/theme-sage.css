@@ -978,7 +978,8 @@ footer {
   text-align: center;
 }
 .popular-column li:nth-child(-n + 3) .rank {
-  color: var(--gold);
+  /* 金色名次：原 --gold #c2a15a 在紙白底只有 2.4:1，大字標準 3:1 → 同色相加深到 3.9:1（--gold 其他裝飾用途不動） */
+  color: #9a7a36;
   font-weight: 700;
 }
 .popular-column img {
@@ -1038,4 +1039,19 @@ footer {
   font-size: 13px;
   line-height: 1.7;
   color: var(--muted);
+}
+
+/* Legibility floor (2026-11-20): card text is 11px minimum. On phones an English angle label cannot fit a
+   22-25px thumbnail even in short form, so the strip shows thumbnails only there (active one stays outlined,
+   aria-label keeps the name). Chinese two-character labels fit and stay visible. */
+@media (max-width: 520px) {
+  html:lang(en) .pose-angle-thumb-label {
+    display: none;
+  }
+}
+
+/* Home already shows the bold "THE COLLECTION" kicker right above this section; the section's own small
+   kicker duplicated it (unnoticeable at the old 7px, obvious at the 11px floor). Other views keep theirs. */
+.library-main-all .collection-header .section-kicker {
+  display: none;
 }
