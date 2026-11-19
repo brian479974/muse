@@ -42,6 +42,15 @@ function resolveMuseAssets(item: Catalog['items'][number], base: URL) {
       thumbnail: abs(variant.thumbnail),
       image: abs(variant.image),
       original: abs(variant.original),
+      ...(variant.depth
+        ? {
+            depth: {
+              thumbnail: abs(variant.depth.thumbnail),
+              image: abs(variant.depth.image),
+              original: abs(variant.depth.original),
+            },
+          }
+        : {}),
     })),
   };
 }

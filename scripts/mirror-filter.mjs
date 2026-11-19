@@ -31,7 +31,12 @@ const known = new Set(items.map((item) => item.id));
 for (const extra of extras) {
   if (known.has(extra.id)) throw new Error(`自製素材 id 重複：${extra.id}`);
   for (const variant of extra.variants)
-    for (const url of [variant.thumbnail, variant.image, variant.original]) {
+    for (const url of [
+      variant.thumbnail,
+      variant.image,
+      variant.original,
+      ...(variant.depth ? [variant.depth.thumbnail, variant.depth.image, variant.depth.original] : []),
+    ]) {
       if (!url.startsWith('/muse-assets/')) throw new Error(`自製素材網址不在 /muse-assets/：${extra.id} ${url}`);
       if (!existsSync(`public${url}`)) throw new Error(`自製素材檔案不存在：public${url}`);
     }

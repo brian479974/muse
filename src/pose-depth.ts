@@ -8,7 +8,8 @@ export function hasPoseDepth(item: Reference): boolean {
     item.kind === 'pose' &&
     item.variants.length > 0 &&
     item.variants.every((variant) => {
-      if (item.collection === 'custom') return !!variant.depth;
+      // 本站自建（custom）與 Muse 自製（source === 'muse'）的深度圖跟著每個角度一起存在 variant.depth
+      if (item.collection === 'custom' || item.source === 'muse') return !!variant.depth;
       const origin = new URL(variant.original).origin;
       return origin === poseOrigin || origin === poseDepthOrigin;
     })
@@ -26,7 +27,7 @@ export function isDepthVariant(variant: Variant): boolean {
 
 export function withPoseDepth(item: Reference): Reference {
   if (!hasPoseDepth(item)) return item;
-  if (item.collection === 'custom')
+  if (item.collection === 'custom' || item.source === 'muse')
     return {
       ...item,
       variants: item.variants.map((variant) => ({ ...variant, ...variant.depth!, depthMap: true })),
