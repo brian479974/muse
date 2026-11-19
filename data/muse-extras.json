@@ -9006,7 +9006,7 @@
    "kind": "pose",
    "code": "P008",
    "title": {
-    "zh": "单膝立起・双手抱头后",
+    "zh": "双膝立起・双手抱头后",
     "en": "Knees raised with hands behind head"
    },
    "category": {
@@ -9027,7 +9027,7 @@
    ],
    "extended": false,
    "keywords": {
-    "zh": "单膝立起・双手抱头后",
+    "zh": "双膝立起・双手抱头后",
     "en": "Knees raised with hands behind head"
    },
    "source": "muse",
@@ -10553,8 +10553,8 @@
    "kind": "pose",
    "code": "P022",
    "title": {
-    "zh": "站立・双臂后展挺胸",
-    "en": "Standing with arms behind back"
+    "zh": "站立・双手扶后腰挺胸",
+    "en": "Standing with hands on the lower back, chest out"
    },
    "category": {
     "id": "standing",
@@ -10574,8 +10574,8 @@
    ],
    "extended": false,
    "keywords": {
-    "zh": "站立・双臂后展挺胸",
-    "en": "Standing with arms behind back"
+    "zh": "站立・双手扶后腰挺胸",
+    "en": "Standing with hands on the lower back, chest out"
    },
    "source": "muse",
    "replaces": "upstream",
@@ -12219,8 +12219,8 @@
    "kind": "pose",
    "code": "P038",
    "title": {
-    "zh": "跪立・侧倾・手触地",
-    "en": "Kneeling side lean with hand on floor"
+    "zh": "跪坐・侧倾・手触地",
+    "en": "Sitting on the heels, side lean, hand on floor"
    },
    "category": {
     "id": "kneeling",
@@ -12240,8 +12240,8 @@
    ],
    "extended": false,
    "keywords": {
-    "zh": "跪立・侧倾・手触地",
-    "en": "Kneeling side lean with hand on floor"
+    "zh": "跪坐・侧倾・手触地",
+    "en": "Sitting on the heels, side lean, hand on floor"
    },
    "source": "muse",
    "replaces": "upstream",
@@ -15432,8 +15432,8 @@
    "kind": "pose",
    "code": "P068",
    "title": {
-    "zh": "前倾・手触小腿",
-    "en": "Forward lean reaching toward shins"
+    "zh": "前倾・手扶膝下",
+    "en": "Forward lean with hands just below the knees"
    },
    "category": {
     "id": "leaning",
@@ -15453,8 +15453,8 @@
    ],
    "extended": false,
    "keywords": {
-    "zh": "前倾・手触小腿",
-    "en": "Forward lean reaching toward shins"
+    "zh": "前倾・手扶膝下",
+    "en": "Forward lean with hands just below the knees"
    },
    "source": "muse",
    "replaces": "upstream",
@@ -21370,8 +21370,8 @@
    "kind": "pose",
    "code": "FPS-013",
    "title": {
-    "zh": "肩靠墙・脚踝交叉",
-    "en": "Leaning on a wall, ankles crossed"
+    "zh": "站立・脚踝交叉",
+    "en": "Standing with ankles crossed"
    },
    "category": {
     "id": "standing",
@@ -21391,8 +21391,8 @@
     }
    ],
    "keywords": {
-    "zh": "肩靠墙・脚踝交叉",
-    "en": "Leaning on a wall, ankles crossed"
+    "zh": "站立・脚踝交叉",
+    "en": "Standing with ankles crossed"
    },
    "source": "muse",
    "provenance": {
@@ -24438,13 +24438,13 @@
    "kind": "pose",
    "code": "FPS-039",
    "title": {
-    "zh": "前倾靠栏杆",
-    "en": "Leaning on a railing"
+    "zh": "双臂搭栏杆",
+    "en": "Resting forearms on a railing"
    },
    "category": {
-    "id": "leaning",
-    "zh": "前倾",
-    "en": "Leaning forward"
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -24459,8 +24459,8 @@
     }
    ],
    "keywords": {
-    "zh": "前倾靠栏杆",
-    "en": "Leaning on a railing"
+    "zh": "双臂搭栏杆",
+    "en": "Resting forearms on a railing"
    },
    "source": "muse",
    "provenance": {
@@ -28214,8 +28214,8 @@
    "kind": "pose",
    "code": "MPS-087",
    "title": {
-    "zh": "上勾拳（男）",
-    "en": "Uppercut (male)"
+    "zh": "拳击防守架势（男）",
+    "en": "Boxing guard stance (male)"
    },
    "category": {
     "id": "standing",
@@ -28235,8 +28235,8 @@
     }
    ],
    "keywords": {
-    "zh": "上勾拳（男）",
-    "en": "Uppercut (male)"
+    "zh": "拳击防守架势（男）",
+    "en": "Boxing guard stance (male)"
    },
    "source": "muse",
    "provenance": {
@@ -31046,13 +31046,13 @@
    "kind": "pose",
    "code": "MPS-111",
    "title": {
-    "zh": "前倾靠栏杆（男）",
-    "en": "Leaning on a railing (male)"
+    "zh": "靠栏杆・双手交握（男）",
+    "en": "Resting on a railing, hands clasped (male)"
    },
    "category": {
-    "id": "leaning",
-    "zh": "前倾",
-    "en": "Leaning forward"
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -31067,8 +31067,8 @@
     }
    ],
    "keywords": {
-    "zh": "前倾靠栏杆（男）",
-    "en": "Leaning on a railing (male)"
+    "zh": "靠栏杆・双手交握（男）",
+    "en": "Resting on a railing, hands clasped (male)"
    },
    "source": "muse",
    "provenance": {

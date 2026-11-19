@@ -19,12 +19,29 @@ export function RemoteImage({
   eager?: boolean;
   retryable?: boolean;
 }) {
+  // 手機網路一閃斷就會讓單張圖失敗；先自動重試兩次（間隔 0.6、1.2 秒，網址加 retry 參數避開快取到的失敗），
+  // 還是不行才顯示「圖片暫時無法載入」。2026-11-20 選擇器小圖卡在失敗畫面、但伺服器上的檔案其實是好的。
   const [failed, setFailed] = useState(false);
   const [attempt, setAttempt] = useState(0);
+  const [waiting, setWaiting] = useState(false);
+  const timer = useRef<number | undefined>(undefined);
   useEffect(() => {
     setFailed(false);
     setAttempt(0);
+    setWaiting(false);
+    window.clearTimeout(timer.current);
   }, [src]);
+  useEffect(() => () => window.clearTimeout(timer.current), []);
+  const url = attempt === 0 ? src : `${src}${src.includes('?') ? '&' : '?'}retry=${attempt}`;
+  const onError = () => {
+    if (attempt < AUTO_RETRIES) {
+      setWaiting(true);
+      timer.current = window.setTimeout(() => {
+        setWaiting(false);
+        setAttempt((v) => v + 1);
+      }, 600 * (attempt + 1));
+    } else setFailed(true);
+  };
   return failed ? (
     <div className={`image-fallback ${className}`}>
       <Info size={22} />
@@ -44,15 +61,18 @@ export function RemoteImage({
     <img
       key={`${src}-${attempt}`}
       className={className}
-      src={src}
+      src={url}
       alt={alt}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
       referrerPolicy="no-referrer"
-      onError={() => setFailed(true)}
+      style={waiting ? { visibility: 'hidden' } : undefined}
+      onError={onError}
     />
   );
 }
+
+const AUTO_RETRIES = 2;
 
 export function Modal({
   children,
