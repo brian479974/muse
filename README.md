@@ -2,7 +2,7 @@
 
 姿勢、服裝與人物參考圖庫，可以把三種參考組合起來一鍵生成角色圖。改編自開源專案 open-pose-costume（非官方版本）。
 
-- 網站：https://muse.markforged.tw/
+- 網站：https://muse.toai.tw/
 - 原專案：https://github.com/hongye007/open-pose-costume（作者 hongye007 · [@HongyeMain](https://x.com/HongyeMain)）
 - 原站：https://omilic.com/
 

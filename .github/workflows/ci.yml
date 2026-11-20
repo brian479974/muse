@@ -19,7 +19,7 @@ jobs:
       - run: node scripts/mirror-filter.mjs
       - name: Verify no custom assets are shipped
         run: test ! -e public/custom
-      # 自訂網域 muse.markforged.tw 在根目錄，用預設 base '/'
+      # 自訂網域 muse.toai.tw 在根目錄，用預設 base '/'
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

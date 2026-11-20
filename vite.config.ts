@@ -31,7 +31,7 @@ function contentSecurityPolicy(): Plugin {
   };
 }
 
-// 正式網址 https://muse.markforged.tw/ 在網域根目錄；要部署到子路徑時用 VITE_BASE 指定。
+// 正式網址 https://muse.toai.tw/ 在網域根目錄；要部署到子路徑時用 VITE_BASE 指定。
 export default defineConfig(({ command, isPreview }) => ({
   base: command === 'build' || isPreview ? process.env.VITE_BASE || '/' : '/',
   plugins: [react(), contentSecurityPolicy()],
