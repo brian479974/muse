@@ -26,7 +26,9 @@ export interface Reference {
   source: string;
   collection?: 'custom';
   tags?: (Localized & { id: string })[];
-  country?: Localized & { id: string };
+  /** 人物：年齡段與族裔（選項見 data/character-facets.json） */
+  age?: Localized & { id: string };
+  ethnicity?: Localized & { id: string };
   portrait?: { section: 'face' | 'styling'; hair: string };
   variants: Variant[];
 }

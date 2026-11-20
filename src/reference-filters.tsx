@@ -1,7 +1,13 @@
 import type { ReactNode } from 'react';
 import { copy } from './i18n';
-import { filterReferences, isSubjectTag, referenceTagLabel, subjectTagIds } from './library';
-import type { LibraryFilters } from './library';
+import {
+  characterFacetOrder,
+  filterReferences,
+  isSubjectTag,
+  referenceTagLabel,
+  subjectTagIds,
+} from './library';
+import type { CharacterFacet, LibraryFilters } from './library';
 import type { Kind, Lang, Reference } from './types';
 import { FilterSelect } from './filter-select';
 
@@ -67,7 +73,8 @@ export function ReferenceFilters({
   onCollection,
   onTag,
   onStyle,
-  onCountry,
+  onAge,
+  onEthnicity,
   children,
 }: {
   items: Reference[];
@@ -76,16 +83,12 @@ export function ReferenceFilters({
   onCollection: (value: string) => void;
   onTag: (value: string) => void;
   onStyle: (value: string) => void;
-  onCountry: (value: string) => void;
+  onAge: (value: string) => void;
+  onEthnicity: (value: string) => void;
   children?: ReactNode;
 }) {
   const t = copy[lang];
-  const { collection = 'all', tag = 'all', style = 'all', country = 'all' } = filters;
-  const countries = [
-    ...new Map(
-      items.filter((item) => item.country).map((item) => [item.country!.id, item.country!]),
-    ).values(),
-  ];
+  const { collection = 'all', tag = 'all', style = 'all' } = filters;
   const tags = [
     ...new Map(items.flatMap((item) => item.tags || []).map((value) => [value.id, value])).values(),
   ];
@@ -93,8 +96,42 @@ export function ReferenceFilters({
     (id) => tags.some((value) => value.id === id) || tag === id,
   );
   const styles = tags.filter((value) => !isSubjectTag(value.id));
-  const count = (key: 'collection' | 'tag' | 'style' | 'country', value: string) =>
+  const count = (key: 'collection' | 'tag' | 'style' | CharacterFacet, value: string) =>
     filterReferences(items, { ...filters, [key]: value }).length;
+  // 人物的「族裔」「年齡」：只有清單裡有人物時才出現，選項照固定順序（不照資料先後）
+  const facetField = (key: CharacterFacet, onChange: (value: string) => void) => {
+    const current = filters[key] || 'all';
+    const labels = new Map(
+      items.flatMap((item) => (item[key] ? [[item[key]!.id, item[key]![lang]] as const] : [])),
+    );
+    if (!labels.size && current === 'all') return null;
+    const label = key === 'age' ? t.ageFilter : t.ethnicityFilter;
+    return (
+      <div className="reference-filter-field">
+        <span>{label}</span>
+        <FilterSelect
+          label={label}
+          lang={lang}
+          value={current}
+          onChange={onChange}
+          options={[
+            { value: 'all', label: key === 'age' ? t.allAges : t.allEthnicities },
+            ...characterFacetOrder[key]
+              .filter((id) => labels.has(id))
+              .map((id) => ({
+                value: id,
+                label: labels.get(id)!,
+                count: count(key, id),
+                disabled: !count(key, id) && current !== id,
+              })),
+            ...(current !== 'all' && !labels.has(current)
+              ? [{ value: current, label: current, count: 0 }]
+              : []),
+          ]}
+        />
+      </div>
+    );
+  };
   return (
     <div className="reference-filter-wrap">
       <div className="reference-filters">
@@ -164,29 +201,8 @@ export function ReferenceFilters({
             />
           </div>
         )}
-        {(countries.length > 0 || country !== 'all') && (
-          <div className="reference-filter-field">
-            <span>{t.countryFilter}</span>
-            <FilterSelect
-              label={t.countryFilter}
-              lang={lang}
-              value={country}
-              onChange={onCountry}
-              options={[
-                { value: 'all', label: t.allCountries },
-                ...countries.map((value) => ({
-                  value: value.id,
-                  label: value[lang],
-                  count: count('country', value.id),
-                  disabled: !count('country', value.id) && country !== value.id,
-                })),
-                ...(country !== 'all' && !countries.some((value) => value.id === country)
-                  ? [{ value: country, label: country, count: 0 }]
-                  : []),
-              ]}
-            />
-          </div>
-        )}
+        {facetField('ethnicity', onEthnicity)}
+        {facetField('age', onAge)}
       </div>
       {collection === 'custom' && (
         <details className="custom-usage-disclosure">
@@ -199,14 +215,15 @@ export function ReferenceFilters({
 }
 
 export function ReferenceBadges({ item, lang }: { item: Reference; lang: Lang }) {
-  if (!item.collection && !item.tags?.length && !item.country) return null;
+  if (!item.collection && !item.tags?.length && !item.ethnicity && !item.age) return null;
   return (
     <div className="reference-badges">
       {item.collection === 'custom' && <span>{copy[lang].customCollection}</span>}
       {item.tags?.map((tag) => (
         <span key={tag.id}>{referenceTagLabel(tag.id, lang, tag[lang])}</span>
       ))}
-      {item.country && <span>{item.country[lang]}</span>}
+      {item.ethnicity && <span>{item.ethnicity[lang]}</span>}
+      {item.age && <span>{item.age[lang]}</span>}
     </div>
   );
 }

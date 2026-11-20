@@ -94,14 +94,17 @@ const viewParam = initialParams.get('view');
 export default function App() {
   const [lang, setLang] = useState<Lang>(() => {
     const value = initialParams.get('lang');
-    return isLanguage(value)
-      ? value
-      : storageGet('opc-language', browserLang(), isLanguage);
+    return isLanguage(value) ? value : storageGet('opc-language', browserLang(), isLanguage);
   });
   const t = copy[lang];
-  const [showDomainNotice, setShowDomainNotice] = useState(() =>
-    window.location.hostname === 'hongye007.github.io' &&
-    !storageGet('opc-domain-notice-opt-out-v2', false, (value): value is boolean => typeof value === 'boolean'),
+  const [showDomainNotice, setShowDomainNotice] = useState(
+    () =>
+      window.location.hostname === 'hongye007.github.io' &&
+      !storageGet(
+        'opc-domain-notice-opt-out-v2',
+        false,
+        (value): value is boolean => typeof value === 'boolean',
+      ),
   );
   const [domainNoticeOptOut, setDomainNoticeOptOut] = useState(false);
   const dismissDomainNotice = () => {
@@ -130,7 +133,12 @@ export default function App() {
   );
   const [tag, setTag] = useState(readTagFilters(initialParams).tag);
   const [style, setStyle] = useState(readTagFilters(initialParams).style);
-  const [country, setCountry] = useState(initialParams.get('country') || 'all');
+  const [age, setAge] = useState(initialParams.get('age') || 'all');
+  // 舊連結的 country=jp（上游人物一律標日本）改對到族裔「東亞」
+  const [ethnicity, setEthnicity] = useState(
+    initialParams.get('ethnicity') ||
+      (initialParams.get('country') === 'jp' ? 'east-asian' : 'all'),
+  );
   const [kind, setKind] = useState(
     viewParam === 'saved' &&
       ['pose', 'costume', 'character'].includes(initialParams.get('kind') || '')
@@ -206,7 +214,7 @@ export default function App() {
   }, [board]);
   useEffect(() => {
     setLimit(24);
-  }, [query, view, category, hair, collection, tag, style, country, kind, extended, sort]);
+  }, [query, view, category, hair, collection, tag, style, age, ethnicity, kind, extended, sort]);
   useEffect(() => () => clearTimeout(toastTimer.current), []);
   // 舊版曾把生圖服務的 API 金鑰與生成紀錄存在瀏覽器；網站已不再使用，開站時一併清掉
   useEffect(() => {
@@ -261,7 +269,8 @@ export default function App() {
       ...(collection !== 'all' ? { collection } : {}),
       ...(tag !== 'all' ? { tag } : {}),
       ...(style !== 'all' ? { style } : {}),
-      ...(country !== 'all' ? { country } : {}),
+      ...(ethnicity !== 'all' ? { ethnicity } : {}),
+      ...(age !== 'all' ? { age } : {}),
       ...(kind !== 'all' ? { kind } : {}),
       ...(sort !== 'curated' ? { sort } : {}),
       ...(angle !== 'front' ? { angle } : {}),
@@ -278,7 +287,8 @@ export default function App() {
     collection,
     tag,
     style,
-    country,
+    age,
+    ethnicity,
     kind,
     sort,
     extended,
@@ -309,16 +319,24 @@ export default function App() {
       ),
     [eligible, view, saved],
   );
-  const filters = { category, hair, collection, tag, style, country, kind, query };
+  const filters = { category, hair, collection, tag, style, age, ethnicity, kind, query };
   const visible = useMemo(
-    () =>
-      sortItems(
-        filterReferences(byView, { category, hair, collection, tag, style, country, kind, query }),
-        sort,
-        lang,
-        stats?.counts,
-      ),
-    [byView, category, hair, collection, tag, style, country, kind, query, sort, lang, stats],
+    () => sortItems(filterReferences(byView, filters), sort, lang, stats?.counts),
+    [
+      byView,
+      category,
+      hair,
+      collection,
+      tag,
+      style,
+      age,
+      ethnicity,
+      kind,
+      query,
+      sort,
+      lang,
+      stats,
+    ],
   );
   useEffect(() => {
     const sentinel = loadMoreRef.current;
@@ -397,12 +415,23 @@ export default function App() {
     ...(style !== 'all'
       ? [{ key: 'style', label: referenceTagLabel(style, lang), clear: () => setStyle('all') }]
       : []),
-    ...(country !== 'all'
+    ...(ethnicity !== 'all'
       ? [
           {
-            key: 'country',
-            label: items.find((item) => item.country?.id === country)?.country?.[lang] || country,
-            clear: () => setCountry('all'),
+            key: 'ethnicity',
+            label:
+              items.find((item) => item.ethnicity?.id === ethnicity)?.ethnicity?.[lang] ||
+              ethnicity,
+            clear: () => setEthnicity('all'),
+          },
+        ]
+      : []),
+    ...(age !== 'all'
+      ? [
+          {
+            key: 'age',
+            label: items.find((item) => item.age?.id === age)?.age?.[lang] || age,
+            clear: () => setAge('all'),
           },
         ]
       : []),
@@ -495,7 +524,8 @@ export default function App() {
     setCollection('all');
     setTag('all');
     setStyle('all');
-    setCountry('all');
+    setAge('all');
+    setEthnicity('all');
     setKind('all');
     setQuery('');
   }
@@ -505,7 +535,8 @@ export default function App() {
     setCollection('all');
     setTag('all');
     setStyle('all');
-    setCountry('all');
+    setAge('all');
+    setEthnicity('all');
     setKind('all');
     setQuery('');
   }
@@ -525,9 +556,19 @@ export default function App() {
     return next;
   }
   function genderConflictNotice(item: Reference) {
-    if (item.kind === 'costume' && boardCharacter && !characterReference && !genderCompatible(item, boardCharacter))
+    if (
+      item.kind === 'costume' &&
+      boardCharacter &&
+      !characterReference &&
+      !genderCompatible(item, boardCharacter)
+    )
       notify(studioCopy[lang].genderRemovedCharacter);
-    if (item.kind === 'character' && boardCostume && !costumeReference && !genderCompatible(item, boardCostume))
+    if (
+      item.kind === 'character' &&
+      boardCostume &&
+      !costumeReference &&
+      !genderCompatible(item, boardCostume)
+    )
       notify(studioCopy[lang].genderRemovedCostume);
   }
   function addToBoard(item: Reference) {
@@ -987,7 +1028,9 @@ export default function App() {
               />
               <HomePopular lang={lang} ranks={ranks} onOpen={openDetail} />
               <HomeSteps lang={lang} onOpenStudio={openStudio} />
-              <span className="home-kicker collection-kicker">{showcaseText(lang).collectionKicker}</span>
+              <span className="home-kicker collection-kicker">
+                {showcaseText(lang).collectionKicker}
+              </span>
             </>
           )}
           <section className="collection" id="collection" aria-labelledby="collection-heading">
@@ -1032,7 +1075,8 @@ export default function App() {
                 onCollection={setCollection}
                 onTag={setTag}
                 onStyle={setStyle}
-                onCountry={setCountry}
+                onAge={setAge}
+                onEthnicity={setEthnicity}
               >
                 {view === 'saved' && (
                   <div className="reference-filter-field">
@@ -1636,22 +1680,43 @@ export default function App() {
         </Modal>
       )}
       {showDomainNotice && (
-        <Modal onClose={dismissDomainNotice} label={lang === 'zh' ? '新域名已启用' : 'Visit our new domain'} className="about-modal">
+        <Modal
+          onClose={dismissDomainNotice}
+          label={lang === 'zh' ? '新域名已启用' : 'Visit our new domain'}
+          className="about-modal"
+        >
           <div className="panel-heading">
             <h2>{lang === 'zh' ? '新域名已启用' : 'Visit our new domain'}</h2>
-            <button className="icon-button" aria-label={t.close} onClick={dismissDomainNotice}><X size={22} /></button>
+            <button className="icon-button" aria-label={t.close} onClick={dismissDomainNotice}>
+              <X size={22} />
+            </button>
           </div>
-          <p>{lang === 'zh'
-            ? '为了提供更稳定的网络访问服务，我们已启用新域名 omilic.com，建议前往新站继续使用。'
-            : 'For more reliable access, we have launched our new domain, omilic.com. We recommend continuing on the new site.'}</p>
-          <p>{lang === 'zh' ? '收藏和 API 配置保存在当前浏览器的本站数据中，切换域名后需要重新设置。' : 'Favorites and API settings are stored for this domain and will need to be set up again on the new site.'}</p>
+          <p>
+            {lang === 'zh'
+              ? '为了提供更稳定的网络访问服务，我们已启用新域名 omilic.com，建议前往新站继续使用。'
+              : 'For more reliable access, we have launched our new domain, omilic.com. We recommend continuing on the new site.'}
+          </p>
+          <p>
+            {lang === 'zh'
+              ? '收藏和 API 配置保存在当前浏览器的本站数据中，切换域名后需要重新设置。'
+              : 'Favorites and API settings are stored for this domain and will need to be set up again on the new site.'}
+          </p>
           <label className="domain-notice-opt-out">
-            <input type="checkbox" checked={domainNoticeOptOut} onChange={(event) => setDomainNoticeOptOut(event.target.checked)} />
+            <input
+              type="checkbox"
+              checked={domainNoticeOptOut}
+              onChange={(event) => setDomainNoticeOptOut(event.target.checked)}
+            />
             <span>{lang === 'zh' ? '不再提醒' : 'Do not remind me again'}</span>
           </label>
           <div className="domain-notice-actions">
-            <a className="primary-button" href={newDomainUrl} onClick={dismissDomainNotice}>{lang === 'zh' ? '前往新站' : 'Visit new site'}<ExternalLink size={16} /></a>
-            <button className="text-action" onClick={dismissDomainNotice}>{lang === 'zh' ? '暂时留在这里' : 'Stay here for now'}</button>
+            <a className="primary-button" href={newDomainUrl} onClick={dismissDomainNotice}>
+              {lang === 'zh' ? '前往新站' : 'Visit new site'}
+              <ExternalLink size={16} />
+            </a>
+            <button className="text-action" onClick={dismissDomainNotice}>
+              {lang === 'zh' ? '暂时留在这里' : 'Stay here for now'}
+            </button>
           </div>
         </Modal>
       )}

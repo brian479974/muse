@@ -19,7 +19,6 @@ export type Style = (typeof styleKeys)[number];
 export const referenceFingerprint = (references: ImageReference[]) =>
   references.map((ref) => `${ref.kind}:${ref.variant.original}`).join('|');
 
-
 export function ReferencePicker({
   kind,
   items,
@@ -45,14 +44,15 @@ export function ReferencePicker({
   const [collection, setCollection] = useState('all');
   const [tag, setTag] = useState('all');
   const [style, setStyle] = useState('all');
-  const [country, setCountry] = useState('all');
+  const [age, setAge] = useState('all');
+  const [ethnicity, setEthnicity] = useState('all');
   const [limit, setLimit] = useState(24);
   const [cardAngles, setCardAngles] = useState<Record<string, string>>({});
   const scrollRef = useRef<HTMLDivElement>(null);
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const Icon = referenceIcons[kind];
   const available = useMemo(() => items.filter((item) => item.kind === kind), [items, kind]);
-  const filters = { category, collection, tag, style, country, query };
+  const filters = { category, collection, tag, style, age, ethnicity, query };
   const filtered = filterReferences(available, filters);
   const hasMore = filtered.length > limit;
   useEffect(() => {
@@ -68,11 +68,11 @@ export function ReferencePicker({
     );
     observer.observe(sentinel);
     return () => observer.disconnect();
-  }, [hasMore, limit, filtered.length, query, category, collection, tag, style, country]);
+  }, [hasMore, limit, filtered.length, query, category, collection, tag, style, age, ethnicity]);
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: 0 });
     setLimit(24);
-  }, [query, category, collection, tag, style, country]);
+  }, [query, category, collection, tag, style, age, ethnicity]);
   return (
     <Modal
       onClose={onClose}
@@ -133,7 +133,8 @@ export function ReferencePicker({
           onCollection={setCollection}
           onTag={setTag}
           onStyle={setStyle}
-          onCountry={setCountry}
+          onAge={setAge}
+          onEthnicity={setEthnicity}
         >
           <CategoryFilter items={available} filters={filters} lang={lang} onChange={setCategory} />
         </ReferenceFilters>

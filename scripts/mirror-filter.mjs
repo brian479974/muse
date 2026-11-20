@@ -61,6 +61,29 @@ for (const extra of extras) {
   known.add(extra.id);
 }
 
+// 人物的「年齡」「族裔」：選項在 data/character-facets.json，每張的標註在 data/character-attributes.json。
+// 舊的「國家」欄位（上游一律寫日本，自製的沒寫）拿掉；任何人物沒標到或標了不存在的選項就中止，不讓沒分類的人物上線
+const facets = JSON.parse(readFileSync('data/character-facets.json', 'utf8'));
+const attributes = JSON.parse(readFileSync('data/character-attributes.json', 'utf8')).items;
+const facetLabel = Object.fromEntries(
+  ['age', 'ethnicity'].map((key) => [key, new Map(facets[key].map((value) => [value.id, value]))]),
+);
+const unlabeled = [];
+for (const item of items) {
+  delete item.country;
+  if (item.kind !== 'character') continue;
+  const attr = attributes[item.id];
+  for (const key of ['age', 'ethnicity']) {
+    const value = attr && facetLabel[key].get(attr[key]);
+    if (!value) unlabeled.push(`${item.id} ${key}=${attr?.[key]}`);
+    else item[key] = { id: value.id, zh: value.zh, en: value.en };
+  }
+}
+if (unlabeled.length)
+  throw new Error(
+    `人物缺年齡／族裔標註（data/character-attributes.json）：${unlabeled.length} 筆，例如 ${unlabeled.slice(0, 5).join('、')}`,
+  );
+
 // 每個同時有 zh 與 en 字串的物件（標題、分類、關鍵字、標籤、視角名稱…）補上繁體 tw
 let converted = 0;
 const cache = new Map();

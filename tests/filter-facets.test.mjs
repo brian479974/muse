@@ -133,43 +133,39 @@ test('sort by code follows the visible numeric code rather than the internal ID'
   assert.deepEqual(source, [a, b]);
 });
 
-test('character country groups intersect with gender, style, source and bilingual search', () => {
-  const japan = filterReferences(items, { kind: 'character', country: 'jp' });
-  assert.equal(japan.length, 1501);
-  assert.equal(filterReferences(items, { country: 'jp', collection: 'builtin' }).length, 1499);
-  assert.equal(
-    filterReferences(items, { country: 'jp', tag: 'female', style: 'photo' }).length,
-    1500,
-  );
-  assert.equal(filterReferences(items, { country: 'jp', tag: 'male', style: 'photo' }).length, 1);
-  assert.equal(filterReferences(items, { country: 'fr', tag: 'male', hair: 'short' }).length, 1);
-  for (const country of ['fr', 'ca', 'us', 'de', 'br', 'in', 'ru', 'au', 'uk']) {
-    const pair = filterReferences(items, { country });
-    assert.equal(pair.length, 2);
-    assert.deepEqual(
-      new Set(
-        pair.flatMap((item) =>
-          item.tags.filter((tag) => ['male', 'female'].includes(tag.id)).map((tag) => tag.id),
-        ),
-      ),
-      new Set(['male', 'female']),
-    );
+test('every character has one age band and one ethnicity, in the fixed facet order, and they intersect with other filters', async () => {
+  const facets = await readJson('data/character-facets.json');
+  const characters = items.filter((item) => item.kind === 'character');
+  assert.equal(characters.length, 2105);
+  // 舊「國家」欄位已移除：上游一律寫日本、自製的沒寫，選「日本」會讓所有男性和非東亞的臉消失
+  assert.equal(items.filter((item) => 'country' in item).length, 0);
+  for (const key of ['age', 'ethnicity']) {
+    const ids = facets[key].map((value) => value.id);
+    assert.ok(characters.every((item) => ids.includes(item[key]?.id)), `${key} missing`);
+    assert.ok(items.filter((item) => item.kind !== 'character').every((item) => !item[key]));
+    // 每個選項都有人，加總剛好等於全部人物
+    const counts = ids.map((id) => filterReferences(items, { [key]: id }).length);
+    assert.ok(counts.every((n) => n > 0), `${key} empty option`);
+    assert.equal(counts.reduce((a, b) => a + b, 0), 2105);
+    for (const value of facets[key])
+      for (const item of characters.filter((item) => item[key].id === value.id))
+        assert.deepEqual(item[key], { id: value.id, zh: value.zh, en: value.en, tw: item[key].tw });
   }
-  const korea = filterReferences(items, { country: 'kr' });
-  assert.equal(korea.length, 1);
-  assert.deepEqual(
-    new Set(korea.flatMap((item) => item.tags.map((tag) => tag.id))),
-    new Set(['female', 'photo']),
-  );
-  assert.equal(
-    filterReferences(items, { country: 'international', tag: 'male', style: 'photo' }).length,
-    6,
-  );
-  assert.equal(filterReferences(items, { kind: 'pose', country: 'jp' }).length, 0);
-  assert.equal(filterReferences(items, { country: 'unknown' }).length, 0);
-  for (const query of ['日本 女性 写实', 'Japan Female Photographic'])
-    assert.equal(filterReferences(items, { kind: 'character', query }).length, 1500);
-  assert.equal(filterReferences(items, { kind: 'character', country: 'all' }).length, 1538);
+  assert.equal(filterReferences(items, { ethnicity: 'east-asian' }).length, 1684);
+  assert.equal(filterReferences(items, { age: '50-plus' }).length, 136);
+  // 跟性別、髮長、素材來源交叉：上游圖庫全部是東亞女性
+  assert.equal(filterReferences(items, { ethnicity: 'east-asian', collection: 'builtin' }).length, 1684);
+  assert.equal(filterReferences(items, { ethnicity: 'black', tag: 'female' }).length > 0, true);
+  assert.equal(filterReferences(items, { ethnicity: 'black', tag: 'male' }).length > 0, true);
+  assert.equal(filterReferences(items, { age: '50-plus', tag: 'male', hair: 'short' }).length > 0, true);
+  assert.equal(filterReferences(items, { kind: 'pose', age: '18-29' }).length, 0);
+  assert.equal(filterReferences(items, { ethnicity: 'unknown' }).length, 0);
+  // 繁簡英都搜得到
+  for (const query of ['东亚', '東亞'])
+    assert.equal(filterReferences(items, { kind: 'character', query }).length, 1684);
+  // 搜尋是比對子字串：英文 East Asian 也會找到 Southeast Asian
+  assert.equal(filterReferences(items, { kind: 'character', query: 'East Asian' }).length, 1684 + 81);
+  assert.equal(filterReferences(items, { kind: 'character', query: '50 歲以上' }).length, 136);
 });
 
 test('visible codes are searchable and one tag ID has one bilingual display name', () => {

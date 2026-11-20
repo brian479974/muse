@@ -1,0 +1,20 @@
+{
+ "note": "人物區「年齡」「族裔」兩個篩選的選項、名稱與順序（單一來源；繁體由 mirror-filter 從簡體自動轉）。每張人物的標註在 character-attributes.json，mirror-filter.mjs 套用到 catalog，沒標到的人物會讓建置失敗。族裔不是國籍：圖都是 AI 虛構人物，沒有國籍可言。",
+ "age": [
+  { "id": "18-29", "zh": "18–29 岁", "en": "Age 18–29" },
+  { "id": "30-39", "zh": "30–39 岁", "en": "Age 30–39" },
+  { "id": "40-49", "zh": "40–49 岁", "en": "Age 40–49" },
+  { "id": "50-plus", "zh": "50 岁以上", "en": "Age 50+" }
+ ],
+ "ethnicity": [
+  { "id": "east-asian", "zh": "东亚", "en": "East Asian" },
+  { "id": "southeast-asian", "zh": "东南亚", "en": "Southeast Asian" },
+  { "id": "south-asian", "zh": "南亚", "en": "South Asian" },
+  { "id": "central-asian", "zh": "中亚", "en": "Central Asian" },
+  { "id": "middle-eastern", "zh": "中东", "en": "Middle Eastern" },
+  { "id": "white", "zh": "欧美白人", "en": "White" },
+  { "id": "black", "zh": "非裔", "en": "Black" },
+  { "id": "latino", "zh": "拉丁裔", "en": "Latino" },
+  { "id": "pacific-islander", "zh": "太平洋岛民", "en": "Pacific Islander" }
+ ]
+}

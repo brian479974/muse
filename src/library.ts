@@ -1,6 +1,7 @@
 import type { Lang, Reference } from './types';
 import { localeOf } from './types';
 import vocabulary from '../data/vocabulary.json';
+import characterFacets from '../data/character-facets.json';
 
 export type View = 'all' | 'pose' | 'costume' | 'character' | 'saved' | 'studio';
 export type Sort = 'curated' | 'popular' | 'name' | 'code';
@@ -22,12 +23,19 @@ const tagVocabulary: Record<string, Record<Lang, string>> = {
 export function referenceTagLabel(id: string, lang: Lang, fallback?: string) {
   return tagVocabulary[id]?.[lang] || fallback || id;
 }
+/** 人物篩選「年齡」「族裔」的選項固定順序（單一來源 data/character-facets.json） */
+export const characterFacetOrder = {
+  age: characterFacets.age.map((value) => value.id),
+  ethnicity: characterFacets.ethnicity.map((value) => value.id),
+} as const;
+export type CharacterFacet = keyof typeof characterFacetOrder;
 export interface LibraryFilters {
   category?: string;
   collection?: string;
   tag?: string;
   style?: string;
-  country?: string;
+  age?: string;
+  ethnicity?: string;
   query?: string;
   hair?: string;
   kind?: string;
@@ -48,7 +56,8 @@ export function filterReferences(items: Reference[], filters: LibraryFilters): R
     collection = 'all',
     tag = 'all',
     style = 'all',
-    country = 'all',
+    age = 'all',
+    ethnicity = 'all',
     query = '',
     hair = 'all',
     kind = 'all',
@@ -60,7 +69,8 @@ export function filterReferences(items: Reference[], filters: LibraryFilters): R
       (hair === 'all' || item.portrait?.hair === hair) &&
       matchesExtension(item, collection, tag) &&
       (style === 'all' || !!item.tags?.some((value) => value.id === style)) &&
-      (country === 'all' || item.country?.id === country) &&
+      (age === 'all' || item.age?.id === age) &&
+      (ethnicity === 'all' || item.ethnicity?.id === ethnicity) &&
       matchesQuery(item, query),
   );
 }
@@ -104,7 +114,9 @@ export function matchesQuery(item: Reference, query: string): boolean {
     item.series.zh,
     item.series.tw,
     item.series.en,
-    ...(item.country ? [item.country.id, item.country.zh, item.country.tw, item.country.en] : []),
+    ...[item.age, item.ethnicity].flatMap((value) =>
+      value ? [value.id, value.zh, value.tw, value.en] : [],
+    ),
     ...(item.collection === 'custom' ? ['自建扩展', 'Custom'] : []),
     ...(item.tags || []).flatMap((tag) => [tag.id, tag.zh, tag.tw, tag.en]),
   ]
@@ -134,7 +146,10 @@ export function genderOf(item?: Pick<Reference, 'tags'>): FitGender | null {
   if (ids.includes('female')) return 'female';
   return null;
 }
-export function genderCompatible(a?: Pick<Reference, 'tags'>, b?: Pick<Reference, 'tags'>): boolean {
+export function genderCompatible(
+  a?: Pick<Reference, 'tags'>,
+  b?: Pick<Reference, 'tags'>,
+): boolean {
   const ga = genderOf(a),
     gb = genderOf(b);
   if (!ga || !gb || ga === 'unisex' || gb === 'unisex') return true;
