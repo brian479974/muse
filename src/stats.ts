@@ -31,7 +31,8 @@ export const isStats = (value: unknown): value is Stats =>
 
 /** 只在正式網站回報，本機開發與預覽不灌數字 */
 const reporting = () =>
-  typeof window !== 'undefined' && window.location.hostname === 'muse.markforged.tw';
+  typeof window !== 'undefined' &&
+  ['muse.toai.tw', 'muse.markforged.tw'].includes(window.location.hostname);
 
 export function track(action: StatsAction, refs: (Reference | undefined)[]) {
   if (!reporting()) return;

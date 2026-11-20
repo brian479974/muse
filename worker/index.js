@@ -2,7 +2,8 @@
 // 網站回報「哪張參考被下載圖卡（card）／下載原圖（ref）／複製提示詞（prompt）」，
 // 這裡只累加次數；不記 IP、不設 cookie、不收任何個人資料，使用者上傳的圖不會回報。
 // GET /stats 回傳各參考「放進圖卡並下載」的次數，網站拿來排熱門與排行榜。
-const ORIGINS = ['https://muse.markforged.tw', 'http://127.0.0.1:5199', 'http://localhost:5199'];
+// 2026-11-20 起正式網址是 muse.toai.tw；舊網址 muse.markforged.tw 轉址過去，切換期間兩個都收
+const ORIGINS = ['https://muse.toai.tw', 'https://muse.markforged.tw', 'http://127.0.0.1:5199', 'http://localhost:5199'];
 const ACTIONS = ['card', 'ref', 'prompt'];
 const KINDS = ['pose', 'costume', 'character'];
 const ID = /^[A-Za-z0-9_-]{1,64}$/;
