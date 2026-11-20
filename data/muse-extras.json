@@ -266,7 +266,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -283,6 +283,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m001_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m001_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m001_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m001_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m001_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m001_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m001_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m001_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m001_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m001_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m001_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m001_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m001_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m001_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m001_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m001_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m001_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m001_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m001_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m001_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m001_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m001_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m001_diag_depth.png"
      }
     }
    ]
@@ -320,7 +384,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -337,6 +401,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m002_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m002_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m002_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m002_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m002_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m002_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m002_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m002_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m002_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m002_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m002_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m002_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m002_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m002_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m002_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m002_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m002_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m002_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m002_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m002_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m002_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m002_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m002_diag_depth.png"
      }
     }
    ]
@@ -374,7 +502,7 @@
    "provenance": {
     "provider": "Grok",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -391,6 +519,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m003_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m003_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m003_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m003_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m003_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m003_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m003_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m003_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m003_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m003_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m003_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m003_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m003_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m003_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m003_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m003_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m003_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m003_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m003_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m003_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m003_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m003_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m003_diag_depth.png"
      }
     }
    ]
@@ -428,7 +620,7 @@
    "provenance": {
     "provider": "Grok",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -445,6 +637,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m004_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m004_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m004_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m004_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m004_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m004_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m004_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m004_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m004_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m004_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m004_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m004_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m004_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m004_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m004_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m004_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m004_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m004_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m004_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m004_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m004_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m004_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m004_diag_depth.png"
      }
     }
    ]
@@ -1154,9 +1410,9 @@
     "en": "Walking mid-stride (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -1178,7 +1434,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1195,6 +1451,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m005_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m005_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m005_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m005_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m005_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m005_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m005_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m005_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m005_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m005_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m005_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m005_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m005_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m005_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m005_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m005_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m005_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m005_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m005_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m005_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m005_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m005_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m005_diag_depth.png"
      }
     }
    ]
@@ -1232,7 +1552,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1250,6 +1570,70 @@
       "image": "/muse-assets/pose/images/muse-pose-m006_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m006_depth.png"
      }
+    },
+    {
+     "id": "muse-pose-m006_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m006_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m006_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m006_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m006_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m006_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m006_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m006_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m006_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m006_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m006_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m006_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m006_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m006_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m006_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m006_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m006_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m006_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m006_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m006_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m006_diag_depth.png"
+     }
     }
    ]
   },
@@ -1262,9 +1646,9 @@
     "en": "Leaning on a wall, ankles crossed (male)"
    },
    "category": {
-    "id": "leaning",
-    "zh": "前倾",
-    "en": "Leaning"
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -1286,7 +1670,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1304,6 +1688,70 @@
       "image": "/muse-assets/pose/images/muse-pose-m007_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m007_depth.png"
      }
+    },
+    {
+     "id": "muse-pose-m007_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m007_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m007_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m007_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m007_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m007_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m007_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m007_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m007_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m007_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m007_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m007_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m007_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m007_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m007_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m007_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m007_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m007_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m007_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m007_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m007_diag_depth.png"
+     }
     }
    ]
   },
@@ -1317,7 +1765,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -1340,7 +1788,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1357,6 +1805,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m009_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m009_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m009_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m009_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m009_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m009_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m009_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m009_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m009_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m009_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m009_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m009_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m009_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m009_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m009_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m009_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m009_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m009_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m009_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m009_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m009_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m009_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m009_diag_depth.png"
      }
     }
    ]
@@ -1394,7 +1906,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1412,6 +1924,70 @@
       "image": "/muse-assets/pose/images/muse-pose-m010_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m010_depth.png"
      }
+    },
+    {
+     "id": "muse-pose-m010_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m010_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m010_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m010_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m010_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m010_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m010_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m010_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m010_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m010_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m010_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m010_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m010_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m010_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m010_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m010_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m010_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m010_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m010_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m010_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m010_diag_depth.png"
+     }
     }
    ]
   },
@@ -1424,9 +2000,9 @@
     "en": "Running (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -1448,7 +2024,7 @@
    "provenance": {
     "provider": "Grok",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1465,6 +2041,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m011_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m011_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m011_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m011_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m011_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m011_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m011_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m011_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m011_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m011_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m011_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m011_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m011_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m011_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m011_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m011_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m011_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m011_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m011_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m011_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m011_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m011_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m011_diag_depth.png"
      }
     }
    ]
@@ -1502,7 +2142,7 @@
    "provenance": {
     "provider": "Grok",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1520,6 +2160,70 @@
       "image": "/muse-assets/pose/images/muse-pose-m012_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m012_depth.png"
      }
+    },
+    {
+     "id": "muse-pose-m012_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m012_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m012_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m012_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m012_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m012_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m012_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m012_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m012_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m012_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m012_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m012_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m012_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m012_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m012_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m012_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m012_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m012_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m012_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m012_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m012_diag_depth.png"
+     }
     }
    ]
   },
@@ -1532,9 +2236,9 @@
     "en": "Thinking, hand on chin (male)"
    },
    "category": {
-    "id": "gestures",
-    "zh": "手势与表情动作",
-    "en": "Gestures"
+    "id": "standing",
+    "zh": "站姿",
+    "en": "Standing"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -1556,7 +2260,7 @@
    "provenance": {
     "provider": "Grok",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1573,6 +2277,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m013_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m013_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m013_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m013_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m013_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m013_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m013_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m013_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m013_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m013_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m013_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m013_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m013_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m013_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m013_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m013_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m013_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m013_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m013_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m013_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m013_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m013_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m013_diag_depth.png"
      }
     }
    ]
@@ -1610,7 +2378,7 @@
    "provenance": {
     "provider": "Grok",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1627,6 +2395,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m014_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m014_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m014_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m014_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m014_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m014_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m014_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m014_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m014_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m014_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m014_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m014_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m014_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m014_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m014_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m014_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m014_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m014_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m014_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m014_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m014_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m014_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m014_diag_depth.png"
      }
     }
    ]
@@ -1664,7 +2496,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1681,6 +2513,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m015_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m015_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m015_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m015_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m015_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m015_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m015_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m015_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m015_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m015_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m015_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m015_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m015_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m015_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m015_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m015_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m015_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m015_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m015_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m015_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m015_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m015_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m015_diag_depth.png"
      }
     }
    ]
@@ -1718,7 +2614,7 @@
    "provenance": {
     "provider": "Codex (OpenAI GPT Image)",
     "created": "2026-11-06",
-    "note": "Muse 自製，AI 生成的結構線稿"
+    "note": "Muse 自製，AI 生成的結構線稿；2026-11-20 以原正面為參考補上俯視、仰視、側面、斜側；深度圖由 Depth Anything V2 Large 轉出"
    },
    "variants": [
     {
@@ -1735,6 +2631,70 @@
       "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_depth.webp",
       "image": "/muse-assets/pose/images/muse-pose-m016_depth.webp",
       "original": "/muse-assets/pose/originals/muse-pose-m016_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m016_high",
+     "angle": "high",
+     "label": {
+      "zh": "俯视",
+      "en": "High angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_high.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m016_high.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m016_high.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_high_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m016_high_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m016_high_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m016_low",
+     "angle": "low",
+     "label": {
+      "zh": "仰视",
+      "en": "Low angle"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_low.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m016_low.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m016_low.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_low_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m016_low_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m016_low_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m016_side",
+     "angle": "side",
+     "label": {
+      "zh": "侧面",
+      "en": "Side"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_side.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m016_side.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m016_side.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_side_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m016_side_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m016_side_depth.png"
+     }
+    },
+    {
+     "id": "muse-pose-m016_diag",
+     "angle": "diag",
+     "label": {
+      "zh": "斜侧",
+      "en": "Three-quarter"
+     },
+     "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_diag.webp",
+     "image": "/muse-assets/pose/images/muse-pose-m016_diag.webp",
+     "original": "/muse-assets/pose/originals/muse-pose-m016_diag.png",
+     "depth": {
+      "thumbnail": "/muse-assets/pose/thumbnails/muse-pose-m016_diag_depth.webp",
+      "image": "/muse-assets/pose/images/muse-pose-m016_diag_depth.webp",
+      "original": "/muse-assets/pose/originals/muse-pose-m016_diag_depth.png"
      }
     }
    ]
@@ -4638,9 +5598,9 @@
     "en": "Getting up from the floor (male)"
    },
    "category": {
-    "id": "sitting",
-    "zh": "坐姿",
-    "en": "Sitting"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -4757,7 +5717,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -4875,7 +5835,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -4993,7 +5953,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -5110,9 +6070,9 @@
     "en": "Superhero landing (male)"
    },
    "category": {
-    "id": "kneeling",
-    "zh": "跪立",
-    "en": "Kneeling"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -5229,7 +6189,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -5818,9 +6778,9 @@
     "en": "Sprinter's starting position (male)"
    },
    "category": {
-    "id": "crouching",
-    "zh": "蹲姿",
-    "en": "Crouching"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -6408,9 +7368,9 @@
     "en": "Push-up plank (male)"
    },
    "category": {
-    "id": "lying",
-    "zh": "卧姿",
-    "en": "Lying down"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -7352,9 +8312,9 @@
     "en": "Golf swing follow-through (male)"
    },
    "category": {
-    "id": "twisting",
-    "zh": "扭身",
-    "en": "Twisting"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -7470,9 +8430,9 @@
     "en": "Throwing a ball (male)"
    },
    "category": {
-    "id": "twisting",
-    "zh": "扭身",
-    "en": "Twisting"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -7706,9 +8666,9 @@
     "en": "Jumping, arms raised (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -7824,9 +8784,9 @@
     "en": "Boxing guard stance (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -7942,9 +8902,9 @@
     "en": "Throwing a straight punch (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -8060,9 +9020,9 @@
     "en": "Side kick (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -8178,9 +9138,9 @@
     "en": "Hurdling (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -11391,7 +12351,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -11510,7 +12470,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -11629,7 +12589,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -11748,7 +12708,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -11867,7 +12827,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -11986,7 +12946,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -12105,7 +13065,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -12224,7 +13184,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -12343,7 +13303,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -12462,7 +13422,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -19958,9 +20918,9 @@
     "en": "Walking, arms swinging"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -20076,9 +21036,9 @@
     "en": "Walking, glancing back"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -20194,9 +21154,9 @@
     "en": "Running"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -20312,9 +21272,9 @@
     "en": "Jumping for joy, arms up"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -20430,9 +21390,9 @@
     "en": "Ballet arabesque"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -20548,9 +21508,9 @@
     "en": "Dance twirl"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -21610,9 +22570,9 @@
     "en": "Yoga tree pose"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -21728,9 +22688,9 @@
     "en": "Yoga warrior II"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -21846,9 +22806,9 @@
     "en": "Tennis forehand"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -21964,9 +22924,9 @@
     "en": "Volleyball spike"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -22082,9 +23042,9 @@
     "en": "Fighting stance"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -22200,9 +23160,9 @@
     "en": "Kicking a ball"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -23263,7 +24223,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -23381,7 +24341,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -23499,7 +24459,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -23617,7 +24577,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -25858,9 +26818,9 @@
     "en": "Walking with a briefcase (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -25976,9 +26936,9 @@
     "en": "Walking while looking at a phone (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27156,9 +28116,9 @@
     "en": "Carrying a heavy box (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27274,9 +28234,9 @@
     "en": "Pulling a rope (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27392,9 +28352,9 @@
     "en": "Pushing a wall (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27510,9 +28470,9 @@
     "en": "Basketball jump shot (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27628,9 +28588,9 @@
     "en": "Kicking a ball (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27746,9 +28706,9 @@
     "en": "Baseball batting stance (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27864,9 +28824,9 @@
     "en": "Tennis serve (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -27982,9 +28942,9 @@
     "en": "Two-handed sword swing (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28100,9 +29060,9 @@
     "en": "Drawing a bow (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28218,9 +29178,9 @@
     "en": "Boxing guard stance (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28336,9 +29296,9 @@
     "en": "Disco point (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28454,9 +29414,9 @@
     "en": "Rock climbing reach (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28572,9 +29532,9 @@
     "en": "Horse stance (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28690,9 +29650,9 @@
     "en": "Forward lunge stretch (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -28808,9 +29768,9 @@
     "en": "Surfing stance (male)"
    },
    "category": {
-    "id": "standing",
-    "zh": "站姿",
-    "en": "Standing"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -29753,7 +30713,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -29871,7 +30831,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -29989,7 +30949,7 @@
    },
    "category": {
     "id": "kneeling",
-    "zh": "跪立",
+    "zh": "跪姿",
     "en": "Kneeling"
    },
    "series": {
@@ -30696,9 +31656,9 @@
     "en": "Sit-up crunch (male)"
    },
    "category": {
-    "id": "lying",
-    "zh": "卧姿",
-    "en": "Lying down"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",
@@ -31522,9 +32482,9 @@
     "en": "Discus wind-up (male)"
    },
    "category": {
-    "id": "twisting",
-    "zh": "扭身",
-    "en": "Twisting"
+    "id": "action",
+    "zh": "运动与动态",
+    "en": "Action & sports"
    },
    "series": {
     "zh": "全身 · 基础",

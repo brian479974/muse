@@ -22,13 +22,17 @@ export function CategoryFilter({
   const counts = new Map<string, number>();
   for (const item of filterReferences(items, { ...filters, category: 'all' }))
     counts.set(item.category.id, (counts.get(item.category.id) || 0) + 1);
+  // 姿勢分類照固定順序排（2026-11-20：原本照資料先後出現，新分類會插在中間亂跳）；沒列到的照原順序排在後面
   const categories = [
     ...new Map(
       items
         .filter((item) => !filters.kind || filters.kind === 'all' || item.kind === filters.kind)
         .map((item) => [item.category.id, { ...item.category, kind: item.kind }]),
     ).values(),
-  ];
+  ]
+    .map((value, index) => ({ value, index }))
+    .sort((a, b) => categoryRank(a.value.id, a.index) - categoryRank(b.value.id, b.index))
+    .map(({ value }) => value);
   return (
     <div className="reference-filter-field category-filter">
       <span>{t.categoryFilter}</span>
@@ -205,4 +209,23 @@ export function ReferenceBadges({ item, lang }: { item: Reference; lang: Lang })
       {item.country && <span>{item.country[lang]}</span>}
     </div>
   );
+}
+
+const POSE_CATEGORY_ORDER = [
+  'standing',
+  'action',
+  'sitting',
+  'side-sitting',
+  'kneeling',
+  'crouching',
+  'lying',
+  'leaning',
+  'arching',
+  'twisting',
+  'gestures',
+];
+
+function categoryRank(id: string, index: number) {
+  const rank = POSE_CATEGORY_ORDER.indexOf(id);
+  return rank === -1 ? 1000 + index : rank;
 }
