@@ -74,12 +74,11 @@ const shortAngleEn: Record<string, string> = {
 
 const initialParams = new URLSearchParams(window.location.search);
 const isLanguage = (v: unknown): v is Lang => v === 'zh' || v === 'tw' || v === 'en';
-// 瀏覽器是繁體中文（台灣、香港、澳門或標明 Hant）就預設繁體，其他中文預設簡體
-const browserLang = (): Lang => {
-  const n = navigator.language.toLowerCase();
-  if (!n.startsWith('zh')) return 'en';
-  return /hant|-tw|-hk|-mo/.test(n) ? 'tw' : 'zh';
-};
+// 預設一律繁體中文（Brian 2026-11-21），不看瀏覽器語言。
+// 只記住「自己按過的語言」或網址帶的 ?lang=。舊的 opc-language 每次載入都自動寫入，
+// 分不出是不是使用者選的，所以換新鍵、舊值不再讀。
+const LANG_KEY = 'opc-language-choice';
+const DEFAULT_LANG: Lang = 'tw';
 const isIds = (v: unknown): v is string[] =>
   Array.isArray(v) && v.every((id) => typeof id === 'string');
 const isBoard = (v: unknown): v is Board =>
@@ -94,8 +93,16 @@ const viewParam = initialParams.get('view');
 export default function App() {
   const [lang, setLang] = useState<Lang>(() => {
     const value = initialParams.get('lang');
-    return isLanguage(value) ? value : storageGet('opc-language', browserLang(), isLanguage);
+    if (isLanguage(value)) {
+      storageSet(LANG_KEY, value);
+      return value;
+    }
+    return storageGet(LANG_KEY, DEFAULT_LANG, isLanguage);
   });
+  const chooseLang = (value: Lang) => {
+    storageSet(LANG_KEY, value);
+    setLang(value);
+  };
   const t = copy[lang];
   const [showDomainNotice, setShowDomainNotice] = useState(
     () =>
@@ -204,7 +211,6 @@ export default function App() {
         : lang === 'tw'
           ? 'Muse 繆思 · 姿勢與服裝參考庫'
           : 'Muse · Pose & costume reference atelier';
-    storageSet('opc-language', lang);
   }, [lang]);
   useEffect(() => {
     storageSet('opc-saved', saved);
@@ -994,7 +1000,7 @@ export default function App() {
                   type="button"
                   aria-pressed={lang === value}
                   lang={value === 'zh' ? 'zh-CN' : value === 'tw' ? 'zh-TW' : 'en'}
-                  onClick={() => setLang(value)}
+                  onClick={() => chooseLang(value)}
                 >
                   {label}
                 </button>
