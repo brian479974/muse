@@ -1,5 +1,5 @@
-// 鏡像版素材清單過濾：移除原站自建擴展（collection === 'custom'）與擴展分類（extended === true），
-// 並重新計算統計數字。自建素材的授權禁止在其他倉庫或網站再發布；擴展分類依鏡像維護者決定不收錄。
+// 鏡像版素材清單過濾：移除原站自建擴展（collection === 'custom'）與姿勢的擴展分類（extended === true），
+// 並重新計算統計數字。自建素材的授權禁止在其他倉庫或網站再發布；服裝的擴展分類 2026-11-22 起收錄。
 // 另外檢查每張圖都指向上游圖庫，有任何其他來源就中止；所有 {zh, en} 文字欄位補上繁體 tw。
 // 用法：node scripts/mirror-filter.mjs [catalog.json 路徑]
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
@@ -25,7 +25,9 @@ const replaceIds = new Set(
 const items = catalog.items.filter(
   (item) =>
     item.collection !== 'custom' &&
-    !item.extended &&
+    // 擴展分類：服裝的內衣、泳裝、魅力穿搭 2026-11-22 Brian 核准收錄（網站已搬離公司網址）；
+    // 網站只在訪客選了那個分類時才列出。姿勢的擴展分類照舊不收（姿勢已全部改用自製）
+    (!item.extended || item.kind === 'costume') &&
     (item.source !== 'muse' || replaceIds.has(item.id)),
 );
 

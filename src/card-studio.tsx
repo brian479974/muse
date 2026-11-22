@@ -18,7 +18,7 @@ import { generationCopy } from './generation-copy';
 import { studioCopy } from './studio-copy';
 import type { ImageReference, UploadKind } from './generation';
 import { copy } from './i18n';
-import { genderCompatible, genderOf } from './library';
+import { genderCompatible, genderOf, shownByDefault } from './library';
 import { hasPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
 import type { Kind, Lang, Reference } from './types';
@@ -217,7 +217,8 @@ export function CardStudio({
   function randomize() {
     const others = (kind: Kind) => {
       const current = references.find((reference) => reference.kind === kind);
-      const all = items.filter((item) => item.kind === kind);
+      // 隨機搭配不抽擴展分類（內衣、泳裝、魅力穿搭）
+      const all = items.filter((item) => item.kind === kind && shownByDefault(item));
       const rest = all.filter(
         (item) =>
           !item.variants.some(

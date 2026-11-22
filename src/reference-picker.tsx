@@ -3,7 +3,7 @@ import { PersonStanding, Scissors, Search, Shirt, UserRound, X } from 'lucide-re
 import { generationCopy } from './generation-copy';
 import { studioCopy } from './studio-copy';
 import type { ImageReference } from './generation';
-import { filterReferences } from './library';
+import { filterReferences, shownByDefault } from './library';
 import { ReferenceFilters, ReferenceBadges, CategoryFilter } from './reference-filters';
 import { HairstyleFilterFields } from './hairstyle-ui';
 import type { HairstyleFacet, HairstyleFilters } from './hair-colors';
@@ -63,7 +63,9 @@ export function ReferencePicker({
   const Icon = referenceIcons[kind];
   const available = useMemo(() => items.filter((item) => item.kind === kind), [items, kind]);
   const filters = { category, collection, tag, style, age, ethnicity, query, hairstyle };
-  const filtered = filterReferences(available, filters);
+  const filtered = filterReferences(available, filters).filter((item) =>
+    shownByDefault(item, category),
+  );
   const hasMore = filtered.length > limit;
   useEffect(() => {
     const sentinel = loadMoreRef.current;

@@ -69,6 +69,7 @@ import {
   genderCompatible,
   readTagFilters,
   referenceTagLabel,
+  shownByDefault,
   sortItems,
   storageGet,
   storageSet,
@@ -336,10 +337,9 @@ export default function App() {
     () => (catalog?.items || []).map((item) => (poseDepth ? withPoseDepth(item) : item)),
     [catalog, poseDepth],
   );
-  const eligible = useMemo(
-    () => items.filter((item) => extended || !item.extended),
-    [items, extended],
-  );
+  // 擴展分類留在清單裡（分類選單才列得出來），列結果時再依 shownByDefault 收起
+  const eligible = items;
+  const homeItems = useMemo(() => items.filter((item) => !item.extended), [items]);
   const byView = useMemo(
     () =>
       eligible.filter(
@@ -361,7 +361,15 @@ export default function App() {
     hairstyle: hairFilters,
   };
   const visible = useMemo(
-    () => sortItems(filterReferences(byView, filters), sort, lang, stats?.counts),
+    () =>
+      sortItems(
+        filterReferences(byView, filters).filter(
+          (item) => extended || shownByDefault(item, category),
+        ),
+        sort,
+        lang,
+        stats?.counts,
+      ),
     [
       byView,
       category,
@@ -1293,10 +1301,10 @@ export default function App() {
                 images={catalog?.stats.images || 0}
                 onOpenStudio={openStudio}
               />
-              <HomeMarquee items={eligible} onOpen={openDetail} />
+              <HomeMarquee items={homeItems} onOpen={openDetail} />
               <HomeLibrary
                 lang={lang}
-                items={eligible}
+                items={homeItems}
                 counts={{
                   pose: eligible.filter((item) => item.kind === 'pose').length,
                   costume: eligible.filter((item) => item.kind === 'costume').length,

@@ -54,6 +54,12 @@ export function readTagFilters(params: URLSearchParams) {
   };
 }
 
+// 內衣、泳裝、魅力穿搭等擴展分類（2026-11-22 Brian 核准收錄）：只在訪客選了那個分類時才列出，
+// 「全部分類」、首頁展示與隨機搭配都不出現
+export function shownByDefault(item: Reference, category = 'all'): boolean {
+  return !item.extended || item.category.id === category;
+}
+
 export function filterReferences(items: Reference[], filters: LibraryFilters): Reference[] {
   const {
     category = 'all',
