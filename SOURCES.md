@@ -5,6 +5,7 @@
 網站上「關於與聲明」的「網站聲明」是給訪客看的完整版（三語，文案在 `src/i18n.ts` 的 `legalSections`，連結在 `src/site-notice.tsx`）。這裡是給維護者的對照：
 
 - **非營利**：個人發起，免費、不用註冊、無廣告、不販售素材或服務。
+- **只是參考資料**：Muse 不幫任何人生成圖片；使用者下載參考圖卡後自己拿去 AI 工具生成（網站不串接任何生圖 API）。
 - **開源**：程式碼 MIT（見 `LICENSE`），改建自 [hongye007/open-pose-costume](https://github.com/hongye007/open-pose-costume)。開源只涵蓋程式碼，不涵蓋參考圖片。
 - **外部圖庫（圖片由原站直接載入，不轉存、不修改）**
   - 寫實服裝 [AI Costume Gallery](https://ai-costume-gallery.pages.dev/)、動漫服裝 [AI Costume Anime Gallery](https://ai-costume-anime-gallery.pages.dev/) — 作者 ギア（https://x.com/giaaibusi）
@@ -16,7 +17,7 @@
   - 服裝：隱形人台照，OpenAI GPT Image／Z-Image Turbo（Apache-2.0）／少數 Grok
   - 人物：虛構成年人，Z-Image Turbo、FLUX.2 klein 4B（Apache-2.0）、Qwen Image（Apache-2.0）、OpenAI GPT Image、Grok
   - 髮型：OpenAI GPT Image 三視角，頭髮遮罩 SAM 3
-  - 使用規則比照原站：可免費用於作品創作（含商業）；禁止圖片本身整批下載、轉載、再散布、販售
+  - 使用規則（2026-11-22 Brian：「讓人免費使用，也不要去擔心人家會不會複製」）：可免費使用、複製、修改，含商業作品，不用另外申請；參考圖卡與下載的圖同樣免費使用。深度圖例外（見下）
 - ⚠️ **深度圖限非商業**：Depth Anything V2 Large 權重是 CC BY-NC 4.0（Small 才是 Apache-2.0），網站聲明寫明深度圖只供非商業用途。若要解除，得用 Small 重產全部深度圖（畫面會變，需 Brian 決定）。
 - **隱私**：無帳號、無 cookie、不存 IP；匿名計數只存「參考編號 × 動作 × 次數」與每日總數（`worker/schema.sql`）。上傳圖只在瀏覽器裡用。
 - **移除申請**：GitHub Issues（https://github.com/brian479974/muse/issues），確認後儘快移除。

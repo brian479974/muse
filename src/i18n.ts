@@ -63,7 +63,8 @@ export const copy = {
       {
         title: '立场',
         items: [
-          'Muse 只做创作参考。外部图库的图片一律由原站直接加载，不转存到 Muse、不修改，并标明作者与出处；想看完整图库与最新规则，请到原站。',
+          'Muse 是参考资料库，不帮任何人生成图片。你挑好参考、下载参考图卡后，是自己拿去 ChatGPT 等 AI 工具生成；Muse 提供的只有参考资料。',
+          '外部图库的图片一律由原站直接加载，不转存到 Muse、不修改，并标明作者与出处；想看完整图库与最新规则，请到原站。',
           'Muse 与各原站作者没有合作或从属关系，原站作者也不为 Muse 背书。',
           '人物全部是 AI 生成的虚构成年人，不是真人；姿势是无脸人偶。内衣、泳装与魅力穿搭，只在你主动选了该分类时才会出现。',
         ],
@@ -98,19 +99,19 @@ export const copy = {
         items: [
           [
             '外部图库',
-            '依原站规则，可免费用于作品创作，包括商业作品、编辑与参考；禁止把图片本身（包括加工后的图）转载、再散布或贩售。部分原站另禁止整批下载（包括用程序自动抓取）。人物原站标示 CC0，同时请求不要转载、再散布。完整条款以各原站为准。',
+            '著作权属原作者。原站允许免费用在你的作品里（包括商业作品），但不允许把图片本身转载或贩售；详细以原站为准。',
           ],
           [
             'Muse 自制',
-            '线稿、服装、人物、发型比照原站规则：可免费用于作品创作，包括商业作品、编辑与参考；请勿把图片本身整批下载、转载、再散布或贩售。',
+            '线稿、服装、人物、发型都可以免费使用、复制、修改，也可以用在商业作品，不用另外申请。',
           ],
           [
             '深度图',
-            '产生深度图的 {dav2} Large 模型采 {ccbync} 非商业授权，所以深度图只供非商业用途；商业作品请改用线稿。',
+            '唯一的例外：产生深度图的 {dav2} Large 模型是 {ccbync} 非商业授权，所以深度图只能用在非商业用途。',
           ],
           [
             '参考图卡',
-            '参考图卡与下载的图只供你自己创作时参考。请勿转贴到其他网站、重新包装成图库，或收进要对外散布的数据集。',
+            '参考图卡和下载的图都可以免费使用，拿去创作就好。',
           ],
           [
             '真人与未成年人',
@@ -129,7 +130,7 @@ export const copy = {
         title: '免责',
         items: [
           '素材依现状提供，不保证正确、完整，或不涉及第三方权利。AI 生成的服装与发型可能和现实中的品牌设计相似，商业使用前请自行确认。',
-          '用 Muse 素材创作或生成的内容，由用户自行负责。',
+          'Muse 不生成图片。你拿参考资料到其他 AI 工具生成的内容，由你自己负责。',
         ],
       },
       {
@@ -304,8 +305,8 @@ export const copy = {
       '发型参考可以点色票即时换发色；人物配上发型后，提示词会改成保留人物的脸、采用发型参考的剪裁与所选发色。',
     ],
     aboutUseTitle: '素材使用规则',
-    aboutUse: '所有参考图都可免费用于作品创作，包括商业作品、编辑与参考；深度图只供非商业用途。',
-    aboutRestriction: '图片本身（包括加工后的图与参考图卡）禁止转载、再散布或贩售，也请勿整批下载。各原站的完整条款以原站为准。',
+    aboutUse: '参考图都可以免费使用，包括商业作品；唯一的例外是深度图只能用在非商业用途。',
+    aboutRestriction: '服装与人物原站的图片，著作权属原作者，原作者不允许把图片本身转载或贩售。',
     aboutImpersonation: '不得用来冒充真实人物或制作深伪：生成的图片不可假装是某个真人；上传的人物照片只能是你本人，或已取得本人同意。不得用于涉及未成年人的性化内容或其他违法用途。',
     aboutFaceTitle: '让 AI 每次生出同一张脸',
     aboutFaceTips: [
@@ -389,7 +390,8 @@ export const copy = {
       {
         title: '立場',
         items: [
-          'Muse 只做創作參考。外部圖庫的圖片一律由原站直接載入，不轉存到 Muse、不修改，並標明作者與出處；想看完整圖庫與最新規則，請到原站。',
+          'Muse 是參考資料庫，不幫任何人生成圖片。你挑好參考、下載參考圖卡後，是自己拿去 ChatGPT 等 AI 工具生成；Muse 提供的只有參考資料。',
+          '外部圖庫的圖片一律由原站直接載入，不轉存到 Muse、不修改，並標明作者與出處；想看完整圖庫與最新規則，請到原站。',
           'Muse 與各原站作者沒有合作或從屬關係，原站作者也不為 Muse 背書。',
           '人物全部是 AI 生成的虛構成年人，不是真人；姿勢是無臉人偶。內衣、泳裝與魅力穿搭，只在你主動選了該分類時才會出現。',
         ],
@@ -424,19 +426,19 @@ export const copy = {
         items: [
           [
             '外部圖庫',
-            '依原站規則，可免費用於作品創作，包括商業作品、編輯與參考；禁止把圖片本身（包括加工後的圖）轉載、再散佈或販售。部分原站另禁止整批下載（包括用程式自動抓取）。人物原站標示 CC0，同時請求不要轉載、再散佈。完整條款以各原站為準。',
+            '著作權屬原作者。原站允許免費用在你的作品裡（包括商業作品），但不允許把圖片本身轉載或販售；詳細以原站為準。',
           ],
           [
             'Muse 自製',
-            '線稿、服裝、人物、髮型比照原站規則：可免費用於作品創作，包括商業作品、編輯與參考；請勿把圖片本身整批下載、轉載、再散佈或販售。',
+            '線稿、服裝、人物、髮型都可以免費使用、複製、修改，也可以用在商業作品，不用另外申請。',
           ],
           [
             '深度圖',
-            '產生深度圖的 {dav2} Large 模型採 {ccbync} 非商業授權，所以深度圖只供非商業用途；商業作品請改用線稿。',
+            '唯一的例外：產生深度圖的 {dav2} Large 模型是 {ccbync} 非商業授權，所以深度圖只能用在非商業用途。',
           ],
           [
             '參考圖卡',
-            '參考圖卡與下載的圖只供你自己創作時參考。請勿轉貼到其他網站、重新包裝成圖庫，或收進要對外散佈的資料集。',
+            '參考圖卡和下載的圖都可以免費使用，拿去創作就好。',
           ],
           [
             '真人與未成年人',
@@ -455,7 +457,7 @@ export const copy = {
         title: '免責',
         items: [
           '素材依現狀提供，不保證正確、完整，或不涉及第三方權利。AI 生成的服裝與髮型可能和現實中的品牌設計相似，商業使用前請自行確認。',
-          '用 Muse 素材創作或生成的內容，由使用者自行負責。',
+          'Muse 不生成圖片。你拿參考資料到其他 AI 工具生成的內容，由你自己負責。',
         ],
       },
       {
@@ -630,8 +632,8 @@ export const copy = {
       '髮型參考可以點色票即時換髮色；人物配上髮型後，提示詞會改成保留人物的臉、採用髮型參考的剪裁與所選髮色。',
     ],
     aboutUseTitle: '素材使用規則',
-    aboutUse: '所有參考圖都可免費用於作品創作，包括商業作品、編輯與參考；深度圖只供非商業用途。',
-    aboutRestriction: '圖片本身（包括加工後的圖與參考圖卡）禁止轉載、再散佈或販售，也請勿整批下載。各原站的完整條款以原站為準。',
+    aboutUse: '參考圖都可以免費使用，包括商業作品；唯一的例外是深度圖只能用在非商業用途。',
+    aboutRestriction: '服裝與人物原站的圖片，著作權屬原作者，原作者不允許把圖片本身轉載或販售。',
     aboutImpersonation: '不得用來冒充真實人物或製作深偽：生成的圖片不可假裝是某個真人；上傳的人物照片只能是你本人，或已取得本人同意。不得用於涉及未成年人的性化內容或其他違法用途。',
     aboutFaceTitle: '讓 AI 每次生出同一張臉',
     aboutFaceTips: [
@@ -715,7 +717,8 @@ export const copy = {
       {
         title: 'Our position',
         items: [
-          'Muse is a reference tool for creative work. Images from outside galleries load directly from the original sites. Muse does not copy them to its own servers or alter them, and credits each creator and source. For the full galleries and their current terms, visit the original sites.',
+          'Muse is a reference library. It does not generate images for anyone: you pick references, download a reference card, and take it to ChatGPT or another AI tool yourself. Muse only provides the reference material.',
+          'Images from outside galleries load directly from the original sites. Muse does not copy them to its own servers or alter them, and credits each creator and source. For the full galleries and their current terms, visit the original sites.',
           'Muse has no partnership with or affiliation to the original creators, and they do not endorse Muse.',
           'Every character is an AI-generated fictional adult, not a real person; poses use faceless mannequins. Lingerie, swimwear and statement outfits appear only when you choose that category yourself.',
         ],
@@ -750,19 +753,19 @@ export const copy = {
         items: [
           [
             'Outside galleries',
-            'Under the original sites’ terms, images may be used for free in your own works, including commercial works, editing and reference. Republishing, redistributing or selling the images themselves (including edited versions) is prohibited. Some sources also prohibit bulk downloading, including automated scraping. The portrait source marks its images CC0 while asking people not to republish or redistribute them. Each source’s full terms apply.',
+            'Rights stay with the original creators. Their sites allow free use in your own works, including commercial works, but not republishing or selling the images themselves. Each site’s terms apply.',
           ],
           [
             'Muse-made images',
-            'Line art, outfits, characters and hairstyles follow the same rules: free to use in your works, including commercial works, editing and reference; please do not bulk-download, republish, redistribute or sell the images themselves.',
+            'Line art, outfits, characters and hairstyles are free to use, copy and modify, including in commercial work. No permission needed.',
           ],
           [
             'Depth maps',
-            'The {dav2} Large model that produces them is licensed {ccbync} (non-commercial), so depth maps are for non-commercial use only. For commercial work, use the line art instead.',
+            'The one exception: the {dav2} Large model that produces depth maps is licensed {ccbync} (non-commercial), so depth maps are for non-commercial use only.',
           ],
           [
             'Reference cards',
-            'Reference cards and downloaded images are for your own creative reference. Do not repost them on other sites, repackage them as a gallery, or add them to a dataset you distribute.',
+            'Reference cards and downloaded images are free to use. Take them and create.',
           ],
           [
             'Real people and minors',
@@ -781,7 +784,7 @@ export const copy = {
         title: 'Disclaimer',
         items: [
           'Images are provided as is, with no guarantee of accuracy, completeness or freedom from third-party rights. AI-generated outfits and hairstyles may resemble real brand designs; check before commercial use.',
-          'You are responsible for what you create or generate with Muse images.',
+          'Muse does not generate images. Anything you generate with other AI tools from these references is your own responsibility.',
         ],
       },
       {
@@ -960,8 +963,8 @@ export const copy = {
       'Recolor any hairstyle instantly with the swatches. When a character is paired with a hairstyle, the prompt keeps the character’s face and takes the cut and chosen hair color from the hairstyle reference.',
     ],
     aboutUseTitle: 'Image usage rules',
-    aboutUse: 'Every reference image may be used for free in your own works, including commercial works, editing and reference. Depth maps are for non-commercial use only.',
-    aboutRestriction: 'The images themselves (including edited versions and reference cards) may not be republished, redistributed or sold, and please do not bulk-download them. Each original site’s full terms apply.',
+    aboutUse: 'Reference images are free to use, including in commercial work. The one exception: depth maps are for non-commercial use only.',
+    aboutRestriction: 'Images from the outfit and character source sites belong to their original creators, who do not allow republishing or selling the images themselves.',
     aboutImpersonation: 'Do not use Muse to impersonate real people or make deepfakes: generated images must not be passed off as a real person, and uploaded character photos must be of yourself or someone who has agreed. Do not use it for sexualized content involving minors or anything else unlawful.',
     aboutFaceTitle: 'Getting the same face every time',
     aboutFaceTips: [
