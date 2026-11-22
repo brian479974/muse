@@ -131724,6 +131724,5568 @@
      "original": "/muse-assets/costume/originals/muse-costume-f333.jpg"
     }
    ]
+  },
+  {
+   "id": "muse-costume-f231",
+   "kind": "costume",
+   "code": "FCO-231",
+   "title": {
+    "zh": "云肩连衣裙 · 炭灰 · 银线回纹",
+    "en": "Yunjian collar dress · Charcoal · Silver-thread fret pattern trim"
+   },
+   "category": {
+    "id": "newchinese",
+    "zh": "新中式",
+    "en": "Modern Chinese Style"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "云肩连衣裙 炭灰 银线回纹",
+    "en": "a charcoal silk midi dress with a cloud-shaped yunjian collar piece over the shoulders featuring silver-thread fret pattern trim black leather loafers"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f231_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f231.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f231.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f231.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f284",
+   "kind": "costume",
+   "code": "FCO-284",
+   "title": {
+    "zh": "皮夹克格纹裙 · 黑",
+    "en": "Leather jacket and plaid skirt · Black"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "皮夹克格纹裙 黑",
+    "en": "a black leather jacket over a cream knit sweater and a camel plaid midi skirt tan suede ankle boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f284_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f284.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f284.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f284.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f299",
+   "kind": "costume",
+   "code": "FCO-299",
+   "title": {
+    "zh": "长开衫半身裙 · 焦糖色",
+    "en": "Long cardigan and skirt · Caramel"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "长开衫半身裙 焦糖色",
+    "en": "a long caramel chunky cardigan over a cream turtleneck and a satin midi skirt black leather Chelsea boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f299_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f299.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f299.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f299.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f334",
+   "kind": "costume",
+   "code": "FCO-334",
+   "title": {
+    "zh": "唐制宫装 · 藕粉 · 牡丹",
+    "en": "Tang court dress · Lotus Pink · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制宫装 藕粉 牡丹",
+    "en": "Tang-dynasty court dress: a lotus pink silk brocade chest-high skirt densely embroidered with peonies in gold thread a long train a sheer ivory gauze big-sleeved outer robe pearl strands and a jade pendant with long silk tassels embroidered cloud-toe shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f334_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f334.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f334.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f334.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f335",
+   "kind": "costume",
+   "code": "FCO-335",
+   "title": {
+    "zh": "唐制齐胸襦裙 · 烟灰 · 兰草",
+    "en": "Tang chest-high ruqun · Smoky Grey · Orchids"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制齐胸襦裙 烟灰 兰草",
+    "en": "Tang-dynasty attire: a smoky grey chest-high pleated skirt embroidered with orchids a short silver white silk top a long sheer shawl draped over the arms a jade waist pendant with tassels embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f335_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f335.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f335.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f335.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f336",
+   "kind": "costume",
+   "code": "FCO-336",
+   "title": {
+    "zh": "宋制褙子 · 石青 · 凤纹",
+    "en": "Song beizi · Azurite Blue · Phoenixes and clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制褙子 石青 凤纹",
+    "en": "Song-dynasty attire: a long azurite blue silk beizi with straight front edges embroidered with phoenixes and clouds along the borders over a gold cross-collar top and a pleated long skirt embroidered flat shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f336_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f336.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f336.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f336.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f337",
+   "kind": "costume",
+   "code": "FCO-337",
+   "title": {
+    "zh": "宋制宫廷大袖 · 青瓷 · 兰草",
+    "en": "Song court ceremonial robe · Celadon · Orchids"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制宫廷大袖 青瓷 兰草",
+    "en": "Song-dynasty court attire: a celadon big-sleeved robe with orchids roundels in gold over a silver embroidered skirt a sheer stole and a long front panel with jade ornaments embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f337_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f337.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f337.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f337.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f338",
+   "kind": "costume",
+   "code": "FCO-338",
+   "title": {
+    "zh": "明制织金袄裙 · 象牙白 · 牡丹",
+    "en": "Ming brocade aoqun · Ivory · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制织金袄裙 象牙白 牡丹",
+    "en": "Ming-dynasty attire: a ivory satin standing-collar jacket covered in gold-thread peonies with gold filigree buttons a champagne gold horse-face pleated skirt with wide woven gold brocade bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f338_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f338.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f338.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f338.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f339",
+   "kind": "costume",
+   "code": "FCO-339",
+   "title": {
+    "zh": "明制婚服 · 玄黑 · 云纹",
+    "en": "Ming bridal attire · Black · Auspicious clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制婚服 玄黑 云纹",
+    "en": "Ming-dynasty bridal attire: a black round-collar robe embroidered with auspicious clouds a long embroidered xiapei stole ending in jade pendants a gold horse-face skirt with gold bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f339_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f339.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f339.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f339.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f340",
+   "kind": "costume",
+   "code": "FCO-340",
+   "title": {
+    "zh": "明制披风 · 玄黑 · 莲花",
+    "en": "Ming long cloak · Black · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制披风 玄黑 莲花",
+    "en": "Ming-dynasty attire: a long black silk pifeng cloak with a straight collar embroidered with lotus flowers over a gold standing-collar jacket and a horse-face skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f340_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f340.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f340.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f340.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f341",
+   "kind": "costume",
+   "code": "FCO-341",
+   "title": {
+    "zh": "明制比甲 · 朱红 · 竹",
+    "en": "Ming long vest · Vermilion · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制比甲 朱红 竹",
+    "en": "Ming-dynasty attire: a long sleeveless vermilion brocade bijia vest woven with bamboo over a ivory long-sleeve standing-collar shirt and a pleated skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f341_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f341.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f341.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f341.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f342",
+   "kind": "costume",
+   "code": "FCO-342",
+   "title": {
+    "zh": "汉制曲裾 · 靛蓝 · 山水",
+    "en": "Han curved-hem robe · Indigo · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制曲裾 靛蓝 山水",
+    "en": "Han-dynasty curved-hem quju robe in indigo silk spiralling around the body layered collars with white and gold borders woven with misty mountains a jade bi pendant on a silk cord embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f342_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f342.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f342.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f342.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f343",
+   "kind": "costume",
+   "code": "FCO-343",
+   "title": {
+    "zh": "魏晋杂裾垂髾 · 梅紫 · 梅花",
+    "en": "Wei-Jin layered robe · Plum · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋杂裾垂髾 梅紫 梅花",
+    "en": "Wei-Jin style attire: layered plum and silver gauze robes with plum blossoms embroidery long pointed hanging ribbons and swallowtail streamers at the waist embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f343_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f343.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f343.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f343.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f344",
+   "kind": "costume",
+   "code": "FCO-344",
+   "title": {
+    "zh": "清宫氅衣 · 墨黑 · 锦鲤",
+    "en": "Qing court changyi · Ink Black · Koi fish and waves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清宫氅衣 墨黑 锦鲤",
+    "en": "Qing court changyi robe in ink black silk with very wide contrasting white borders embroidered with koi fish and waves pearl buttons on the side closure high side slits over a pale skirt flowerpot-sole shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f344_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f344.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f344.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f344.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f345",
+   "kind": "costume",
+   "code": "FCO-345",
+   "title": {
+    "zh": "水墨长袍 · 墨黑 · 竹",
+    "en": "Ink-wash gown · Ink Black · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨长袍 墨黑 竹",
+    "en": "an off-shoulder ink black silk gown hand-painted with ink-wash bamboo accented with gold leaf a sheer white gauze outer robe with very wide flowing sleeves and a long train a crimson sash with a jade pendant and tassels pointed embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f345_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f345.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f345.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f345.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f346",
+   "kind": "costume",
+   "code": "FCO-346",
+   "title": {
+    "zh": "水墨大袖衫 · 翡翠绿 · 莲花",
+    "en": "Ink-wash big-sleeved robe · Emerald Green · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨大袖衫 翡翠绿 莲花",
+    "en": "a emerald green silk robe painted with ink-wash lotus flowers a sheer gold gauze big-sleeved outer robe with thin gold piping a brocade sash with a jade pendant and a long tassel embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f346_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f346.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f346.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f346.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f347",
+   "kind": "costume",
+   "code": "FCO-347",
+   "title": {
+    "zh": "仙侠羽衣 · 帝王紫 · 仙鹤",
+    "en": "Xianxia celestial dress · Royal Purple · Flying cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠羽衣 帝王紫 仙鹤",
+    "en": "Xianxia celestial dress: many layers of royal purple and gold chiffon with flying cranes embroidery cascading down the skirt a crystal-beaded waistband extremely long flowing sleeves and a sweeping train embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f347_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f347.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f347.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f347.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f348",
+   "kind": "costume",
+   "code": "FCO-348",
+   "title": {
+    "zh": "敦煌飞天 · 藕粉 · 锦鲤",
+    "en": "Dunhuang apsara costume · Lotus Pink · Koi fish and waves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "敦煌飞天 藕粉 锦鲤",
+    "en": "Dunhuang flying-apsara inspired dress in lotus pink and ivory silk with Dunhuang mural koi fish and waves patterns a jeweled beaded collar piece a full pleated skirt long floating silk ribbons gold embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f348_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f348.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f348.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f348.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f349",
+   "kind": "costume",
+   "code": "FCO-349",
+   "title": {
+    "zh": "武侠女侠 · 烟灰 · 竹",
+    "en": "Wuxia swordswoman · Smoky Grey · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠女侠 烟灰 竹",
+    "en": "Wuxia swordswoman attire: a fitted smoky grey brocade cross-collar robe with silver white lining and silver bamboo embroidery a wide leather belt with silver fittings leather bracers dark trousers and tall boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f349_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f349.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f349.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f349.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f350",
+   "kind": "costume",
+   "code": "FCO-350",
+   "title": {
+    "zh": "青花瓷长裙 · 青瓷 · 仙鹤",
+    "en": "Porcelain blue-and-white gown · Celadon · Flying cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "青花瓷长裙 青瓷 仙鹤",
+    "en": "a gown inspired by blue-and-white porcelain: celadon silk painted with cobalt blue flying cranes a sheer silver gauze big-sleeved outer robe with silver edging a blue sash with a white jade pendant and silver tassels white embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f350_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f350.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f350.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f350.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f351",
+   "kind": "costume",
+   "code": "FCO-351",
+   "title": {
+    "zh": "宫廷冬装 · 靛蓝 · 蝴蝶",
+    "en": "Court winter attire · Indigo · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宫廷冬装 靛蓝 蝴蝶",
+    "en": "court winter attire: a indigo brocade standing-collar jacket with white faux fur trim and gold butterflies and flowers embroidery a long white cloak with a fur-lined hood a horse-face skirt embroidered boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f351_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f351.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f351.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f351.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f352",
+   "kind": "costume",
+   "code": "FCO-352",
+   "title": {
+    "zh": "唐制宫装 · 月白 · 菊花",
+    "en": "Tang court dress · Moon White · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制宫装 月白 菊花",
+    "en": "Tang-dynasty court dress: a moon white silk brocade chest-high skirt densely embroidered with chrysanthemums in gold thread a long train a sheer silver gauze big-sleeved outer robe pearl strands and a jade pendant with long silk tassels embroidered cloud-toe shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f352_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f352.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f352.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f352.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f353",
+   "kind": "costume",
+   "code": "FCO-353",
+   "title": {
+    "zh": "唐制齐胸襦裙 · 梅紫 · 梅花",
+    "en": "Tang chest-high ruqun · Plum · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制齐胸襦裙 梅紫 梅花",
+    "en": "Tang-dynasty attire: a plum chest-high pleated skirt embroidered with plum blossoms a short silver silk top a long sheer shawl draped over the arms a jade waist pendant with tassels embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f353_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f353.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f353.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f353.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f354",
+   "kind": "costume",
+   "code": "FCO-354",
+   "title": {
+    "zh": "宋制褙子 · 翡翠绿 · 牡丹",
+    "en": "Song beizi · Emerald Green · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制褙子 翡翠绿 牡丹",
+    "en": "Song-dynasty attire: a long emerald green silk beizi with straight front edges embroidered with peonies along the borders over a gold cross-collar top and a pleated long skirt embroidered flat shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f354_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f354.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f354.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f354.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f355",
+   "kind": "costume",
+   "code": "FCO-355",
+   "title": {
+    "zh": "宋制宫廷大袖 · 烟灰 · 云纹",
+    "en": "Song court ceremonial robe · Smoky Grey · Auspicious clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制宫廷大袖 烟灰 云纹",
+    "en": "Song-dynasty court attire: a smoky grey big-sleeved robe with auspicious clouds roundels in gold over a silver white embroidered skirt a sheer stole and a long front panel with jade ornaments embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f355_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f355.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f355.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f355.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f356",
+   "kind": "costume",
+   "code": "FCO-356",
+   "title": {
+    "zh": "明制织金袄裙 · 赭石 · 梅花",
+    "en": "Ming brocade aoqun · Ochre · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制织金袄裙 赭石 梅花",
+    "en": "Ming-dynasty attire: a ochre satin standing-collar jacket covered in gold-thread plum blossoms with gold filigree buttons a turquoise horse-face pleated skirt with wide woven gold brocade bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f356_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f356.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f356.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f356.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f357",
+   "kind": "costume",
+   "code": "FCO-357",
+   "title": {
+    "zh": "明制婚服 · 翡翠绿 · 山水",
+    "en": "Ming bridal attire · Emerald Green · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制婚服 翡翠绿 山水",
+    "en": "Ming-dynasty bridal attire: a emerald green round-collar robe embroidered with misty mountains a long embroidered xiapei stole ending in jade pendants a gold horse-face skirt with gold bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f357_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f357.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f357.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f357.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f358",
+   "kind": "costume",
+   "code": "FCO-358",
+   "title": {
+    "zh": "明制披风 · 墨黑 · 锦鲤",
+    "en": "Ming long cloak · Ink Black · Koi fish and waves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制披风 墨黑 锦鲤",
+    "en": "Ming-dynasty attire: a long ink black silk pifeng cloak with a straight collar embroidered with koi fish and waves over a white standing-collar jacket and a horse-face skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f358_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f358.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f358.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f358.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f359",
+   "kind": "costume",
+   "code": "FCO-359",
+   "title": {
+    "zh": "明制比甲 · 象牙白 · 牡丹",
+    "en": "Ming long vest · Ivory · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制比甲 象牙白 牡丹",
+    "en": "Ming-dynasty attire: a long sleeveless ivory brocade bijia vest woven with peonies over a champagne gold long-sleeve standing-collar shirt and a pleated skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f359_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f359.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f359.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f359.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f360",
+   "kind": "costume",
+   "code": "FCO-360",
+   "title": {
+    "zh": "汉制曲裾 · 梅紫 · 山水",
+    "en": "Han curved-hem robe · Plum · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制曲裾 梅紫 山水",
+    "en": "Han-dynasty curved-hem quju robe in plum silk spiralling around the body layered collars with silver and gold borders woven with misty mountains a jade bi pendant on a silk cord embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f360_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f360.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f360.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f360.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f361",
+   "kind": "costume",
+   "code": "FCO-361",
+   "title": {
+    "zh": "魏晋杂裾垂髾 · 玄黑 · 菊花",
+    "en": "Wei-Jin layered robe · Black · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋杂裾垂髾 玄黑 菊花",
+    "en": "Wei-Jin style attire: layered black and gold gauze robes with chrysanthemums embroidery long pointed hanging ribbons and swallowtail streamers at the waist embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f361_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f361.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f361.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f361.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f362",
+   "kind": "costume",
+   "code": "FCO-362",
+   "title": {
+    "zh": "清宫氅衣 · 象牙白 · 菊花",
+    "en": "Qing court changyi · Ivory · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清宫氅衣 象牙白 菊花",
+    "en": "Qing court changyi robe in ivory silk with very wide contrasting champagne gold borders embroidered with chrysanthemums pearl buttons on the side closure high side slits over a pale skirt flowerpot-sole shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f362_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f362.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f362.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f362.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f363",
+   "kind": "costume",
+   "code": "FCO-363",
+   "title": {
+    "zh": "水墨长袍 · 青瓷 · 梅花",
+    "en": "Ink-wash gown · Celadon · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨长袍 青瓷 梅花",
+    "en": "an off-shoulder celadon silk gown hand-painted with ink-wash plum blossoms accented with gold leaf a sheer silver gauze outer robe with very wide flowing sleeves and a long train a crimson sash with a jade pendant and tassels pointed embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f363_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f363.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f363.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f363.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f364",
+   "kind": "costume",
+   "code": "FCO-364",
+   "title": {
+    "zh": "水墨大袖衫 · 翡翠绿 · 梅花",
+    "en": "Ink-wash big-sleeved robe · Emerald Green · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨大袖衫 翡翠绿 梅花",
+    "en": "a emerald green silk robe painted with ink-wash plum blossoms a sheer gold gauze big-sleeved outer robe with thin gold piping a brocade sash with a jade pendant and a long tassel embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f364_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f364.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f364.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f364.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f365",
+   "kind": "costume",
+   "code": "FCO-365",
+   "title": {
+    "zh": "仙侠羽衣 · 象牙白 · 莲花",
+    "en": "Xianxia celestial dress · Ivory · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠羽衣 象牙白 莲花",
+    "en": "Xianxia celestial dress: many layers of ivory and champagne gold chiffon with lotus flowers embroidery cascading down the skirt a crystal-beaded waistband extremely long flowing sleeves and a sweeping train embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f365_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f365.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f365.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f365.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f366",
+   "kind": "costume",
+   "code": "FCO-366",
+   "title": {
+    "zh": "敦煌飞天 · 绯红 · 山水",
+    "en": "Dunhuang apsara costume · Crimson · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "敦煌飞天 绯红 山水",
+    "en": "Dunhuang flying-apsara inspired dress in crimson and gold silk with Dunhuang mural misty mountains patterns a jeweled beaded collar piece a full pleated skirt long floating silk ribbons gold embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f366_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f366.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f366.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f366.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f367",
+   "kind": "costume",
+   "code": "FCO-367",
+   "title": {
+    "zh": "武侠女侠 · 藕粉 · 仙鹤",
+    "en": "Wuxia swordswoman · Lotus Pink · Flying cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠女侠 藕粉 仙鹤",
+    "en": "Wuxia swordswoman attire: a fitted lotus pink brocade cross-collar robe with ivory lining and silver flying cranes embroidery a wide leather belt with silver fittings leather bracers dark trousers and tall boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f367_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f367.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f367.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f367.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f368",
+   "kind": "costume",
+   "code": "FCO-368",
+   "title": {
+    "zh": "青花瓷长裙 · 青瓷 · 莲花",
+    "en": "Porcelain blue-and-white gown · Celadon · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "青花瓷长裙 青瓷 莲花",
+    "en": "a gown inspired by blue-and-white porcelain: celadon silk painted with cobalt blue lotus flowers a sheer silver gauze big-sleeved outer robe with silver edging a blue sash with a white jade pendant and silver tassels white embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f368_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f368.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f368.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f368.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f369",
+   "kind": "costume",
+   "code": "FCO-369",
+   "title": {
+    "zh": "宫廷冬装 · 梅紫 · 蝴蝶",
+    "en": "Court winter attire · Plum · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宫廷冬装 梅紫 蝴蝶",
+    "en": "court winter attire: a plum brocade standing-collar jacket with white faux fur trim and gold butterflies and flowers embroidery a long silver cloak with a fur-lined hood a horse-face skirt embroidered boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f369_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f369.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f369.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f369.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f370",
+   "kind": "costume",
+   "code": "FCO-370",
+   "title": {
+    "zh": "唐制宫装 · 藕粉 · 莲花",
+    "en": "Tang court dress · Lotus Pink · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制宫装 藕粉 莲花",
+    "en": "Tang-dynasty court dress: a lotus pink silk brocade chest-high skirt densely embroidered with lotus flowers in gold thread a long train a sheer ivory gauze big-sleeved outer robe pearl strands and a jade pendant with long silk tassels embroidered cloud-toe shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f370_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f370.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f370.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f370.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f371",
+   "kind": "costume",
+   "code": "FCO-371",
+   "title": {
+    "zh": "唐制齐胸襦裙 · 烟灰 · 梅花",
+    "en": "Tang chest-high ruqun · Smoky Grey · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制齐胸襦裙 烟灰 梅花",
+    "en": "Tang-dynasty attire: a smoky grey chest-high pleated skirt embroidered with plum blossoms a short silver white silk top a long sheer shawl draped over the arms a jade waist pendant with tassels embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f371_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f371.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f371.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f371.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f372",
+   "kind": "costume",
+   "code": "FCO-372",
+   "title": {
+    "zh": "宋制褙子 · 梅紫 · 梅花",
+    "en": "Song beizi · Plum · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制褙子 梅紫 梅花",
+    "en": "Song-dynasty attire: a long plum silk beizi with straight front edges embroidered with plum blossoms along the borders over a silver cross-collar top and a pleated long skirt embroidered flat shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f372_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f372.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f372.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f372.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f373",
+   "kind": "costume",
+   "code": "FCO-373",
+   "title": {
+    "zh": "宋制宫廷大袖 · 宝蓝 · 云纹",
+    "en": "Song court ceremonial robe · Sapphire Blue · Auspicious clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制宫廷大袖 宝蓝 云纹",
+    "en": "Song-dynasty court attire: a sapphire blue big-sleeved robe with auspicious clouds roundels in gold over a gold embroidered skirt a sheer stole and a long front panel with jade ornaments embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f373_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f373.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f373.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f373.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f374",
+   "kind": "costume",
+   "code": "FCO-374",
+   "title": {
+    "zh": "明制织金袄裙 · 绯红 · 竹",
+    "en": "Ming brocade aoqun · Crimson · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制织金袄裙 绯红 竹",
+    "en": "Ming-dynasty attire: a crimson satin standing-collar jacket covered in gold-thread bamboo with gold filigree buttons a gold horse-face pleated skirt with wide woven gold brocade bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f374_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f374.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f374.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f374.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f375",
+   "kind": "costume",
+   "code": "FCO-375",
+   "title": {
+    "zh": "明制婚服 · 月白 · 竹",
+    "en": "Ming bridal attire · Moon White · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制婚服 月白 竹",
+    "en": "Ming-dynasty bridal attire: a moon white round-collar robe embroidered with bamboo a long embroidered xiapei stole ending in jade pendants a silver horse-face skirt with gold bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f375_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f375.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f375.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f375.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f376",
+   "kind": "costume",
+   "code": "FCO-376",
+   "title": {
+    "zh": "明制披风 · 玄黑 · 锦鲤",
+    "en": "Ming long cloak · Black · Koi fish and waves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制披风 玄黑 锦鲤",
+    "en": "Ming-dynasty attire: a long black silk pifeng cloak with a straight collar embroidered with koi fish and waves over a gold standing-collar jacket and a horse-face skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f376_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f376.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f376.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f376.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f377",
+   "kind": "costume",
+   "code": "FCO-377",
+   "title": {
+    "zh": "明制比甲 · 绯红 · 兰草",
+    "en": "Ming long vest · Crimson · Orchids"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制比甲 绯红 兰草",
+    "en": "Ming-dynasty attire: a long sleeveless crimson brocade bijia vest woven with orchids over a gold long-sleeve standing-collar shirt and a pleated skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f377_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f377.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f377.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f377.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f378",
+   "kind": "costume",
+   "code": "FCO-378",
+   "title": {
+    "zh": "汉制曲裾 · 翡翠绿 · 梅花",
+    "en": "Han curved-hem robe · Emerald Green · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制曲裾 翡翠绿 梅花",
+    "en": "Han-dynasty curved-hem quju robe in emerald green silk spiralling around the body layered collars with gold and gold borders woven with plum blossoms a jade bi pendant on a silk cord embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f378_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f378.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f378.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f378.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f379",
+   "kind": "costume",
+   "code": "FCO-379",
+   "title": {
+    "zh": "魏晋杂裾垂髾 · 帝王紫 · 云纹",
+    "en": "Wei-Jin layered robe · Royal Purple · Auspicious clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋杂裾垂髾 帝王紫 云纹",
+    "en": "Wei-Jin style attire: layered royal purple and gold gauze robes with auspicious clouds embroidery long pointed hanging ribbons and swallowtail streamers at the waist embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f379_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f379.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f379.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f379.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f380",
+   "kind": "costume",
+   "code": "FCO-380",
+   "title": {
+    "zh": "清宫氅衣 · 梅紫 · 梅花",
+    "en": "Qing court changyi · Plum · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清宫氅衣 梅紫 梅花",
+    "en": "Qing court changyi robe in plum silk with very wide contrasting silver borders embroidered with plum blossoms pearl buttons on the side closure high side slits over a pale skirt flowerpot-sole shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f380_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f380.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f380.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f380.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f381",
+   "kind": "costume",
+   "code": "FCO-381",
+   "title": {
+    "zh": "水墨长袍 · 梅紫 · 莲花",
+    "en": "Ink-wash gown · Plum · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨长袍 梅紫 莲花",
+    "en": "an off-shoulder plum silk gown hand-painted with ink-wash lotus flowers accented with gold leaf a sheer silver gauze outer robe with very wide flowing sleeves and a long train a crimson sash with a jade pendant and tassels pointed embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f381_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f381.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f381.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f381.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f382",
+   "kind": "costume",
+   "code": "FCO-382",
+   "title": {
+    "zh": "水墨大袖衫 · 石青 · 山水",
+    "en": "Ink-wash big-sleeved robe · Azurite Blue · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨大袖衫 石青 山水",
+    "en": "a azurite blue silk robe painted with ink-wash misty mountains a sheer gold gauze big-sleeved outer robe with thin gold piping a brocade sash with a jade pendant and a long tassel embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f382_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f382.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f382.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f382.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f383",
+   "kind": "costume",
+   "code": "FCO-383",
+   "title": {
+    "zh": "仙侠羽衣 · 烟灰 · 仙鹤",
+    "en": "Xianxia celestial dress · Smoky Grey · Flying cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠羽衣 烟灰 仙鹤",
+    "en": "Xianxia celestial dress: many layers of smoky grey and silver white chiffon with flying cranes embroidery cascading down the skirt a crystal-beaded waistband extremely long flowing sleeves and a sweeping train embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f383_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f383.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f383.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f383.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f384",
+   "kind": "costume",
+   "code": "FCO-384",
+   "title": {
+    "zh": "敦煌飞天 · 藕粉 · 云纹",
+    "en": "Dunhuang apsara costume · Lotus Pink · Auspicious clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "敦煌飞天 藕粉 云纹",
+    "en": "Dunhuang flying-apsara inspired dress in lotus pink and ivory silk with Dunhuang mural auspicious clouds patterns a jeweled beaded collar piece a full pleated skirt long floating silk ribbons gold embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f384_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f384.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f384.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f384.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f385",
+   "kind": "costume",
+   "code": "FCO-385",
+   "title": {
+    "zh": "武侠女侠 · 朱红 · 菊花",
+    "en": "Wuxia swordswoman · Vermilion · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠女侠 朱红 菊花",
+    "en": "Wuxia swordswoman attire: a fitted vermilion brocade cross-collar robe with ivory lining and silver chrysanthemums embroidery a wide leather belt with silver fittings leather bracers dark trousers and tall boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f385_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f385.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f385.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f385.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f386",
+   "kind": "costume",
+   "code": "FCO-386",
+   "title": {
+    "zh": "青花瓷长裙 · 翡翠绿 · 兰草",
+    "en": "Porcelain blue-and-white gown · Emerald Green · Orchids"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "青花瓷长裙 翡翠绿 兰草",
+    "en": "a gown inspired by blue-and-white porcelain: emerald green silk painted with cobalt blue orchids a sheer gold gauze big-sleeved outer robe with silver edging a blue sash with a white jade pendant and silver tassels white embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f386_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f386.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f386.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f386.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f387",
+   "kind": "costume",
+   "code": "FCO-387",
+   "title": {
+    "zh": "宫廷冬装 · 赭石 · 菊花",
+    "en": "Court winter attire · Ochre · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宫廷冬装 赭石 菊花",
+    "en": "court winter attire: a ochre brocade standing-collar jacket with white faux fur trim and gold chrysanthemums embroidery a long turquoise cloak with a fur-lined hood a horse-face skirt embroidered boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f387_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f387.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f387.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f387.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f388",
+   "kind": "costume",
+   "code": "FCO-388",
+   "title": {
+    "zh": "唐制宫装 · 靛蓝 · 牡丹",
+    "en": "Tang court dress · Indigo · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制宫装 靛蓝 牡丹",
+    "en": "Tang-dynasty court dress: a indigo silk brocade chest-high skirt densely embroidered with peonies in gold thread a long train a sheer white gauze big-sleeved outer robe pearl strands and a jade pendant with long silk tassels embroidered cloud-toe shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f388_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f388.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f388.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f388.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f389",
+   "kind": "costume",
+   "code": "FCO-389",
+   "title": {
+    "zh": "唐制齐胸襦裙 · 梅紫 · 菊花",
+    "en": "Tang chest-high ruqun · Plum · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制齐胸襦裙 梅紫 菊花",
+    "en": "Tang-dynasty attire: a plum chest-high pleated skirt embroidered with chrysanthemums a short silver silk top a long sheer shawl draped over the arms a jade waist pendant with tassels embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f389_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f389.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f389.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f389.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f390",
+   "kind": "costume",
+   "code": "FCO-390",
+   "title": {
+    "zh": "宋制褙子 · 靛蓝 · 山水",
+    "en": "Song beizi · Indigo · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制褙子 靛蓝 山水",
+    "en": "Song-dynasty attire: a long indigo silk beizi with straight front edges embroidered with misty mountains along the borders over a white cross-collar top and a pleated long skirt embroidered flat shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f390_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f390.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f390.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f390.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f391",
+   "kind": "costume",
+   "code": "FCO-391",
+   "title": {
+    "zh": "宋制宫廷大袖 · 青瓷 · 蝴蝶",
+    "en": "Song court ceremonial robe · Celadon · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制宫廷大袖 青瓷 蝴蝶",
+    "en": "Song-dynasty court attire: a celadon big-sleeved robe with butterflies and flowers roundels in gold over a silver embroidered skirt a sheer stole and a long front panel with jade ornaments embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f391_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f391.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f391.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f391.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f392",
+   "kind": "costume",
+   "code": "FCO-392",
+   "title": {
+    "zh": "明制织金袄裙 · 藕粉 · 竹",
+    "en": "Ming brocade aoqun · Lotus Pink · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制织金袄裙 藕粉 竹",
+    "en": "Ming-dynasty attire: a lotus pink satin standing-collar jacket covered in gold-thread bamboo with gold filigree buttons a ivory horse-face pleated skirt with wide woven gold brocade bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f392_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f392.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f392.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f392.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f393",
+   "kind": "costume",
+   "code": "FCO-393",
+   "title": {
+    "zh": "明制婚服 · 象牙白 · 山水",
+    "en": "Ming bridal attire · Ivory · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制婚服 象牙白 山水",
+    "en": "Ming-dynasty bridal attire: a ivory round-collar robe embroidered with misty mountains a long embroidered xiapei stole ending in jade pendants a champagne gold horse-face skirt with gold bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f393_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f393.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f393.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f393.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f394",
+   "kind": "costume",
+   "code": "FCO-394",
+   "title": {
+    "zh": "明制披风 · 靛蓝 · 锦鲤",
+    "en": "Ming long cloak · Indigo · Koi fish and waves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制披风 靛蓝 锦鲤",
+    "en": "Ming-dynasty attire: a long indigo silk pifeng cloak with a straight collar embroidered with koi fish and waves over a white standing-collar jacket and a horse-face skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f394_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f394.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f394.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f394.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f395",
+   "kind": "costume",
+   "code": "FCO-395",
+   "title": {
+    "zh": "明制比甲 · 梅紫 · 牡丹",
+    "en": "Ming long vest · Plum · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制比甲 梅紫 牡丹",
+    "en": "Ming-dynasty attire: a long sleeveless plum brocade bijia vest woven with peonies over a silver long-sleeve standing-collar shirt and a pleated skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f395_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f395.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f395.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f395.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f396",
+   "kind": "costume",
+   "code": "FCO-396",
+   "title": {
+    "zh": "汉制曲裾 · 赭石 · 蝴蝶",
+    "en": "Han curved-hem robe · Ochre · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制曲裾 赭石 蝴蝶",
+    "en": "Han-dynasty curved-hem quju robe in ochre silk spiralling around the body layered collars with turquoise and gold borders woven with butterflies and flowers a jade bi pendant on a silk cord embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f396_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f396.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f396.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f396.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f397",
+   "kind": "costume",
+   "code": "FCO-397",
+   "title": {
+    "zh": "魏晋杂裾垂髾 · 玄黑 · 凤纹",
+    "en": "Wei-Jin layered robe · Black · Phoenixes and clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋杂裾垂髾 玄黑 凤纹",
+    "en": "Wei-Jin style attire: layered black and gold gauze robes with phoenixes and clouds embroidery long pointed hanging ribbons and swallowtail streamers at the waist embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f397_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f397.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f397.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f397.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f398",
+   "kind": "costume",
+   "code": "FCO-398",
+   "title": {
+    "zh": "清宫氅衣 · 宝蓝 · 莲花",
+    "en": "Qing court changyi · Sapphire Blue · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清宫氅衣 宝蓝 莲花",
+    "en": "Qing court changyi robe in sapphire blue silk with very wide contrasting gold borders embroidered with lotus flowers pearl buttons on the side closure high side slits over a pale skirt flowerpot-sole shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f398_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f398.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f398.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f398.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f399",
+   "kind": "costume",
+   "code": "FCO-399",
+   "title": {
+    "zh": "水墨长袍 · 绯红 · 牡丹",
+    "en": "Ink-wash gown · Crimson · Peonies"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨长袍 绯红 牡丹",
+    "en": "an off-shoulder crimson silk gown hand-painted with ink-wash peonies accented with gold leaf a sheer gold gauze outer robe with very wide flowing sleeves and a long train a crimson sash with a jade pendant and tassels pointed embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f399_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f399.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f399.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f399.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f400",
+   "kind": "costume",
+   "code": "FCO-400",
+   "title": {
+    "zh": "水墨大袖衫 · 翡翠绿 · 山水",
+    "en": "Ink-wash big-sleeved robe · Emerald Green · Misty mountains"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨大袖衫 翡翠绿 山水",
+    "en": "a emerald green silk robe painted with ink-wash misty mountains a sheer gold gauze big-sleeved outer robe with thin gold piping a brocade sash with a jade pendant and a long tassel embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f400_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f400.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f400.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f400.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f401",
+   "kind": "costume",
+   "code": "FCO-401",
+   "title": {
+    "zh": "仙侠羽衣 · 石青 · 莲花",
+    "en": "Xianxia celestial dress · Azurite Blue · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠羽衣 石青 莲花",
+    "en": "Xianxia celestial dress: many layers of azurite blue and gold chiffon with lotus flowers embroidery cascading down the skirt a crystal-beaded waistband extremely long flowing sleeves and a sweeping train embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f401_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f401.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f401.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f401.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f402",
+   "kind": "costume",
+   "code": "FCO-402",
+   "title": {
+    "zh": "敦煌飞天 · 赭石 · 仙鹤",
+    "en": "Dunhuang apsara costume · Ochre · Flying cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "敦煌飞天 赭石 仙鹤",
+    "en": "Dunhuang flying-apsara inspired dress in ochre and turquoise silk with Dunhuang mural flying cranes patterns a jeweled beaded collar piece a full pleated skirt long floating silk ribbons gold embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f402_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f402.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f402.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f402.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f403",
+   "kind": "costume",
+   "code": "FCO-403",
+   "title": {
+    "zh": "武侠女侠 · 宝蓝 · 莲花",
+    "en": "Wuxia swordswoman · Sapphire Blue · Lotus flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠女侠 宝蓝 莲花",
+    "en": "Wuxia swordswoman attire: a fitted sapphire blue brocade cross-collar robe with gold lining and silver lotus flowers embroidery a wide leather belt with silver fittings leather bracers dark trousers and tall boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f403_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f403.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f403.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f403.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f404",
+   "kind": "costume",
+   "code": "FCO-404",
+   "title": {
+    "zh": "青花瓷长裙 · 石青 · 菊花",
+    "en": "Porcelain blue-and-white gown · Azurite Blue · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "青花瓷长裙 石青 菊花",
+    "en": "a gown inspired by blue-and-white porcelain: azurite blue silk painted with cobalt blue chrysanthemums a sheer gold gauze big-sleeved outer robe with silver edging a blue sash with a white jade pendant and silver tassels white embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f404_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f404.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f404.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f404.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f405",
+   "kind": "costume",
+   "code": "FCO-405",
+   "title": {
+    "zh": "宫廷冬装 · 象牙白 · 菊花",
+    "en": "Court winter attire · Ivory · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宫廷冬装 象牙白 菊花",
+    "en": "court winter attire: a ivory brocade standing-collar jacket with white faux fur trim and gold chrysanthemums embroidery a long champagne gold cloak with a fur-lined hood a horse-face skirt embroidered boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f405_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f405.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f405.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f405.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f406",
+   "kind": "costume",
+   "code": "FCO-406",
+   "title": {
+    "zh": "唐制宫装 · 绯红 · 蝴蝶",
+    "en": "Tang court dress · Crimson · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制宫装 绯红 蝴蝶",
+    "en": "Tang-dynasty court dress: a crimson silk brocade chest-high skirt densely embroidered with butterflies and flowers in gold thread a long train a sheer gold gauze big-sleeved outer robe pearl strands and a jade pendant with long silk tassels embroidered cloud-toe shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f406_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f406.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f406.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f406.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f407",
+   "kind": "costume",
+   "code": "FCO-407",
+   "title": {
+    "zh": "唐制齐胸襦裙 · 月白 · 蝴蝶",
+    "en": "Tang chest-high ruqun · Moon White · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制齐胸襦裙 月白 蝴蝶",
+    "en": "Tang-dynasty attire: a moon white chest-high pleated skirt embroidered with butterflies and flowers a short silver silk top a long sheer shawl draped over the arms a jade waist pendant with tassels embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f407_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f407.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f407.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f407.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f408",
+   "kind": "costume",
+   "code": "FCO-408",
+   "title": {
+    "zh": "宋制褙子 · 烟灰 · 蝴蝶",
+    "en": "Song beizi · Smoky Grey · Butterflies and flowers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制褙子 烟灰 蝴蝶",
+    "en": "Song-dynasty attire: a long smoky grey silk beizi with straight front edges embroidered with butterflies and flowers along the borders over a silver white cross-collar top and a pleated long skirt embroidered flat shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f408_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f408.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f408.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f408.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f409",
+   "kind": "costume",
+   "code": "FCO-409",
+   "title": {
+    "zh": "宋制宫廷大袖 · 墨黑 · 兰草",
+    "en": "Song court ceremonial robe · Ink Black · Orchids"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制宫廷大袖 墨黑 兰草",
+    "en": "Song-dynasty court attire: a ink black big-sleeved robe with orchids roundels in gold over a white embroidered skirt a sheer stole and a long front panel with jade ornaments embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f409_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f409.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f409.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f409.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f410",
+   "kind": "costume",
+   "code": "FCO-410",
+   "title": {
+    "zh": "明制织金袄裙 · 帝王紫 · 梅花",
+    "en": "Ming brocade aoqun · Royal Purple · Plum blossoms"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制织金袄裙 帝王紫 梅花",
+    "en": "Ming-dynasty attire: a royal purple satin standing-collar jacket covered in gold-thread plum blossoms with gold filigree buttons a gold horse-face pleated skirt with wide woven gold brocade bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f410_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f410.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f410.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f410.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f411",
+   "kind": "costume",
+   "code": "FCO-411",
+   "title": {
+    "zh": "明制婚服 · 靛蓝 · 锦鲤",
+    "en": "Ming bridal attire · Indigo · Koi fish and waves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制婚服 靛蓝 锦鲤",
+    "en": "Ming-dynasty bridal attire: a indigo round-collar robe embroidered with koi fish and waves a long embroidered xiapei stole ending in jade pendants a white horse-face skirt with gold bands embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f411_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f411.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f411.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f411.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f412",
+   "kind": "costume",
+   "code": "FCO-412",
+   "title": {
+    "zh": "明制披风 · 靛蓝 · 兰草",
+    "en": "Ming long cloak · Indigo · Orchids"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制披风 靛蓝 兰草",
+    "en": "Ming-dynasty attire: a long indigo silk pifeng cloak with a straight collar embroidered with orchids over a white standing-collar jacket and a horse-face skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f412_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f412.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f412.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f412.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f413",
+   "kind": "costume",
+   "code": "FCO-413",
+   "title": {
+    "zh": "明制比甲 · 烟灰 · 菊花",
+    "en": "Ming long vest · Smoky Grey · Chrysanthemums"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制比甲 烟灰 菊花",
+    "en": "Ming-dynasty attire: a long sleeveless smoky grey brocade bijia vest woven with chrysanthemums over a silver white long-sleeve standing-collar shirt and a pleated skirt embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f413_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f413.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f413.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f413.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m150",
+   "kind": "costume",
+   "code": "MCO-150",
+   "title": {
+    "zh": "明制圆领官袍 · 藏青 · 团龙",
+    "en": "Ming official robe · Navy · Dragons"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制圆领官袍 藏青 团龙",
+    "en": "Ming-dynasty official's round-collar robe in navy silk damask with a tonal cloud pattern a square gold-embroidered dragons badge on the chest a white inner collar a jade-plaque belt black court boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m150_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m150.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m150.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m150.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m151",
+   "kind": "costume",
+   "code": "MCO-151",
+   "title": {
+    "zh": "汉制直裾深衣 · 青瓷蓝 · 仙鹤",
+    "en": "Han straight-hem robe · Celadon Blue · Cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制直裾深衣 青瓷蓝 仙鹤",
+    "en": "Han-dynasty straight-hem robe in celadon blue silk with wide pale grey and gold borders woven with cranes a carved jade belt hook and pendant black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m151_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m151.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m151.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m151.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m152",
+   "kind": "costume",
+   "code": "MCO-152",
+   "title": {
+    "zh": "宋制文人道袍 · 玄黑 · 麒麟",
+    "en": "Song scholar robe · Black · Qilin"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制文人道袍 玄黑 麒麟",
+    "en": "Song-dynasty scholar attire: a black silk long robe with a white cross collar a sheer crimson gauze outer robe painted with ink-wash qilin a narrow silk sash with a jade pendant black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m152_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m152.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m152.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m152.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m153",
+   "kind": "costume",
+   "code": "MCO-153",
+   "title": {
+    "zh": "唐制圆领袍 · 绯红 · 回纹",
+    "en": "Tang round-collar robe · Crimson · Fret patterns"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制圆领袍 绯红 回纹",
+    "en": "Tang-dynasty men's round-collar robe in crimson silk brocade with golden roundel patterns of fret patterns narrow sleeves a black leather belt with gold plaques black leather boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m153_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m153.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m153.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m153.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m154",
+   "kind": "costume",
+   "code": "MCO-154",
+   "title": {
+    "zh": "魏晋名士大袖衫 · 青瓷蓝 · 麒麟",
+    "en": "Wei-Jin scholar robe · Celadon Blue · Qilin"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋名士大袖衫 青瓷蓝 麒麟",
+    "en": "Wei-Jin scholar attire: a loose celadon blue gauze big-sleeved robe with pale grey trims and faint qilin embroidery a wide sash black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m154_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m154.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m154.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m154.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m155",
+   "kind": "costume",
+   "code": "MCO-155",
+   "title": {
+    "zh": "武侠剑客装 · 墨绿 · 仙鹤",
+    "en": "Wuxia swordsman · Deep Green · Cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠剑客装 墨绿 仙鹤",
+    "en": "Wuxia swordsman attire: a fitted deep green cross-collar robe with silver cranes embroidery and side slits a black inner layer a wide leather belt with silver fittings leather bracers tall black boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m155_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m155.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m155.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m155.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m156",
+   "kind": "costume",
+   "code": "MCO-156",
+   "title": {
+    "zh": "清代马褂长袍 · 绯红 · 竹",
+    "en": "Qing magua and robe · Crimson · Bamboo"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清代马褂长袍 绯红 竹",
+    "en": "Qing-dynasty men's attire: a crimson silk brocade magua jacket with gold bamboo roundels and knot buttons over a long gold silk robe black cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m156_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m156.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m156.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m156.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m157",
+   "kind": "costume",
+   "code": "MCO-157",
+   "title": {
+    "zh": "将军戎装 · 玄黑 · 回纹",
+    "en": "General's ceremonial armor · Black · Fret patterns"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "将军戎装 玄黑 回纹",
+    "en": "ornate ceremonial general's armor: black lamellar plates with gold trim and fret patterns engravings over a crimson silk robe a sculpted belt armored shoulder pieces black leather boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m157_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m157.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m157.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m157.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m158",
+   "kind": "costume",
+   "code": "MCO-158",
+   "title": {
+    "zh": "仙侠白衣 · 墨绿 · 团龙",
+    "en": "Xianxia white robe · Deep Green · Dragons"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠白衣 墨绿 团龙",
+    "en": "Xianxia immortal attire: layered deep green and black silk robes with silver dragons embroidery very wide flowing sleeves a jade belt with tassels white cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m158_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m158.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m158.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m158.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m159",
+   "kind": "costume",
+   "code": "MCO-159",
+   "title": {
+    "zh": "书生直裰 · 月白 · 云纹",
+    "en": "Scholar zhiduo · Moon White · Clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "书生直裰 月白 云纹",
+    "en": "Ming scholar attire: a moon white straight zhiduo robe with a white cross collar and silver grey trims subtle clouds jacquard a silk cord belt black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m159_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m159.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m159.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m159.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m160",
+   "kind": "costume",
+   "code": "MCO-160",
+   "title": {
+    "zh": "明制圆领官袍 · 青瓷蓝 · 麒麟",
+    "en": "Ming official robe · Celadon Blue · Qilin"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制圆领官袍 青瓷蓝 麒麟",
+    "en": "Ming-dynasty official's round-collar robe in celadon blue silk damask with a tonal cloud pattern a square gold-embroidered qilin badge on the chest a white inner collar a jade-plaque belt black court boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m160_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m160.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m160.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m160.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m161",
+   "kind": "costume",
+   "code": "MCO-161",
+   "title": {
+    "zh": "汉制直裾深衣 · 青瓷蓝 · 麒麟",
+    "en": "Han straight-hem robe · Celadon Blue · Qilin"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制直裾深衣 青瓷蓝 麒麟",
+    "en": "Han-dynasty straight-hem robe in celadon blue silk with wide pale grey and gold borders woven with qilin a carved jade belt hook and pendant black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m161_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m161.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m161.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m161.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m162",
+   "kind": "costume",
+   "code": "MCO-162",
+   "title": {
+    "zh": "宋制文人道袍 · 石青 · 云纹",
+    "en": "Song scholar robe · Azurite Blue · Clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制文人道袍 石青 云纹",
+    "en": "Song-dynasty scholar attire: a azurite blue silk long robe with a white cross collar a sheer gold gauze outer robe painted with ink-wash clouds a narrow silk sash with a jade pendant black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m162_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m162.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m162.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m162.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m163",
+   "kind": "costume",
+   "code": "MCO-163",
+   "title": {
+    "zh": "唐制圆领袍 · 石青 · 回纹",
+    "en": "Tang round-collar robe · Azurite Blue · Fret patterns"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制圆领袍 石青 回纹",
+    "en": "Tang-dynasty men's round-collar robe in azurite blue silk brocade with golden roundel patterns of fret patterns narrow sleeves a black leather belt with gold plaques black leather boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m163_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m163.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m163.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m163.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m164",
+   "kind": "costume",
+   "code": "MCO-164",
+   "title": {
+    "zh": "魏晋名士大袖衫 · 月白 · 团龙",
+    "en": "Wei-Jin scholar robe · Moon White · Dragons"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋名士大袖衫 月白 团龙",
+    "en": "Wei-Jin scholar attire: a loose moon white gauze big-sleeved robe with silver grey trims and faint dragons embroidery a wide sash black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m164_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m164.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m164.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m164.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m165",
+   "kind": "costume",
+   "code": "MCO-165",
+   "title": {
+    "zh": "武侠剑客装 · 墨绿 · 麒麟",
+    "en": "Wuxia swordsman · Deep Green · Qilin"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠剑客装 墨绿 麒麟",
+    "en": "Wuxia swordsman attire: a fitted deep green cross-collar robe with silver qilin embroidery and side slits a black inner layer a wide leather belt with silver fittings leather bracers tall black boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m165_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m165.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m165.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m165.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m166",
+   "kind": "costume",
+   "code": "MCO-166",
+   "title": {
+    "zh": "清代马褂长袍 · 月白 · 团龙",
+    "en": "Qing magua and robe · Moon White · Dragons"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清代马褂长袍 月白 团龙",
+    "en": "Qing-dynasty men's attire: a moon white silk brocade magua jacket with gold dragons roundels and knot buttons over a long silver grey silk robe black cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m166_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m166.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m166.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m166.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m167",
+   "kind": "costume",
+   "code": "MCO-167",
+   "title": {
+    "zh": "将军戎装 · 墨绿 · 仙鹤",
+    "en": "General's ceremonial armor · Deep Green · Cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "将军戎装 墨绿 仙鹤",
+    "en": "ornate ceremonial general's armor: deep green lamellar plates with gold trim and cranes engravings over a black silk robe a sculpted belt armored shoulder pieces black leather boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m167_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m167.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m167.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m167.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m168",
+   "kind": "costume",
+   "code": "MCO-168",
+   "title": {
+    "zh": "仙侠白衣 · 绯红 · 回纹",
+    "en": "Xianxia white robe · Crimson · Fret patterns"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠白衣 绯红 回纹",
+    "en": "Xianxia immortal attire: layered crimson and gold silk robes with silver fret patterns embroidery very wide flowing sleeves a jade belt with tassels white cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m168_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m168.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m168.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m168.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m169",
+   "kind": "costume",
+   "code": "MCO-169",
+   "title": {
+    "zh": "书生直裰 · 藏青 · 仙鹤",
+    "en": "Scholar zhiduo · Navy · Cranes"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "书生直裰 藏青 仙鹤",
+    "en": "Ming scholar attire: a navy straight zhiduo robe with a white cross collar and white trims subtle cranes jacquard a silk cord belt black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-23",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m169_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m169.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m169.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m169.jpg"
+    }
+   ]
   }
  ]
 }
