@@ -117306,6 +117306,1086 @@
      "original": "/muse-assets/character/originals/muse-char-mf110-5.jpg"
     }
    ]
+  },
+  {
+   "id": "muse-costume-f101",
+   "kind": "costume",
+   "code": "FCO-101",
+   "title": {
+    "zh": "唐制齐胸襦裙 · 浅粉 · 白纱披帛",
+    "en": "Tang-style chest-high ruqun · Pale pink · Sheer shawl"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制齐胸襦裙 浅粉 白纱披帛",
+    "en": "traditional Chinese historical costume Tang-dynasty high-waisted chest-tied ruqun: a pale pink short top tied above the chest with a long flowing pale pink pleated skirt a sheer white silk shawl draped over both shoulders embroidered cloud-toe cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f101_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f101.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f101.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f101.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f102",
+   "kind": "costume",
+   "code": "FCO-102",
+   "title": {
+    "zh": "宋制褙子 · 鼠尾草绿 · 米白百褶裙",
+    "en": "Song-style beizi · Sage green · Cream pleated skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制褙子 鼠尾草绿 米白百褶裙",
+    "en": "traditional Chinese historical costume Song-dynasty beizi: a long open sage green jacket with straight front edges over a white cross-collar top and a cream pleated long skirt flat embroidered cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f102_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f102.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f102.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f102.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f103",
+   "kind": "costume",
+   "code": "FCO-103",
+   "title": {
+    "zh": "明制袄裙 · 象牙白立领 · 藏青马面裙",
+    "en": "Ming-style aoqun · Ivory jacket · Navy horse-face skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制袄裙 象牙白立领 藏青马面裙",
+    "en": "traditional Chinese historical costume Ming-dynasty aoqun: a short ivory standing-collar jacket with gold cloud embroidery and a deep navy horse-face pleated skirt with a woven gold hem band embroidered cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f103_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f103.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f103.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f103.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f104",
+   "kind": "costume",
+   "code": "FCO-104",
+   "title": {
+    "zh": "汉制曲裾深衣 · 黑底朱红缘边",
+    "en": "Han-style curved-hem robe · Black with red trims"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制曲裾深衣 黑底朱红缘边",
+    "en": "traditional Chinese historical costume Han-dynasty curved-hem quju shenyi: a long black silk robe spiralling around the body with layered deep red collar and cuff trims and a red sash black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f104_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f104.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f104.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f104.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f105",
+   "kind": "costume",
+   "code": "FCO-105",
+   "title": {
+    "zh": "魏晋风大袖衫 · 白纱 · 天蓝长裙",
+    "en": "Wei-Jin wide-sleeved robe · White gauze · Sky blue skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "魏晋风大袖衫 白纱 天蓝长裙",
+    "en": "traditional Chinese historical costume Wei-Jin style outfit: a white gauze wide-sleeved robe with long flowing sleeves and trailing ribbons over a light sky blue long skirt white cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f105_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f105.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f105.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f105.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f106",
+   "kind": "costume",
+   "code": "FCO-106",
+   "title": {
+    "zh": "清宫风墨染梅花长袍 · 白纱外披 · 红腰带",
+    "en": "Qing court-style ink-wash gown · Sheer overlay · Red sash"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "清宫风墨染梅花长袍 白纱外披 红腰带",
+    "en": "traditional Chinese historical costume Qing-court inspired gown: a long black silk robe with an ink-wash painted plum blossom pattern in grey and white an off-shoulder sheer white over-layer with wide sleeves a red waist sash with a jade pendant and red tassel black pointed embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f106_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f106.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f106.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f106.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f107",
+   "kind": "costume",
+   "code": "FCO-107",
+   "title": {
+    "zh": "水墨渐层汉服 · 墨竹大袖",
+    "en": "Ink-wash gradient hanfu · Bamboo sleeves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "水墨渐层汉服 墨竹大袖",
+    "en": "traditional Chinese historical costume Flowing hanfu dress with an ink-wash gradient from charcoal black at the hem to white at the shoulders wide sheer sleeves painted with bamboo leaves a black silk sash black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f107_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f107.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f107.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f107.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f108",
+   "kind": "costume",
+   "code": "FCO-108",
+   "title": {
+    "zh": "唐制大袖衫 · 薰衣草紫纱 · 绯红长裙",
+    "en": "Tang-style ceremonial robe · Lavender gauze · Crimson skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐制大袖衫 薰衣草紫纱 绯红长裙",
+    "en": "traditional Chinese historical costume Tang-dynasty ceremonial dashan: a sheer lavender big-sleeved outer robe over a crimson high-waisted long skirt and a white inner top embroidered cloud-toe shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f108_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f108.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f108.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f108.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f109",
+   "kind": "costume",
+   "code": "FCO-109",
+   "title": {
+    "zh": "宋制短襦 · 浅蓝 · 白色裹裙",
+    "en": "Song-style short jacket · Light blue · White wrap skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋制短襦 浅蓝 白色裹裙",
+    "en": "traditional Chinese historical costume Song-dynasty duanru: a short light blue cross-collar jacket with a white wrap skirt and a narrow pleated ivory apron at the front flat cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f109_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f109.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f109.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f109.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f110",
+   "kind": "costume",
+   "code": "FCO-110",
+   "title": {
+    "zh": "明制比甲 · 墨绿织锦 · 白衫象牙白裙",
+    "en": "Ming-style long vest · Deep green brocade · Ivory skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制比甲 墨绿织锦 白衫象牙白裙",
+    "en": "traditional Chinese historical costume Ming-dynasty bijia: a long sleeveless deep green brocade vest over a white long-sleeve standing-collar shirt and an ivory pleated skirt embroidered cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f110_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f110.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f110.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f110.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f111",
+   "kind": "costume",
+   "code": "FCO-111",
+   "title": {
+    "zh": "武侠女侠装 · 暗红短衫 · 皮护腕 · 黑长靴",
+    "en": "Wuxia swordswoman · Dark red tunic · Leather bracers"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "武侠女侠装 暗红短衫 皮护腕 黑长靴",
+    "en": "traditional Chinese historical costume Wuxia swordswoman outfit: a fitted dark red cross-collar tunic with side slits brown leather bracers and a wide leather belt black trousers and tall black cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f111_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f111.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f111.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f111.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f112",
+   "kind": "costume",
+   "code": "FCO-112",
+   "title": {
+    "zh": "仙侠飘逸纱裙 · 薄荷绿与白 · 银线云纹",
+    "en": "Xianxia fairy gauze dress · Mint and white · Silver clouds"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "仙侠飘逸纱裙 薄荷绿与白 银线云纹",
+    "en": "traditional Chinese historical costume Xianxia fairy-style dress: many layers of pale mint and white sheer gauze with long floating sleeves delicate silver cloud embroidery at the hems white embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f112_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f112.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f112.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f112.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f113",
+   "kind": "costume",
+   "code": "FCO-113",
+   "title": {
+    "zh": "晚清袄裙 · 蜜桃色宽袖 · 黑色长裙",
+    "en": "Late Qing-style jacket and skirt · Peach · Black skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "晚清袄裙 蜜桃色宽袖 黑色长裙",
+    "en": "traditional Chinese historical costume Late-Qing style aoqun: a peach silk jacket with wide sleeves and white lace trims over a long black pleated skirt with peach embroidery at the hem black embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f113_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f113.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f113.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f113.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f114",
+   "kind": "costume",
+   "code": "FCO-114",
+   "title": {
+    "zh": "唐风长水袖舞衣 · 绯红 · 金色腰带",
+    "en": "Tang-style dancer costume · Crimson · Long water sleeves"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐风长水袖舞衣 绯红 金色腰带",
+    "en": "traditional Chinese historical costume Tang-style dancer costume: a crimson fitted top with extremely long white water sleeves a full crimson skirt and a gold silk sash red soft dance shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f114_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f114.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f114.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f114.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f115",
+   "kind": "costume",
+   "code": "FCO-115",
+   "title": {
+    "zh": "明制圆领袍 · 芥末黄 · 仙鹤补子",
+    "en": "Ming-style round-collar robe · Mustard · Crane patch"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制圆领袍 芥末黄 仙鹤补子",
+    "en": "traditional Chinese historical costume Ming-dynasty women's round-collar robe: a mustard yellow round-neck robe with a square embroidered crane patch on the chest a narrow black belt white inner collar black cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f115_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f115.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f115.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f115.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f116",
+   "kind": "costume",
+   "code": "FCO-116",
+   "title": {
+    "zh": "宋风山水墨画外袍 · 浅灰 · 白色交领裙",
+    "en": "Song-style landscape ink-painted robe · Light grey"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "宋风山水墨画外袍 浅灰 白色交领裙",
+    "en": "traditional Chinese historical costume Song-style outfit with a long light grey outer robe hand-painted with an ink-wash mountain and river landscape over a white cross-collar dress grey cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f116_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f116.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f116.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f116.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f117",
+   "kind": "costume",
+   "code": "FCO-117",
+   "title": {
+    "zh": "汉制直裾 · 藏青 · 白色缘边",
+    "en": "Han-style straight-hem robe · Navy · White trims"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "汉制直裾 藏青 白色缘边",
+    "en": "traditional Chinese historical costume Han-dynasty straight-hem zhiju robe: a long navy blue robe with wide white collar and cuff trims and a white sash black cloth shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f117_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f117.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f117.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f117.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f118",
+   "kind": "costume",
+   "code": "FCO-118",
+   "title": {
+    "zh": "明制斗篷 · 绯红毛领 · 象牙白袄 · 浅灰马面裙",
+    "en": "Ming-style winter cape · Crimson · Grey horse-face skirt"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "明制斗篷 绯红毛领 象牙白袄 浅灰马面裙",
+    "en": "traditional Chinese historical costume Ming-style winter outfit: a crimson hooded cape with white faux fur trim over an ivory jacket and a light grey horse-face pleated skirt embroidered cloth boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f118_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f118.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f118.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f118.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f119",
+   "kind": "costume",
+   "code": "FCO-119",
+   "title": {
+    "zh": "唐风圆领袍 · 青绿 · 黑革带长靴",
+    "en": "Tang-style round-collar riding robe · Teal"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "唐风圆领袍 青绿 黑革带长靴",
+    "en": "traditional Chinese historical costume Tang-style women's round-collar riding robe: a teal round-neck robe with narrow sleeves a black leather belt with small metal plaques black trousers and black leather riding boots"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f119_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f119.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f119.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f119.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f120",
+   "kind": "costume",
+   "code": "FCO-120",
+   "title": {
+    "zh": "玄色金纹礼服 · 汉风 · 朱红内领",
+    "en": "Han-inspired ceremonial robe · Black and gold"
+   },
+   "category": {
+    "id": "historical",
+    "zh": "古装",
+    "en": "Historical Chinese"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "玄色金纹礼服 汉风 朱红内领",
+    "en": "traditional Chinese historical costume Han-inspired ceremonial dress: a black robe with layered wide sleeves and woven gold cloud patterns along the hems a deep red inner collar and a red and gold waist sash black embroidered shoes"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "Z-Image Turbo（本機）",
+    "created": "2026-11-22",
+    "note": "Muse 自製，AI 生成的隱形人台服裝照；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f120_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f120.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f120.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f120.jpg"
+    }
+   ]
   }
  ]
 }
