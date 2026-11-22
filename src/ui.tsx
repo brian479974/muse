@@ -92,6 +92,9 @@ export function Modal({
     const dialog = ref.current!;
     const originalOverflow = document.body.style.overflow;
     dialog.showModal();
+    // showModal 會把焦點移到第一個按鈕並捲過去；內容比視窗高時（例如髮型、同臉髮型的詳細頁）
+    // 那顆按鈕在大圖下方，一打開就看不到圖上半部 → 打開時一律從頂端開始
+    dialog.scrollTop = 0;
     document.body.style.overflow = 'hidden';
     return () => {
       dialog.close();

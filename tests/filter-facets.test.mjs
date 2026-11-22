@@ -136,7 +136,10 @@ test('sort by code follows the visible numeric code rather than the internal ID'
 test('every character has one age band and one ethnicity, in the fixed facet order, and they intersect with other filters', async () => {
   const facets = await readJson('data/character-facets.json');
   const characters = items.filter((item) => item.kind === 'character');
-  assert.equal(characters.length, 2105);
+  // 人物總數＝每次上新批都會變（11-22 加 500 張臉：2105→2605），改成跟標註檔的筆數對帳，不寫死
+  const attributes = await readJson('data/character-attributes.json');
+  assert.equal(characters.length, Object.keys(attributes.items).length);
+  assert.ok(characters.length >= 2605);
   // 舊「國家」欄位已移除：上游一律寫日本、自製的沒寫，選「日本」會讓所有男性和非東亞的臉消失
   assert.equal(items.filter((item) => 'country' in item).length, 0);
   for (const key of ['age', 'ethnicity']) {
@@ -146,15 +149,19 @@ test('every character has one age band and one ethnicity, in the fixed facet ord
     // 每個選項都有人，加總剛好等於全部人物
     const counts = ids.map((id) => filterReferences(items, { [key]: id }).length);
     assert.ok(counts.every((n) => n > 0), `${key} empty option`);
-    assert.equal(counts.reduce((a, b) => a + b, 0), 2105);
+    assert.equal(counts.reduce((a, b) => a + b, 0), characters.length);
     for (const value of facets[key])
       for (const item of characters.filter((item) => item[key].id === value.id))
         assert.deepEqual(item[key], { id: value.id, zh: value.zh, en: value.en, tw: item[key].tw });
   }
-  assert.equal(filterReferences(items, { ethnicity: 'east-asian' }).length, 1684);
-  assert.equal(filterReferences(items, { age: '50-plus' }).length, 136);
-  // 跟性別、髮長、素材來源交叉：上游圖庫全部是東亞女性
-  assert.equal(filterReferences(items, { ethnicity: 'east-asian', collection: 'builtin' }).length, 1684);
+  // 人數從標註檔現算（每批新臉都會變；11-22 加 500 張東亞臉）
+  const tally = (key, id) => Object.values(attributes.items).filter((a) => a[key] === id).length;
+  const eastAsian = tally('ethnicity', 'east-asian'), fiftyPlus = tally('age', '50-plus'), southeast = tally('ethnicity', 'southeast-asian');
+  assert.ok(eastAsian >= 2184 && fiftyPlus >= 136);
+  assert.equal(filterReferences(items, { ethnicity: 'east-asian' }).length, eastAsian);
+  assert.equal(filterReferences(items, { age: '50-plus' }).length, fiftyPlus);
+  // 跟性別、髮長、素材來源交叉：「內建」含上游圖庫與 Muse 自製人臉（使用者上傳的才不算）
+  assert.equal(filterReferences(items, { ethnicity: 'east-asian', collection: 'builtin' }).length, eastAsian);
   assert.equal(filterReferences(items, { ethnicity: 'black', tag: 'female' }).length > 0, true);
   assert.equal(filterReferences(items, { ethnicity: 'black', tag: 'male' }).length > 0, true);
   assert.equal(filterReferences(items, { age: '50-plus', tag: 'male', hair: 'short' }).length > 0, true);
@@ -162,10 +169,10 @@ test('every character has one age band and one ethnicity, in the fixed facet ord
   assert.equal(filterReferences(items, { ethnicity: 'unknown' }).length, 0);
   // 繁簡英都搜得到
   for (const query of ['东亚', '東亞'])
-    assert.equal(filterReferences(items, { kind: 'character', query }).length, 1684);
+    assert.equal(filterReferences(items, { kind: 'character', query }).length, eastAsian);
   // 搜尋是比對子字串：英文 East Asian 也會找到 Southeast Asian
-  assert.equal(filterReferences(items, { kind: 'character', query: 'East Asian' }).length, 1684 + 81);
-  assert.equal(filterReferences(items, { kind: 'character', query: '50 歲以上' }).length, 136);
+  assert.equal(filterReferences(items, { kind: 'character', query: 'East Asian' }).length, eastAsian + southeast);
+  assert.equal(filterReferences(items, { kind: 'character', query: '50 歲以上' }).length, fiftyPlus);
 });
 
 test('visible codes are searchable and one tag ID has one bilingual display name', () => {

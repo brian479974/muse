@@ -11,7 +11,7 @@ import type { CharacterFacet, LibraryFilters } from './library';
 import type { Kind, Lang, Reference } from './types';
 import { FilterSelect } from './filter-select';
 
-const kinds: Kind[] = ['pose', 'costume', 'character'];
+const kinds: Kind[] = ['pose', 'costume', 'character', 'hairstyle'];
 
 export function CategoryFilter({
   items,
@@ -89,8 +89,14 @@ export function ReferenceFilters({
 }) {
   const t = copy[lang];
   const { collection = 'all', tag = 'all', style = 'all' } = filters;
+  // 髮型的風格標籤（韓系、日系…）由髮型分頁自己的「風格」篩選處理，不混進「畫面風格」
   const tags = [
-    ...new Map(items.flatMap((item) => item.tags || []).map((value) => [value.id, value])).values(),
+    ...new Map(
+      items
+        .filter((item) => item.kind !== 'hairstyle')
+        .flatMap((item) => item.tags || [])
+        .map((value) => [value.id, value]),
+    ).values(),
   ];
   const subjects = subjectTagIds.filter(
     (id) => tags.some((value) => value.id === id) || tag === id,

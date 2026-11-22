@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { PersonStanding, Search, Shirt, UserRound, X } from 'lucide-react';
+import { PersonStanding, Scissors, Search, Shirt, UserRound, X } from 'lucide-react';
 import { generationCopy } from './generation-copy';
 import { studioCopy } from './studio-copy';
 import type { ImageReference } from './generation';
 import { filterReferences } from './library';
 import { ReferenceFilters, ReferenceBadges, CategoryFilter } from './reference-filters';
+import { HairstyleFilterFields } from './hairstyle-ui';
+import type { HairstyleFacet, HairstyleFilters } from './hair-colors';
 import { copy } from './i18n';
 import { hasPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
@@ -12,8 +14,15 @@ import type { Kind, Lang, Reference } from './types';
 import { localeOf } from './types';
 
 // 搭配台與參考圖卡共用的常數
-export const kinds: Kind[] = ['pose', 'costume', 'character'];
-export const referenceIcons = { pose: PersonStanding, costume: Shirt, character: UserRound };
+export const kinds: Kind[] = ['pose', 'costume', 'character', 'hairstyle'];
+export const referenceIcons = {
+  pose: PersonStanding,
+  costume: Shirt,
+  character: UserRound,
+  hairstyle: Scissors,
+};
+/** 有多個視角、卡片下方顯示視角小圖的類型 */
+export const hasAngleStrip = (kind: Kind) => kind === 'pose' || kind === 'hairstyle';
 export const styleKeys = ['follow', 'photo', 'studio', 'anime'] as const;
 export type Style = (typeof styleKeys)[number];
 export const referenceFingerprint = (references: ImageReference[]) =>
@@ -46,13 +55,14 @@ export function ReferencePicker({
   const [style, setStyle] = useState('all');
   const [age, setAge] = useState('all');
   const [ethnicity, setEthnicity] = useState('all');
+  const [hairstyle, setHairstyle] = useState<HairstyleFilters>({});
   const [limit, setLimit] = useState(24);
   const [cardAngles, setCardAngles] = useState<Record<string, string>>({});
   const scrollRef = useRef<HTMLDivElement>(null);
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const Icon = referenceIcons[kind];
   const available = useMemo(() => items.filter((item) => item.kind === kind), [items, kind]);
-  const filters = { category, collection, tag, style, age, ethnicity, query };
+  const filters = { category, collection, tag, style, age, ethnicity, query, hairstyle };
   const filtered = filterReferences(available, filters);
   const hasMore = filtered.length > limit;
   useEffect(() => {
@@ -68,11 +78,23 @@ export function ReferencePicker({
     );
     observer.observe(sentinel);
     return () => observer.disconnect();
-  }, [hasMore, limit, filtered.length, query, category, collection, tag, style, age, ethnicity]);
+  }, [
+    hasMore,
+    limit,
+    filtered.length,
+    query,
+    category,
+    collection,
+    tag,
+    style,
+    age,
+    ethnicity,
+    hairstyle,
+  ]);
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: 0 });
     setLimit(24);
-  }, [query, category, collection, tag, style, age, ethnicity]);
+  }, [query, category, collection, tag, style, age, ethnicity, hairstyle]);
   return (
     <Modal
       onClose={onClose}
@@ -89,7 +111,7 @@ export function ReferencePicker({
               <h2>
                 {t.choose} {generationCopy[lang][kind]}
               </h2>
-              <p>{kind === 'pose' ? t.posePickerHint : t.pickerHint}</p>
+              <p>{hasAngleStrip(kind) ? t.posePickerHint : t.pickerHint}</p>
             </div>
           </div>
           <button className="icon-button" aria-label={generationCopy[lang].close} onClick={onClose}>
@@ -136,7 +158,23 @@ export function ReferencePicker({
           onAge={setAge}
           onEthnicity={setEthnicity}
         >
-          <CategoryFilter items={available} filters={filters} lang={lang} onChange={setCategory} />
+          {kind === 'hairstyle' ? (
+            <HairstyleFilterFields
+              items={available}
+              filters={filters}
+              lang={lang}
+              onChange={(key: HairstyleFacet, value) =>
+                setHairstyle((current) => ({ ...current, [key]: value }))
+              }
+            />
+          ) : (
+            <CategoryFilter
+              items={available}
+              filters={filters}
+              lang={lang}
+              onChange={setCategory}
+            />
+          )}
         </ReferenceFilters>
         <p className="studio-picker-count" role="status">
           {filtered.length.toLocaleString(localeOf(lang))} {t.referenceCount}
@@ -154,7 +192,7 @@ export function ReferencePicker({
                 <button
                   className="studio-picker-select"
                   title={item.title[lang]}
-                  aria-label={`${t.choose} ${item.title[lang]}${kind === 'pose' ? ` · ${variant.label[lang]}` : ''}`}
+                  aria-label={`${t.choose} ${item.title[lang]}${hasAngleStrip(kind) ? ` · ${variant.label[lang]}` : ''}`}
                   onClick={() => onChoose(item, variant.angle)}
                 >
                   <RemoteImage
@@ -165,7 +203,7 @@ export function ReferencePicker({
                   />
                   <span className="studio-picker-card-title">{item.title[lang]}</span>
                 </button>
-                {kind === 'pose' && item.variants.length > 1 && (
+                {hasAngleStrip(kind) && item.variants.length > 1 && (
                   <div
                     className="studio-picker-angles"
                     role="group"

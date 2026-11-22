@@ -42,6 +42,7 @@ function resolveMuseAssets(item: Catalog['items'][number], base: URL) {
       thumbnail: abs(variant.thumbnail),
       image: abs(variant.image),
       original: abs(variant.original),
+      ...(variant.mask ? { mask: abs(variant.mask) } : {}),
       ...(variant.depth
         ? {
             depth: {

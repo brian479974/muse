@@ -7,6 +7,8 @@ import {
   Download,
   ImagePlus,
   LoaderCircle,
+  Lock,
+  LockOpen,
   Plus,
   RotateCcw,
   Shuffle,
@@ -14,7 +16,7 @@ import {
 } from 'lucide-react';
 import { generationCopy } from './generation-copy';
 import { studioCopy } from './studio-copy';
-import type { ImageReference } from './generation';
+import type { ImageReference, UploadKind } from './generation';
 import { copy } from './i18n';
 import { genderCompatible, genderOf } from './library';
 import { hasPoseDepth } from './pose-depth';
@@ -28,9 +30,17 @@ import {
   styleKeys,
 } from './reference-picker';
 import type { Style } from './reference-picker';
-import { aspectKeys, buildCardPrompt, renderReferenceCard } from './reference-card';
+import { aspectKeys, buildCardPrompt, promptLangs, renderReferenceCard } from './reference-card';
 import type { Aspect } from './reference-card';
-import { track } from './stats';
+import { track, trackHairColor } from './stats';
+import { HairColorSelect, HairColorSwatches } from './hairstyle-ui';
+import { recommendedHairColor } from './hair-colors';
+
+const optionalKinds: Kind[] = ['character', 'hairstyle'];
+const noLocks: Record<Kind, boolean> = { pose: false, costume: false, character: false, hairstyle: false };
+/** 髮型性別（f／m）對人物性別（female／male） */
+const hairGender = (item: Reference) =>
+  item.hairstyle?.gender === 'f' ? 'female' : item.hairstyle?.gender === 'm' ? 'male' : null;
 
 export function CardStudio({
   lang,
@@ -46,6 +56,15 @@ export function CardStudio({
   onAngle,
   onUpload,
   notify,
+  hairstyleItem,
+  hairColorKey,
+  onHairColor,
+  hairUploadColor,
+  onHairUploadColor,
+  hairAngle,
+  onHairAngle,
+  hairPending,
+  pickerRequest,
 }: {
   lang: Lang;
   references: ImageReference[];
@@ -58,14 +77,30 @@ export function CardStudio({
   onChoose: (item: Reference, angle?: string) => void;
   onRemove: (kind: Kind) => void;
   onAngle: (angle: string) => void;
-  onUpload: (file: File, kind: 'character' | 'costume') => void;
+  onUpload: (file: File, kind: UploadKind) => void;
   notify: (message: string) => void;
+  /** 搭配台上的圖庫髮型（上傳的髮型照不算） */
+  hairstyleItem?: Reference;
+  /** 圖庫髮型目前的色票（預設推薦色） */
+  hairColorKey?: string;
+  onHairColor: (key: string) => void;
+  /** 上傳髮型照選的髮色（''＝照片原色） */
+  hairUploadColor: string;
+  onHairUploadColor: (key: string) => void;
+  hairAngle: string;
+  onHairAngle: (angle: string) => void;
+  /** 髮型換色中：圖卡等換好再排 */
+  hairPending: boolean;
+  /** 外面要求打開某類挑選視窗（人物詳細頁「放進搭配台，髮型另挑」） */
+  pickerRequest?: { kind: Kind; nonce: number };
 }) {
   const t = studioCopy[lang],
     g = generationCopy[lang];
   const [picker, setPicker] = useState<Kind | null>(null);
   const [style, setStyle] = useState<Style>('follow');
   const [aspect, setAspect] = useState<Aspect>('portrait');
+  const [promptLang, setPromptLang] = useState<Lang>('en');
+  const [locks, setLocks] = useState<Record<Kind, boolean>>(noLocks);
   const [notes, setNotes] = useState('');
   const [customPrompt, setCustomPrompt] = useState<{ text: string; references: string } | null>(
     null,
@@ -76,20 +111,25 @@ export function CardStudio({
   const [retry, setRetry] = useState(0);
   const [copied, setCopied] = useState(false);
   const [preview, setPreview] = useState(false);
-  const fileInputs = useRef<Partial<Record<'character' | 'costume', HTMLInputElement | null>>>({});
+  const fileInputs = useRef<Partial<Record<UploadKind, HTMLInputElement | null>>>({});
+  useEffect(() => {
+    if (pickerRequest) setPicker(pickerRequest.kind);
+  }, [pickerRequest]);
 
   const missing = kinds.filter(
-    (kind) => kind !== 'character' && !references.some((ref) => ref.kind === kind),
+    (kind) => !optionalKinds.includes(kind) && !references.some((ref) => ref.kind === kind),
   );
-  const fingerprint = referenceFingerprint(references);
+  const hairRef = references.find((ref) => ref.kind === 'hairstyle');
+  // 髮色也算進指紋：上傳的髮型照換髮色選單時，提示詞要跟著重算
+  const fingerprint = `${referenceFingerprint(references)}|${hairRef?.hairColor?.key || ''}`;
   const autoPrompt = useMemo(
-    () => buildCardPrompt(references, { style, aspect, notes }),
+    () => buildCardPrompt(references, { style, aspect, notes, lang: promptLang }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [fingerprint, style, aspect, notes],
+    [fingerprint, style, aspect, notes, promptLang],
   );
   const customActive = customPrompt?.references === fingerprint;
   const prompt = customActive ? customPrompt.text : autoPrompt;
-  const ready = missing.length === 0 && !!prompt.trim() && !characterLoading;
+  const ready = missing.length === 0 && !!prompt.trim() && !characterLoading && !hairPending;
   const cardKey = `${fingerprint}\n${prompt}\n${retry}`;
 
   // 參考或提示詞變動後，停 0.4 秒再重畫圖卡，避免連續輸入時一直重畫
@@ -138,13 +178,15 @@ export function CardStudio({
     link.href = card.url;
     link.download = `muse-reference-card-${stamp}.jpg`;
     link.click();
-    // 匿名統計：圖卡裡的圖庫參考各 +1（使用者上傳的圖不回報）
+    // 匿名統計：圖卡裡的圖庫參考各 +1（使用者上傳的圖不回報）；有髮型時另記用到的髮色
     track('card', kinds.map(boardItem));
+    trackHairColor(hairRef?.hairColor?.key);
   }
   async function copyPrompt() {
     try {
       await navigator.clipboard.writeText(prompt);
       track('prompt', kinds.map(boardItem));
+      trackHairColor(hairRef?.hairColor?.key);
       setCopied(true);
       notify(t.promptCopied);
     } catch {
@@ -171,27 +213,50 @@ export function CardStudio({
         ? items.filter((item) => item.kind !== 'character' || genderCompatible(item, currentCostume))
         : items;
   const pick = <T,>(list: T[]) => list[Math.floor(Math.random() * list.length)];
-  // 隨機搭配：先抽人物，再從能搭配的服裝、同性別的姿勢裡抽
+  // 隨機搭配：先抽人物，再從能搭配的服裝、同性別的姿勢與髮型裡抽；鎖定的格子保持不變（空的也不補）
   function randomize() {
     const others = (kind: Kind) => {
       const current = references.find((reference) => reference.kind === kind);
       const all = items.filter((item) => item.kind === kind);
       const rest = all.filter(
-        (item) => !item.variants.some((variant) => variant.original === current?.variant.original),
+        (item) =>
+          !item.variants.some(
+            (variant) =>
+              variant.original === current?.variant.original || variant.id === current?.variant.id,
+          ),
       );
       return rest.length ? rest : all;
     };
-    const character = pick(others('character'));
-    if (!character) return;
-    const gender = genderOf(character);
-    const costumes = others('costume').filter((item) => genderCompatible(item, character));
-    const sameGenderPoses = others('pose').filter((item) => !gender || genderOf(item) === gender);
-    const poses = sameGenderPoses.length ? sameGenderPoses : others('pose');
-    onChoose(character);
-    if (costumes.length) onChoose(pick(costumes));
-    if (poses.length) onChoose(pick(poses));
+    // 鎖住的服裝是圖庫的，抽人物時只抽能搭配的（不然換人物會把鎖住的服裝移掉）
+    const lockedCostume = locks.costume ? currentCostume : undefined;
+    const candidates = others('character').filter(
+      (item) => !lockedCostume || genderCompatible(item, lockedCostume),
+    );
+    const character = locks.character ? currentCharacter : pick(candidates);
+    if (!locks.character && !character) return;
+    const gender = character ? genderOf(character) : null;
+    if (!locks.character && character) onChoose(character);
+    if (!locks.costume) {
+      const costumes = others('costume').filter(
+        (item) => !character || genderCompatible(item, character),
+      );
+      if (costumes.length) onChoose(pick(costumes));
+    }
+    if (!locks.pose) {
+      const sameGenderPoses = others('pose').filter((item) => !gender || genderOf(item) === gender);
+      const poses = sameGenderPoses.length ? sameGenderPoses : others('pose');
+      if (poses.length) onChoose(pick(poses));
+    }
+    if (!locks.hairstyle) {
+      const sameGenderHair = others('hairstyle').filter(
+        (item) => !gender || gender === 'unisex' || hairGender(item) === gender,
+      );
+      const hairstyles = sameGenderHair.length ? sameGenderHair : others('hairstyle');
+      if (hairstyles.length) onChoose(pick(hairstyles));
+    }
     setCustomPrompt(null);
   }
+  const toggleLock = (kind: Kind) => setLocks((current) => ({ ...current, [kind]: !current[kind] }));
 
   return (
     <section className="image-studio card-studio" aria-label={t.title}>
@@ -225,10 +290,12 @@ export function CardStudio({
                 onUpload(file, kind);
                 setCustomPrompt(null);
               };
+              const locked = locks[kind];
               return (
                 <div
-                  className="studio-reference-slot"
+                  className={`studio-reference-slot ${locked ? 'locked' : ''}`}
                   key={kind}
+                  data-kind={kind}
                   onDragOver={(event) => {
                     if (kind !== 'pose') event.preventDefault();
                   }}
@@ -257,13 +324,28 @@ export function CardStudio({
                         <Plus size={13} />
                       </span>
                     )}
+                    {kind === 'hairstyle' && hairPending && (
+                      <span className="studio-slot-busy" role="status" aria-label={copy[lang].recoloring}>
+                        <LoaderCircle size={18} className="spinner" />
+                      </span>
+                    )}
                     <span className="studio-slot-replace">
                       <Plus size={12} />
                     </span>
                   </button>
+                  <button
+                    type="button"
+                    className={`studio-slot-lock ${locked ? 'active' : ''}`}
+                    aria-pressed={locked}
+                    aria-label={`${locked ? t.unlock : t.lock}: ${g[kind]}`}
+                    title={locked ? t.unlock : t.lock}
+                    onClick={() => toggleLock(kind)}
+                  >
+                    {locked ? <Lock size={12} /> : <LockOpen size={12} />}
+                  </button>
                   <div className="studio-slot-label">
                     <strong>{g[kind]}</strong>
-                    <small>{kind === 'character' ? t.optional : t.required}</small>
+                    <small>{optionalKinds.includes(kind) ? t.optional : t.required}</small>
                   </div>
                   <div className="studio-slot-caption">
                     <span>{ref ? ref.title[lang] : t.choose}</span>
@@ -302,7 +384,11 @@ export function CardStudio({
                         onClick={() => fileInputs.current[kind]?.click()}
                       >
                         <ImagePlus size={12} />
-                        {kind === 'costume' ? t.uploadCostume : t.upload}
+                        {kind === 'costume'
+                          ? t.uploadCostume
+                          : kind === 'hairstyle'
+                            ? t.uploadHairstyle
+                            : t.upload}
                       </button>
                     </>
                   )}
@@ -310,8 +396,67 @@ export function CardStudio({
               );
             })}
           </div>
+          {hairRef && (
+            <div className="studio-hair-options">
+              {hairstyleItem ? (
+                <>
+                  <div className="studio-hair-heading">
+                    <strong>{t.hairColor}</strong>
+                    {hairstyleItem.variants.length > 1 && (
+                      <label className="studio-angle">
+                        {t.hairAngle}
+                        <select
+                          aria-label={t.hairAngle}
+                          value={hairAngle}
+                          onChange={(e) => {
+                            onHairAngle(e.target.value);
+                            setCustomPrompt(null);
+                          }}
+                        >
+                          {hairstyleItem.variants.map((variant) => (
+                            <option key={variant.id} value={variant.angle}>
+                              {variant.label[lang]}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                    )}
+                  </div>
+                  <HairColorSwatches
+                    compact
+                    lang={lang}
+                    value={hairColorKey}
+                    recommended={recommendedHairColor(hairstyleItem)?.key}
+                    onChange={(key) => {
+                      onHairColor(key);
+                      setCustomPrompt(null);
+                    }}
+                  />
+                </>
+              ) : (
+                <>
+                  <label className="studio-hair-heading" htmlFor="studio-hair-upload-color">
+                    <strong>{t.hairColor}</strong>
+                  </label>
+                  <HairColorSelect
+                    id="studio-hair-upload-color"
+                    lang={lang}
+                    label={t.hairColor}
+                    photoLabel={t.hairPhotoColor}
+                    value={hairUploadColor}
+                    onChange={(key) => {
+                      onHairUploadColor(key);
+                      setCustomPrompt(null);
+                    }}
+                  />
+                  <p className="studio-upload-note">{t.hairUploadColorHint}</p>
+                </>
+              )}
+            </div>
+          )}
           <p className="studio-upload-note">{t.uploadHint}</p>
           <p className="studio-upload-note">{t.genderHint}</p>
+          <p className="studio-upload-note">{t.randomizeHint}</p>
           <p className="studio-upload-note">{t.uploadConsent}</p>
           {characterError && (
             <p className="studio-inline-error" role="alert">
@@ -391,6 +536,24 @@ export function CardStudio({
               </option>
             ))}
           </select>
+          <label className="studio-field-label" htmlFor="studio-prompt-lang">
+            {t.promptLanguage}
+          </label>
+          <select
+            id="studio-prompt-lang"
+            className="studio-select"
+            value={promptLang}
+            onChange={(e) => {
+              setPromptLang(e.target.value as Lang);
+              setCustomPrompt(null);
+            }}
+          >
+            {promptLangs.map((key) => (
+              <option key={key} value={key} lang={key === 'zh' ? 'zh-CN' : key === 'tw' ? 'zh-TW' : 'en'}>
+                {key === 'en' ? 'English' : key === 'tw' ? '繁體中文' : '简体中文'}
+              </option>
+            ))}
+          </select>
           <label className="studio-field-label" htmlFor="studio-extra">
             {t.extra}
             <small>{t.optional}</small>
@@ -411,7 +574,7 @@ export function CardStudio({
               {customActive && <small>{t.customPrompt}</small>}
             </summary>
             <label className="studio-field-label" htmlFor="studio-prompt">
-              {t.promptLabel}
+              {promptLang === 'en' ? t.promptLabel : t.promptLabelLocal}
             </label>
             <textarea
               id="studio-prompt"

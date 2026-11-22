@@ -2,8 +2,10 @@ import type { Lang, Reference } from './types';
 import { localeOf } from './types';
 import vocabulary from '../data/vocabulary.json';
 import characterFacets from '../data/character-facets.json';
+import { matchesHairstyle } from './hair-colors';
+import type { HairstyleFilters } from './hair-colors';
 
-export type View = 'all' | 'pose' | 'costume' | 'character' | 'saved' | 'studio';
+export type View = 'all' | 'pose' | 'costume' | 'character' | 'hairstyle' | 'saved' | 'studio';
 export type Sort = 'curated' | 'popular' | 'name' | 'code';
 export const angles = ['front', 'high', 'low', 'side', 'diag'] as const;
 export const subjectTagIds = ['female', 'male', 'unisex', 'model', 'dance'] as const;
@@ -39,6 +41,8 @@ export interface LibraryFilters {
   query?: string;
   hair?: string;
   kind?: string;
+  /** 髮型分頁的性別、長度、型態、瀏海、風格（沒選＝不限） */
+  hairstyle?: HairstyleFilters;
 }
 
 // Older links stored both subject and visual styles in the same tag parameter.
@@ -61,6 +65,7 @@ export function filterReferences(items: Reference[], filters: LibraryFilters): R
     query = '',
     hair = 'all',
     kind = 'all',
+    hairstyle = {},
   } = filters;
   return items.filter(
     (item) =>
@@ -71,6 +76,7 @@ export function filterReferences(items: Reference[], filters: LibraryFilters): R
       (style === 'all' || !!item.tags?.some((value) => value.id === style)) &&
       (age === 'all' || item.age?.id === age) &&
       (ethnicity === 'all' || item.ethnicity?.id === ethnicity) &&
+      matchesHairstyle(item, hairstyle) &&
       matchesQuery(item, query),
   );
 }
@@ -117,6 +123,15 @@ export function matchesQuery(item: Reference, query: string): boolean {
     ...[item.age, item.ethnicity].flatMap((value) =>
       value ? [value.id, value.zh, value.tw, value.en] : [],
     ),
+    // 髮型：長度、型態、瀏海、風格的名稱也能搜（例如「空氣瀏海」「綁髮」「Korean」）
+    ...(item.hairstyle?.facets
+      ? [
+          item.hairstyle.facets.length,
+          item.hairstyle.facets.type,
+          item.hairstyle.facets.bangs,
+          ...item.hairstyle.facets.styles,
+        ].flatMap((value) => [value.zh, value.tw, value.en])
+      : []),
     ...(item.collection === 'custom' ? ['自建扩展', 'Custom'] : []),
     ...(item.tags || []).flatMap((tag) => [tag.id, tag.zh, tag.tw, tag.en]),
   ]
@@ -180,11 +195,18 @@ export function sortItems(
   const poses = items.filter((item) => item.kind === 'pose');
   const costumes = items.filter((item) => item.kind === 'costume');
   const characters = items.filter((item) => item.kind === 'character');
+  // 髮型排在每輪的第四個：姿勢、服裝、人物彼此的先後不變
+  const hairstyles = items.filter((item) => item.kind === 'hairstyle');
   const mixed: Reference[] = [];
-  for (let i = 0; i < Math.max(poses.length, costumes.length, characters.length); i++) {
+  for (
+    let i = 0;
+    i < Math.max(poses.length, costumes.length, characters.length, hairstyles.length);
+    i++
+  ) {
     if (poses[i]) mixed.push(poses[i]);
     if (costumes[i]) mixed.push(costumes[i]);
     if (characters[i]) mixed.push(characters[i]);
+    if (hairstyles[i]) mixed.push(hairstyles[i]);
   }
   return mixed;
 }

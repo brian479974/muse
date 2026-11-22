@@ -4,6 +4,13 @@
 // 用法：node scripts/mirror-filter.mjs [catalog.json 路徑]
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { toTw } from './zh-hant.mjs';
+import {
+  hairColorProblems,
+  hairFacetProblems,
+  hairstyleProblems,
+  loadHairstyleRules,
+  withHairstyleFacets,
+} from './hairstyle-data.mjs';
 
 const path = process.argv[2] || 'public/data/catalog.json';
 const catalog = JSON.parse(readFileSync(path, 'utf8'));
@@ -35,6 +42,15 @@ for (const item of items)
           throw new Error(`非上游圖庫網址：${item.id} ${url}`);
 
 // 併入 Muse 自製素材（data/muse-extras.json）：圖片放在 public/muse-assets/，網址必須是 /muse-assets/ 開頭且檔案存在
+// 素材類型只收姿勢、服裝、人物、髮型（2026-11-22 加髮型）；髮型另外檢查篩選欄位、推薦色與每個角度的頭髮遮罩
+const KINDS = ['pose', 'costume', 'character', 'hairstyle'];
+const hairRules = loadHairstyleRules();
+const colorProblems = hairColorProblems(hairRules.colors);
+if (colorProblems.length)
+  throw new Error(`色票檔 data/hair-colors.json 有問題：${colorProblems.join('；')}`);
+const facetProblems = hairFacetProblems(hairRules.facets);
+if (facetProblems.length)
+  throw new Error(`髮型篩選選項 data/hairstyle-facets.json 有問題：${facetProblems.join('；')}`);
 const known = new Set(items.map((item) => item.id));
 // Muse 自製取代上游同編號素材（replaces === 'upstream'）：沿用原編號、原位置，收藏與使用次數不受影響
 const position = new Map(items.map((item, index) => [item.id, index]));
@@ -43,11 +59,19 @@ for (const extra of extras) {
     throw new Error(`要取代的素材不在清單裡（上游原版或先前自製版都沒有）：${extra.id}`);
   if (known.has(extra.id) && extra.replaces !== 'upstream')
     throw new Error(`自製素材 id 重複：${extra.id}`);
+  if (!KINDS.includes(extra.kind))
+    throw new Error(`未知的素材類型：${extra.id} kind=${extra.kind}`);
+  if (extra.kind === 'hairstyle') {
+    const problems = hairstyleProblems(extra, hairRules);
+    if (problems.length) throw new Error(`髮型素材有問題：${problems.join('；')}`);
+    withHairstyleFacets(extra, hairRules);
+  }
   for (const variant of extra.variants)
     for (const url of [
       variant.thumbnail,
       variant.image,
       variant.original,
+      ...(variant.mask ? [variant.mask] : []),
       ...(variant.depth
         ? [variant.depth.thumbnail, variant.depth.image, variant.depth.original]
         : []),
@@ -84,13 +108,22 @@ if (unlabeled.length)
     `人物缺年齡／族裔標註（data/character-attributes.json）：${unlabeled.length} 筆，例如 ${unlabeled.slice(0, 5).join('、')}`,
   );
 
-// 每個同時有 zh 與 en 字串的物件（標題、分類、關鍵字、標籤、視角名稱…）補上繁體 tw
+// 每個同時有 zh 與 en 字串的物件（標題、分類、關鍵字、標籤、視角名稱…）補上繁體 tw。
+// data/muse-extras.json 裡已經寫好 tw 的欄位照用（自製素材可以直接給台灣用語，例如「鮑伯」「瀏海」，OpenCC 轉不出來）；
+// 其他一律由簡體重轉，重跑結果一致
 let converted = 0;
 const cache = new Map();
+const authoredTw = new WeakSet();
+(function markAuthored(node) {
+  if (Array.isArray(node)) return node.forEach(markAuthored);
+  if (!node || typeof node !== 'object') return;
+  if (typeof node.tw === 'string' && node.tw.trim()) authoredTw.add(node);
+  for (const value of Object.values(node)) markAuthored(value);
+})(extras);
 function addTw(node) {
   if (Array.isArray(node)) return node.forEach(addTw);
   if (!node || typeof node !== 'object') return;
-  if (typeof node.zh === 'string' && typeof node.en === 'string') {
+  if (typeof node.zh === 'string' && typeof node.en === 'string' && !authoredTw.has(node)) {
     if (!cache.has(node.zh)) cache.set(node.zh, toTw(node.zh));
     node.tw = cache.get(node.zh);
     converted++;
@@ -105,6 +138,7 @@ const stats = {
   poseImages: poses.reduce((sum, item) => sum + item.variants.length, 0),
   costumes: items.filter((item) => item.kind === 'costume').length,
   characters: items.filter((item) => item.kind === 'character').length,
+  hairstyles: items.filter((item) => item.kind === 'hairstyle').length,
   references: items.length,
   images: items.reduce((sum, item) => sum + item.variants.length, 0),
 };

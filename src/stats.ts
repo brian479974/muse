@@ -1,12 +1,19 @@
 // 匿名使用次數統計：回報「哪張參考被下載圖卡（card）／下載原圖（ref）／複製提示詞（prompt）」，
 // 並取回各參考「放進圖卡並下載」的次數，用來排熱門與排行榜。
+// 髮型（2026-11-22）：髮型參考照樣算 card／ref／prompt；另加兩個動作——
+//   color：用到哪個髮色（圖卡、髮型圖下載、複製提示詞時，參考是色票 key，類型 haircolor）
+//   recolor：在哪款髮型上試了推薦色以外的顏色（同一款同一色每次開站只算一次）
 // 只送參考編號、類型、動作；不設 cookie、不送任何個人資料，使用者上傳的圖不會回報。
 // 服務原始碼在 worker/（Cloudflare Worker ＋ D1）。
 import { storageGet, storageSet } from './library';
 import type { Kind, Reference } from './types';
 
 export const STATS_ORIGIN = 'https://muse-stats.brian479974.workers.dev';
-export type StatsAction = 'card' | 'ref' | 'prompt';
+export type StatsAction = 'card' | 'ref' | 'prompt' | 'color' | 'recolor';
+export interface Hit {
+  action: StatsAction;
+  refs: { id: string; kind: Kind | 'haircolor' }[];
+}
 export interface Stats {
   updated: string;
   counts: Record<string, number>;
@@ -34,23 +41,51 @@ const reporting = () =>
   typeof window !== 'undefined' &&
   ['muse.toai.tw', 'muse.markforged.tw'].includes(window.location.hostname);
 
-export function track(action: StatsAction, refs: (Reference | undefined)[]) {
-  if (!reporting()) return;
+/**
+ * 要送出的請求內容（純函式，測試用）。髮型參考另外送一筆：計數服務還沒更新到認得髮型時，
+ * 只有髮型那筆會被拒，姿勢／服裝／人物的次數照算（2026-11-22 加髮型時的相容做法）。
+ */
+export function buildHits(action: StatsAction, refs: (Reference | undefined)[]): Hit[] {
   const list = refs
     .filter((ref): ref is Reference => !!ref)
     .map((ref) => ({ id: ref.id, kind: ref.kind }));
-  if (!list.length) return;
+  const core = list.filter((ref) => ref.kind !== 'hairstyle');
+  const hair = list.filter((ref) => ref.kind === 'hairstyle');
+  return [core, hair].filter((group) => group.length).map((group) => ({ action, refs: group }));
+}
+
+function send(hit: Hit) {
   try {
     // text/plain 不會觸發預檢；keepalive 讓下載跳頁時請求照樣送出
     void fetch(`${STATS_ORIGIN}/hit`, {
       method: 'POST',
-      body: JSON.stringify({ action, refs: list }),
+      body: JSON.stringify(hit),
       headers: { 'Content-Type': 'text/plain' },
       keepalive: true,
     }).catch(() => {});
   } catch {
     /* 統計失敗不影響使用 */
   }
+}
+
+export function track(action: StatsAction, refs: (Reference | undefined)[]) {
+  if (!reporting()) return;
+  for (const hit of buildHits(action, refs)) send(hit);
+}
+
+/** 用到的髮色（色票 key）；沒有色票（例如上傳的髮型照沿用照片原色）就不送 */
+export function trackHairColor(colorKey?: string | null) {
+  if (!reporting() || !colorKey) return;
+  send({ action: 'color', refs: [{ id: colorKey, kind: 'haircolor' }] });
+}
+
+/** 在某款髮型上試了推薦色以外的顏色：同一款同一色每次開站只送一次 */
+const recolored = new Set<string>();
+export function trackRecolor(item: Reference, colorKey: string) {
+  const key = `${item.id}|${colorKey}`;
+  if (!reporting() || recolored.has(key)) return;
+  recolored.add(key);
+  send({ action: 'recolor', refs: [{ id: item.id, kind: item.kind }] });
 }
 
 /** 取排行；3 秒內沒回應或失敗，就改用這台瀏覽器上次存下的排行（沒有就回傳 null） */
@@ -77,7 +112,12 @@ export function rankByKind(
   counts: Record<string, number>,
   limit = 10,
 ): Record<Kind, RankedReference[]> {
-  const result: Record<Kind, RankedReference[]> = { pose: [], costume: [], character: [] };
+  const result: Record<Kind, RankedReference[]> = {
+    pose: [],
+    costume: [],
+    character: [],
+    hairstyle: [],
+  };
   for (const item of items) {
     const count = counts[item.id];
     if (count) result[item.kind].push({ item, count });

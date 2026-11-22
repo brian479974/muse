@@ -1,0 +1,47 @@
+{
+ "note": "髮型區五個篩選（性別、長度、型態、瀏海、風格）的欄位名稱、選項、名稱與順序（單一來源）。繁體直接寫在這裡（台灣用語：瀏海、捲髮；OpenCC 會轉成劉海、卷髮），mirror-filter.mjs 檢查每款髮型的欄位都在這裡，並把三語名稱掛到 catalog 的 hairstyle.facets；欄位值不在這裡的髮型會讓建置失敗。色票在 hair-colors.json。",
+ "fields": {
+  "gender": { "zh": "性别", "tw": "性別", "en": "Gender", "all": { "zh": "不限性别", "tw": "不限性別", "en": "Any gender" } },
+  "length": { "zh": "长度", "tw": "長度", "en": "Length", "all": { "zh": "不限长度", "tw": "不限長度", "en": "Any length" } },
+  "type": { "zh": "型态", "tw": "型態", "en": "Type", "all": { "zh": "不限型态", "tw": "不限型態", "en": "Any type" } },
+  "bangs": { "zh": "刘海", "tw": "瀏海", "en": "Bangs", "all": { "zh": "不限刘海", "tw": "不限瀏海", "en": "Any bangs" } },
+  "styles": { "zh": "风格", "tw": "風格", "en": "Style", "all": { "zh": "不限风格", "tw": "不限風格", "en": "Any style" } }
+ },
+ "gender": [
+  { "id": "f", "zh": "女性", "tw": "女性", "en": "Female" },
+  { "id": "m", "zh": "男性", "tw": "男性", "en": "Male" }
+ ],
+ "length": [
+  { "id": "xs", "zh": "极短发", "tw": "極短髮", "en": "Very short" },
+  { "id": "short", "zh": "短发", "tw": "短髮", "en": "Short" },
+  { "id": "medium", "zh": "中发", "tw": "中髮", "en": "Medium" },
+  { "id": "ml", "zh": "中长发", "tw": "中長髮", "en": "Medium-long" },
+  { "id": "long", "zh": "长发", "tw": "長髮", "en": "Long" }
+ ],
+ "type": [
+  { "id": "straight", "zh": "直发", "tw": "直髮", "en": "Straight" },
+  { "id": "wavy", "zh": "波浪", "tw": "波浪", "en": "Wavy" },
+  { "id": "curly", "zh": "卷发", "tw": "捲髮", "en": "Curly" },
+  { "id": "braid", "zh": "编发", "tw": "編髮", "en": "Braids" },
+  { "id": "updo", "zh": "盘发", "tw": "盤髮", "en": "Updos" },
+  { "id": "tied", "zh": "绑发", "tw": "綁髮", "en": "Ponytails & half-up" },
+  { "id": "men", "zh": "男士造型", "tw": "男士造型", "en": "Men's cuts" }
+ ],
+ "bangs": [
+  { "id": "none", "zh": "无刘海", "tw": "無瀏海", "en": "No bangs" },
+  { "id": "blunt", "zh": "齐刘海", "tw": "齊瀏海", "en": "Blunt bangs" },
+  { "id": "wispy", "zh": "空气刘海", "tw": "空氣瀏海", "en": "Wispy bangs" },
+  { "id": "curtain", "zh": "八字刘海", "tw": "八字瀏海", "en": "Curtain bangs" },
+  { "id": "side", "zh": "侧分刘海", "tw": "側分瀏海", "en": "Side-swept bangs" }
+ ],
+ "styles": [
+  { "id": "jp", "zh": "日系", "tw": "日系", "en": "Japanese" },
+  { "id": "kr", "zh": "韩系", "tw": "韓系", "en": "Korean" },
+  { "id": "west", "zh": "欧美", "tw": "歐美", "en": "Western" },
+  { "id": "retro", "zh": "复古", "tw": "復古", "en": "Retro" },
+  { "id": "office", "zh": "职场", "tw": "職場", "en": "Office" },
+  { "id": "sport", "zh": "运动", "tw": "運動", "en": "Sporty" },
+  { "id": "formal", "zh": "正式", "tw": "正式", "en": "Formal" },
+  { "id": "edgy", "zh": "个性", "tw": "個性", "en": "Edgy" }
+ ]
+}

@@ -1,0 +1,18 @@
+[
+ {"key":"black","zh_tw":"自然黑","zh_cn":"自然黑","en":"Natural black","hex":"#1B1714","prompt":"natural black"},
+ {"key":"dark_brown","zh_tw":"深棕","zh_cn":"深棕","en":"Dark brown","hex":"#3B2A20","prompt":"dark brown"},
+ {"key":"chestnut","zh_tw":"栗棕","zh_cn":"栗棕","en":"Chestnut brown","hex":"#6A4028","prompt":"chestnut brown"},
+ {"key":"caramel","zh_tw":"焦糖","zh_cn":"焦糖","en":"Caramel","hex":"#9A6236","prompt":"warm caramel brown"},
+ {"key":"honey","zh_tw":"蜂蜜金","zh_cn":"蜂蜜金","en":"Honey blonde","hex":"#C89A55","prompt":"honey blonde"},
+ {"key":"flax","zh_tw":"亞麻金","zh_cn":"亚麻金","en":"Ash flax blonde","hex":"#D8C08E","prompt":"ash flax blonde"},
+ {"key":"platinum","zh_tw":"白金","zh_cn":"白金","en":"Platinum","hex":"#ECE3CF","prompt":"platinum blonde"},
+ {"key":"silver","zh_tw":"灰銀","zh_cn":"灰银","en":"Silver gray","hex":"#A9A9AD","prompt":"silver gray"},
+ {"key":"milktea","zh_tw":"奶茶灰","zh_cn":"奶茶灰","en":"Milk-tea ash","hex":"#8C7766","prompt":"milk-tea ash brown"},
+ {"key":"burgundy","zh_tw":"酒紅","zh_cn":"酒红","en":"Burgundy","hex":"#6E1F2E","prompt":"deep burgundy red"},
+ {"key":"rose","zh_tw":"玫瑰粉","zh_cn":"玫瑰粉","en":"Rose pink","hex":"#D98A9C","prompt":"rose pink"},
+ {"key":"lavender","zh_tw":"薰衣草紫","zh_cn":"薰衣草紫","en":"Lavender","hex":"#9C86C2","prompt":"lavender purple"},
+ {"key":"mistblue","zh_tw":"霧藍","zh_cn":"雾蓝","en":"Misty blue","hex":"#6F86A6","prompt":"misty blue"},
+ {"key":"mint","zh_tw":"薄荷綠","zh_cn":"薄荷绿","en":"Mint green","hex":"#8CC3AE","prompt":"pastel mint green"},
+ {"key":"highlights","zh_tw":"挑染","zh_cn":"挑染","en":"Highlights","hex":"#3B2A20,#C89A55","prompt":"dark brown with honey blonde highlights"},
+ {"key":"ombre","zh_tw":"漸層","zh_cn":"渐变","en":"Ombré","hex":"#2A1F18,#C8A26E","prompt":"ombre fading from dark brown roots to caramel blonde ends"}
+]

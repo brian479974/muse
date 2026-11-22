@@ -20,14 +20,16 @@ const showcaseCopy = {
     sheetTitle: 'REFERENCE CARD',
     sheetHint: '下载图卡＋复制提示词，交给 ChatGPT',
     libraryKicker: 'THE LIBRARY',
-    libraryTitle: '三种参考，一个角色',
-    libraryText: '姿势有五个视角与深度图，服装有四季与动漫系列，人物可以按发型、年龄、族裔筛选。',
+    libraryTitle: '四种参考，一个角色',
+    libraryText: '姿势有五个视角与深度图，服装有四季与动漫系列，人物可以按发型、年龄、族裔筛选，发型可以即时换发色。',
     pose: '姿势参考',
     poseHint: '站姿・坐姿・动态・五视角',
     costume: '服装参考',
     costumeHint: '四季穿搭・派对・动漫',
     character: '人物参考',
     characterHint: '发型・年龄・族裔',
+    hairstyle: '发型参考',
+    hairstyleHint: '正侧背三视角・16 色即时换色',
     stepsKicker: 'HOW IT WORKS',
     stepsTitle: '三步骤，交给 ChatGPT',
     stepsText: '不用 API 密钥。可以上传自己的图片，图片只留在你的浏览器里；图卡在本机排好，下载就能用。',
@@ -56,14 +58,16 @@ const showcaseCopy = {
     sheetTitle: 'REFERENCE CARD',
     sheetHint: '下載圖卡＋複製提示詞，交給 ChatGPT',
     libraryKicker: 'THE LIBRARY',
-    libraryTitle: '三種參考，一個角色',
-    libraryText: '姿勢有五個視角與深度圖，服裝有四季與動漫系列，人物可以按髮型、年齡、族裔篩選。',
+    libraryTitle: '四種參考，一個角色',
+    libraryText: '姿勢有五個視角與深度圖，服裝有四季與動漫系列，人物可以按髮型、年齡、族裔篩選，髮型可以即時換髮色。',
     pose: '姿勢參考',
     poseHint: '站姿・坐姿・動態・五視角',
     costume: '服裝參考',
     costumeHint: '四季穿搭・派對・動漫',
     character: '人物參考',
     characterHint: '髮型・年齡・族裔',
+    hairstyle: '髮型參考',
+    hairstyleHint: '正側背三視角・16 色即時換色',
     stepsKicker: 'HOW IT WORKS',
     stepsTitle: '三步驟，交給 ChatGPT',
     stepsText: '不用 API 金鑰。可以上傳自己的圖片，圖片只留在你的瀏覽器裡；圖卡在本機排好，下載就能用。',
@@ -92,14 +96,16 @@ const showcaseCopy = {
     sheetTitle: 'REFERENCE CARD',
     sheetHint: 'Download the card + copy the prompt for ChatGPT',
     libraryKicker: 'THE LIBRARY',
-    libraryTitle: 'Three references, one character',
-    libraryText: 'Poses come in five viewpoints with depth maps, outfits across four seasons and anime, characters filterable by hair, age and ethnicity.',
+    libraryTitle: 'Four references, one character',
+    libraryText: 'Poses come in five viewpoints with depth maps, outfits across four seasons and anime, characters filterable by hair, age and ethnicity, and hairstyles you can recolor instantly.',
     pose: 'Poses',
     poseHint: 'Standing · sitting · motion · 5 views',
     costume: 'Outfits',
     costumeHint: 'Four seasons · party · anime',
     character: 'Characters',
     characterHint: 'Hair · age · ethnicity',
+    hairstyle: 'Hairstyles',
+    hairstyleHint: 'Front · side · back · 16 instant colors',
     stepsKicker: 'HOW IT WORKS',
     stepsTitle: 'Three steps to ChatGPT',
     stepsText: 'No API key needed. Upload your own photos if you like — they stay in your browser. The card is laid out locally, ready to download.',
@@ -298,8 +304,8 @@ export function HomeLibrary({
 }: {
   lang: Lang;
   items: Reference[];
-  counts: Record<'pose' | 'costume' | 'character', number>;
-  onView: (view: 'pose' | 'costume' | 'character') => void;
+  counts: Record<Kind, number>;
+  onView: (view: Kind) => void;
 }) {
   const t = showcaseText(lang);
   const tiles = [
@@ -316,6 +322,17 @@ export function HomeLibrary({
       hint: t.characterHint,
       pics: pickStable(byKind(items, 'character'), 3, 47),
     },
+    // 髮型（2026-11-22）：清單裡有髮型才出現
+    ...(counts.hairstyle
+      ? [
+          {
+            kind: 'hairstyle' as const,
+            title: t.hairstyle,
+            hint: t.hairstyleHint,
+            pics: pickStable(byKind(items, 'hairstyle'), 3, 53),
+          },
+        ]
+      : []),
   ];
   return (
     <section className="home-block">
@@ -326,7 +343,7 @@ export function HomeLibrary({
         </div>
         <p>{t.libraryText}</p>
       </div>
-      <div className="home-cats">
+      <div className={`home-cats ${tiles.length > 3 ? 'four' : ''}`}>
         {tiles.map((tile) => (
           <button key={tile.kind} className={`home-cat ${tile.kind}`} onClick={() => onView(tile.kind)}>
             <span className="pics">
@@ -346,7 +363,7 @@ export function HomeLibrary({
   );
 }
 
-/** 熱門排行：姿勢、服裝、人物各列前 10 名；某類型被用過的參考不到 MIN_RANKED 張就不列，全部不到就整區不顯示 */
+/** 熱門排行：姿勢、服裝、人物、髮型各列前 10 名；某類型被用過的參考不到 MIN_RANKED 張就不列，全部不到就整區不顯示 */
 export function HomePopular({
   lang,
   ranks,
@@ -357,11 +374,11 @@ export function HomePopular({
   onOpen: (item: Reference) => void;
 }) {
   const t = showcaseText(lang);
-  const columns = (['pose', 'costume', 'character'] as const).filter(
+  const columns = (['pose', 'costume', 'character', 'hairstyle'] as const).filter(
     (kind) => ranks[kind].length >= MIN_RANKED,
   );
   if (!columns.length) return null;
-  const titles = { pose: t.pose, costume: t.costume, character: t.character };
+  const titles = { pose: t.pose, costume: t.costume, character: t.character, hairstyle: t.hairstyle };
   const times = (n: number) =>
     lang === 'en'
       ? `${n.toLocaleString('en')} ${n === 1 ? 'use' : 'uses'}`

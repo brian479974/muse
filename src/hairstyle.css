@@ -1,0 +1,303 @@
+/* ── 髮型參考（2026-11-22）：圖庫卡片、詳細頁色票、同臉其他髮型、合成台第四格 ── */
+
+/* 圖庫卡片：跟姿勢卡一樣下方有視角小圖（正面／側面／背面三格） */
+.hairstyle-card .card-image-wrap {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+}
+.hairstyle-card .card-open {
+  min-height: 0;
+  overflow: hidden;
+}
+.hairstyle-card .card-image-wrap:after,
+.hairstyle-card .view-count {
+  display: none;
+}
+.hairstyle-card .pose-angle-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* 合成台挑選視窗：髮型只有三個視角，三欄（五欄時「正面」會一字一行） */
+.studio-picker-card-hairstyle .studio-picker-angles {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* 色票 */
+.hair-swatches {
+  min-width: 0;
+}
+.hair-swatch-row {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 8px;
+}
+.hair-swatch {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  max-width: 34px;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #c9d3c6;
+  color: #fff;
+  cursor: pointer;
+  transition:
+    box-shadow 0.15s,
+    transform 0.15s;
+}
+.hair-swatch:hover {
+  transform: scale(1.08);
+}
+.hair-swatch:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+.hair-swatch.active {
+  box-shadow: 0 0 0 2px var(--blue);
+}
+.hair-swatch svg {
+  filter: drop-shadow(0 0 1.5px #0009);
+}
+/* 推薦色：右上角一個小金點 */
+.hair-swatch.recommended::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #9a7a36;
+  border: 2px solid #fff;
+}
+.hair-swatch-name {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--ink);
+}
+.hair-swatch-name small {
+  font-size: 11px;
+  color: #7a5f22;
+}
+.hair-swatches.compact .hair-swatch-row {
+  gap: 6px;
+}
+.hair-swatches.compact .hair-swatch {
+  max-width: 28px;
+}
+.hair-swatches.compact .hair-swatch-name {
+  margin-top: 7px;
+  font-size: 11px;
+}
+
+/* 詳細頁：色票放在大圖正下方，點了馬上看得到變化 */
+.detail-stage-swatches {
+  margin: 0 auto 4px;
+  width: 100%;
+  max-width: 560px;
+}
+.detail-stage-swatches .hair-swatch-row {
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+  gap: 6px;
+}
+.detail-stage-swatches .hair-swatch {
+  max-width: 30px;
+  justify-self: center;
+}
+.detail-stage-swatches .hair-swatch-name {
+  justify-content: center;
+  margin-top: 8px;
+}
+.detail-hair-section h3 {
+  margin-bottom: 4px;
+}
+/* 詳細頁 */
+.detail-hair-section,
+.detail-sibling-section {
+  margin-top: 26px;
+}
+.detail-hair-hint {
+  margin: 10px 0 0;
+  font-size: 11px;
+  line-height: 1.7;
+  color: #5f6a64;
+}
+.sibling-buttons {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+.sibling-buttons button {
+  min-width: 0;
+  border: 1px solid #dfe4de;
+  background: #f8faf6;
+  padding: 4px;
+  border-radius: 7px;
+  font-size: 11px;
+  color: #5f6a64;
+}
+.sibling-buttons button:hover,
+.sibling-buttons button.active {
+  color: var(--blue);
+  background: #f5f8f3;
+}
+.sibling-buttons button.active {
+  border-color: var(--blue);
+}
+.sibling-buttons .angle-thumbnail img {
+  object-fit: cover;
+}
+.detail-recoloring {
+  position: absolute;
+  left: 50%;
+  bottom: 64px;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: #fbfcf8f2;
+  border: 1px solid var(--line);
+  font-size: 11px;
+  color: var(--ink);
+}
+.face-to-studio {
+  justify-content: center;
+  gap: 8px;
+}
+
+/* 合成台：四格（手機兩欄兩列） */
+.studio-reference-slots {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.studio-reference-slot {
+  position: relative;
+}
+/* 鎖定鈕疊在參考圖左上角（隨機搭配時這一格不換） */
+.studio-slot-lock {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcf8f0;
+  color: #5f6a64;
+}
+.studio-slot-lock:hover {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+.studio-slot-lock.active {
+  border-color: var(--blue);
+  background: #e6efe8;
+  color: var(--blue);
+}
+.studio-reference-slot.locked .studio-slot-image {
+  border-color: var(--blue);
+  border-style: solid;
+}
+.studio-slot-busy {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #fbfcf899;
+  color: var(--blue);
+}
+.studio-hair-options {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcf8;
+}
+.studio-hair-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.studio-hair-heading strong {
+  font-size: 11px;
+  font-weight: 500;
+}
+.hair-color-select {
+  width: 100%;
+}
+
+/* 首頁分類卡：四張（每張變窄，說明文字讓出右下角的數字） */
+.home-cats.four {
+  grid-template-columns: repeat(4, 1fr);
+}
+.home-cats.four .home-cat .label {
+  padding-right: 64px;
+}
+.home-cat.hairstyle .pics img,
+.popular-column.hairstyle img,
+.home-tile.hairstyle img {
+  object-fit: contain;
+  /* 髮型圖的底色（實測四角約 #f2efec），留白跟圖接起來不會看到框 */
+  background: #f2efec;
+}
+.home-cat.hairstyle .label small {
+  display: block;
+}
+
+@media (max-width: 1080px) {
+  .home-cats.four {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* 手機：跟原本三張一樣改成橫向滑動（theme-sage.css 的 780px 規則） */
+@media (max-width: 780px) {
+  .home-cats.four {
+    grid-template-columns: none;
+  }
+}
+@media (max-width: 780px) {
+  .detail-stage-swatches .hair-swatch-row {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 8px 6px;
+  }
+  .detail-stage-swatches .hair-swatch {
+    max-width: 32px;
+  }
+}
+@media (max-width: 650px) {
+  .studio-reference-slots {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 10px;
+  }
+  .studio-empty-composition {
+    gap: 4px;
+  }
+  .studio-empty-composition > div {
+    gap: 4px;
+  }
+  .studio-empty-composition button {
+    width: 54px;
+    height: 80px;
+  }
+  .studio-empty-composition button img {
+    width: 44px;
+    height: 68px;
+  }
+  .hair-swatch-row {
+    gap: 7px;
+  }
+}

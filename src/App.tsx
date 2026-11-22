@@ -20,6 +20,7 @@ import {
   PersonStanding,
   Plus,
   RotateCcw,
+  Scissors,
   Search,
   Shirt,
   Sparkles,
@@ -35,14 +36,32 @@ import {
   HomeSteps,
   showcaseText,
 } from './home-showcase';
-import { loadStats, rankByKind, track } from './stats';
+import { loadStats, rankByKind, track, trackHairColor, trackRecolor } from './stats';
 import type { Stats } from './stats';
 import { hasPoseDepth, withPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
 import { CardStudio } from './card-studio';
 import { studioCopy } from './studio-copy';
 import { ImageGenerationError, validateReferenceFile } from './generation';
-import type { UploadedImageReference, ImageReference } from './generation';
+import type { UploadedImageReference, ImageReference, UploadKind } from './generation';
+import {
+  effectiveHairColor,
+  findHairstyle,
+  hairColorByKey,
+  hairColorName,
+  hairParamEntries,
+  hairstyleFacetKeys,
+  hairstyleOptionLabel,
+  isHairColorKey,
+  isOriginalHairColor,
+  readHairParams,
+  recommendedHairColor,
+  sameFaceSiblings,
+} from './hair-colors';
+import type { HairColor, HairstyleFacet, HairstyleFilters } from './hair-colors';
+import { recoloredPng, useHairRecolor } from './hair-image';
+import { HairColorSwatches, HairstyleFilterFields } from './hairstyle-ui';
+import { hasAngleStrip } from './reference-picker';
 import {
   angles,
   copyText,
@@ -58,10 +77,10 @@ import { resolveCustomAssets } from './custom-assets';
 import { ReferenceFilters, ReferenceBadges, CategoryFilter } from './reference-filters';
 import { FilterSelect } from './filter-select';
 import type { Sort, View } from './library';
-import type { Catalog, Lang, Reference, Variant } from './types';
+import type { Catalog, Kind, Lang, Reference, Variant } from './types';
 import { localeOf } from './types';
 
-type Board = { pose?: string; costume?: string; character?: string };
+type Board = { pose?: string; costume?: string; character?: string; hairstyle?: string };
 // Card angle strip: full English names ("High angle", "Three-quarter") cannot fit a thumbnail at a
 // readable 11px, so the strip uses short forms; the button's aria-label keeps the full name.
 const shortAngleEn: Record<string, string> = {
@@ -70,6 +89,7 @@ const shortAngleEn: Record<string, string> = {
   low: 'Low',
   side: 'Side',
   diag: '3/4',
+  back: 'Back',
 };
 
 const initialParams = new URLSearchParams(window.location.search);
@@ -85,10 +105,15 @@ const isBoard = (v: unknown): v is Board =>
   !!v &&
   typeof v === 'object' &&
   !Array.isArray(v) &&
-  ['pose', 'costume', 'character'].every(
+  ['pose', 'costume', 'character', 'hairstyle'].every(
     (k) => !(k in v) || typeof (v as Record<string, unknown>)[k] === 'string',
   );
+/** 每款髮型選過的髮色（只存推薦色以外的） */
+const isHairColorMap = (v: unknown): v is Record<string, string> =>
+  !!v && typeof v === 'object' && !Array.isArray(v) && Object.values(v).every(isHairColorKey);
 const viewParam = initialParams.get('view');
+// 網址的 ?hair=：舊連結是人物「髮長」篩選（short／medium…，2026-11-22 起改寫成 ?hairlen=）；其他值是髮型 id 或編號
+const initialHair = readHairParams(initialParams);
 
 export default function App() {
   const [lang, setLang] = useState<Lang>(() => {
@@ -124,13 +149,14 @@ export default function App() {
   const [failed, setFailed] = useState(false);
   const [reload, setReload] = useState(0);
   const [view, setView] = useState<View>(
-    ['pose', 'costume', 'character', 'saved', 'studio'].includes(viewParam || '')
+    ['pose', 'costume', 'character', 'hairstyle', 'saved', 'studio'].includes(viewParam || '')
       ? (viewParam as View)
       : 'all',
   );
   const [query, setQuery] = useState(initialParams.get('q') || '');
   const [category, setCategory] = useState(initialParams.get('category') || 'all');
-  const [hair, setHair] = useState(initialParams.get('hair') || 'all');
+  const [hair, setHair] = useState(initialHair.characterHairLength);
+  const [hairFilters, setHairFilters] = useState<HairstyleFilters>(initialHair.filters);
   const [collection, setCollection] = useState(
     initialParams.get('collection') === 'custom'
       ? 'custom'
@@ -148,7 +174,7 @@ export default function App() {
   );
   const [kind, setKind] = useState(
     viewParam === 'saved' &&
-      ['pose', 'costume', 'character'].includes(initialParams.get('kind') || '')
+      ['pose', 'costume', 'character', 'hairstyle'].includes(initialParams.get('kind') || '')
       ? initialParams.get('kind')!
       : 'all',
   );
@@ -176,6 +202,21 @@ export default function App() {
   const [studioAngle, setStudioAngle] = useState('front');
   const characterTask = useRef(0);
   const costumeTask = useRef(0);
+  // 髮型（第四格）：圖庫髮型在 board.hairstyle；上傳的髮型照另外存，不能換色，只選髮色寫進提示詞
+  const [hairstyleReference, setHairstyleReference] = useState<UploadedImageReference | null>(null);
+  const [hairstyleLoading, setHairstyleLoading] = useState(false);
+  const hairstyleTask = useRef(0);
+  const [hairAngle, setHairAngle] = useState('front');
+  const [hairColors, setHairColors] = useState<Record<string, string>>(() =>
+    storageGet('muse-hair-colors', {}, isHairColorMap),
+  );
+  const [hairUploadColor, setHairUploadColor] = useState('');
+  const [pickerRequest, setPickerRequest] = useState<{ kind: Kind; nonce: number }>();
+  // 網址帶的 ?hair=／?haircolor=：素材清單載入後才對得到髮型，先記著
+  const pendingHair = useRef<{ hair: string | null; color: string | null } | null>({
+    hair: initialHair.hairstyle,
+    color: initialHair.hairColor,
+  });
   const [panel, setPanel] = useState<'project' | 'usage' | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(initialParams.get('item'));
   const [detailAngle, setDetailAngle] = useState(initialParams.get('detailAngle') || angle);
@@ -219,8 +260,25 @@ export default function App() {
     storageSet('opc-board', board);
   }, [board]);
   useEffect(() => {
+    storageSet('muse-hair-colors', hairColors);
+  }, [hairColors]);
+  useEffect(() => {
     setLimit(24);
-  }, [query, view, category, hair, collection, tag, style, age, ethnicity, kind, extended, sort]);
+  }, [
+    query,
+    view,
+    category,
+    hair,
+    collection,
+    tag,
+    style,
+    age,
+    ethnicity,
+    kind,
+    extended,
+    sort,
+    hairFilters,
+  ]);
   useEffect(() => () => clearTimeout(toastTimer.current), []);
   // 舊版曾把生圖服務的 API 金鑰與生成紀錄存在瀏覽器；網站已不再使用，開站時一併清掉
   useEffect(() => {
@@ -246,6 +304,7 @@ export default function App() {
     () => () => {
       characterTask.current++;
       costumeTask.current++;
+      hairstyleTask.current++;
     },
     [],
   );
@@ -262,47 +321,11 @@ export default function App() {
     };
   }, [costumeReference]);
   useEffect(() => {
-    const url = new URL(window.location.href);
-    url.search = '';
-    const params: Record<string, string> = {
-      lang,
-      view,
-      ...(query ? { q: query } : {}),
-      ...(category !== 'all' ? { category } : {}),
-      ...(extended ? { extended: '1' } : {}),
-      ...(poseDepth ? { depth: '1' } : {}),
-      ...(hair !== 'all' ? { hair } : {}),
-      ...(collection !== 'all' ? { collection } : {}),
-      ...(tag !== 'all' ? { tag } : {}),
-      ...(style !== 'all' ? { style } : {}),
-      ...(ethnicity !== 'all' ? { ethnicity } : {}),
-      ...(age !== 'all' ? { age } : {}),
-      ...(kind !== 'all' ? { kind } : {}),
-      ...(sort !== 'curated' ? { sort } : {}),
-      ...(angle !== 'front' ? { angle } : {}),
-      ...(selectedId ? { item: selectedId, detailAngle } : {}),
+    const preview = hairstyleReference?.variant.image;
+    return () => {
+      if (preview?.startsWith('blob:')) URL.revokeObjectURL(preview);
     };
-    for (const [key, value] of Object.entries(params)) url.searchParams.set(key, value);
-    window.history.replaceState(null, '', url);
-  }, [
-    lang,
-    view,
-    query,
-    category,
-    hair,
-    collection,
-    tag,
-    style,
-    age,
-    ethnicity,
-    kind,
-    sort,
-    extended,
-    poseDepth,
-    angle,
-    selectedId,
-    detailAngle,
-  ]);
+  }, [hairstyleReference]);
 
   const notify = useCallback((message: string) => {
     setToast(message);
@@ -325,7 +348,18 @@ export default function App() {
       ),
     [eligible, view, saved],
   );
-  const filters = { category, hair, collection, tag, style, age, ethnicity, kind, query };
+  const filters = {
+    category,
+    hair,
+    collection,
+    tag,
+    style,
+    age,
+    ethnicity,
+    kind,
+    query,
+    hairstyle: hairFilters,
+  };
   const visible = useMemo(
     () => sortItems(filterReferences(byView, filters), sort, lang, stats?.counts),
     [
@@ -342,8 +376,38 @@ export default function App() {
       sort,
       lang,
       stats,
+      hairFilters,
     ],
   );
+  const setHairFilter = (key: HairstyleFacet, value: string) =>
+    setHairFilters((current) => ({ ...current, [key]: value }));
+  const hairstyleFiltering = view === 'hairstyle' || kind === 'hairstyle';
+  // 網址帶的髮型與髮色：素材清單載入後套用一次
+  useEffect(() => {
+    const pending = pendingHair.current;
+    if (!catalog || !pending) return;
+    pendingHair.current = null;
+    const found = findHairstyle(items, pending.hair);
+    if (found) {
+      hairstyleTask.current++;
+      setHairstyleLoading(false);
+      setHairstyleReference(null);
+      setBoard((old) => ({ ...old, hairstyle: found.id }));
+    }
+    const color = isHairColorKey(pending.color) ? pending.color : null;
+    const detail = items.find((item) => item.id === selectedId && item.kind === 'hairstyle');
+    if (color)
+      setHairColors((old) => {
+        const next = { ...old };
+        for (const item of [found, detail])
+          if (item) {
+            if (color === item.hairstyle?.recommendedColor) delete next[item.id];
+            else next[item.id] = color;
+          }
+        return next;
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [catalog]);
   useEffect(() => {
     const sentinel = loadMoreRef.current;
     if (
@@ -388,7 +452,7 @@ export default function App() {
       ? [
           {
             key: 'kind',
-            label: t[kind as 'pose' | 'costume' | 'character'],
+            label: t[kind as Kind],
             clear: () => {
               setKind('all');
               setCategory('all');
@@ -450,6 +514,13 @@ export default function App() {
           },
         ]
       : []),
+    ...hairstyleFacetKeys
+      .filter((key) => (hairFilters[key] || 'all') !== 'all')
+      .map((key) => ({
+        key: `hairstyle-${key}`,
+        label: hairstyleOptionLabel(key, hairFilters[key]!, lang),
+        clear: () => setHairFilter(key, 'all'),
+      })),
   ];
   const hasFilters = activeFilters.length > 0;
   const selected = items.find((item) => item.id === selectedId);
@@ -470,14 +541,53 @@ export default function App() {
           variant: boardCharacter.variants[0],
         }
       : null);
+  // 髮型：圖庫髮型換成所選髮色（推薦色＝原圖）；圖卡、下載、提示詞都用換色後的這張
+  const boardHairstyle = items.find(
+    (item) => item.id === board.hairstyle && item.kind === 'hairstyle',
+  );
+  const boardHairColor = boardHairstyle
+    ? effectiveHairColor(boardHairstyle, hairColors[boardHairstyle.id])
+    : undefined;
+  const boardHairVariant = boardHairstyle
+    ? boardHairstyle.variants.find((value) => value.angle === hairAngle) ||
+      boardHairstyle.variants[0]
+    : undefined;
+  const boardRecolor = useHairRecolor(
+    hairstyleReference ? undefined : boardHairVariant,
+    boardHairColor,
+    !!boardHairstyle && !isOriginalHairColor(boardHairstyle, hairColors[boardHairstyle.id]),
+  );
+  const activeHairstyle: ImageReference | null = hairstyleReference
+    ? { ...hairstyleReference, hairColor: hairColorByKey(hairUploadColor) || null }
+    : boardHairstyle && boardHairVariant
+      ? {
+          kind: 'hairstyle',
+          title: boardHairstyle.title,
+          keywords: boardHairstyle.keywords,
+          variant: boardRecolor.url
+            ? {
+                ...boardHairVariant,
+                thumbnail: boardRecolor.url,
+                image: boardRecolor.url,
+                original: boardRecolor.url,
+              }
+            : boardHairVariant,
+          hairColor: boardHairColor || null,
+        }
+      : null;
   const boardCount =
-    Number(!!boardPose) + Number(!!(costumeReference || boardCostume)) + Number(!!activeCharacter);
+    Number(!!boardPose) +
+    Number(!!(costumeReference || boardCostume)) +
+    Number(!!activeCharacter) +
+    Number(!!activeHairstyle);
   const onBoard = (item: Reference) =>
     item.kind === 'character'
       ? !characterReference && board.character === item.id
       : item.kind === 'costume'
         ? !costumeReference && board.costume === item.id
-        : board[item.kind] === item.id;
+        : item.kind === 'hairstyle'
+          ? !hairstyleReference && board.hairstyle === item.id
+          : board[item.kind] === item.id;
   const studioReferences: ImageReference[] = [];
   for (const item of [boardPose, costumeReference ? undefined : boardCostume]) {
     if (!item) continue;
@@ -489,6 +599,73 @@ export default function App() {
   }
   if (costumeReference) studioReferences.push(costumeReference);
   if (activeCharacter) studioReferences.push(activeCharacter);
+  if (activeHairstyle) studioReferences.push(activeHairstyle);
+  // 詳細頁的髮型：目前色票與換色圖
+  const detailHair = selected?.kind === 'hairstyle' ? selected : undefined;
+  const detailHairColor = detailHair
+    ? effectiveHairColor(detailHair, hairColors[detailHair.id])
+    : undefined;
+  const detailRecolor = useHairRecolor(
+    detailHair ? variant : undefined,
+    detailHairColor,
+    !!detailHair && !isOriginalHairColor(detailHair, hairColors[detailHair.id]),
+  );
+  const siblings = selected ? sameFaceSiblings(selected, items) : [];
+  // 分享網址：?hair＝搭配台上的圖庫髮型編號；?haircolor＝目前看的髮型（詳細頁優先，否則搭配台）選的非推薦色
+  const shareHair = !hairstyleReference && boardHairstyle ? boardHairstyle.code : '';
+  const focusHair = detailHair || (hairstyleReference ? undefined : boardHairstyle);
+  const shareHairColor = focusHair ? hairColors[focusHair.id] || '' : '';
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    url.search = '';
+    const params: Record<string, string> = {
+      lang,
+      view,
+      ...(query ? { q: query } : {}),
+      ...(category !== 'all' ? { category } : {}),
+      ...(extended ? { extended: '1' } : {}),
+      ...(poseDepth ? { depth: '1' } : {}),
+      ...hairParamEntries({ characterHairLength: hair, filters: hairFilters }),
+      ...(collection !== 'all' ? { collection } : {}),
+      ...(tag !== 'all' ? { tag } : {}),
+      ...(style !== 'all' ? { style } : {}),
+      ...(ethnicity !== 'all' ? { ethnicity } : {}),
+      ...(age !== 'all' ? { age } : {}),
+      ...(kind !== 'all' ? { kind } : {}),
+      ...(sort !== 'curated' ? { sort } : {}),
+      ...(angle !== 'front' ? { angle } : {}),
+      ...(selectedId ? { item: selectedId, detailAngle } : {}),
+      ...hairParamEntries({
+        characterHairLength: 'all',
+        filters: {},
+        hairstyle: shareHair,
+        hairColor: shareHairColor,
+      }),
+    };
+    for (const [key, value] of Object.entries(params)) url.searchParams.set(key, value);
+    window.history.replaceState(null, '', url);
+  }, [
+    lang,
+    view,
+    query,
+    category,
+    hair,
+    collection,
+    tag,
+    style,
+    age,
+    ethnicity,
+    kind,
+    sort,
+    extended,
+    poseDepth,
+    angle,
+    selectedId,
+    detailAngle,
+    hairFilters,
+    shareHair,
+    shareHairColor,
+  ]);
   const navItems = [
     { key: 'all' as const, label: t.all, icon: Grid2X2, count: eligible.length },
     {
@@ -508,6 +685,12 @@ export default function App() {
       label: t.character,
       icon: UserRound,
       count: eligible.filter((item) => item.kind === 'character').length,
+    },
+    {
+      key: 'hairstyle' as const,
+      label: t.hairstyle,
+      icon: Scissors,
+      count: eligible.filter((item) => item.kind === 'hairstyle').length,
     },
     {
       key: 'saved' as const,
@@ -534,6 +717,7 @@ export default function App() {
     setEthnicity('all');
     setKind('all');
     setQuery('');
+    setHairFilters({});
   }
   function resetFilters() {
     setCategory('all');
@@ -545,6 +729,24 @@ export default function App() {
     setEthnicity('all');
     setKind('all');
     setQuery('');
+    setHairFilters({});
+  }
+  /** 選髮色：推薦色＝原圖，不另存；其他色記在這款髮型上（詳細頁與搭配台共用） */
+  function chooseHairColor(item: Reference, key: string) {
+    const recommended = item.hairstyle?.recommendedColor;
+    setHairColors((old) => {
+      const next = { ...old };
+      if (key === recommended) delete next[item.id];
+      else next[item.id] = key;
+      return next;
+    });
+    if (key !== recommended) trackRecolor(item, key);
+  }
+  function clearHairstyleUpload() {
+    hairstyleTask.current++;
+    setHairstyleLoading(false);
+    setHairstyleReference(null);
+    setCharacterError('');
   }
   function save(item: Reference) {
     const exists = saved.includes(item.id);
@@ -590,6 +792,7 @@ export default function App() {
       setCharacterReference(null);
       setCharacterError('');
     }
+    if (item.kind === 'hairstyle') clearHairstyleUpload();
     const adding = !onBoard(item);
     setBoard((old) =>
       adding
@@ -662,13 +865,59 @@ export default function App() {
       }
     }
   }
-  function selectReferenceFile(file: File, kind: 'character' | 'costume') {
+  /** 髮型詳細頁的下載：推薦色＝原檔；其他色＝換色後的 PNG，髮色寫進檔名與圖檔文字欄位 */
+  async function downloadHairstyle(item: Reference, chosenVariant: Variant, color?: HairColor) {
+    if (!color || isOriginalHairColor(item, color.key)) {
+      await downloadOriginal(item, chosenVariant);
+      trackHairColor(color?.key);
+      return;
+    }
+    if (downloadController.current) return;
+    const controller = new AbortController();
+    downloadController.current = controller;
+    setDownloadBusy(true);
+    try {
+      const comment = `Muse hairstyle ${item.code} (${chosenVariant.angle}) · hair color: ${color.en} / ${color.zh_tw} / ${color.zh_cn} (${color.key}, ${color.hex}) · recolored in the browser from ${item.hairstyle?.recommendedColor || 'original'}`;
+      const blob = await recoloredPng(chosenVariant, color, comment);
+      if (controller.signal.aborted) return;
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = downloadFilename(`${item.id}-${chosenVariant.angle}-${color.key}`, 'png');
+      (document.querySelector('dialog[open]') || document.body).appendChild(link);
+      link.click();
+      link.remove();
+      track('ref', [item]);
+      trackHairColor(color.key);
+      setTimeout(() => URL.revokeObjectURL(url), 60_000);
+      notify(t.downloadStarted);
+    } catch {
+      if (!controller.signal.aborted) notify(t.downloadFailed);
+    } finally {
+      if (downloadController.current === controller) {
+        downloadController.current = null;
+        setDownloadBusy(false);
+      }
+    }
+  }
+  function selectReferenceFile(file: File, kind: UploadKind) {
     return applyReferenceFile(file, kind);
   }
-  async function applyReferenceFile(file: File, kind: 'character' | 'costume') {
-    const taskRef = kind === 'character' ? characterTask : costumeTask;
-    const setLoading = kind === 'character' ? setCharacterLoading : setCostumeLoading;
-    const setReference = kind === 'character' ? setCharacterReference : setCostumeReference;
+  async function applyReferenceFile(file: File, kind: UploadKind) {
+    const taskRef =
+      kind === 'character' ? characterTask : kind === 'costume' ? costumeTask : hairstyleTask;
+    const setLoading =
+      kind === 'character'
+        ? setCharacterLoading
+        : kind === 'costume'
+          ? setCostumeLoading
+          : setHairstyleLoading;
+    const setReference =
+      kind === 'character'
+        ? setCharacterReference
+        : kind === 'costume'
+          ? setCostumeReference
+          : setHairstyleReference;
     const task = ++taskRef.current;
     setLoading(true);
     setCharacterError('');
@@ -682,26 +931,35 @@ export default function App() {
       await image.decode();
       if (task !== taskRef.current) return false;
       setBoard((old) => ({ ...old, [kind]: undefined }));
+      if (kind === 'hairstyle') setHairUploadColor('');
       setReference({
         kind,
         file,
         title:
           kind === 'character'
             ? { zh: '人物参考', tw: '人物參考', en: 'Character reference' }
-            : { zh: '服饰参考', tw: '服飾參考', en: 'Outfit reference' },
+            : kind === 'costume'
+              ? { zh: '服饰参考', tw: '服飾參考', en: 'Outfit reference' }
+              : { zh: '发型参考', tw: '髮型參考', en: 'Hairstyle reference' },
         keywords: {
           zh:
             kind === 'character'
               ? '保留所附人物的五官、脸型、发型发色、肤色、体型比例与画风'
-              : '采用所附服饰图片中的穿搭、配色、版型和材质，不采用服装模特的身份和姿势',
+              : kind === 'costume'
+                ? '采用所附服饰图片中的穿搭、配色、版型和材质，不采用服装模特的身份和姿势'
+                : '采用所附发型参考的剪裁、长度、层次、刘海、卷度、分线与轮廓，不采用照片中人物的五官与身份',
           tw:
             kind === 'character'
               ? '保留所附人物的五官、臉型、髮型髮色、膚色、體型比例與畫風'
-              : '採用所附服飾圖片中的穿搭、配色、版型和材質，不採用服裝模特的身分和姿勢',
+              : kind === 'costume'
+                ? '採用所附服飾圖片中的穿搭、配色、版型和材質，不採用服裝模特的身分和姿勢'
+                : '採用所附髮型參考的剪裁、長度、層次、瀏海、捲度、分線與輪廓，不採用照片中人物的五官與身分',
           en:
             kind === 'character'
               ? 'Preserve the attached character’s face, hairstyle, hair color, skin tone, proportions and visual style'
-              : 'Use the outfit, colors, garment shape and materials from the uploaded costume; do not copy the clothing model’s identity or pose',
+              : kind === 'costume'
+                ? 'Use the outfit, colors, garment shape and materials from the uploaded costume; do not copy the clothing model’s identity or pose'
+                : 'Use the cut, length, layers, bangs, curl, parting and silhouette from the uploaded hairstyle; do not copy the face or identity of the person in the photo',
         },
         variant: {
           id: `${kind}-upload`,
@@ -709,7 +967,9 @@ export default function App() {
           label:
             kind === 'character'
               ? { zh: '人物', tw: '人物', en: 'Character' }
-              : { zh: '服饰', tw: '服飾', en: 'Costume' },
+              : kind === 'costume'
+                ? { zh: '服饰', tw: '服飾', en: 'Costume' }
+                : { zh: '发型', tw: '髮型', en: 'Hairstyle' },
           thumbnail: preview,
           image: preview,
           original: preview,
@@ -753,6 +1013,12 @@ export default function App() {
       setStudioAngle(
         item.variants.some((variant) => variant.angle === angle) ? angle : item.variants[0].angle,
       );
+    if (item.kind === 'hairstyle') {
+      clearHairstyleUpload();
+      setHairAngle(
+        item.variants.some((variant) => variant.angle === angle) ? angle : item.variants[0].angle,
+      );
+    }
     setBoard((old) => withoutGenderConflict({ ...old, [item.kind]: item.id }, item.kind));
     genderConflictNotice(item);
   }
@@ -769,13 +1035,20 @@ export default function App() {
       setCharacterReference(null);
       setCharacterError('');
     }
+    if (kind === 'hairstyle') clearHairstyleUpload();
     setBoard((old) => ({ ...old, [kind]: undefined }));
   }
   function beginGeneration(item?: Reference) {
     if (item) {
-      chooseStudioReference(item);
+      chooseStudioReference(item, item.kind === 'hairstyle' ? detailAngle : undefined);
       if (item.kind === 'pose') setStudioAngle(detailAngle);
     }
+    openStudio();
+  }
+  /** 人物詳細頁「放進搭配台，髮型另挑」：人物放進搭配台，打開髮型挑選視窗 */
+  function faceToStudio(item: Reference) {
+    chooseStudioReference(item);
+    setPickerRequest({ kind: 'hairstyle', nonce: Date.now() });
     openStudio();
   }
   useEffect(() => {
@@ -854,7 +1127,7 @@ export default function App() {
         >
           <LayoutPanelLeft size={19} />
           <span>{studioCopy[lang].title}</span>
-          <small>{boardCount}/3</small>
+          <small>{boardCount}/4</small>
         </button>
         <div className="sidebar-bottom">
           <div className="social-links">
@@ -954,12 +1227,13 @@ export default function App() {
                 <button
                   key={key}
                   className={view === key && !projectOpen ? 'active' : ''}
+                  aria-label={label}
                   onClick={() => {
                     changeView(key);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                 >
-                  {label}
+                  {t.navShort[key]}
                 </button>
               ))}
             <button className={view === 'studio' ? 'active' : ''} onClick={openStudio}>
@@ -967,9 +1241,10 @@ export default function App() {
             </button>
             <button
               className={view === 'saved' && !projectOpen ? 'active' : ''}
+              aria-label={t.saved}
               onClick={() => changeView('saved')}
             >
-              {t.saved}
+              {t.navShort.saved}
             </button>
             <button className={projectOpen ? 'active' : ''} onClick={() => setPanel('project')}>
               {t.projectAboutShort}
@@ -1026,6 +1301,7 @@ export default function App() {
                   pose: eligible.filter((item) => item.kind === 'pose').length,
                   costume: eligible.filter((item) => item.kind === 'costume').length,
                   character: eligible.filter((item) => item.kind === 'character').length,
+                  hairstyle: eligible.filter((item) => item.kind === 'hairstyle').length,
                 }}
                 onView={(next) => {
                   changeView(next);
@@ -1095,10 +1371,11 @@ export default function App() {
                         setKind(value);
                         setCategory('all');
                         setHair('all');
+                        setHairFilters({});
                       }}
                       options={[
                         { value: 'all', label: t.allKinds },
-                        ...(['pose', 'costume', 'character'] as const).map((value) => {
+                        ...(['pose', 'costume', 'character', 'hairstyle'] as const).map((value) => {
                           const count = filterReferences(byView, {
                             ...filters,
                             kind: value,
@@ -1116,12 +1393,21 @@ export default function App() {
                     />
                   </div>
                 )}
-                <CategoryFilter
-                  items={byView}
-                  filters={filters}
-                  lang={lang}
-                  onChange={changeCategory}
-                />
+                {hairstyleFiltering ? (
+                  <HairstyleFilterFields
+                    items={byView}
+                    filters={filters}
+                    lang={lang}
+                    onChange={setHairFilter}
+                  />
+                ) : (
+                  <CategoryFilter
+                    items={byView}
+                    filters={filters}
+                    lang={lang}
+                    onChange={changeCategory}
+                  />
+                )}
                 {(view === 'character' || kind === 'character' || characterCategory) && (
                   <div className="reference-filter-field">
                     <span>{t.hairLength}</span>
@@ -1271,7 +1557,7 @@ export default function App() {
                               <ArrowUpRight size={20} />
                             </span>
                           </button>
-                          {item.kind === 'pose' && item.variants.length > 1 && (
+                          {hasAngleStrip(item.kind) && item.variants.length > 1 && (
                             <div className="pose-angle-strip" aria-label={t.angles}>
                               {item.variants.map((variant) => (
                                 <button
@@ -1308,6 +1594,8 @@ export default function App() {
                               <PersonStanding size={13} />
                             ) : item.kind === 'costume' ? (
                               <Shirt size={13} />
+                            ) : item.kind === 'hairstyle' ? (
+                              <Scissors size={13} />
                             ) : (
                               <UserRound size={13} />
                             )}{' '}
@@ -1315,7 +1603,9 @@ export default function App() {
                               ? 'POSE'
                               : item.kind === 'costume'
                                 ? 'COSTUME'
-                                : 'CHARACTER'}
+                                : item.kind === 'hairstyle'
+                                  ? 'HAIRSTYLE'
+                                  : 'CHARACTER'}
                           </span>
                           <button
                             className={`save-button ${isSaved ? 'is-saved' : ''}`}
@@ -1325,7 +1615,7 @@ export default function App() {
                           >
                             <Bookmark size={17} fill={isSaved ? 'currentColor' : 'none'} />
                           </button>
-                          {item.kind === 'pose' && (
+                          {hasAngleStrip(item.kind) && (
                             <span className="view-count">
                               <Layers2 size={12} />
                               {item.variants.length} {t.views}
@@ -1350,7 +1640,9 @@ export default function App() {
                                 ? item.series[lang]
                                 : item.kind === 'pose'
                                   ? preview.label[lang]
-                                  : item.keywords[lang].split(' ').slice(0, 3).join(' · ')}
+                                  : item.kind === 'hairstyle' && item.hairstyle?.facets
+                                    ? `${item.hairstyle.facets.length[lang]} · ${item.hairstyle.facets.bangs[lang]}`
+                                    : item.keywords[lang].split(' ').slice(0, 3).join(' · ')}
                             </span>
                             <button
                               className={onBoard(item) ? 'add-pair selected' : 'add-pair'}
@@ -1407,7 +1699,7 @@ export default function App() {
             references={studioReferences}
             items={eligible}
             poseItem={boardPose}
-            characterLoading={characterLoading || costumeLoading}
+            characterLoading={characterLoading || costumeLoading || hairstyleLoading}
             characterError={characterError}
             poseDepth={poseDepth}
             onDepth={setPoseDepth}
@@ -1416,6 +1708,15 @@ export default function App() {
             onAngle={setStudioAngle}
             onUpload={(file, kind) => void selectReferenceFile(file, kind)}
             notify={notify}
+            hairstyleItem={hairstyleReference ? undefined : boardHairstyle}
+            hairColorKey={boardHairColor?.key}
+            onHairColor={(key) => boardHairstyle && chooseHairColor(boardHairstyle, key)}
+            hairUploadColor={hairUploadColor}
+            onHairUploadColor={setHairUploadColor}
+            hairAngle={boardHairVariant?.angle || hairAngle}
+            onHairAngle={setHairAngle}
+            hairPending={boardRecolor.pending}
+            pickerRequest={pickerRequest}
           />
         </main>
       </div>
@@ -1429,7 +1730,9 @@ export default function App() {
                   ? 'POSE STUDY'
                   : selected.kind === 'costume'
                     ? 'COSTUME STUDY'
-                    : 'CHARACTER STUDY'}{' '}
+                    : selected.kind === 'hairstyle'
+                      ? 'HAIRSTYLE STUDY'
+                      : 'CHARACTER STUDY'}{' '}
                 <code>/ {selected.code}</code>
               </span>
               <button
@@ -1440,14 +1743,39 @@ export default function App() {
                 <X size={21} />
               </button>
             </div>
-            <RemoteImage
-              src={variant.image}
-              alt={selected.title[lang]}
-              lang={lang}
-              className="detail-image"
-              eager
-              retryable
-            />
+            {detailRecolor.url ? (
+              <img
+                className="detail-image"
+                src={detailRecolor.url}
+                alt={`${selected.title[lang]} · ${detailHairColor ? hairColorName(detailHairColor, lang) : ''}`}
+                data-hair-color={detailHairColor?.key}
+              />
+            ) : (
+              <RemoteImage
+                src={variant.image}
+                alt={selected.title[lang]}
+                lang={lang}
+                className="detail-image"
+                eager
+                retryable
+              />
+            )}
+            {detailRecolor.pending && (
+              <span className="detail-recoloring" role="status">
+                <LoaderCircle size={14} className="spinner" />
+                {t.recoloring}
+              </span>
+            )}
+            {detailHair && (
+              <div className="detail-stage-swatches">
+                <HairColorSwatches
+                  lang={lang}
+                  value={detailHairColor?.key}
+                  recommended={recommendedHairColor(detailHair)?.key}
+                  onChange={(key) => chooseHairColor(detailHair, key)}
+                />
+              </div>
+            )}
             <div className="detail-pagination">
               <button
                 className="icon-button"
@@ -1484,7 +1812,7 @@ export default function App() {
             {selected.collection === 'custom' && (
               <p className="custom-usage-notice">{t.customUsageNotice}</p>
             )}
-            {selected.kind === 'pose' && (
+            {hasAngleStrip(selected.kind) && (
               <div className="detail-angle-section">
                 <h3>{t.angles}</h3>
                 <div className="angle-buttons">
@@ -1511,6 +1839,43 @@ export default function App() {
                 {variant.angle !== detailAngle && <p className="angle-missing">{t.missing}</p>}
               </div>
             )}
+            {detailHair && (
+              <div className="detail-hair-section">
+                <h3>{t.hairColor}</h3>
+                <p className="detail-hair-hint">
+                  {detailRecolor.failed ? t.recolorFailed : t.hairColorHint} {t.hairstyleNote}
+                </p>
+              </div>
+            )}
+            {siblings.length > 1 && (
+              <div className="detail-sibling-section">
+                <h3>{t.sameFace}</h3>
+                <div className="sibling-buttons" role="group" aria-label={t.sameFace}>
+                  {siblings.map((sibling) => (
+                    <button
+                      key={sibling.id}
+                      type="button"
+                      className={sibling.id === selected.id ? 'active' : ''}
+                      aria-pressed={sibling.id === selected.id}
+                      aria-label={`${sibling.code} · ${sibling.title[lang]}`}
+                      title={sibling.title[lang]}
+                      onClick={() => setSelectedId(sibling.id)}
+                    >
+                      <span className="angle-thumbnail">
+                        <RemoteImage src={sibling.variants[0].thumbnail} alt="" lang={lang} eager />
+                        {sibling.id === selected.id && (
+                          <span className="angle-selected">
+                            <Check size={10} />
+                          </span>
+                        )}
+                      </span>
+                      <span className="angle-label">{sibling.code.split('-').at(-1)}</span>
+                    </button>
+                  ))}
+                </div>
+                <p className="detail-hair-hint">{t.sameFaceHint}</p>
+              </div>
+            )}
             <div className="description-section">
               <h3>{t.keywords}</h3>
               <p>{selected.keywords[lang]}</p>
@@ -1527,7 +1892,7 @@ export default function App() {
                 </button>
                 <button
                   className="text-action reference-generate"
-                  disabled={characterLoading || costumeLoading}
+                  disabled={characterLoading || costumeLoading || hairstyleLoading}
                   onClick={() => beginGeneration(selected)}
                 >
                   <Sparkles size={14} />
@@ -1540,6 +1905,16 @@ export default function App() {
                 {onBoard(selected) ? <Check size={17} /> : <Plus size={17} />}{' '}
                 {onBoard(selected) ? t.removeBoard : t.addBoard}
               </button>
+              {selected.kind === 'character' && (
+                <button
+                  className="secondary-button face-to-studio"
+                  disabled={characterLoading || costumeLoading || hairstyleLoading}
+                  onClick={() => faceToStudio(selected)}
+                >
+                  <Scissors size={16} />
+                  {t.faceToStudio}
+                </button>
+              )}
               <div className="detail-action-row">
                 <button className="secondary-button" onClick={() => save(selected)}>
                   <Bookmark
@@ -1550,11 +1925,27 @@ export default function App() {
                 </button>
                 <button
                   className="secondary-button"
-                  onClick={() => downloadOriginal(selected, variant)}
+                  onClick={() =>
+                    detailHair
+                      ? void downloadHairstyle(selected, variant, detailHairColor)
+                      : downloadOriginal(selected, variant)
+                  }
                   disabled={downloadBusy}
                   aria-busy={downloadBusy}
-                  aria-label={downloadBusy ? t.downloading : t.downloadOriginal}
-                  title={downloadBusy ? t.downloading : t.downloadOriginal}
+                  aria-label={
+                    downloadBusy
+                      ? t.downloading
+                      : detailHair && !isOriginalHairColor(detailHair, detailHairColor?.key)
+                        ? t.downloadRecolored
+                        : t.downloadOriginal
+                  }
+                  title={
+                    downloadBusy
+                      ? t.downloading
+                      : detailHair && !isOriginalHairColor(detailHair, detailHairColor?.key)
+                        ? t.downloadRecolored
+                        : t.downloadOriginal
+                  }
                 >
                   {downloadBusy ? (
                     <LoaderCircle size={16} className="spinner" />
@@ -1655,6 +2046,12 @@ export default function App() {
             <div>
               <strong>{catalog?.stats.characters.toLocaleString(localeOf(lang)) || '—'}</strong>
               <span>{t.projectCharacters}</span>
+            </div>
+            <div>
+              <strong>
+                {catalog ? (catalog.stats.hairstyles ?? 0).toLocaleString(localeOf(lang)) : '—'}
+              </strong>
+              <span>{t.projectHairstyles}</span>
             </div>
           </div>
           <section className="project-section">

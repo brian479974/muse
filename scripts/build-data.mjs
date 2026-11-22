@@ -162,6 +162,7 @@ export async function normalize(pose, costume, chinese, portraits = [], animeCos
         .reduce((n, item) => n + item.variants.length, 0),
       costumes: items.filter((item) => item.kind === 'costume').length,
       characters: items.filter((item) => item.kind === 'character').length,
+      hairstyles: items.filter((item) => item.kind === 'hairstyle').length,
       references: items.length,
       images: items.reduce((n, item) => n + item.variants.length, 0),
     },

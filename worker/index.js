@@ -3,9 +3,11 @@
 // 這裡只累加次數；不記 IP、不設 cookie、不收任何個人資料，使用者上傳的圖不會回報。
 // GET /stats 回傳各參考「放進圖卡並下載」的次數，網站拿來排熱門與排行榜。
 // 2026-11-20 起正式網址是 muse.toai.tw；舊網址 muse.markforged.tw 轉址過去，切換期間兩個都收
+// 2026-11-22 加髮型：類型多 hairstyle（髮型參考）與 haircolor（色票 key）；動作多 color（用到哪個髮色）、
+// recolor（在哪款髮型上試了別的顏色）。網站把髮型那筆分開送，這支還沒重新部署前只有髮型那筆會被拒
 const ORIGINS = ['https://muse.toai.tw', 'https://muse.markforged.tw', 'http://127.0.0.1:5199', 'http://localhost:5199'];
-const ACTIONS = ['card', 'ref', 'prompt'];
-const KINDS = ['pose', 'costume', 'character'];
+const ACTIONS = ['card', 'ref', 'prompt', 'color', 'recolor'];
+const KINDS = ['pose', 'costume', 'character', 'hairstyle', 'haircolor'];
 const ID = /^[A-Za-z0-9_-]{1,64}$/;
 const SNAPSHOT_TTL = 300;
 
@@ -31,7 +33,7 @@ async function hit(request, env, origin) {
   }
   const action = body && body.action;
   const refs = body && body.refs;
-  if (!ACTIONS.includes(action) || !Array.isArray(refs) || refs.length < 1 || refs.length > 3) {
+  if (!ACTIONS.includes(action) || !Array.isArray(refs) || refs.length < 1 || refs.length > 4) {
     return empty(400, origin);
   }
   const clean = [];
