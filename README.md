@@ -1,6 +1,6 @@
 # Muse 繆思
 
-姿勢、服裝與人物參考圖庫，可以把三種參考組合起來一鍵生成角色圖。改編自開源專案 open-pose-costume（非官方版本）。
+姿勢、服裝、人物與髮型的參考資料庫。非營利、免費使用：挑好參考、下載參考圖卡，再自己拿去 ChatGPT 等 AI 工具生成——Muse 只提供參考資料，不幫任何人生成圖片。改編自開源專案 open-pose-costume（非官方版本）。完整聲明與資料來源見網站「關於與聲明」，維護者對照見 `SOURCES.md`。
 
 - 網站：https://muse.toai.tw/
 - 原專案：https://github.com/hongye007/open-pose-costume（作者 hongye007 · [@HongyeMain](https://x.com/HongyeMain)）
