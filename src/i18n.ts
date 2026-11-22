@@ -82,7 +82,7 @@ export const copy = {
           ],
           [
             '人物',
-            '来自 {aiPortrait}（作者 {agi}，原站标示 {cc0}），图片由原站直接加载。另有 Muse 自制的虚构成年人物（Z-Image Turbo、FLUX.2 klein、Qwen Image、OpenAI GPT Image、Grok）。',
+            '来自 {aiPortrait}（作者 {agi}，原站标示 {cc0}），图片由原站直接加载。另有 Muse 自制的虚构成年人物。',
           ],
           [
             '发型',
@@ -409,7 +409,7 @@ export const copy = {
           ],
           [
             '人物',
-            '來自 {aiPortrait}（作者 {agi}，原站標示 {cc0}），圖片由原站直接載入。另有 Muse 自製的虛構成年人物（Z-Image Turbo、FLUX.2 klein、Qwen Image、OpenAI GPT Image、Grok）。',
+            '來自 {aiPortrait}（作者 {agi}，原站標示 {cc0}），圖片由原站直接載入。另有 Muse 自製的虛構成年人物。',
           ],
           [
             '髮型',
@@ -736,7 +736,7 @@ export const copy = {
           ],
           [
             'Characters',
-            'From {aiPortrait} (by {agi}; the site marks them {cc0}); images load directly from the original site. Muse also adds its own fictional adult characters (Z-Image Turbo, FLUX.2 klein, Qwen Image, OpenAI GPT Image, Grok).',
+            'From {aiPortrait} (by {agi}; the site marks them {cc0}); images load directly from the original site. Muse also adds its own fictional adult characters.',
           ],
           [
             'Hairstyles',
