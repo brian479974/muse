@@ -1,5 +1,31 @@
 # Sources / 素材来源
 
+## Muse 繆思現況（2026-11-22）— 以這段為準
+
+網站上「關於與聲明」的「網站聲明」是給訪客看的完整版（三語，文案在 `src/i18n.ts` 的 `legalSections`，連結在 `src/site-notice.tsx`）。這裡是給維護者的對照：
+
+- **非營利**：個人發起，免費、不用註冊、無廣告、不販售素材或服務。
+- **開源**：程式碼 MIT（見 `LICENSE`），改建自 [hongye007/open-pose-costume](https://github.com/hongye007/open-pose-costume)。開源只涵蓋程式碼，不涵蓋參考圖片。
+- **外部圖庫（圖片由原站直接載入，不轉存、不修改）**
+  - 寫實服裝 [AI Costume Gallery](https://ai-costume-gallery.pages.dev/)、動漫服裝 [AI Costume Anime Gallery](https://ai-costume-anime-gallery.pages.dev/) — 作者 ギア（https://x.com/giaaibusi）
+  - 人物 [AI Portrait Gallery](https://ai-portrait-gallery.pages.dev/) — 作者 あぎ（https://x.com/agi_aibusi），原站標示 CC0 1.0，同時請求不要轉載、再散布
+  - 姿勢編號與名稱沿用 [AI Pose Gallery](https://ai-pose-gallery.pages.dev/)（ギア）；中文名稱參考 [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh)（MIT，資料部分屬原作者，見 `THIRD_PARTY_NOTICES.md`）
+  - 原站規則：可免費用於作品創作（含商業、編輯、參考）；禁止圖片本身（含加工後）轉載、再散布、販售；部分原站另禁止整批下載（含程式自動抓取）
+- **Muse 自製（`public/muse-assets/`，每張的工具與日期記在 `data/muse-extras.json` 的 `provenance`）**
+  - 姿勢：全部自製。線稿 OpenAI GPT Image（6 組早期用 Grok）；深度圖 Depth Anything V2 **Large**
+  - 服裝：隱形人台照，OpenAI GPT Image／Z-Image Turbo（Apache-2.0）／少數 Grok
+  - 人物：虛構成年人，Z-Image Turbo、FLUX.2 klein 4B（Apache-2.0）、Qwen Image（Apache-2.0）、OpenAI GPT Image、Grok
+  - 髮型：OpenAI GPT Image 三視角，頭髮遮罩 SAM 3
+  - 使用規則比照原站：可免費用於作品創作（含商業）；禁止圖片本身整批下載、轉載、再散布、販售
+- ⚠️ **深度圖限非商業**：Depth Anything V2 Large 權重是 CC BY-NC 4.0（Small 才是 Apache-2.0），網站聲明寫明深度圖只供非商業用途。若要解除，得用 Small 重產全部深度圖（畫面會變，需 Brian 決定）。
+- **隱私**：無帳號、無 cookie、不存 IP；匿名計數只存「參考編號 × 動作 × 次數」與每日總數（`worker/schema.sql`）。上傳圖只在瀏覽器裡用。
+- **移除申請**：GitHub Issues（https://github.com/brian479974/muse/issues），確認後儘快移除。
+- 下方以 hongye007 原專案的紀錄為主，其中「自建扩展」那批（Atomflow 重繪的 42 套服飾、24 組姿勢、28 張人物）**Muse 沒有收錄**；`data/custom/`、`public/custom/` 在 Muse 不存在。
+
+---
+
+## 原專案紀錄（open-pose-costume，保留供查）
+
 Portrait metadata, WebP thumbnails and PNG originals: https://ai-portrait-gallery.pages.dev/ — creator: あぎ · https://x.com/agi_aibusi
 
 | Dataset                                                          | Source                                      | Creator                        |

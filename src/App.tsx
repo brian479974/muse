@@ -41,6 +41,7 @@ import type { Stats } from './stats';
 import { hasPoseDepth, withPoseDepth } from './pose-depth';
 import { Modal, RemoteImage } from './ui';
 import { CardStudio } from './card-studio';
+import { SiteNotice, SITE_NOTICE_ID } from './site-notice';
 import { studioCopy } from './studio-copy';
 import { ImageGenerationError, validateReferenceFile } from './generation';
 import type { UploadedImageReference, ImageReference, UploadKind } from './generation';
@@ -724,6 +725,11 @@ export default function App() {
   const pageTitle =
     view === 'studio' ? studioCopy[lang].title : navItems.find((item) => item.key === view)!.label;
   const projectOpen = panel === 'project';
+  const openSiteNotice = () => {
+    setPanel('project');
+    // 等彈窗畫出來再捲到聲明段
+    window.setTimeout(() => document.getElementById(SITE_NOTICE_ID)?.scrollIntoView({ block: 'start' }), 60);
+  };
   const mobileLibraryActive = !projectOpen && view !== 'studio' && view !== 'saved';
 
   function changeView(next: View) {
@@ -1352,6 +1358,12 @@ export default function App() {
                   {pageTitle}
                   <span>{visible.length.toLocaleString(localeOf(lang))}</span>
                 </h2>
+                <p className="collection-notice">
+                  {t.footerNotice}{' '}
+                  <button type="button" onClick={openSiteNotice}>
+                    {t.legalLink}
+                  </button>
+                </p>
               </div>
             </div>
             <div className="library-filter-panel">
@@ -1709,7 +1721,11 @@ export default function App() {
           <footer>
             <span className="footer-wordmark">Muse.</span>
             <p>{t.footer}</p>
-            <button onClick={() => setPanel('usage')}>
+            <button onClick={openSiteNotice}>
+              {t.legalLink}
+              <ArrowUpRight size={13} />
+            </button>
+            <button className="footer-usage" onClick={() => setPanel('usage')}>
               {t.usage}
               <ArrowUpRight size={13} />
             </button>
@@ -1720,6 +1736,7 @@ export default function App() {
             >
               ↑
             </button>
+            <p className="footer-notice">{t.footerNotice}</p>
           </footer>
         </main>
         <main className="studio-main" hidden={view !== 'studio'}>
@@ -2092,21 +2109,7 @@ export default function App() {
               ))}
             </ul>
           </section>
-          <section className="project-section project-sources">
-            <h3>{t.projectSourcesTitle}</h3>
-            <p>
-              {t.projectSourcesCodeA}{' '}
-              <a
-                href="https://github.com/hongye007/open-pose-costume"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                open-pose-costume
-              </a>
-              {t.projectSourcesCodeB}
-            </p>
-            <p>{t.projectSourcesImages}</p>
-          </section>
+          <SiteNotice lang={lang} />
         </Modal>
       )}
       {showDomainNotice && (
