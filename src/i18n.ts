@@ -36,7 +36,7 @@ export const copy = {
     projectAboutShort: '关于',
     projectAboutTitle: '关于 Muse 繆思',
     projectAboutIntro:
-      'Muse 繆思是姿势、服装与人物的角色设计参考库。挑好参考后，可直接产生一张参考图卡，交给 ChatGPT 等 AI 工具生成角色图像。',
+      'Muse 繆思是姿势、服装、人物与发型的角色设计参考库。挑好参考后，可直接产生一张参考图卡，交给 ChatGPT 等 AI 工具生成角色图像。',
     projectBuiltTitle: 'Muse 的设计与强化',
     projectPoints: [
       ['安全优先的架构', '网站不串接任何生图 API、不保存 API 密钥；你上传的服装或人物图片只在你的浏览器里使用，不会传到任何服务器。参考图卡在本机排版，并以内容安全政策限制对外连线。唯一对外回报的是匿名使用次数：只记哪张图库参考被下载或复制提示词，用来排热门，不记录 IP、不使用 cookie。'],
@@ -76,6 +76,16 @@ export const copy = {
       hairstyle: '发型参考',
       saved: '我的收藏',
     },
+    // 窄桌机（781–1179px）放不下全名时改用的两字短名
+    navCompact: {
+      all: '全部',
+      pose: '姿势',
+      costume: '服装',
+      character: '人物',
+      hairstyle: '发型',
+      studio: '图卡',
+      saved: '收藏',
+    },
     hairColor: '发色',
     hairColorRecommended: '推荐',
     hairColorHint: '点色票就在浏览器里即时换色，不另外生图；下载的发型图与参考图卡都用换色后的图。',
@@ -113,7 +123,7 @@ export const copy = {
     sheet: '角色研究 / REFERENCE STUDY',
     introPose: '动作与重心',
     introCostume: '廓形与材质',
-    search: '搜索姿势、服装、人物或编号…',
+    search: '搜索姿势、服装、人物、发型或编号…',
     shortcut: '搜索',
     allCategories: '全部分类',
     categories: '按分类探索',
@@ -194,7 +204,7 @@ export const copy = {
     promptCostume: '。服装：',
     promptEnd: '。参考所选图片的动作与服装细节。',
     aboutTitle: '找到参考，开始创作。',
-    aboutIntro: '在同一个工作台中浏览姿势与服装，为绘画、角色设计和图像创作寻找参考。',
+    aboutIntro: '在同一个工作台中浏览姿势、服装、人物与发型，为绘画、角色设计和图像创作寻找参考。',
     aboutHowToTitle: '如何使用',
     aboutSteps: [
       '使用中文、英文或编号搜索，通过分类筛选缩小范围。',
@@ -225,7 +235,7 @@ export const copy = {
     removedToast: '已取消收藏',
     boardToast: '已更新搭配台',
     selected: '已选择',
-    searchExamples: '试试：侧坐、针织、blue coat',
+    searchExamples: '试试：侧坐、针织、波浪、blue coat',
   },
   tw: {
     kindFilter: '素材類型',
@@ -264,7 +274,7 @@ export const copy = {
     projectAboutShort: '關於',
     projectAboutTitle: '關於 Muse 繆思',
     projectAboutIntro:
-      'Muse 繆思是姿勢、服裝與人物的角色設計參考庫。挑好參考後，可直接產生一張參考圖卡，交給 ChatGPT 等 AI 工具生成角色影像。',
+      'Muse 繆思是姿勢、服裝、人物與髮型的角色設計參考庫。挑好參考後，可直接產生一張參考圖卡，交給 ChatGPT 等 AI 工具生成角色影像。',
     projectBuiltTitle: 'Muse 的設計與強化',
     projectPoints: [
       ['安全優先的架構', '網站不串接任何生圖 API、不儲存 API 金鑰；你上傳的服裝或人物圖片只在你的瀏覽器裡使用，不會傳到任何伺服器。參考圖卡在本機排版，並以內容安全政策限制對外連線。唯一對外回報的是匿名使用次數：只記哪張圖庫參考被下載或複製提示詞，用來排熱門，不記錄 IP、不使用 cookie。'],
@@ -304,6 +314,16 @@ export const copy = {
       hairstyle: '髮型參考',
       saved: '我的收藏',
     },
+    // 窄桌機（781–1179px）放不下全名時改用的兩字短名
+    navCompact: {
+      all: '全部',
+      pose: '姿勢',
+      costume: '服裝',
+      character: '人物',
+      hairstyle: '髮型',
+      studio: '圖卡',
+      saved: '收藏',
+    },
     hairColor: '髮色',
     hairColorRecommended: '推薦',
     hairColorHint: '點色票就在瀏覽器裡即時換色，不另外生圖；下載的髮型圖與參考圖卡都用換色後的圖。',
@@ -341,7 +361,7 @@ export const copy = {
     sheet: '角色研究 / REFERENCE STUDY',
     introPose: '動作與重心',
     introCostume: '廓形與材質',
-    search: '搜尋姿勢、服裝、人物或編號…',
+    search: '搜尋姿勢、服裝、人物、髮型或編號…',
     shortcut: '搜尋',
     allCategories: '全部分類',
     categories: '按分類探索',
@@ -422,7 +442,7 @@ export const copy = {
     promptCostume: '。服裝：',
     promptEnd: '。參考所選圖片的動作與服裝細節。',
     aboutTitle: '找到參考，開始創作。',
-    aboutIntro: '在同一個工作台中瀏覽姿勢與服裝，為繪畫、角色設計和影像創作尋找參考。',
+    aboutIntro: '在同一個工作台中瀏覽姿勢、服裝、人物與髮型，為繪畫、角色設計和影像創作尋找參考。',
     aboutHowToTitle: '如何使用',
     aboutSteps: [
       '使用中文、英文或編號搜尋，通過分類篩選縮小範圍。',
@@ -453,7 +473,7 @@ export const copy = {
     removedToast: '已取消收藏',
     boardToast: '已更新搭配台',
     selected: '已選擇',
-    searchExamples: '試試：側坐、針織、blue coat',
+    searchExamples: '試試：側坐、針織、波浪、blue coat',
   },
   en: {
     kindFilter: 'Reference type',
@@ -492,7 +512,7 @@ export const copy = {
     projectAboutShort: 'About',
     projectAboutTitle: 'About Muse',
     projectAboutIntro:
-      'Muse is a character-design reference library of poses, outfits and characters. Pick your references and export a reference card ready for ChatGPT or other AI tools.',
+      'Muse is a character-design reference library of poses, outfits, characters and hairstyles. Pick your references and export a reference card ready for ChatGPT or other AI tools.',
     projectBuiltTitle: 'What Muse adds',
     projectPoints: [
       ['Security-first architecture', 'No image-generation API and no stored API keys. Outfit or character photos you upload are used only inside your browser and are never sent to any server. Reference cards are laid out locally, and a content security policy restricts outside connections. The only thing sent out is an anonymous usage count — which library reference was downloaded or had its prompt copied — used to rank popular references. No IP addresses are stored and no cookies are used.'],
@@ -533,6 +553,16 @@ export const copy = {
       hairstyle: 'Hairstyles',
       saved: 'Saved',
     },
+    // Shortest labels for narrow desktops (781–1179px)
+    navCompact: {
+      all: 'All',
+      pose: 'Poses',
+      costume: 'Outfits',
+      character: 'People',
+      hairstyle: 'Hair',
+      studio: 'Card',
+      saved: 'Saved',
+    },
     hairColor: 'Hair color',
     hairColorRecommended: 'Recommended',
     hairColorHint: 'Pick a swatch to recolor instantly in your browser — no new image is generated. Downloads and reference cards use the recolored image.',
@@ -571,7 +601,7 @@ export const copy = {
     sheet: 'CHARACTER / REFERENCE STUDY',
     introPose: 'Gesture & balance',
     introCostume: 'Shape & texture',
-    search: 'Search poses, outfits, characters or IDs…',
+    search: 'Search poses, outfits, characters, hairstyles or IDs…',
     shortcut: 'Search',
     allCategories: 'All categories',
     categories: 'Explore by category',
@@ -654,7 +684,7 @@ export const copy = {
     promptEnd: '. Use the selected images as references for the gesture and clothing details.',
     aboutTitle: 'Find a reference. Start creating.',
     aboutIntro:
-      'Explore poses and outfits in one workspace for drawing, character design and image creation.',
+      'Explore poses, outfits, characters and hairstyles in one workspace for drawing, character design and image creation.',
     aboutHowToTitle: 'How to use',
     aboutSteps: [
       'Search in Chinese or English, or by ID, then narrow the results with category filters.',

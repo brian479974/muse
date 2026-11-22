@@ -249,10 +249,10 @@ export default function App() {
     document.documentElement.lang = localeOf(lang);
     document.title =
       lang === 'zh'
-        ? 'Muse 繆思 · 姿势与服装参考库'
+        ? 'Muse 繆思 · 姿势、服装、人物、发型参考库'
         : lang === 'tw'
-          ? 'Muse 繆思 · 姿勢與服裝參考庫'
-          : 'Muse · Pose & costume reference atelier';
+          ? 'Muse 繆思 · 姿勢、服裝、人物、髮型參考庫'
+          : 'Muse · Pose, outfit, character & hairstyle references';
   }, [lang]);
   useEffect(() => {
     storageSet('opc-saved', saved);
@@ -340,6 +340,20 @@ export default function App() {
   // 擴展分類留在清單裡（分類選單才列得出來），列結果時再依 shownByDefault 收起
   const eligible = items;
   const homeItems = useMemo(() => items.filter((item) => !item.extended), [items]);
+  // 首頁與「關於」的數字一律只算預設看得到的參考，跟「全部參考」清單同一套算法；
+  // 擴展分類（內衣、泳裝等）要選了該分類才出現，不算進總數，免得同一頁兩個數字對不上
+  const shownCounts = useMemo(() => {
+    const shown = (catalog?.items || []).filter((item) => !item.extended);
+    const count = (kind: string) => shown.filter((item) => item.kind === kind).length;
+    return {
+      references: shown.length,
+      images: shown.reduce((sum, item) => sum + item.variants.length, 0),
+      pose: count('pose'),
+      costume: count('costume'),
+      character: count('character'),
+      hairstyle: count('hairstyle'),
+    };
+  }, [catalog]);
   const byView = useMemo(
     () =>
       eligible.filter(
@@ -1241,18 +1255,25 @@ export default function App() {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                 >
-                  {t.navShort[key]}
+                  <span className="nav-full">{t.navShort[key]}</span>
+                  <span className="nav-compact">{t.navCompact[key]}</span>
                 </button>
               ))}
-            <button className={view === 'studio' ? 'active' : ''} onClick={openStudio}>
-              {studioCopy[lang].title}
+            <button
+              className={view === 'studio' ? 'active' : ''}
+              aria-label={studioCopy[lang].title}
+              onClick={openStudio}
+            >
+              <span className="nav-full">{studioCopy[lang].title}</span>
+              <span className="nav-compact">{t.navCompact.studio}</span>
             </button>
             <button
               className={view === 'saved' && !projectOpen ? 'active' : ''}
               aria-label={t.saved}
               onClick={() => changeView('saved')}
             >
-              {t.navShort.saved}
+              <span className="nav-full">{t.navShort.saved}</span>
+              <span className="nav-compact">{t.navCompact.saved}</span>
             </button>
             <button className={projectOpen ? 'active' : ''} onClick={() => setPanel('project')}>
               {t.projectAboutShort}
@@ -1297,8 +1318,8 @@ export default function App() {
             <>
               <HomeHero
                 lang={lang}
-                references={eligible.length}
-                images={catalog?.stats.images || 0}
+                references={shownCounts.references}
+                images={shownCounts.images}
                 onOpenStudio={openStudio}
               />
               <HomeMarquee items={homeItems} onOpen={openDetail} />
@@ -1306,10 +1327,10 @@ export default function App() {
                 lang={lang}
                 items={homeItems}
                 counts={{
-                  pose: eligible.filter((item) => item.kind === 'pose').length,
-                  costume: eligible.filter((item) => item.kind === 'costume').length,
-                  character: eligible.filter((item) => item.kind === 'character').length,
-                  hairstyle: eligible.filter((item) => item.kind === 'hairstyle').length,
+                  pose: shownCounts.pose,
+                  costume: shownCounts.costume,
+                  character: shownCounts.character,
+                  hairstyle: shownCounts.hairstyle,
                 }}
                 onView={(next) => {
                   changeView(next);
@@ -2036,29 +2057,27 @@ export default function App() {
           <p className="project-intro">{t.projectAboutIntro}</p>
           <div className="project-stats" aria-label={t.projectScale}>
             <div>
-              <strong>{catalog?.stats.references.toLocaleString(localeOf(lang)) || '—'}</strong>
+              <strong>{catalog ? shownCounts.references.toLocaleString(localeOf(lang)) : '—'}</strong>
               <span>{t.projectReferences}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.images.toLocaleString(localeOf(lang)) || '—'}</strong>
+              <strong>{catalog ? shownCounts.images.toLocaleString(localeOf(lang)) : '—'}</strong>
               <span>{t.projectImages}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.poseGroups.toLocaleString(localeOf(lang)) || '—'}</strong>
+              <strong>{catalog ? shownCounts.pose.toLocaleString(localeOf(lang)) : '—'}</strong>
               <span>{t.projectPoses}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.costumes.toLocaleString(localeOf(lang)) || '—'}</strong>
+              <strong>{catalog ? shownCounts.costume.toLocaleString(localeOf(lang)) : '—'}</strong>
               <span>{t.projectCostumes}</span>
             </div>
             <div>
-              <strong>{catalog?.stats.characters.toLocaleString(localeOf(lang)) || '—'}</strong>
+              <strong>{catalog ? shownCounts.character.toLocaleString(localeOf(lang)) : '—'}</strong>
               <span>{t.projectCharacters}</span>
             </div>
             <div>
-              <strong>
-                {catalog ? (catalog.stats.hairstyles ?? 0).toLocaleString(localeOf(lang)) : '—'}
-              </strong>
+              <strong>{catalog ? shownCounts.hairstyle.toLocaleString(localeOf(lang)) : '—'}</strong>
               <span>{t.projectHairstyles}</span>
             </div>
           </div>
