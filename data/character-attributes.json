@@ -8039,12 +8039,12 @@
   "portrait-f000fa12e8d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f002475397d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f0055f47a20": {
    "age": "18-29",
@@ -8054,7 +8054,7 @@
   "portrait-f009267e478": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f009cba9893": {
    "age": "18-29",
@@ -8063,8 +8063,8 @@
   },
   "portrait-f00afdcdc1b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f00caf968d5": {
    "age": "18-29",
@@ -8074,7 +8074,7 @@
   "portrait-f00d0cfc2f0": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f00f39a3a94": {
    "age": "18-29",
@@ -8089,12 +8089,12 @@
   "portrait-f014adf6c53": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f015317ba06": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f018e090442": {
    "age": "18-29",
@@ -8158,8 +8158,8 @@
   },
   "portrait-f030348477b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f0312098dae": {
    "age": "18-29",
@@ -8178,8 +8178,8 @@
   },
   "portrait-f03b405761e": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-f03cfef26d7": {
    "age": "18-29",
@@ -8199,7 +8199,7 @@
   "portrait-f043d620012": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f04547b94cd": {
    "age": "18-29",
@@ -8228,8 +8228,8 @@
   },
   "portrait-f056ba77873": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f05affc7539": {
    "age": "18-29",
@@ -8298,8 +8298,8 @@
   },
   "portrait-f080d987bfd": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f082d08e523": {
    "age": "18-29",
@@ -8333,8 +8333,8 @@
   },
   "portrait-f092713aa6b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f0937d9bc47": {
    "age": "18-29",
@@ -8399,7 +8399,7 @@
   "portrait-f0b5a5bfb5e": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f0b79f10d13": {
    "age": "18-29",
@@ -8459,7 +8459,7 @@
   "portrait-f0c40a112e4": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f0c47d38b24": {
    "age": "18-29",
@@ -8469,17 +8469,17 @@
   "portrait-f0c4cb30263": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f0c683165a3": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f0cab72f7a5": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f0caff0d8b2": {
    "age": "18-29",
@@ -8549,7 +8549,7 @@
   "portrait-f0f2ab70e92": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f0f5fb4d66f": {
    "age": "18-29",
@@ -8694,7 +8694,7 @@
   "portrait-f142daec735": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f14592dc879": {
    "age": "18-29",
@@ -8718,8 +8718,8 @@
   },
   "portrait-f14dff7b76c": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-f1508d1d1b4": {
    "age": "18-29",
@@ -8734,7 +8734,7 @@
   "portrait-f15a036d660": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f15a069b8a3": {
    "age": "18-29",
@@ -8824,7 +8824,7 @@
   "portrait-f19dfaa6745": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f19e4b7935f": {
    "age": "18-29",
@@ -8833,8 +8833,8 @@
   },
   "portrait-f1a86ea4cc9": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f1a97fb39fc": {
    "age": "18-29",
@@ -9053,13 +9053,13 @@
   },
   "portrait-f207391148e": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f20b4f103de": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f20db456b64": {
    "age": "18-29",
@@ -9084,7 +9084,7 @@
   "portrait-f21367d8306": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f2137e9dc0f": {
    "age": "18-29",
@@ -9099,7 +9099,7 @@
   "portrait-f2172db14d3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f2191f9051b": {
    "age": "18-29",
@@ -9153,8 +9153,8 @@
   },
   "portrait-f2356360cf2": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f2393554c88": {
    "age": "18-29",
@@ -9179,7 +9179,7 @@
   "portrait-f253a8f51ba": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f253b28685e": {
    "age": "18-29",
@@ -9199,7 +9199,7 @@
   "portrait-f25ed91932b": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f26198f4ac8": {
    "age": "18-29",
@@ -9208,8 +9208,8 @@
   },
   "portrait-f264ca86165": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f269ecd6ca5": {
    "age": "18-29",
@@ -9293,8 +9293,8 @@
   },
   "portrait-f2a26328a48": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-f2a69922368": {
    "age": "18-29",
@@ -9358,8 +9358,8 @@
   },
   "portrait-f2c390c9c46": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f2c5ab5b5ac": {
    "age": "18-29",
@@ -9379,7 +9379,7 @@
   "portrait-f2ceb57a390": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f2d2fcb6bff": {
    "age": "18-29",
@@ -9434,7 +9434,7 @@
   "portrait-f2fcd27e2e7": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f2fd36ee755": {
    "age": "18-29",
@@ -9443,8 +9443,8 @@
   },
   "portrait-f30028855f9": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f304661d542": {
    "age": "18-29",
@@ -9463,8 +9463,8 @@
   },
   "portrait-f30bcd661d6": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f3103ef7885": {
    "age": "18-29",
@@ -9494,7 +9494,7 @@
   "portrait-f31d6f04dbe": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f31fd3f3647": {
    "age": "18-29",
@@ -9504,7 +9504,7 @@
   "portrait-f325330ec04": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f3278a83f53": {
    "age": "18-29",
@@ -9529,7 +9529,7 @@
   "portrait-f332978fdcf": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f33440b3e24": {
    "age": "18-29",
@@ -9573,8 +9573,8 @@
   },
   "portrait-f341f32a914": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f344b5b519c": {
    "age": "18-29",
@@ -9629,7 +9629,7 @@
   "portrait-f35f63f601b": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f3602343bb6": {
    "age": "18-29",
@@ -9653,8 +9653,8 @@
   },
   "portrait-f369a0f6043": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f36f4e0e944": {
    "age": "18-29",
@@ -9663,8 +9663,8 @@
   },
   "portrait-f36fd4e0e6e": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f372f529c5c": {
    "age": "18-29",
@@ -9713,8 +9713,8 @@
   },
   "portrait-f38f39acefd": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f39000f8b49": {
    "age": "18-29",
@@ -9729,7 +9729,7 @@
   "portrait-f398464078f": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f39eafade6e": {
    "age": "18-29",
@@ -9764,7 +9764,7 @@
   "portrait-f3b472338f8": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f3bd1aa394d": {
    "age": "18-29",
@@ -9994,7 +9994,7 @@
   "portrait-f4357f17775": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f43babec661": {
    "age": "18-29",
@@ -10068,13 +10068,13 @@
   },
   "portrait-f45413c3ebc": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f4587be3525": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f45933fa994": {
    "age": "18-29",
@@ -10084,7 +10084,7 @@
   "portrait-f45f1e8b9e7": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f463fd32bcb": {
    "age": "18-29",
@@ -10103,13 +10103,13 @@
   },
   "portrait-f46c4de8c55": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f46ed2c49b0": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f4775704dab": {
    "age": "18-29",
@@ -10139,7 +10139,7 @@
   "portrait-f4861610446": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f48763c95d8": {
    "age": "18-29",
@@ -10174,7 +10174,7 @@
   "portrait-f49585d101d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f49603e2bad": {
    "age": "18-29",
@@ -10184,7 +10184,7 @@
   "portrait-f49716fde1a": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f499417bdbe": {
    "age": "18-29",
@@ -10239,7 +10239,7 @@
   "portrait-f4b555898f6": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f4b67e18748": {
    "age": "18-29",
@@ -10269,7 +10269,7 @@
   "portrait-f4bebb6c7ac": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f4c7fe54721": {
    "age": "18-29",
@@ -10318,8 +10318,8 @@
   },
   "portrait-f4d8a7de913": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-f4ddede2826": {
    "age": "18-29",
@@ -10334,7 +10334,7 @@
   "portrait-f4e16c65bda": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f4e3570fd63": {
    "age": "18-29",
@@ -10343,8 +10343,8 @@
   },
   "portrait-f4eb1a912c8": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f4eba92c4e9": {
    "age": "30-39",
@@ -10379,7 +10379,7 @@
   "portrait-f5008f2645b": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f503210bc15": {
    "age": "18-29",
@@ -10429,7 +10429,7 @@
   "portrait-f5159c2b75a": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f51a9fecdfb": {
    "age": "18-29",
@@ -10454,7 +10454,7 @@
   "portrait-f523bb7f08e": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f527d924cb0": {
    "age": "18-29",
@@ -10489,7 +10489,7 @@
   "portrait-f53495df130": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f53637d1adb": {
    "age": "18-29",
@@ -10538,8 +10538,8 @@
   },
   "portrait-f547c1a481c": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f549582a98f": {
    "age": "18-29",
@@ -10554,7 +10554,7 @@
   "portrait-f54d0c62ce4": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f54e2d59188": {
    "age": "18-29",
@@ -10564,7 +10564,7 @@
   "portrait-f54f3483e87": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f5503edf4c7": {
    "age": "18-29",
@@ -10629,7 +10629,7 @@
   "portrait-f5697797e8b": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f56c82162c2": {
    "age": "18-29",
@@ -10639,7 +10639,7 @@
   "portrait-f56ca3d7745": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f56fe6ac6f7": {
    "age": "18-29",
@@ -10674,7 +10674,7 @@
   "portrait-f58315139b3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f58732f7063": {
    "age": "18-29",
@@ -10694,7 +10694,7 @@
   "portrait-f58a482c946": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f58cc7042ee": {
    "age": "18-29",
@@ -10708,8 +10708,8 @@
   },
   "portrait-f5925bb05cf": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f59427e71e8": {
    "age": "18-29",
@@ -10738,8 +10738,8 @@
   },
   "portrait-f5a2207aa15": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f5a55e71ae7": {
    "age": "18-29",
@@ -10778,8 +10778,8 @@
   },
   "portrait-f5b7ae51261": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f5b8654f38c": {
    "age": "18-29",
@@ -10954,12 +10954,12 @@
   "portrait-f628da92dcf": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f6367a98477": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f6398e4c00b": {
    "age": "18-29",
@@ -10989,12 +10989,12 @@
   "portrait-f6422b856ab": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f642ee8c7f7": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f6459568917": {
    "age": "18-29",
@@ -11029,7 +11029,7 @@
   "portrait-f6591bc2142": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f65d502ff02": {
    "age": "18-29",
@@ -11164,12 +11164,12 @@
   "portrait-f6ab53fc310": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f6b369b80da": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f6b41763a71": {
    "age": "18-29",
@@ -11189,7 +11189,7 @@
   "portrait-f6b8cf77d3e": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f6be467f189": {
    "age": "18-29",
@@ -11338,8 +11338,8 @@
   },
   "portrait-f7184768f81": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-f71af5f1655": {
    "age": "18-29",
@@ -11369,17 +11369,17 @@
   "portrait-f72bd1f9fb1": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f72c17a77f6": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f72de074a7e": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f733ec426e7": {
    "age": "18-29",
@@ -11394,7 +11394,7 @@
   "portrait-f7340837f95": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f7341d7836f": {
    "age": "18-29",
@@ -11474,7 +11474,7 @@
   "portrait-f75ed77d865": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f766c8ce0fe": {
    "age": "18-29",
@@ -11494,7 +11494,7 @@
   "portrait-f7708a8905d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f7729affb93": {
    "age": "18-29",
@@ -11558,13 +11558,13 @@
   },
   "portrait-f788b1333df": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f789654883d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f78c6dbda05": {
    "age": "18-29",
@@ -11638,8 +11638,8 @@
   },
   "portrait-f7c88b1c1af": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f7c9e4db917": {
    "age": "18-29",
@@ -11699,7 +11699,7 @@
   "portrait-f7ddede1c3d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f7e27fc5ec3": {
    "age": "18-29",
@@ -11794,7 +11794,7 @@
   "portrait-f804db419c7": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f8076a1ba2b": {
    "age": "18-29",
@@ -11838,13 +11838,13 @@
   },
   "portrait-f81cedf1a07": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f81ef92a5e3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f82336b7e54": {
    "age": "18-29",
@@ -11854,7 +11854,7 @@
   "portrait-f825b9f7f6a": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f8265f5bec7": {
    "age": "18-29",
@@ -11909,7 +11909,7 @@
   "portrait-f83e507b3f3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f8410316209": {
    "age": "18-29",
@@ -11964,12 +11964,12 @@
   "portrait-f867f0e69bc": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-f86cb5e3fe0": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f86edd8c1bb": {
    "age": "18-29",
@@ -11999,7 +11999,7 @@
   "portrait-f87f2b99ddb": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f87f3ec61f9": {
    "age": "18-29",
@@ -12034,7 +12034,7 @@
   "portrait-f88aab03eb4": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f88c0a59d65": {
    "age": "18-29",
@@ -12094,7 +12094,7 @@
   "portrait-f8a214669b3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f8a2ce24037": {
    "age": "18-29",
@@ -12224,7 +12224,7 @@
   "portrait-f8ebdbeb6b7": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f8edb48c714": {
    "age": "18-29",
@@ -12258,8 +12258,8 @@
   },
   "portrait-f8fbf8c0661": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f8fd4007679": {
    "age": "18-29",
@@ -12273,13 +12273,13 @@
   },
   "portrait-f900d2d864a": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f904638b60d": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f90757f5ca1": {
    "age": "18-29",
@@ -12319,7 +12319,7 @@
   "portrait-f91f110e136": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f91fa7963d3": {
    "age": "18-29",
@@ -12339,7 +12339,7 @@
   "portrait-f92844c9f8a": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f92a97560b2": {
    "age": "18-29",
@@ -12353,8 +12353,8 @@
   },
   "portrait-f93399479c6": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9365a1db62": {
    "age": "18-29",
@@ -12408,8 +12408,8 @@
   },
   "portrait-f94caeecc07": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f950b7b0996": {
    "age": "18-29",
@@ -12434,7 +12434,7 @@
   "portrait-f95683cdcf1": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f958051bea4": {
    "age": "18-29",
@@ -12454,12 +12454,12 @@
   "portrait-f964b366601": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-f9667c01d72": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f966e72c549": {
    "age": "18-29",
@@ -12493,8 +12493,8 @@
   },
   "portrait-f975b3c2279": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9787eb136b": {
    "age": "18-29",
@@ -12564,12 +12564,12 @@
   "portrait-f9a82c9b4e8": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-f9a9339afc1": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9b0919924c": {
    "age": "18-29",
@@ -12578,8 +12578,8 @@
   },
   "portrait-f9b7116ce86": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9b7f1f6acc": {
    "age": "18-29",
@@ -12603,8 +12603,8 @@
   },
   "portrait-f9be9b84367": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9bec34e254": {
    "age": "18-29",
@@ -12633,8 +12633,8 @@
   },
   "portrait-f9cbc51222b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9ceb0dff64": {
    "age": "18-29",
@@ -12643,8 +12643,8 @@
   },
   "portrait-f9d29245455": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9d57f18677": {
    "age": "18-29",
@@ -12683,8 +12683,8 @@
   },
   "portrait-f9dd635f19d": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-f9e17f0a804": {
    "age": "18-29",
@@ -12708,8 +12708,8 @@
   },
   "portrait-f9e88c09d18": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9eac483dd3": {
    "age": "18-29",
@@ -12728,8 +12728,8 @@
   },
   "portrait-f9f97a8da01": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-f9fc946d3b6": {
    "age": "18-29",
@@ -12754,7 +12754,7 @@
   "portrait-fa01e8848d3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-fa059d8cb53": {
    "age": "18-29",
@@ -12793,13 +12793,13 @@
   },
   "portrait-fa1864b2498": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-fa1aa480dbf": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fa1b4c28531": {
    "age": "18-29",
@@ -12844,7 +12844,7 @@
   "portrait-fa385d231b0": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fa3b3380bc9": {
    "age": "18-29",
@@ -12873,8 +12873,8 @@
   },
   "portrait-fa4929d304b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fa4b3556310": {
    "age": "18-29",
@@ -12973,13 +12973,13 @@
   },
   "portrait-fa7a9787617": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fa7afa97de4": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fa7afc61d10": {
    "age": "18-29",
@@ -12993,8 +12993,8 @@
   },
   "portrait-fa7ceabff08": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fa8185ae05b": {
    "age": "18-29",
@@ -13113,13 +13113,13 @@
   },
   "portrait-fabda96af65": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-fabe5086323": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-fabfd7db09a": {
    "age": "18-29",
@@ -13158,8 +13158,8 @@
   },
   "portrait-fad72eb0f03": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fada714cb40": {
    "age": "18-29",
@@ -13169,12 +13169,12 @@
   "portrait-fadaf000d69": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fadb03b808f": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fadbce038c1": {
    "age": "18-29",
@@ -13263,8 +13263,8 @@
   },
   "portrait-fb14f9beb65": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fb18208d42e": {
    "age": "18-29",
@@ -13458,8 +13458,8 @@
   },
   "portrait-fb63f3efe9e": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fb6d89cd5e9": {
    "age": "18-29",
@@ -13469,7 +13469,7 @@
   "portrait-fb764a935d3": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fb76fc17c87": {
    "age": "18-29",
@@ -13599,7 +13599,7 @@
   "portrait-fbb3f167ec2": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-fbb77c50896": {
    "age": "18-29",
@@ -13638,8 +13638,8 @@
   },
   "portrait-fbc913fa8c5": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fbce8d67ec9": {
    "age": "18-29",
@@ -13649,7 +13649,7 @@
   "portrait-fbd33a87ecd": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fbd97e9b0d0": {
    "age": "18-29",
@@ -13723,8 +13723,8 @@
   },
   "portrait-fc0b0ea5a25": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-fc0bb7f6f1b": {
    "age": "18-29",
@@ -13744,7 +13744,7 @@
   "portrait-fc144bd651c": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fc152f72c07": {
    "age": "18-29",
@@ -13754,7 +13754,7 @@
   "portrait-fc1734323fd": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fc19ed0a366": {
    "age": "18-29",
@@ -13774,7 +13774,7 @@
   "portrait-fc20b91b0f5": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fc22b375893": {
    "age": "18-29",
@@ -13784,7 +13784,7 @@
   "portrait-fc2377f9ede": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fc24943ff51": {
    "age": "18-29",
@@ -13828,8 +13828,8 @@
   },
   "portrait-fc3fe109dec": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fc3ffd2fed9": {
    "age": "18-29",
@@ -13839,7 +13839,7 @@
   "portrait-fc4548540b1": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fc45fdd2415": {
    "age": "18-29",
@@ -13949,7 +13949,7 @@
   "portrait-fc871148e8e": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fc87aed2ce1": {
    "age": "18-29",
@@ -13994,7 +13994,7 @@
   "portrait-fca60c2e02f": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fca6d906a22": {
    "age": "18-29",
@@ -14008,8 +14008,8 @@
   },
   "portrait-fcb065e096b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fcb2293f145": {
    "age": "18-29",
@@ -14058,8 +14058,8 @@
   },
   "portrait-fcd11f41402": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fcd20497037": {
    "age": "18-29",
@@ -14099,7 +14099,7 @@
   "portrait-fce63832579": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-fce929ff190": {
    "age": "18-29",
@@ -14123,8 +14123,8 @@
   },
   "portrait-fcfe47092e7": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fcff8c8c71c": {
    "age": "18-29",
@@ -14224,7 +14224,7 @@
   "portrait-fd27018a131": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fd2777813cd": {
    "age": "18-29",
@@ -14253,8 +14253,8 @@
   },
   "portrait-fd2eced68d1": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fd2f4dc0b94": {
    "age": "18-29",
@@ -14289,7 +14289,7 @@
   "portrait-fd3f3ec700e": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fd417f3c04d": {
    "age": "18-29",
@@ -14319,7 +14319,7 @@
   "portrait-fd544daec6f": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fd56abd6bf6": {
    "age": "18-29",
@@ -14343,8 +14343,8 @@
   },
   "portrait-fd5dfeef235": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-fd5f4420e19": {
    "age": "18-29",
@@ -14373,13 +14373,13 @@
   },
   "portrait-fd6ee46195d": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fd77b4dfe0c": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fd7860983a3": {
    "age": "18-29",
@@ -14509,12 +14509,12 @@
   "portrait-fdbb1440454": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fdbb692f387": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-fdbcd004ebc": {
    "age": "18-29",
@@ -14549,7 +14549,7 @@
   "portrait-fdd23f4e52c": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-fdd6144f725": {
    "age": "18-29",
@@ -14608,8 +14608,8 @@
   },
   "portrait-fdfd6575c8d": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 21 歲（Muse 重做）、混血"
   },
   "portrait-fdfe475f0b4": {
    "age": "18-29",
@@ -14654,7 +14654,7 @@
   "portrait-fe0c5f18f06": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fe0dc8fc40c": {
    "age": "18-29",
@@ -14678,13 +14678,13 @@
   },
   "portrait-fe1b0b63a01": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fe1ec85ce40": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fe1f76d2a54": {
    "age": "18-29",
@@ -14739,7 +14739,7 @@
   "portrait-fe301557cbc": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 20 歲（Muse 重做）"
   },
   "portrait-fe34039a953": {
    "age": "18-29",
@@ -14764,7 +14764,7 @@
   "portrait-fe396558c35": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fe3af7b3247": {
    "age": "18-29",
@@ -14803,8 +14803,8 @@
   },
   "portrait-fe4cb81974d": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fe51568733e": {
    "age": "18-29",
@@ -14824,12 +14824,12 @@
   "portrait-fe56ca57813": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fe59445dc8b": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fe5d9cb6052": {
    "age": "18-29",
@@ -14839,7 +14839,7 @@
   "portrait-fe62f703595": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fe632ad5ca4": {
    "age": "18-29",
@@ -14924,7 +14924,7 @@
   "portrait-fe828031873": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-fe840f29a5b": {
    "age": "18-29",
@@ -14938,8 +14938,8 @@
   },
   "portrait-fe93062ca72": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fe950e617ad": {
    "age": "18-29",
@@ -14988,8 +14988,8 @@
   },
   "portrait-feb153e7fdb": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-feb3da8809b": {
    "age": "18-29",
@@ -15093,8 +15093,8 @@
   },
   "portrait-ff00c737cd9": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff012a3b8d3": {
    "age": "18-29",
@@ -15109,12 +15109,12 @@
   "portrait-ff065c5be6b": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-ff0a02acb7d": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff0bd91a441": {
    "age": "18-29",
@@ -15129,7 +15129,7 @@
   "portrait-ff0caca49ae": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-ff0d9abc61f": {
    "age": "18-29",
@@ -15148,8 +15148,8 @@
   },
   "portrait-ff1eac7b290": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff1fe1b3928": {
    "age": "18-29",
@@ -15158,8 +15158,8 @@
   },
   "portrait-ff259c695b9": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff297594750": {
    "age": "18-29",
@@ -15193,8 +15193,8 @@
   },
   "portrait-ff474914a3e": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff47e9094a3": {
    "age": "18-29",
@@ -15218,8 +15218,8 @@
   },
   "portrait-ff50c43cd8d": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff55d4b3f95": {
    "age": "18-29",
@@ -15244,7 +15244,7 @@
   "portrait-ff5fadcca9f": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-ff640d5e348": {
    "age": "18-29",
@@ -15274,12 +15274,12 @@
   "portrait-ff750342a10": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-ff7be119814": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 21 歲（Muse 重做）"
   },
   "portrait-ff7ef42aa9b": {
    "age": "18-29",
@@ -15313,8 +15313,8 @@
   },
   "portrait-ff968bec047": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ff99bb83dc3": {
    "age": "18-29",
@@ -15343,8 +15343,8 @@
   },
   "portrait-ffa35fbf2a6": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ffa3e23ba82": {
    "age": "18-29",
@@ -15359,7 +15359,7 @@
   "portrait-ffa826a30d1": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-ffaa314bff5": {
    "age": "18-29",
@@ -15464,7 +15464,7 @@
   "portrait-ffd5e1be7f6": {
    "age": "18-29",
    "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "basis": "設定 22 歲（Muse 重做）"
   },
   "portrait-ffd645c270d": {
    "age": "18-29",
@@ -15483,13 +15483,13 @@
   },
   "portrait-ffdda7852b3": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 20 歲（Muse 重做）、混血"
   },
   "portrait-ffde08c58a0": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ffe8b0807b0": {
    "age": "18-29",
@@ -15498,8 +15498,8 @@
   },
   "portrait-ffedcd53b93": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fff86529f91": {
    "age": "18-29",
@@ -15508,13 +15508,13 @@
   },
   "portrait-fff94623ab5": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-fffdef5e043": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   },
   "portrait-ffff16f4e35": {
    "age": "18-29",
@@ -15523,8 +15523,8 @@
   },
   "portrait-ffffdec62b9": {
    "age": "18-29",
-   "ethnicity": "east-asian",
-   "basis": "上游圖逐張看"
+   "ethnicity": "mixed",
+   "basis": "設定 22 歲（Muse 重做）、混血"
   }
  }
 }
