@@ -8,6 +8,7 @@
  ],
  "ethnicity": [
   { "id": "east-asian", "zh": "东亚", "en": "East Asian" },
+  { "id": "mixed", "zh": "混血", "en": "Mixed heritage" },
   { "id": "southeast-asian", "zh": "东南亚", "en": "Southeast Asian" },
   { "id": "south-asian", "zh": "南亚", "en": "South Asian" },
   { "id": "central-asian", "zh": "中亚", "en": "Central Asian" },
