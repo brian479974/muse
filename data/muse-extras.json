@@ -274139,6 +274139,396 @@
      "original": "/muse-assets/character/originals/muse-port-f9667c01d72.jpg"
     }
    ]
+  },
+  {
+   "id": "portrait-fd96cc8fc65",
+   "kind": "character",
+   "code": "fd96cc8fc65",
+   "title": {
+    "zh": "短发 · 人物造型",
+    "en": "Short hair · Styling",
+    "tw": "短髮 · 人物造型"
+   },
+   "category": {
+    "id": "portrait-styling",
+    "zh": "人物造型",
+    "en": "Styling",
+    "tw": "人物造型"
+   },
+   "series": {
+    "zh": "短发",
+    "en": "Short hair",
+    "tw": "短髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "短发 · 人物造型。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short hair · Styling. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "styling",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "FLUX.2 klein 4B（Bella 本機 M5）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人物造型：同髮長、同樣的居家自拍感，沙發床單換成淺灰白色系）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-fd96cc8fc65_front",
+     "angle": "front",
+     "label": {
+      "zh": "人物造型",
+      "en": "Styling",
+      "tw": "人物造型"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-fd96cc8fc65.webp",
+     "image": "/muse-assets/character/images/muse-port-fd96cc8fc65.webp",
+     "original": "/muse-assets/character/originals/muse-port-fd96cc8fc65.jpg"
+    }
+   ]
+  },
+  {
+   "id": "portrait-f1ceaad590c",
+   "kind": "character",
+   "code": "f1ceaad590c",
+   "title": {
+    "zh": "中长发 · 人物造型",
+    "en": "Medium-long hair · Styling",
+    "tw": "中長髮 · 人物造型"
+   },
+   "category": {
+    "id": "portrait-styling",
+    "zh": "人物造型",
+    "en": "Styling",
+    "tw": "人物造型"
+   },
+   "series": {
+    "zh": "中长发",
+    "en": "Medium-long hair",
+    "tw": "中長髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "中长发 · 人物造型。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Medium-long hair · Styling. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "styling",
+    "hair": "medium-long"
+   },
+   "provenance": {
+    "provider": "FLUX.2 klein 4B（Bella 本機 M5）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人物造型：同髮長、同樣的居家自拍感，沙發床單換成淺灰白色系）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-f1ceaad590c_front",
+     "angle": "front",
+     "label": {
+      "zh": "人物造型",
+      "en": "Styling",
+      "tw": "人物造型"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-f1ceaad590c.webp",
+     "image": "/muse-assets/character/images/muse-port-f1ceaad590c.webp",
+     "original": "/muse-assets/character/originals/muse-port-f1ceaad590c.jpg"
+    }
+   ]
+  },
+  {
+   "id": "portrait-f64cf5295b2",
+   "kind": "character",
+   "code": "f64cf5295b2",
+   "title": {
+    "zh": "中长发 · 人物造型",
+    "en": "Medium-long hair · Styling",
+    "tw": "中長髮 · 人物造型"
+   },
+   "category": {
+    "id": "portrait-styling",
+    "zh": "人物造型",
+    "en": "Styling",
+    "tw": "人物造型"
+   },
+   "series": {
+    "zh": "中长发",
+    "en": "Medium-long hair",
+    "tw": "中長髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "中长发 · 人物造型。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Medium-long hair · Styling. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "styling",
+    "hair": "medium-long"
+   },
+   "provenance": {
+    "provider": "Z-Image Turbo（Chia 工作站本機）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人物造型：同髮長、同樣的居家自拍感，沙發床單換成淺灰白色系）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-f64cf5295b2_front",
+     "angle": "front",
+     "label": {
+      "zh": "人物造型",
+      "en": "Styling",
+      "tw": "人物造型"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-f64cf5295b2.webp",
+     "image": "/muse-assets/character/images/muse-port-f64cf5295b2.webp",
+     "original": "/muse-assets/character/originals/muse-port-f64cf5295b2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "portrait-fc2772f9eb7",
+   "kind": "character",
+   "code": "fc2772f9eb7",
+   "title": {
+    "zh": "中长发 · 人物造型",
+    "en": "Medium-long hair · Styling",
+    "tw": "中長髮 · 人物造型"
+   },
+   "category": {
+    "id": "portrait-styling",
+    "zh": "人物造型",
+    "en": "Styling",
+    "tw": "人物造型"
+   },
+   "series": {
+    "zh": "中长发",
+    "en": "Medium-long hair",
+    "tw": "中長髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "中长发 · 人物造型。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Medium-long hair · Styling. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "styling",
+    "hair": "medium-long"
+   },
+   "provenance": {
+    "provider": "FLUX.2 klein 4B（Bella 本機 M5）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人物造型：同髮長、同樣的居家自拍感，沙發床單換成淺灰白色系）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-fc2772f9eb7_front",
+     "angle": "front",
+     "label": {
+      "zh": "人物造型",
+      "en": "Styling",
+      "tw": "人物造型"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-fc2772f9eb7.webp",
+     "image": "/muse-assets/character/images/muse-port-fc2772f9eb7.webp",
+     "original": "/muse-assets/character/originals/muse-port-fc2772f9eb7.jpg"
+    }
+   ]
+  },
+  {
+   "id": "portrait-f415c02e66e",
+   "kind": "character",
+   "code": "f415c02e66e",
+   "title": {
+    "zh": "长发 · 人物造型",
+    "en": "Long hair · Styling",
+    "tw": "長髮 · 人物造型"
+   },
+   "category": {
+    "id": "portrait-styling",
+    "zh": "人物造型",
+    "en": "Styling",
+    "tw": "人物造型"
+   },
+   "series": {
+    "zh": "长发",
+    "en": "Long hair",
+    "tw": "長髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "长发 · 人物造型。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Long hair · Styling. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "styling",
+    "hair": "long"
+   },
+   "provenance": {
+    "provider": "FLUX.2 klein 4B（Bella 本機 M5）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人物造型：同髮長、同樣的居家自拍感，沙發床單換成淺灰白色系）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-f415c02e66e_front",
+     "angle": "front",
+     "label": {
+      "zh": "人物造型",
+      "en": "Styling",
+      "tw": "人物造型"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-f415c02e66e.webp",
+     "image": "/muse-assets/character/images/muse-port-f415c02e66e.webp",
+     "original": "/muse-assets/character/originals/muse-port-f415c02e66e.jpg"
+    }
+   ]
+  },
+  {
+   "id": "portrait-f431bfc1651",
+   "kind": "character",
+   "code": "f431bfc1651",
+   "title": {
+    "zh": "短发 · 人物造型",
+    "en": "Short hair · Styling",
+    "tw": "短髮 · 人物造型"
+   },
+   "category": {
+    "id": "portrait-styling",
+    "zh": "人物造型",
+    "en": "Styling",
+    "tw": "人物造型"
+   },
+   "series": {
+    "zh": "短发",
+    "en": "Short hair",
+    "tw": "短髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "短发 · 人物造型。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Short hair · Styling. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "styling",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "FLUX.2 klein 4B（Bella 本機 M5）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人物造型：同髮長、同樣的居家自拍感，沙發床單換成淺灰白色系）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-f431bfc1651_front",
+     "angle": "front",
+     "label": {
+      "zh": "人物造型",
+      "en": "Styling",
+      "tw": "人物造型"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-f431bfc1651.webp",
+     "image": "/muse-assets/character/images/muse-port-f431bfc1651.webp",
+     "original": "/muse-assets/character/originals/muse-port-f431bfc1651.jpg"
+    }
+   ]
   }
  ]
 }
