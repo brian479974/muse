@@ -1,5 +1,6 @@
 // 首頁展示區：主視覺（姿勢、服裝、人物、髮型四張參考漂浮＋圖卡彈出）、圖片跑馬燈、四類參考卡、熱門排行、三步驟圖解。
 // 圖片一律取自圖庫上游原站（瀏覽器直接載入），不使用自建素材。
+import { museAssetUrl } from './custom-assets';
 import { ArrowDown, ArrowRight } from 'lucide-react';
 import type { Kind, Lang, Reference } from './types';
 import { MIN_RANKED } from './stats';
@@ -127,8 +128,8 @@ export const showcaseText = (lang: Lang) => showcaseCopy[lang];
 // 主視覺固定用這四張（姿勢、髮型＝Muse 自製，服裝與人物＝上游圖庫）
 const hero = {
   pose: {
-    thumb: `${import.meta.env.BASE_URL}muse-assets/pose/thumbnails/full_single_P021_front.webp`,
-    image: `${import.meta.env.BASE_URL}muse-assets/pose/images/full_single_P021_front.webp`,
+    thumb: museAssetUrl('muse-assets/pose/thumbnails/full_single_P021_front.webp'),
+    image: museAssetUrl('muse-assets/pose/images/full_single_P021_front.webp'),
   },
   costume: {
     thumb: 'https://ai-costume-gallery.pages.dev/thumbs/SPR-0083.webp',
@@ -139,8 +140,8 @@ const hero = {
     image: 'https://ai-portrait-gallery.pages.dev/img/full/f6cf9feabd2.png',
   },
   hairstyle: {
-    thumb: `${import.meta.env.BASE_URL}muse-assets/hairstyle/thumbnails/muse-hair-fh031-front.webp`,
-    image: `${import.meta.env.BASE_URL}muse-assets/hairstyle/images/muse-hair-fh031-front.webp`,
+    thumb: museAssetUrl('muse-assets/hairstyle/thumbnails/muse-hair-fh031-front.webp'),
+    image: museAssetUrl('muse-assets/hairstyle/images/muse-hair-fh031-front.webp'),
   },
 };
 

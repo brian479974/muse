@@ -32,9 +32,18 @@ export function isCustomAsset(value: string, kind?: Kind, base = siteBase()): bo
   }
 }
 
-/** Muse 自製素材的圖片放在本站 /muse-assets/，清單裡存的是站內路徑，載入時轉成完整網址 */
+/** Muse 自製素材的圖片主機：2026-11-23 起正式版放 Cloudflare R2（GitHub Pages 有 1 GB 上限），開發時讀本站 public/muse-assets/ */
+export const MUSE_ASSET_BASE = import.meta.env.VITE_MUSE_ASSET_BASE || '';
+
+/** 清單裡存的是 /muse-assets/... 站內路徑；有設圖片主機就指到那裡，否則指到本站 */
+export function museAssetUrl(value: string, base = siteBase()): string {
+  const path = value.replace(/^\//, '');
+  if (MUSE_ASSET_BASE && path.startsWith('muse-assets/')) return new URL(path, MUSE_ASSET_BASE).href;
+  return base ? new URL(path, base).href : `${import.meta.env.BASE_URL}${path}`;
+}
+
 function resolveMuseAssets(item: Catalog['items'][number], base: URL) {
-  const abs = (value: string) => new URL(value.replace(/^\//, ''), base).href;
+  const abs = (value: string) => museAssetUrl(value, base);
   return {
     ...item,
     variants: item.variants.map((variant) => ({

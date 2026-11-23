@@ -45,6 +45,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
     const image = new Image();
     image.decoding = 'async';
+    if (!src.startsWith('blob:') && !src.startsWith('data:')) image.crossOrigin = 'anonymous';   // 圖片在 R2（別的網域），要讀像素就得用 CORS 模式
     image.onload = () => resolve(image);
     image.onerror = () => reject(new Error(`image failed: ${src}`));
     image.src = src;
