@@ -76,6 +76,7 @@ import {
   storageSet,
 } from './library';
 import { resolveCustomAssets } from './custom-assets';
+import { countShown } from './shown-counts';
 import { ReferenceFilters, ReferenceBadges, CategoryFilter } from './reference-filters';
 import { FilterSelect } from './filter-select';
 import type { Sort, View } from './library';
@@ -341,20 +342,13 @@ export default function App() {
   // 擴展分類留在清單裡（分類選單才列得出來），列結果時再依 shownByDefault 收起
   const eligible = items;
   const homeItems = useMemo(() => items.filter((item) => !item.extended), [items]);
-  // 首頁與「關於」的數字一律只算預設看得到的參考，跟「全部參考」清單同一套算法；
-  // 擴展分類（內衣、泳裝等）要選了該分類才出現，不算進總數，免得同一頁兩個數字對不上
-  const shownCounts = useMemo(() => {
-    const shown = (catalog?.items || []).filter((item) => !item.extended);
-    const count = (kind: string) => shown.filter((item) => item.kind === kind).length;
-    return {
-      references: shown.length,
-      images: shown.reduce((sum, item) => sum + item.variants.length, 0),
-      pose: count('pose'),
-      costume: count('costume'),
-      character: count('character'),
-      hairstyle: count('hairstyle'),
-    };
-  }, [catalog]);
+  // 首頁與「關於」的數字一律只算預設看得到的參考，跟「全部參考」清單同一套算法（src/shown-counts.ts）；
+  // 擴展分類（內衣、泳裝等）要選了該分類才出現，不算進總數，免得同一頁兩個數字對不上。
+  // 清單還沒下載完（手機網路慢要好幾秒）或下載失敗時，先用建置當下算好的數字，不再顯示「—」
+  const shownCounts = useMemo(
+    () => (catalog ? countShown(catalog.items) : __MUSE_BUILT_COUNTS__),
+    [catalog],
+  );
   const byView = useMemo(
     () =>
       eligible.filter(
@@ -2074,27 +2068,27 @@ export default function App() {
           <p className="project-intro">{t.projectAboutIntro}</p>
           <div className="project-stats" aria-label={t.projectScale}>
             <div>
-              <strong>{catalog ? shownCounts.references.toLocaleString(localeOf(lang)) : '—'}</strong>
+              <strong>{shownCounts.references.toLocaleString(localeOf(lang))}</strong>
               <span>{t.projectReferences}</span>
             </div>
             <div>
-              <strong>{catalog ? shownCounts.images.toLocaleString(localeOf(lang)) : '—'}</strong>
+              <strong>{shownCounts.images.toLocaleString(localeOf(lang))}</strong>
               <span>{t.projectImages}</span>
             </div>
             <div>
-              <strong>{catalog ? shownCounts.pose.toLocaleString(localeOf(lang)) : '—'}</strong>
+              <strong>{shownCounts.pose.toLocaleString(localeOf(lang))}</strong>
               <span>{t.projectPoses}</span>
             </div>
             <div>
-              <strong>{catalog ? shownCounts.costume.toLocaleString(localeOf(lang)) : '—'}</strong>
+              <strong>{shownCounts.costume.toLocaleString(localeOf(lang))}</strong>
               <span>{t.projectCostumes}</span>
             </div>
             <div>
-              <strong>{catalog ? shownCounts.character.toLocaleString(localeOf(lang)) : '—'}</strong>
+              <strong>{shownCounts.character.toLocaleString(localeOf(lang))}</strong>
               <span>{t.projectCharacters}</span>
             </div>
             <div>
-              <strong>{catalog ? shownCounts.hairstyle.toLocaleString(localeOf(lang)) : '—'}</strong>
+              <strong>{shownCounts.hairstyle.toLocaleString(localeOf(lang))}</strong>
               <span>{t.projectHairstyles}</span>
             </div>
           </div>

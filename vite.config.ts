@@ -1,7 +1,8 @@
 import { defineConfig, loadEnv, type Plugin } from 'vite';
-import { rmSync } from 'node:fs';
+import { readFileSync, rmSync } from 'node:fs';
 import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react';
+import { countShown } from './src/shown-counts';
 
 // 正式版加上內容安全政策：只允許本站程式、本站資料與五個上游圖庫的圖片，
 // 對外連線只多放行匿名使用次數統計服務（worker/，見 src/stats.ts），其他網站一律不准連。
@@ -50,13 +51,25 @@ function dropLocalMuseAssets(enabled: boolean): Plugin {
   };
 }
 
+// 建置當下的參考數量：從要發布的 public/data/catalog.json 算，寫進程式當「清單還沒下載完」時的數字。
+// CI 先跑 mirror-filter 再 build，所以讀到的就是發布出去的那份清單；讀不到就讓建置失敗，不要默默發布沒有數字的版本
+function builtShownCounts() {
+  const catalog = JSON.parse(readFileSync(resolve(process.cwd(), 'public/data/catalog.json'), 'utf8'));
+  const counts = countShown(catalog.items || []);
+  if (!counts.references || !counts.images) throw Error('public/data/catalog.json 沒有參考，算不出網站數字');
+  return counts;
+}
+
 export default defineConfig(({ command, isPreview, mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_');
   // 正式版（build）圖片一律從 R2 讀；開發（npm run dev）讀本機 public/muse-assets。要改主機設 VITE_MUSE_ASSET_BASE，設成空字串＝讀本站
   const assetBase = env.VITE_MUSE_ASSET_BASE ?? (command === 'build' || isPreview ? MUSE_ASSET_HOST : '');
   return {
     base: command === 'build' || isPreview ? process.env.VITE_BASE || '/' : '/',
-    define: { 'import.meta.env.VITE_MUSE_ASSET_BASE': JSON.stringify(assetBase) },
+    define: {
+      'import.meta.env.VITE_MUSE_ASSET_BASE': JSON.stringify(assetBase),
+      __MUSE_BUILT_COUNTS__: JSON.stringify(builtShownCounts()),
+    },
     plugins: [react(), contentSecurityPolicy(assetBase ? new URL(assetBase).origin : ''), dropLocalMuseAssets(!!assetBase)],
   };
 });

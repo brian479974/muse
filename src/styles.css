@@ -1695,9 +1695,11 @@ dialog::backdrop {
   font-size: 12px;
   line-height: 1.9;
 }
+/* 六格：組參考、張圖片、組姿勢、套服飾、組人物、款髮型（11-22 加髮型後原本的五欄排不下，11-24 改）
+   電腦一列六格；中寬三欄兩列；手機兩欄三列（總數一列、姿勢服飾一列、人物髮型一列） */
 .project-stats {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   margin-top: 24px;
   border-block: 1px solid var(--line);
 }
@@ -1723,6 +1725,17 @@ dialog::backdrop {
   margin-top: 5px;
   color: #5f6a64;
   font-size: 11px;
+}
+@media (min-width: 561px) and (max-width: 780px) {
+  .project-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .project-stats > div:nth-child(3n + 1) {
+    border-left: 0;
+  }
+  .project-stats > div:nth-child(-n + 3) {
+    border-bottom: 1px solid var(--line);
+  }
 }
 .project-section {
   margin-top: 25px;
@@ -2273,8 +2286,7 @@ dialog::backdrop {
   .project-stats > div:nth-child(even) {
     border-left: 1px solid var(--line);
   }
-  .project-stats > div:last-child {
-    grid-column: 1 / -1;
+  .project-stats > div:nth-last-child(-n + 2) {
     border-bottom: 0;
   }
   .project-author > div {
