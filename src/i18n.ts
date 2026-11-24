@@ -78,15 +78,15 @@ export const copy = {
           ],
           [
             '服装',
-            '写实服装取自 {aiCostume}，动漫服装取自 {aiCostumeAnime}，作者均为 {gia}，图片由原网站直接加载。另含 Muse 自行制作之隐形人台服装照（OpenAI GPT Image、Z-Image Turbo，少数使用 Grok）。',
+            '写实服装取自 {aiCostume}，动漫服装取自 {aiCostumeAnime}，作者均为 {gia}，图片由原网站直接加载。另含 Muse 自行制作之隐形人台服装照（OpenAI GPT Image、Z-Image Turbo、Qwen Image，少数使用 Grok）。',
           ],
           [
             '人物',
-            '取自 {aiPortrait}（作者 {agi}，原网站标示 {cc0}），图片由原网站直接加载。另含 Muse 自行制作之虚构成年人物。',
+            '由 Muse 自行制作，均为 AI 生成之虚构成年人物。部分人物编号及发型名称沿用 {aiPortrait}（作者 {agi}），图片均为全新生成。',
           ],
           [
             '发型',
-            '由 Muse 自行制作。正面、侧面及背面图由 OpenAI GPT Image 生成，头发遮罩由 SAM 3 产生；发色变换于用户浏览器端完成。',
+            '由 Muse 自行制作。正面图由 OpenAI GPT Image 或 Qwen Image 生成，侧面及背面图依正面图转换视角；头发遮罩由 SAM 3 产生；发色变换于用户浏览器端完成。',
           ],
           [
             '出处纪录',
@@ -306,7 +306,7 @@ export const copy = {
     ],
     aboutUseTitle: '素材使用规则',
     aboutUse: '参考图片均得免费使用，包含商业用途；唯一例外为深度图，仅限非商业用途。',
-    aboutRestriction: '服装及人物原网站之图片，著作权归原作者所有，原作者不允许转载或贩售图片本身。',
+    aboutRestriction: '服装原网站之图片，著作权归原作者所有，原作者不允许转载或贩售图片本身。',
     aboutImpersonation: '不得用于冒充真实人物或制作深度伪造内容：生成之图片不得假冒特定真人；上传之人物照片限用户本人，或已取得当事人同意者。严禁用于涉及未成年人之性化内容或其他违法用途。',
     aboutFaceTitle: '让 AI 每次生出同一张脸',
     aboutFaceTips: [
@@ -405,15 +405,15 @@ export const copy = {
           ],
           [
             '服裝',
-            '寫實服裝取自 {aiCostume}，動漫服裝取自 {aiCostumeAnime}，作者均為 {gia}，圖片由原網站直接載入。另含 Muse 自行製作之隱形人台服裝照（OpenAI GPT Image、Z-Image Turbo，少數使用 Grok）。',
+            '寫實服裝取自 {aiCostume}，動漫服裝取自 {aiCostumeAnime}，作者均為 {gia}，圖片由原網站直接載入。另含 Muse 自行製作之隱形人台服裝照（OpenAI GPT Image、Z-Image Turbo、Qwen Image，少數使用 Grok）。',
           ],
           [
             '人物',
-            '取自 {aiPortrait}（作者 {agi}，原網站標示 {cc0}），圖片由原網站直接載入。另含 Muse 自行製作之虛構成年人物。',
+            '由 Muse 自行製作，均為 AI 生成之虛構成年人物。部分人物編號及髮型名稱沿用 {aiPortrait}（作者 {agi}），圖片均為全新生成。',
           ],
           [
             '髮型',
-            '由 Muse 自行製作。正面、側面及背面圖由 OpenAI GPT Image 生成，頭髮遮罩由 SAM 3 產生；髮色變換於使用者瀏覽器端完成。',
+            '由 Muse 自行製作。正面圖由 OpenAI GPT Image 或 Qwen Image 生成，側面及背面圖依正面圖轉換視角；頭髮遮罩由 SAM 3 產生；髮色變換於使用者瀏覽器端完成。',
           ],
           [
             '出處紀錄',
@@ -633,7 +633,7 @@ export const copy = {
     ],
     aboutUseTitle: '素材使用規則',
     aboutUse: '參考圖片均得免費使用，包含商業用途；唯一例外為深度圖，僅限非商業用途。',
-    aboutRestriction: '服裝及人物原網站之圖片，著作權歸原作者所有，原作者不允許轉載或販售圖片本身。',
+    aboutRestriction: '服裝原網站之圖片，著作權歸原作者所有，原作者不允許轉載或販售圖片本身。',
     aboutImpersonation: '不得用於冒充真實人物或製作深度偽造內容：生成之圖片不得假冒特定真人；上傳之人物照片限使用者本人，或已取得當事人同意者。嚴禁用於涉及未成年人之性化內容或其他違法用途。',
     aboutFaceTitle: '讓 AI 每次生出同一張臉',
     aboutFaceTips: [
@@ -732,15 +732,15 @@ export const copy = {
           ],
           [
             'Outfits',
-            'Realistic outfits are sourced from {aiCostume} and anime outfits from {aiCostumeAnime}, both by {gia}; images are loaded directly from the original websites. The collection also includes ghost-mannequin outfit photographs produced by Muse (OpenAI GPT Image, Z-Image Turbo; a small number with Grok).',
+            'Realistic outfits are sourced from {aiCostume} and anime outfits from {aiCostumeAnime}, both by {gia}; images are loaded directly from the original websites. The collection also includes ghost-mannequin outfit photographs produced by Muse (OpenAI GPT Image, Z-Image Turbo, Qwen Image; a small number with Grok).',
           ],
           [
             'Characters',
-            'Sourced from {aiPortrait} (by {agi}; designated {cc0} by the original website); images are loaded directly from the original website. The collection also includes fictional adult characters produced by Muse.',
+            'Produced by Muse; all are AI-generated fictional adults. Some character codes and hairstyle names follow {aiPortrait} (by {agi}); all images are newly generated.',
           ],
           [
             'Hairstyles',
-            'Produced by Muse. Front, side and back views are generated with OpenAI GPT Image and hair masks with SAM 3; hair recoloring is performed in the user’s browser.',
+            'Produced by Muse. Front views are generated with OpenAI GPT Image or Qwen Image, and side and back views are derived from the front view; hair masks are produced with SAM 3; hair recoloring is performed in the user’s browser.',
           ],
           [
             'Provenance',
@@ -964,7 +964,7 @@ export const copy = {
     ],
     aboutUseTitle: 'Image usage rules',
     aboutUse: 'Reference images may be used free of charge, including for commercial purposes. The sole exception is depth maps, which are restricted to non-commercial use.',
-    aboutRestriction: 'Images from the outfit and character source websites remain the copyright of their original creators, who do not permit the images themselves to be republished or sold.',
+    aboutRestriction: 'Images from the outfit source websites remain the copyright of their original creators, who do not permit the images themselves to be republished or sold.',
     aboutImpersonation: 'The materials may not be used to impersonate real persons or to create deepfakes: generated images must not be presented as a specific real person, and uploaded character photographs must be of the user or of a person who has given consent. Use for sexualized content involving minors or any other unlawful purpose is strictly prohibited.',
     aboutFaceTitle: 'Getting the same face every time',
     aboutFaceTips: [
