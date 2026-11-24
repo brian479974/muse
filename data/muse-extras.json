@@ -274594,6 +274594,71 @@
      "original": "/muse-assets/character/originals/muse-port-f0d4e0798bc.jpg"
     }
    ]
+  },
+  {
+   "id": "portrait-f27211b49a2",
+   "kind": "character",
+   "code": "f27211b49a2",
+   "title": {
+    "zh": "黑色螺旋卷短波波头 · 人脸",
+    "en": "Black short bob with spiral curls · Face",
+    "tw": "黑色螺旋卷短波波頭 · 人臉"
+   },
+   "category": {
+    "id": "portrait-face",
+    "zh": "人脸",
+    "en": "Face",
+    "tw": "人臉"
+   },
+   "series": {
+    "zh": "短发",
+    "en": "Short hair",
+    "tw": "短髮"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic",
+     "tw": "寫實"
+    }
+   ],
+   "keywords": {
+    "zh": "黑色螺旋卷短波波头 · 人脸。Muse 自制 AI 虚构人物参考，保留人物五官、脸型、发型发色与肤色，不采用参考中的服装或动作。",
+    "en": "Black short bob with spiral curls · Face. Muse-made fictional AI character reference. Preserve face, hairstyle, hair color and skin tone, without adopting the reference outfit or pose."
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "portrait": {
+    "section": "face",
+    "hair": "short"
+   },
+   "provenance": {
+    "provider": "ChatGPT 生圖（gpt-image）文字生圖",
+    "created": "2026-11-23",
+    "note": "Muse 自製虛構成人角色（2026-11-23 起逐張重做原本連結的上游人臉：同髮型名與髮長、同樣的髮廊型錄構圖，背景換成中性淺灰）"
+   },
+   "variants": [
+    {
+     "id": "muse-port-f27211b49a2_front",
+     "angle": "front",
+     "label": {
+      "zh": "人脸",
+      "en": "Face",
+      "tw": "人臉"
+     },
+     "thumbnail": "/muse-assets/character/thumbnails/muse-port-f27211b49a2.webp",
+     "image": "/muse-assets/character/images/muse-port-f27211b49a2.webp",
+     "original": "/muse-assets/character/originals/muse-port-f27211b49a2.jpg"
+    }
+   ]
   }
  ]
 }
