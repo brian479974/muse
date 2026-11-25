@@ -74,7 +74,7 @@ export const copy = {
         items: [
           [
             '姿势',
-            '由 Muse 自行制作。线稿为 AI 生成之无脸人偶（OpenAI GPT Image，少数早期作品使用 Grok）；深度图由 {dav2} Large 依线稿推算产生。姿势编号及名称沿用 {aiPose}（作者 {gia}），中文名称参考 {poseZh}（MIT 授权）。',
+            '由 Muse 自行制作。线稿为 AI 生成之无脸人偶（OpenAI GPT Image，少数早期作品使用 Grok）；深度图由 {dav2} Large 依线稿推算产生。中文名称参考 {poseZh}（MIT 授权）。',
           ],
           [
             '服装',
@@ -82,7 +82,7 @@ export const copy = {
           ],
           [
             '人物',
-            '由 Muse 自行制作，均为 AI 生成之虚构成年人物。部分人物编号及发型名称沿用 {aiPortrait}（作者 {agi}），图片均为全新生成。',
+            '由 Muse 自行制作，均为 AI 生成之虚构成年人物。',
           ],
           [
             '发型',
@@ -401,7 +401,7 @@ export const copy = {
         items: [
           [
             '姿勢',
-            '由 Muse 自行製作。線稿為 AI 生成之無臉人偶（OpenAI GPT Image，少數早期作品使用 Grok）；深度圖由 {dav2} Large 依線稿推算產生。姿勢編號及名稱沿用 {aiPose}（作者 {gia}），中文名稱參考 {poseZh}（MIT 授權）。',
+            '由 Muse 自行製作。線稿為 AI 生成之無臉人偶（OpenAI GPT Image，少數早期作品使用 Grok）；深度圖由 {dav2} Large 依線稿推算產生。中文名稱參考 {poseZh}（MIT 授權）。',
           ],
           [
             '服裝',
@@ -409,7 +409,7 @@ export const copy = {
           ],
           [
             '人物',
-            '由 Muse 自行製作，均為 AI 生成之虛構成年人物。部分人物編號及髮型名稱沿用 {aiPortrait}（作者 {agi}），圖片均為全新生成。',
+            '由 Muse 自行製作，均為 AI 生成之虛構成年人物。',
           ],
           [
             '髮型',
@@ -728,7 +728,7 @@ export const copy = {
         items: [
           [
             'Poses',
-            'Produced by Muse. Line art depicts AI-generated faceless mannequins (OpenAI GPT Image; a small number of early sets used Grok). Depth maps are derived from the line art with {dav2} Large. Pose codes and names follow {aiPose} (by {gia}); Chinese names reference {poseZh} (MIT License).',
+            'Produced by Muse. Line art depicts AI-generated faceless mannequins (OpenAI GPT Image; a small number of early sets used Grok). Depth maps are derived from the line art with {dav2} Large. Chinese names reference {poseZh} (MIT License).',
           ],
           [
             'Outfits',
@@ -736,7 +736,7 @@ export const copy = {
           ],
           [
             'Characters',
-            'Produced by Muse; all are AI-generated fictional adults. Some character codes and hairstyle names follow {aiPortrait} (by {agi}); all images are newly generated.',
+            'Produced by Muse; all are AI-generated fictional adults.',
           ],
           [
             'Hairstyles',

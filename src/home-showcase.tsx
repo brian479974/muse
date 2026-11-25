@@ -125,19 +125,19 @@ const showcaseCopy = {
 };
 export const showcaseText = (lang: Lang) => showcaseCopy[lang];
 
-// 主視覺固定用這四張（姿勢、髮型＝Muse 自製，服裝與人物＝上游圖庫）
+// 主視覺固定用這四張，全部是 Muse 自製（11-25 起服裝 SPR-0083、人物 f6cf9feabd2 換成重做版；網站聲明已不再列人物的原網站）
 const hero = {
   pose: {
     thumb: museAssetUrl('muse-assets/pose/thumbnails/full_single_P021_front.webp'),
     image: museAssetUrl('muse-assets/pose/images/full_single_P021_front.webp'),
   },
   costume: {
-    thumb: 'https://ai-costume-gallery.pages.dev/thumbs/SPR-0083.webp',
-    image: 'https://ai-costume-gallery.pages.dev/img/SPR-0083.webp',
+    thumb: museAssetUrl('muse-assets/costume/thumbnails/muse-port-SPR-0083.webp'),
+    image: museAssetUrl('muse-assets/costume/images/muse-port-SPR-0083.webp'),
   },
   character: {
-    thumb: 'https://ai-portrait-gallery.pages.dev/img/thumb/f6cf9feabd2.webp',
-    image: 'https://ai-portrait-gallery.pages.dev/img/full/f6cf9feabd2.png',
+    thumb: museAssetUrl('muse-assets/character/thumbnails/muse-port-f6cf9feabd2.webp'),
+    image: museAssetUrl('muse-assets/character/images/muse-port-f6cf9feabd2.webp'),
   },
   hairstyle: {
     thumb: museAssetUrl('muse-assets/hairstyle/thumbnails/muse-hair-fh031-front.webp'),
