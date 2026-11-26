@@ -144,8 +144,12 @@ const stats = {
   references: items.length,
   images: items.reduce((sum, item) => sum + item.variants.length, 0),
 };
+// 2026-11-26 Brian「網站上不用告訴別人，我們是用什麼做的」：公開的 catalog.json 不帶生成紀錄（工具、批次、備註）；
+// 紀錄只留在 data/muse-extras.json，網站程式不讀這個欄位
+let strippedProvenance = 0;
+for (const item of items) if ('provenance' in item) { delete item.provenance; strippedProvenance++; }
 writeFileSync(path, JSON.stringify({ ...catalog, items, stats }));
 console.log(
-  `catalog: ${before} → ${items.length} items（含自製 ${extras.length}）· 繁體欄位 ${converted} 個`,
+  `catalog: ${before} → ${items.length} items（含自製 ${extras.length}）· 繁體欄位 ${converted} 個 · 拿掉生成紀錄 ${strippedProvenance} 筆`,
   stats,
 );
