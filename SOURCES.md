@@ -1,17 +1,15 @@
 # Sources / 素材来源
 
-## Muse 繆思現況（2026-11-22）— 以這段為準
+## Muse 繆思現況（2026-11-26）— 以這段為準
 
 網站上「關於與聲明」的「網站聲明」是給訪客看的完整版（三語，文案在 `src/i18n.ts` 的 `legalSections`，連結在 `src/site-notice.tsx`）。這裡是給維護者的對照：
 
 - **非營利**：個人發起，免費、不用註冊、無廣告、不販售素材或服務。
 - **只是參考資料**：Muse 不幫任何人生成圖片；使用者下載參考圖卡後自己拿去 AI 工具生成（網站不串接任何生圖 API）。
-- **開源**：程式碼 MIT（見 `LICENSE`），改建自 [hongye007/open-pose-costume](https://github.com/hongye007/open-pose-costume)。開源只涵蓋程式碼，不涵蓋參考圖片。
-- **外部圖庫（圖片由原站直接載入，不轉存、不修改）**
-  - 寫實服裝 [AI Costume Gallery](https://ai-costume-gallery.pages.dev/)、動漫服裝 [AI Costume Anime Gallery](https://ai-costume-anime-gallery.pages.dev/) — 作者 ギア（https://x.com/giaaibusi）
-  - 人物 [AI Portrait Gallery](https://ai-portrait-gallery.pages.dev/) — 作者 あぎ（https://x.com/agi_aibusi），原站標示 CC0 1.0，同時請求不要轉載、再散布
-  - 姿勢編號與名稱沿用 [AI Pose Gallery](https://ai-pose-gallery.pages.dev/)（ギア）；中文名稱參考 [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh)（MIT，資料部分屬原作者，見 `THIRD_PARTY_NOTICES.md`）
-  - 原站規則：可免費用於作品創作（含商業、編輯、參考）；禁止圖片本身（含加工後）轉載、再散布、販售；部分原站另禁止整批下載（含程式自動抓取）
+- **開源**：程式碼 MIT（見 `LICENSE`），改建自 hongye007/open-pose-costume。開源只涵蓋程式碼，不涵蓋參考圖片。
+- **外部圖庫：2026-11-26 起網站上 0 張**（Brian：「連到別的網站的，我們都要擺脫掉」）。姿勢、服裝、人物的圖片全部換成 Muse 自製版，網站不從任何外部網站載入圖片，CSP 也不再放行上游圖庫網域；網站聲明不再列原網站與作者，也不放外部連結。
+  - 仍沿用的文字資料：姿勢與服裝的編號、名稱、分類沿用原站清單；姿勢中文名稱參考 anhao/ai-pose-gallery-zh（MIT，資料部分屬原作者，見 `THIRD_PARTY_NOTICES.md`）。
+  - 過去收錄的原站與作者（供查）：寫實服裝 AI Costume Gallery、動漫服裝 AI Costume Anime Gallery、姿勢 AI Pose Gallery（作者均為 ギア）；人物 AI Portrait Gallery（作者 あぎ）。
 - **Muse 自製（`public/muse-assets/`，每張的工具與日期記在 `data/muse-extras.json` 的 `provenance`）**
   - 姿勢：全部自製。線稿 OpenAI GPT Image（6 組早期用 Grok）；深度圖 Depth Anything V2 **Large**
   - 服裝：隱形人台照，OpenAI GPT Image／Z-Image Turbo（Apache-2.0）／少數 Grok

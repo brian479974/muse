@@ -3,8 +3,7 @@
 姿勢、服裝、人物與髮型的參考資料庫。非營利、免費使用：挑好參考、下載參考圖卡，再自己拿去 ChatGPT 等 AI 工具生成——Muse 只提供參考資料，不幫任何人生成圖片。改編自開源專案 open-pose-costume（非官方版本）。完整聲明與資料來源見網站「關於與聲明」，維護者對照見 `SOURCES.md`。
 
 - 網站：https://muse.toai.tw/
-- 原專案：https://github.com/hongye007/open-pose-costume（作者 hongye007 · [@HongyeMain](https://x.com/HongyeMain)）
-- 原站：https://omilic.com/
+- 原專案：open-pose-costume（作者 hongye007，MIT 授權；授權全文見 [LICENSE](LICENSE)）
 
 ## 跟原站的差別
 
@@ -12,21 +11,21 @@
 - **外觀改版（鼠尾草綠）**：淺鼠尾草綠底、墨綠主色、金色點綴、襯線大標；桌機改為上方導覽；首頁加入動畫主視覺、圖片跑馬燈、三大分類卡與三步驟圖解（`src/home-showcase.tsx`）。配色由 `scripts/apply-theme.py` 依 `scripts/theme-sage.json` 對應原站淺色樣式產生，新版面與動畫在 `src/theme-sage.css`。新名稱 Muse 繆思與新 Logo（`public/brand/logo-mark.svg`）。
 
 - **Muse 自製素材（44 筆）**：男性人物 16、男性姿勢線稿 16、男裝 12（2026-11-06，Codex 與 Grok 生成的虛構成人角色與隱形人台服裝照，逐張檢查後上架），圖片在 `public/muse-assets/`、資料在 `data/muse-extras.json`，由 `scripts/mirror-filter.mjs` 併入素材清單。
-- **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除；首頁示意圖也改用上游圖庫的公開圖片。
+- **不收錄原站自建素材**：原專案 `public/custom/` 的自建服飾、姿勢、人物圖片（及其衍生圖）授權條款禁止在其他倉庫或網站再發布，所以全部移除。
 - **不收錄擴展分類**：內衣、泳裝、曲線、雙人等擴展分類不收錄，對應的開關與「素材庫」篩選一併隱藏。
 - **參考圖卡取代一鍵生圖（安全考量）**：網站不再呼叫任何生圖 API、不存任何金鑰，也沒有轉送伺服器。搭配台挑好姿勢／服裝／人物後，瀏覽器在本機把三張參考圖＋英文提示詞排成一張圖卡（`src/reference-card.ts`），使用者下載圖卡、複製提示詞，自己貼到 ChatGPT 生成。提示詞註明圖庫人物為 AI 生成的虛構成人角色、要求完整著裝，避免被平台擋下。舊版存在瀏覽器的金鑰與生成紀錄，開站時會自動清除。
-- **內容安全政策（CSP）**：正式版只允許本站程式與五個上游圖庫的圖片；對外連線只多放行匿名使用次數統計服務，其他網站一律不准連。
+- **內容安全政策（CSP）**：正式版只允許本站程式與 Muse 自製素材圖片主機（Cloudflare R2 前的 muse-img Worker）；對外連線只多放行匿名使用次數統計服務，其他網站一律不准連（2026-11-26 起上游圖庫網域全部拿掉）。
 - **匿名使用次數與熱門排行（2026-11-16）**：下載圖卡、下載原圖、複製提示詞時，只回報「哪張圖庫參考、哪個動作」到 Cloudflare Worker（`worker/`，D1 資料庫 `muse-stats`），不記 IP、不設 cookie，使用者上傳的圖不回報（`src/stats.ts`）。首頁「熱門參考」依「放進圖卡並下載」次數列姿勢／服裝／人物各前 10 名（某類被用過的參考不到 3 張就不列），圖庫排序多一個「熱門」。計數服務 3 秒沒回應就改用這台瀏覽器上次存的排行。只有正式網址會回報，本機開發與預覽不灌數字。
 - **使用說明補兩段（2026-11-16）**：「讓 AI 每次生出同一張臉」四個做法（圖卡頁也有），以及「不得用來冒充真實人物」。
 - **髮型參考與即時換色（2026-11-22）**：第四類「髮型」分頁（性別／長度／型態／瀏海／風格篩選，正面／側面／背面三視角），資料在 `data/muse-extras.json`（`kind: "hairstyle"`，每個角度附頭髮遮罩 `mask`）、篩選選項在 `data/hairstyle-facets.json`、16 色色票在 `data/hair-colors.json`（單一來源）。詳細頁與參考圖卡的髮型格有色票列，點了在瀏覽器裡用 image＋mask 即時換色（`src/hair-recolor.ts`，演算法照搬已驗證的 hair-recolor.js），選推薦色＝原圖；下載的髮型圖與圖卡都用換色後的圖（PNG 文字欄位記錄髮色）。參考圖卡第四格可挑髮型或上傳髮型照（上傳的只給髮色選單）；有髮型時提示詞改成不採用人物參考的髮型、加髮型句與髮色句，提示詞可切英文（預設）／繁中／簡中。隨機搭配會抽髮型，四格都可鎖定。人物詳細頁列出同一張臉的 5 種髮型。分享網址 `?hair=<髮型 id 或編號>&haircolor=<色票 key>`；人物髮長篩選改寫成 `?hairlen=`（舊連結的 `?hair=long` 照樣能用）。
 - **不給搜尋引擎收錄**（`noindex`）。
 
-素材清單由 `scripts/mirror-filter.mjs` 從原站清單過濾產生，並檢查所有圖片都指向上游圖庫。
+素材清單由 `scripts/mirror-filter.mjs` 產生：以原站清單的編號與名稱為骨架，圖片全部換成 Muse 自製版（`data/muse-extras.json`，`replaces: 'upstream'` 原位取代）。2026-11-26 起網站上沒有任何一張圖從其他網站載入。
 
 ## 授權與素材來源
 
 - 程式碼：MIT（見 [LICENSE](LICENSE)，著作權屬原專案貢獻者）。
-- 參考圖片：瀏覽時由瀏覽器直接從各原作者網站載入，本倉庫不存放這些圖檔；著作權屬原作者，僅供個人非商業用途。來源見 [SOURCES.md](SOURCES.md) 與 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- 參考圖片：全部由 Muse 自製（AI 生成），放在 Cloudflare R2，經 muse-img Worker 提供；可免費使用、複製、修改，含商業用途；唯一例外是深度圖（產生它的 Depth Anything V2 Large 採 CC BY-NC 4.0），限非商業用途。來源見 [SOURCES.md](SOURCES.md) 與 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 本機開發
 
