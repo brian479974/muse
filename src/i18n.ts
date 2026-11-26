@@ -74,11 +74,11 @@ export const copy = {
         items: [
           [
             '姿势',
-            '由 Muse 自行制作。线稿为 AI 生成之无脸人偶（OpenAI GPT Image，少数早期作品使用 Grok）；深度图由 {dav2} Large 依线稿推算产生。中文名称参考 {poseZh}（MIT 授权）。',
+            '由 Muse 自行制作。线稿为 AI 生成之无脸人偶，深度图依线稿推算产生。中文名称参考 {poseZh}（MIT 授权）。',
           ],
           [
             '服装',
-            '写实服装取自 {aiCostume}，动漫服装取自 {aiCostumeAnime}，作者均为 {gia}，图片由原网站直接加载。另含 Muse 自行制作之隐形人台服装照（OpenAI GPT Image、Z-Image Turbo、Qwen Image，少数使用 Grok）。',
+            '写实服装取自 {aiCostume}，动漫服装取自 {aiCostumeAnime}，作者均为 {gia}，图片由原网站直接加载。另含 Muse 自行制作之隐形人台服装照，均为 AI 生成。',
           ],
           [
             '人物',
@@ -86,11 +86,7 @@ export const copy = {
           ],
           [
             '发型',
-            '由 Muse 自行制作。正面图由 OpenAI GPT Image 或 Qwen Image 生成，侧面及背面图依正面图转换视角；头发遮罩由 SAM 3 产生；发色变换于用户浏览器端完成。',
-          ],
-          [
-            '出处纪录',
-            'Muse 自制图片之生成工具及制作日期，均逐张记录于 {repo} 之数据文件。',
+            '由 Muse 自行制作。正面图为 AI 生成，侧面及背面图依正面图转换视角；发色变换于用户浏览器端完成。',
           ],
         ],
       },
@@ -401,11 +397,11 @@ export const copy = {
         items: [
           [
             '姿勢',
-            '由 Muse 自行製作。線稿為 AI 生成之無臉人偶（OpenAI GPT Image，少數早期作品使用 Grok）；深度圖由 {dav2} Large 依線稿推算產生。中文名稱參考 {poseZh}（MIT 授權）。',
+            '由 Muse 自行製作。線稿為 AI 生成之無臉人偶，深度圖依線稿推算產生。中文名稱參考 {poseZh}（MIT 授權）。',
           ],
           [
             '服裝',
-            '寫實服裝取自 {aiCostume}，動漫服裝取自 {aiCostumeAnime}，作者均為 {gia}，圖片由原網站直接載入。另含 Muse 自行製作之隱形人台服裝照（OpenAI GPT Image、Z-Image Turbo、Qwen Image，少數使用 Grok）。',
+            '寫實服裝取自 {aiCostume}，動漫服裝取自 {aiCostumeAnime}，作者均為 {gia}，圖片由原網站直接載入。另含 Muse 自行製作之隱形人台服裝照，均為 AI 生成。',
           ],
           [
             '人物',
@@ -413,11 +409,7 @@ export const copy = {
           ],
           [
             '髮型',
-            '由 Muse 自行製作。正面圖由 OpenAI GPT Image 或 Qwen Image 生成，側面及背面圖依正面圖轉換視角；頭髮遮罩由 SAM 3 產生；髮色變換於使用者瀏覽器端完成。',
-          ],
-          [
-            '出處紀錄',
-            'Muse 自製圖片之生成工具及製作日期，均逐張記錄於 {repo} 之資料檔案。',
+            '由 Muse 自行製作。正面圖為 AI 生成，側面及背面圖依正面圖轉換視角；髮色變換於使用者瀏覽器端完成。',
           ],
         ],
       },
@@ -728,11 +720,11 @@ export const copy = {
         items: [
           [
             'Poses',
-            'Produced by Muse. Line art depicts AI-generated faceless mannequins (OpenAI GPT Image; a small number of early sets used Grok). Depth maps are derived from the line art with {dav2} Large. Chinese names reference {poseZh} (MIT License).',
+            'Produced by Muse. Line art depicts AI-generated faceless mannequins, and depth maps are derived from the line art. Chinese names reference {poseZh} (MIT License).',
           ],
           [
             'Outfits',
-            'Realistic outfits are sourced from {aiCostume} and anime outfits from {aiCostumeAnime}, both by {gia}; images are loaded directly from the original websites. The collection also includes ghost-mannequin outfit photographs produced by Muse (OpenAI GPT Image, Z-Image Turbo, Qwen Image; a small number with Grok).',
+            'Realistic outfits are sourced from {aiCostume} and anime outfits from {aiCostumeAnime}, both by {gia}; images are loaded directly from the original websites. The collection also includes ghost-mannequin outfit photographs produced by Muse, all AI-generated.',
           ],
           [
             'Characters',
@@ -740,11 +732,7 @@ export const copy = {
           ],
           [
             'Hairstyles',
-            'Produced by Muse. Front views are generated with OpenAI GPT Image or Qwen Image, and side and back views are derived from the front view; hair masks are produced with SAM 3; hair recoloring is performed in the user’s browser.',
-          ],
-          [
-            'Provenance',
-            'The generation tool and production date of each Muse-produced image are recorded in the data files on {repo}.',
+            'Produced by Muse. Front views are AI-generated, and side and back views are derived from the front view; hair recoloring is performed in the user’s browser.',
           ],
         ],
       },
