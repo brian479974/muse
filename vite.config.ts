@@ -4,15 +4,9 @@ import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react';
 import { countShown } from './src/shown-counts';
 
-// 正式版加上內容安全政策：只允許本站程式、本站資料與五個上游圖庫的圖片，
+// 正式版加上內容安全政策：只允許本站程式、本站資料與 Muse 自製素材圖片主機（R2），
 // 對外連線只多放行匿名使用次數統計服務（worker/，見 src/stats.ts），其他網站一律不准連。
-const galleries = [
-  'https://ai-pose-gallery.pages.dev',
-  'https://ai-pose-depth-gallery.pages.dev',
-  'https://ai-costume-gallery.pages.dev',
-  'https://ai-costume-anime-gallery.pages.dev',
-  'https://ai-portrait-gallery.pages.dev',
-].join(' ');
+// 2026-11-26 起網站上的圖片全部自製，五個上游圖庫的網域已從白名單拿掉（Brian：「連到別的網站的，我們都要擺脫掉」）
 const statsService = 'https://muse-stats.brian479974.workers.dev';
 // Muse 自製素材圖片主機：Cloudflare R2（bucket muse-assets）前面的 muse-img Worker，原始碼 worker-img/，上傳用 scripts/r2-sync.py（2026-11-23 起）
 export const MUSE_ASSET_HOST = 'https://muse-img.brian479974.workers.dev/';
@@ -22,8 +16,8 @@ const cspFor = (assetHost: string) =>
   "default-src 'self'",
   "script-src 'self'",
   "style-src 'self' 'unsafe-inline'",
-  `img-src 'self' data: blob: ${galleries} ${assetHost}`.trim(),
-  `connect-src 'self' ${galleries} ${statsService} ${assetHost}`.trim(),
+  `img-src 'self' data: blob: ${assetHost}`.trim(),
+  `connect-src 'self' ${statsService} ${assetHost}`.trim(),
   "font-src 'self'",
   "object-src 'none'",
   "base-uri 'self'",

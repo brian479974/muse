@@ -367,7 +367,7 @@ export async function renderReferenceCard(
   ctx.fillStyle = MUTED;
   ctx.font = `400 22px ${FONT}`;
   ctx.fillText(
-    'Reference images © their original creators · personal, non-commercial use only',
+    'Reference card made with Muse · muse.toai.tw',
     MARGIN,
     canvas.height - 40,
   );

@@ -379,7 +379,8 @@ const depthPose = {
   kind: 'pose',
   title: L('pose'),
   keywords: L('pose'),
-  variant: variant('p', 'https://ai-pose-depth-gallery.pages.dev/img/p.png'),
+  // 2026-11-26 起深度圖只認自製標記 depthMap（網站不再連上游深度圖庫）
+  variant: variant('p', 'https://muse-img.brian479974.workers.dev/muse-assets/pose/p-depth.png', { depthMap: true }),
 };
 const costume = {
   kind: 'costume',

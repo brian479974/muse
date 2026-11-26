@@ -56,16 +56,14 @@ export const copy = {
       {
         title: '开放源代码',
         items: [
-          '本网站代码依 {mit} 授权条款公开于 {repo}，任何人皆得查看、重制及修改。本项目改作自开源项目 {upstream}（作者 hongye007，采 MIT 授权）。',
-          '开源授权范围仅限代码，不及于参考图片；图片著作权归原作者或 Muse 所有，使用规范详见下方「使用条款」。',
+          '本网站代码依 MIT 授权条款公开于 {repo}，任何人皆得查看、重制及修改。本项目改作自开源项目 open-pose-costume（作者 hongye007，采 MIT 授权）。',
+          '开源授权范围仅限代码，不及于参考图片；图片著作权归 Muse 所有，使用规范详见下方「使用条款」。',
         ],
       },
       {
         title: '网站立场',
         items: [
           'Muse 为参考资料库，不提供图片生成服务。用户选定参考并下载参考图卡后，系自行使用 ChatGPT 等第三方 AI 工具生成图片；本网站仅提供参考资料。',
-          '外部图库之图片均由原网站直接加载，本网站不予转存或修改，并标示作者及出处；完整图库及最新使用规范，请径洽原网站。',
-          'Muse 与各原网站作者并无合作或隶属关系，原作者亦未为本网站背书。',
           '所有人物均为 AI 生成之虚构成年人，并非真实人物；姿势参考采用无脸人偶。内衣、泳装及魅力穿搭类别，仅于用户主动选取该分类时显示。',
         ],
       },
@@ -74,11 +72,11 @@ export const copy = {
         items: [
           [
             '姿势',
-            '由 Muse 自行制作。线稿为 AI 生成之无脸人偶，深度图依线稿推算产生。中文名称参考 {poseZh}（MIT 授权）。',
+            '由 Muse 自行制作。线稿为 AI 生成之无脸人偶，深度图依线稿推算产生。中文名称参考 anhao/ai-pose-gallery-zh（MIT 授权）。',
           ],
           [
             '服装',
-            '写实服装取自 {aiCostume}，动漫服装取自 {aiCostumeAnime}，作者均为 {gia}，图片由原网站直接加载。另含 Muse 自行制作之隐形人台服装照，均为 AI 生成。',
+            '由 Muse 自行制作，均为 AI 生成之隐形人台服装图，分写实及动漫两种画风。',
           ],
           [
             '人物',
@@ -94,16 +92,12 @@ export const copy = {
         title: '使用条款',
         items: [
           [
-            '外部图库',
-            '著作权归原作者所有。依原网站规范，得免费用于用户之创作（含商业用途），惟不得转载或贩售图片本身；详细条款以原网站公告为准。',
-          ],
-          [
             'Muse 自制图片',
             '线稿、服装、人物及发型图片均得免费使用、重制及修改，包含商业用途，无须另行申请授权。',
           ],
           [
             '深度图',
-            '唯一例外：产生深度图之 {dav2} Large 模型采 {ccbync} 非商业授权，故深度图仅限非商业用途。',
+            '唯一例外：产生深度图之 Depth Anything V2 Large 模型采 CC BY-NC 4.0 非商业授权，故深度图仅限非商业用途。',
           ],
           [
             '参考图卡',
@@ -302,7 +296,6 @@ export const copy = {
     ],
     aboutUseTitle: '素材使用规则',
     aboutUse: '参考图片均得免费使用，包含商业用途；唯一例外为深度图，仅限非商业用途。',
-    aboutRestriction: '服装原网站之图片，著作权归原作者所有，原作者不允许转载或贩售图片本身。',
     aboutImpersonation: '不得用于冒充真实人物或制作深度伪造内容：生成之图片不得假冒特定真人；上传之人物照片限用户本人，或已取得当事人同意者。严禁用于涉及未成年人之性化内容或其他违法用途。',
     aboutFaceTitle: '让 AI 每次生出同一张脸',
     aboutFaceTips: [
@@ -311,10 +304,10 @@ export const copy = {
       '同一个角色每次都用同一张人物图。先按收藏，下次从「我的收藏」直接找到它。',
       '上传自己的人物照片时用原始档，不要用截图或缩图，脸部细节才保得住。',
     ],
-    aboutRights: '本网站代码依 MIT 授权条款开源；参考图片不在授权范围内，著作权归原作者或 Muse 所有。',
+    aboutRights: '本网站代码依 MIT 授权条款开源；参考图片不在授权范围内，著作权归 Muse 所有。',
     aboutCaveat: '姿势参考采用无脸人偶，服装、人物及发型均为 AI 生成之虚构素材。完整声明、资料来源及下架申请方式，详见「关于与声明」。',
     footer: '让参考成为起点，让创作走得更远。',
-    footerNotice: '本网站为非营利开源项目，免费提供使用，不刊登广告，亦不贩售任何素材。图片著作权归原作者或 Muse 所有。',
+    footerNotice: '本网站为非营利开源项目，免费提供使用，不刊登广告，亦不贩售任何素材。图片著作权归 Muse 所有。',
     top: '回到顶部',
     savedToast: '已加入收藏',
     removedToast: '已取消收藏',
@@ -379,16 +372,14 @@ export const copy = {
       {
         title: '開放原始碼',
         items: [
-          '本網站程式碼依 {mit} 授權條款公開於 {repo}，任何人皆得檢視、重製及修改。本專案改作自開源專案 {upstream}（作者 hongye007，採 MIT 授權）。',
-          '開源授權範圍僅限程式碼，不及於參考圖片；圖片著作權歸原作者或 Muse 所有，使用規範詳見下方「使用條款」。',
+          '本網站程式碼依 MIT 授權條款公開於 {repo}，任何人皆得檢視、重製及修改。本專案改作自開源專案 open-pose-costume（作者 hongye007，採 MIT 授權）。',
+          '開源授權範圍僅限程式碼，不及於參考圖片；圖片著作權歸 Muse 所有，使用規範詳見下方「使用條款」。',
         ],
       },
       {
         title: '網站立場',
         items: [
           'Muse 為參考資料庫，不提供圖片生成服務。使用者選定參考並下載參考圖卡後，係自行使用 ChatGPT 等第三方 AI 工具生成圖片；本網站僅提供參考資料。',
-          '外部圖庫之圖片均由原網站直接載入，本網站不予轉存或修改，並標示作者及出處；完整圖庫及最新使用規範，請逕洽原網站。',
-          'Muse 與各原網站作者並無合作或隸屬關係，原作者亦未為本網站背書。',
           '所有人物均為 AI 生成之虛構成年人，並非真實人物；姿勢參考採用無臉人偶。內衣、泳裝及魅力穿搭類別，僅於使用者主動選取該分類時顯示。',
         ],
       },
@@ -397,11 +388,11 @@ export const copy = {
         items: [
           [
             '姿勢',
-            '由 Muse 自行製作。線稿為 AI 生成之無臉人偶，深度圖依線稿推算產生。中文名稱參考 {poseZh}（MIT 授權）。',
+            '由 Muse 自行製作。線稿為 AI 生成之無臉人偶，深度圖依線稿推算產生。中文名稱參考 anhao/ai-pose-gallery-zh（MIT 授權）。',
           ],
           [
             '服裝',
-            '寫實服裝取自 {aiCostume}，動漫服裝取自 {aiCostumeAnime}，作者均為 {gia}，圖片由原網站直接載入。另含 Muse 自行製作之隱形人台服裝照，均為 AI 生成。',
+            '由 Muse 自行製作，均為 AI 生成之隱形人台服裝圖，分寫實及動漫兩種畫風。',
           ],
           [
             '人物',
@@ -417,16 +408,12 @@ export const copy = {
         title: '使用條款',
         items: [
           [
-            '外部圖庫',
-            '著作權歸原作者所有。依原網站規範，得免費用於使用者之創作（含商業用途），惟不得轉載或販售圖片本身；詳細條款以原網站公告為準。',
-          ],
-          [
             'Muse 自製圖片',
             '線稿、服裝、人物及髮型圖片均得免費使用、重製及修改，包含商業用途，無須另行申請授權。',
           ],
           [
             '深度圖',
-            '唯一例外：產生深度圖之 {dav2} Large 模型採 {ccbync} 非商業授權，故深度圖僅限非商業用途。',
+            '唯一例外：產生深度圖之 Depth Anything V2 Large 模型採 CC BY-NC 4.0 非商業授權，故深度圖僅限非商業用途。',
           ],
           [
             '參考圖卡',
@@ -625,7 +612,6 @@ export const copy = {
     ],
     aboutUseTitle: '素材使用規則',
     aboutUse: '參考圖片均得免費使用，包含商業用途；唯一例外為深度圖，僅限非商業用途。',
-    aboutRestriction: '服裝原網站之圖片，著作權歸原作者所有，原作者不允許轉載或販售圖片本身。',
     aboutImpersonation: '不得用於冒充真實人物或製作深度偽造內容：生成之圖片不得假冒特定真人；上傳之人物照片限使用者本人，或已取得當事人同意者。嚴禁用於涉及未成年人之性化內容或其他違法用途。',
     aboutFaceTitle: '讓 AI 每次生出同一張臉',
     aboutFaceTips: [
@@ -634,10 +620,10 @@ export const copy = {
       '同一個角色每次都用同一張人物圖。先按收藏，下次從「我的收藏」直接找到它。',
       '上傳自己的人物照片時用原始檔，不要用截圖或縮圖，臉部細節才保得住。',
     ],
-    aboutRights: '本網站程式碼依 MIT 授權條款開源；參考圖片不在授權範圍內，著作權歸原作者或 Muse 所有。',
+    aboutRights: '本網站程式碼依 MIT 授權條款開源；參考圖片不在授權範圍內，著作權歸 Muse 所有。',
     aboutCaveat: '姿勢參考採用無臉人偶，服裝、人物及髮型均為 AI 生成之虛構素材。完整聲明、資料來源及下架申請方式，詳見「關於與聲明」。',
     footer: '讓參考成為起點，讓創作走得更遠。',
-    footerNotice: '本網站為非營利開源專案，免費提供使用，不刊登廣告，亦不販售任何素材。圖片著作權歸原作者或 Muse 所有。',
+    footerNotice: '本網站為非營利開源專案，免費提供使用，不刊登廣告，亦不販售任何素材。圖片著作權歸 Muse 所有。',
     top: '回到頂部',
     savedToast: '已加入收藏',
     removedToast: '已取消收藏',
@@ -702,16 +688,14 @@ export const copy = {
       {
         title: 'Open source',
         items: [
-          'The source code of this website is published on {repo} under the {mit} License; anyone may view, reproduce and modify it. This project is adapted from the open-source project {upstream} (by hongye007, MIT License).',
-          'The open-source license covers the source code only and does not extend to the reference images, whose copyrights belong to their original creators or to Muse. See the Terms of use below.',
+          'The source code of this website is published on {repo} under the MIT License; anyone may view, reproduce and modify it. This project is adapted from the open-source project open-pose-costume (by hongye007, MIT License).',
+          'The open-source license covers the source code only and does not extend to the reference images, whose copyright belongs to Muse. See the Terms of use below.',
         ],
       },
       {
         title: 'Our position',
         items: [
           'Muse is a reference library and does not provide image generation. After selecting references and downloading a reference card, users generate images themselves with third-party AI tools such as ChatGPT; this website provides reference material only.',
-          'Images from external galleries are loaded directly from the original websites. This website does not copy or alter them, and identifies each creator and source. For the complete galleries and current terms, please refer to the original websites.',
-          'Muse has no partnership or affiliation with the creators of the original websites, and they do not endorse this website.',
           'All characters are AI-generated fictional adults, not real persons; pose references use faceless mannequins. The lingerie, swimwear and statement-outfit categories are displayed only when selected by the user.',
         ],
       },
@@ -720,11 +704,11 @@ export const copy = {
         items: [
           [
             'Poses',
-            'Produced by Muse. Line art depicts AI-generated faceless mannequins, and depth maps are derived from the line art. Chinese names reference {poseZh} (MIT License).',
+            'Produced by Muse. Line art depicts AI-generated faceless mannequins, and depth maps are derived from the line art. Chinese names reference anhao/ai-pose-gallery-zh (MIT License).',
           ],
           [
             'Outfits',
-            'Realistic outfits are sourced from {aiCostume} and anime outfits from {aiCostumeAnime}, both by {gia}; images are loaded directly from the original websites. The collection also includes ghost-mannequin outfit photographs produced by Muse, all AI-generated.',
+            'Produced by Muse; all are AI-generated ghost-mannequin outfit images, in realistic and anime styles.',
           ],
           [
             'Characters',
@@ -740,16 +724,12 @@ export const copy = {
         title: 'Terms of use',
         items: [
           [
-            'External galleries',
-            'Copyright remains with the original creators. Under the original websites’ terms, the images may be used free of charge in users’ own works, including for commercial purposes, but the images themselves may not be republished or sold. The original websites’ terms prevail.',
-          ],
-          [
             'Muse-produced images',
             'Line art, outfit, character and hairstyle images may be used, reproduced and modified free of charge, including for commercial purposes, without further permission.',
           ],
           [
             'Depth maps',
-            'Sole exception: the {dav2} Large model used to produce depth maps is licensed under {ccbync} (non-commercial); depth maps are therefore restricted to non-commercial use.',
+            'Sole exception: the Depth Anything V2 Large model used to produce depth maps is licensed under CC BY-NC 4.0 (non-commercial); depth maps are therefore restricted to non-commercial use.',
           ],
           [
             'Reference cards',
@@ -952,7 +932,6 @@ export const copy = {
     ],
     aboutUseTitle: 'Image usage rules',
     aboutUse: 'Reference images may be used free of charge, including for commercial purposes. The sole exception is depth maps, which are restricted to non-commercial use.',
-    aboutRestriction: 'Images from the outfit source websites remain the copyright of their original creators, who do not permit the images themselves to be republished or sold.',
     aboutImpersonation: 'The materials may not be used to impersonate real persons or to create deepfakes: generated images must not be presented as a specific real person, and uploaded character photographs must be of the user or of a person who has given consent. Use for sexualized content involving minors or any other unlawful purpose is strictly prohibited.',
     aboutFaceTitle: 'Getting the same face every time',
     aboutFaceTips: [
@@ -961,10 +940,10 @@ export const copy = {
       'Use the same character image every time. Bookmark it so you can find it again under Saved references.',
       'When uploading your own character photo, use the original file rather than a screenshot or thumbnail so facial details survive.',
     ],
-    aboutRights: 'The source code of this website is open source under the MIT License. The reference images are not covered by this license; their copyrights belong to their original creators or to Muse.',
+    aboutRights: 'The source code of this website is open source under the MIT License. The reference images are not covered by this license; their copyright belongs to Muse.',
     aboutCaveat: 'Pose references use faceless mannequins; outfits, characters and hairstyles are AI-generated fictional materials. For the full notice, sources and takedown requests, see “About & notices”.',
     footer: 'Start with a reference. Make it your own.',
-    footerNotice: 'Muse is a non-profit, open-source project. It is free to use, carries no advertising and sells no materials. Image copyrights belong to their original creators or to Muse.',
+    footerNotice: 'Muse is a non-profit, open-source project. It is free to use, carries no advertising and sells no materials. Image copyright belongs to Muse.',
     top: 'Back to top',
     savedToast: 'Reference saved',
     removedToast: 'Reference unsaved',
