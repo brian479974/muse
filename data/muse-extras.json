@@ -430758,6 +430758,1470 @@
      "original": "/muse-assets/costume/originals/muse-port-SUM-0179.jpg"
     }
    ]
+  },
+  {
+   "id": "anime_costume_AUT-0218",
+   "kind": "costume",
+   "code": "ANIME-AUT-0218",
+   "title": {
+    "zh": "针织白色黑色长裤",
+    "en": "Knit white black pants",
+    "tw": "針織白色黑色長褲"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn",
+    "tw": "秋日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "棕色 针织 白色 黑色 长裤 运动鞋 皮革 托特包",
+    "en": "brown knit white black pants sneakers leather tote"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_AUT-0218_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_AUT-0218.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_AUT-0218.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_AUT-0218.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_AUT-0228",
+   "kind": "costume",
+   "code": "ANIME-AUT-0228",
+   "title": {
+    "zh": "米色紫色长裤",
+    "en": "Beige purple pants",
+    "tw": "米色紫色長褲"
+   },
+   "category": {
+    "id": "autumn",
+    "zh": "秋日穿搭",
+    "en": "Autumn",
+    "tw": "秋日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "米色 紫色 长裤 黑色 皮革 包袋 乐福鞋 藏蓝色",
+    "en": "beige purple pants black leather bag loafers navy"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_AUT-0228_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_AUT-0228.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_AUT-0228.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_AUT-0228.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_LNG-0086",
+   "kind": "costume",
+   "code": "ANIME-LNG-0086",
+   "title": {
+    "zh": "蕾丝吊带衫 · 短裤",
+    "en": "Lace camisole / shorts",
+    "tw": "蕾絲吊帶衫 · 短褲"
+   },
+   "category": {
+    "id": "lingerie",
+    "zh": "内衣",
+    "en": "Lingerie",
+    "tw": "內衣"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "蕾丝 吊带衫 短裤 粉色 黑色 长筒袜 高跟鞋 开衫",
+    "en": "lace camisole shorts pink black stockings heels cardigan"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_LNG-0086_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_LNG-0086.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_LNG-0086.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_LNG-0086.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_PTY-0011",
+   "kind": "costume",
+   "code": "ANIME-PTY-0011",
+   "title": {
+    "zh": "吊带衫 · 迷你连衣裙",
+    "en": "Camisole / mini dress",
+    "tw": "吊帶衫 · 迷你連衣裙"
+   },
+   "category": {
+    "id": "party",
+    "zh": "派对礼服",
+    "en": "Party",
+    "tw": "派對禮服"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "吊带衫 迷你 连衣裙 连裤袜 高跟鞋",
+    "en": "camisole mini dress tights heels"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_PTY-0011_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_PTY-0011.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_PTY-0011.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_PTY-0011.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_PTY-0024",
+   "kind": "costume",
+   "code": "ANIME-PTY-0024",
+   "title": {
+    "zh": "吊带衫 · 迷你连衣裙",
+    "en": "Camisole / mini dress",
+    "tw": "吊帶衫 · 迷你連衣裙"
+   },
+   "category": {
+    "id": "party",
+    "zh": "派对礼服",
+    "en": "Party",
+    "tw": "派對禮服"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "吊带衫 迷你 连衣裙 连裤袜 高跟鞋",
+    "en": "camisole mini dress tights heels"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_PTY-0024_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_PTY-0024.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_PTY-0024.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_PTY-0024.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_PTY-0037",
+   "kind": "costume",
+   "code": "ANIME-PTY-0037",
+   "title": {
+    "zh": "蕾丝中长款连衣裙",
+    "en": "Lace midi dress",
+    "tw": "蕾絲中長款連衣裙"
+   },
+   "category": {
+    "id": "party",
+    "zh": "派对礼服",
+    "en": "Party",
+    "tw": "派對禮服"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "蕾丝 中长款 连衣裙 灰色 连裤袜 浅口高跟鞋 高跟鞋 项链",
+    "en": "lace midi dress grey tights pumps heels necklace"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_PTY-0037_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_PTY-0037.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_PTY-0037.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_PTY-0037.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SUM-0010",
+   "kind": "costume",
+   "code": "ANIME-SUM-0010",
+   "title": {
+    "zh": "蕾丝粉色迷你半身裙",
+    "en": "Lace pink mini skirt",
+    "tw": "蕾絲粉色迷你半身裙"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer",
+    "tw": "夏日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "黑色 蕾丝 粉色 迷你 半身裙 白色 袜子 凉鞋 丝带 包袋",
+    "en": "black lace pink mini skirt white socks sandals ribbon bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SUM-0010_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SUM-0010.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SUM-0010.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SUM-0010.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SUM-0068",
+   "kind": "costume",
+   "code": "ANIME-SUM-0068",
+   "title": {
+    "zh": "粉色牛仔布短裤",
+    "en": "Pink denim shorts",
+    "tw": "粉色牛仔布短褲"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer",
+    "tw": "夏日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "粉色 牛仔布 短裤 蕾丝 袜子 凉鞋 丝带 包袋 项链",
+    "en": "pink denim shorts lace socks sandals ribbon bag necklace"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SUM-0068_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SUM-0068.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SUM-0068.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SUM-0068.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SUM-0144",
+   "kind": "costume",
+   "code": "ANIME-SUM-0144",
+   "title": {
+    "zh": "奶油色牛仔布迷你半身裙",
+    "en": "Cream denim mini skirt",
+    "tw": "奶油色牛仔布迷你半身裙"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer",
+    "tw": "夏日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "奶油色 牛仔布 迷你 半身裙 蕾丝 袜子 凉鞋 包袋 项链",
+    "en": "cream denim mini skirt lace socks sandals bag necklace"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SUM-0144_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SUM-0144.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SUM-0144.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SUM-0144.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SUM-0168",
+   "kind": "costume",
+   "code": "ANIME-SUM-0168",
+   "title": {
+    "zh": "黑色网纱衬衫",
+    "en": "Black mesh shirt",
+    "tw": "黑色網紗襯衫"
+   },
+   "category": {
+    "id": "summer",
+    "zh": "夏日穿搭",
+    "en": "Summer",
+    "tw": "夏日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "黑色 网纱 衬衫 灰色 皮革 迷你 包袋 银色 项链",
+    "en": "black mesh shirt grey leather mini bag silver necklace"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SUM-0168_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SUM-0168.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SUM-0168.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SUM-0168.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SWM-0002",
+   "kind": "costume",
+   "code": "ANIME-SWM-0002",
+   "title": {
+    "zh": "蓝色泳衣 · 夹克",
+    "en": "Blue swimsuit / jacket",
+    "tw": "藍色泳衣 · 夾克"
+   },
+   "category": {
+    "id": "swimwear",
+    "zh": "泳装",
+    "en": "Swimwear",
+    "tw": "泳裝"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "蓝色 泳衣 夹克 运动鞋 网纱 包袋",
+    "en": "blue swimsuit jacket sneakers mesh bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SWM-0002_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SWM-0002.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SWM-0002.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SWM-0002.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SWM-0008",
+   "kind": "costume",
+   "code": "ANIME-SWM-0008",
+   "title": {
+    "zh": "蓝色泳衣",
+    "en": "Blue swimsuit",
+    "tw": "藍色泳衣"
+   },
+   "category": {
+    "id": "swimwear",
+    "zh": "泳装",
+    "en": "Swimwear",
+    "tw": "泳裝"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "蓝色 泳衣 金色 腰带 凉鞋 太阳镜",
+    "en": "blue swimsuit gold belt sandals sunglasses"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SWM-0008_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SWM-0008.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SWM-0008.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SWM-0008.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SWM-0014",
+   "kind": "costume",
+   "code": "ANIME-SWM-0014",
+   "title": {
+    "zh": "黑色泳衣 · 夹克",
+    "en": "Black swimsuit / jacket",
+    "tw": "黑色泳衣 · 夾克"
+   },
+   "category": {
+    "id": "swimwear",
+    "zh": "泳装",
+    "en": "Swimwear",
+    "tw": "泳裝"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "黑色 泳衣 夹克 运动鞋 网纱 包袋",
+    "en": "black swimsuit jacket sneakers mesh bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SWM-0014_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SWM-0014.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SWM-0014.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SWM-0014.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SWM-0025",
+   "kind": "costume",
+   "code": "ANIME-SWM-0025",
+   "title": {
+    "zh": "橙色荷叶边短裤 · 衬衫",
+    "en": "Orange frill shorts / shirt",
+    "tw": "橙色荷葉邊短褲 · 襯衫"
+   },
+   "category": {
+    "id": "swimwear",
+    "zh": "泳装",
+    "en": "Swimwear",
+    "tw": "泳裝"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "橙色 荷叶边 短裤 衬衫 凉鞋 托特包",
+    "en": "orange frill shorts shirt sandals tote"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SWM-0025_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SWM-0025.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SWM-0025.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SWM-0025.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SWM-0026",
+   "kind": "costume",
+   "code": "ANIME-SWM-0026",
+   "title": {
+    "zh": "蓝色泳衣 · 夹克",
+    "en": "Blue swimsuit / jacket",
+    "tw": "藍色泳衣 · 夾克"
+   },
+   "category": {
+    "id": "swimwear",
+    "zh": "泳装",
+    "en": "Swimwear",
+    "tw": "泳裝"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "蓝色 泳衣 夹克 运动鞋 网纱 包袋",
+    "en": "blue swimsuit jacket sneakers mesh bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SWM-0026_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SWM-0026.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SWM-0026.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SWM-0026.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SWM-0027",
+   "kind": "costume",
+   "code": "ANIME-SWM-0027",
+   "title": {
+    "zh": "黄色针织迷你半身裙",
+    "en": "Yellow knit mini skirt",
+    "tw": "黃色針織迷你半身裙"
+   },
+   "category": {
+    "id": "swimwear",
+    "zh": "泳装",
+    "en": "Swimwear",
+    "tw": "泳裝"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "黄色 针织 迷你 半身裙 帽子 凉鞋 包袋",
+    "en": "yellow knit mini skirt hat sandals bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SWM-0027_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SWM-0027.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SWM-0027.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SWM-0027.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SXY-0023",
+   "kind": "costume",
+   "code": "ANIME-SXY-0023",
+   "title": {
+    "zh": "米色天鹅绒迷你连衣裙",
+    "en": "Beige velvet mini dress",
+    "tw": "米色天鵝絨迷你連衣裙"
+   },
+   "category": {
+    "id": "expressive-outfits",
+    "zh": "魅力穿搭",
+    "en": "Statement outfits",
+    "tw": "魅力穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "米色 天鹅绒 迷你 连衣裙 长筒袜 高跟鞋 手套",
+    "en": "beige velvet mini dress stockings heels gloves"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SXY-0023_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SXY-0023.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SXY-0023.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SXY-0023.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SXY-0038",
+   "kind": "costume",
+   "code": "ANIME-SXY-0038",
+   "title": {
+    "zh": "藏蓝色束身衣 · 迷你连衣裙",
+    "en": "Navy corset / mini dress",
+    "tw": "藏藍色束身衣 · 迷你連衣裙"
+   },
+   "category": {
+    "id": "expressive-outfits",
+    "zh": "魅力穿搭",
+    "en": "Statement outfits",
+    "tw": "魅力穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "藏蓝色 束身衣 迷你 连衣裙 荷叶边 半身裙 手套 长筒袜 靴子 帽子",
+    "en": "navy corset mini dress frill skirt gloves stockings boots hat"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SXY-0038_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SXY-0038.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SXY-0038.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SXY-0038.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SXY-0070",
+   "kind": "costume",
+   "code": "ANIME-SXY-0070",
+   "title": {
+    "zh": "针织高领迷你连衣裙",
+    "en": "Knit turtleneck mini dress",
+    "tw": "針織高領迷你連衣裙"
+   },
+   "category": {
+    "id": "expressive-outfits",
+    "zh": "魅力穿搭",
+    "en": "Statement outfits",
+    "tw": "魅力穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "白色 针织 高领 迷你 连衣裙 长筒袜 高跟鞋",
+    "en": "white knit turtleneck mini dress stockings heels"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SXY-0070_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SXY-0070.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SXY-0070.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SXY-0070.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_SXY-0110",
+   "kind": "costume",
+   "code": "ANIME-SXY-0110",
+   "title": {
+    "zh": "粉色天鹅绒迷你连衣裙",
+    "en": "Pink velvet mini dress",
+    "tw": "粉色天鵝絨迷你連衣裙"
+   },
+   "category": {
+    "id": "expressive-outfits",
+    "zh": "魅力穿搭",
+    "en": "Statement outfits",
+    "tw": "魅力穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": true,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "粉色 天鹅绒 迷你 连衣裙 长筒袜 高跟鞋 手套",
+    "en": "pink velvet mini dress stockings heels gloves"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_SXY-0110_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_SXY-0110.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_SXY-0110.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_SXY-0110.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_WIN-0039",
+   "kind": "costume",
+   "code": "ANIME-WIN-0039",
+   "title": {
+    "zh": "灰色针织连衣裙",
+    "en": "Grey knit dress",
+    "tw": "灰色針織連衣裙"
+   },
+   "category": {
+    "id": "winter",
+    "zh": "冬日穿搭",
+    "en": "Winter",
+    "tw": "冬日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "灰色 针织 连衣裙 黑色 连裤袜 靴子 迷你 包袋 针织帽",
+    "en": "grey knit dress black tights boots mini bag beanie"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_WIN-0039_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_WIN-0039.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_WIN-0039.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_WIN-0039.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_WIN-0068",
+   "kind": "costume",
+   "code": "ANIME-WIN-0068",
+   "title": {
+    "zh": "针织米色灯芯绒半身裙",
+    "en": "Knit beige corduroy skirt",
+    "tw": "針織米色燈芯絨半身裙"
+   },
+   "category": {
+    "id": "winter",
+    "zh": "冬日穿搭",
+    "en": "Winter",
+    "tw": "冬日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "绿色 针织 米色 灯芯绒 半身裙 毛绒 靴子 迷你 包袋 羊毛",
+    "en": "green knit beige corduroy skirt fur boots mini bag wool"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_WIN-0068_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_WIN-0068.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_WIN-0068.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_WIN-0068.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_WIN-0194",
+   "kind": "costume",
+   "code": "ANIME-WIN-0194",
+   "title": {
+    "zh": "红色黑色衬衫 · 夹克",
+    "en": "Red black shirt / jacket",
+    "tw": "紅色黑色襯衫 · 夾克"
+   },
+   "category": {
+    "id": "winter",
+    "zh": "冬日穿搭",
+    "en": "Winter",
+    "tw": "冬日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "红色 黑色 衬衫 夹克 灰色 连帽衫 长裤 运动鞋 包袋",
+    "en": "red black shirt jacket grey hoodie pants sneakers bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_WIN-0194_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_WIN-0194.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_WIN-0194.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_WIN-0194.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anime_costume_WIN-0238",
+   "kind": "costume",
+   "code": "ANIME-WIN-0238",
+   "title": {
+    "zh": "藏蓝色大衣 · 灰色针织衬衫",
+    "en": "Navy coat / grey knit shirt",
+    "tw": "藏藍色大衣 · 灰色針織襯衫"
+   },
+   "category": {
+    "id": "winter",
+    "zh": "冬日穿搭",
+    "en": "Winter",
+    "tw": "冬日穿搭"
+   },
+   "series": {
+    "zh": "动漫服饰参考",
+    "en": "Anime costume reference",
+    "tw": "動漫服飾參考"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female",
+     "tw": "女性"
+    },
+    {
+     "id": "anime",
+     "zh": "动漫",
+     "en": "Anime",
+     "tw": "動漫"
+    }
+   ],
+   "keywords": {
+    "zh": "藏蓝色 大衣 灰色 针织 衬衫 百褶 黑色 乐福鞋 皮革 包袋",
+    "en": "navy coat grey knit shirt pleated black loafers leather bag"
+   },
+   "source": "muse",
+   "replaces": "upstream",
+   "provenance": {
+    "provider": "Qwen Image 2.1（Chia 本機）",
+    "created": "2026-11-24",
+    "note": "Muse 自製（2026-11-24 起逐套重做原本連結的上游動漫服裝：同編號、同名稱與單品清單，圖片全新生成的動漫風服裝插畫）；本機看圖模型檢查過沒有露出人台、沒有文字"
+   },
+   "variants": [
+    {
+     "id": "muse-port-anime_costume_WIN-0238_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front",
+      "tw": "正面"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-port-anime_costume_WIN-0238.webp",
+     "image": "/muse-assets/costume/images/muse-port-anime_costume_WIN-0238.webp",
+     "original": "/muse-assets/costume/originals/muse-port-anime_costume_WIN-0238.jpg"
+    }
+   ]
   }
  ]
 }
