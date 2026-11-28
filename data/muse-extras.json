@@ -437622,6 +437622,2706 @@
      "original": "/muse-assets/costume/originals/muse-costume-m269.jpg"
     }
    ]
+  },
+  {
+   "id": "muse-costume-m270",
+   "kind": "costume",
+   "code": "MCO-270",
+   "title": {
+    "zh": "苏格兰格纹长裤 · 海军蓝毛衫 · 牛津衬衫",
+    "en": "Tartan trousers · Navy sweater · Oxford collar"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 苏格兰 格纹 长裤 海军蓝 细针 圆领 羊毛衫 白色 牛津衬衫 深棕色 麂皮 乐福鞋 金色腕表 羊毛围巾 皮带 玳瑁眼镜 帆布托特包",
+    "en": "menswear outfit board tartan trousers navy fine knit crew sweater white oxford collar brown suede loafers gold watch green wool scarf brown belt tortoiseshell glasses canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m270_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m270.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m270.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m270.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m271",
+   "kind": "costume",
+   "code": "MCO-271",
+   "title": {
+    "zh": "北非连帽长袍 · 沙色 · 白色长裤",
+    "en": "North African hooded robe · Sand djellaba · White trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 北非 连帽 长袍 沙色 棉麻 细钮扣 白色 长裤 棕色 乐福鞋 皮革斜背包 银色手环 玳瑁墨镜 棉质围巾 腕表",
+    "en": "menswear outfit board north african hooded robe djellaba sand cotton linen white trousers brown leather loafers leather crossbody bag silver bracelet tortoiseshell sunglasses cotton scarf watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m271_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m271.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m271.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m271.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m272",
+   "kind": "costume",
+   "code": "MCO-272",
+   "title": {
+    "zh": "古巴长袖衬衫 · 白色四口袋 · 米色长裤",
+    "en": "Guayabera · White four-pocket shirt · Beige trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 古巴 瓜亚贝拉 长袖 衬衫 白色 四个口袋 打褶 米色 斜纹棉裤 深棕色 编织 乐福鞋 巴拿马帽 金框墨镜 金色腕表 编织皮带 手拿包",
+    "en": "menswear outfit board guayabera white long sleeve four pocket pleated shirt beige chinos brown woven loafers panama hat gold sunglasses gold watch woven belt leather clutch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m272_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m272.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m272.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m272.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m273",
+   "kind": "costume",
+   "code": "MCO-273",
+   "title": {
+    "zh": "越南男装长衫 · 深藏青 · 白色长裤",
+    "en": "Vietnamese men's áo dài · Navy · White trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 越南 男装 长衫 深藏青色 立领 右侧开襟 高开衩 白色 直筒 长裤 黑色 乐福鞋 头巾帽 腕表 木珠手串 折扇 丝质小包",
+    "en": "menswear outfit board vietnamese mens ao dai navy mandarin collar side slits white straight trousers black loafers khan dong hat watch wooden beads folding fan silk pouch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m273_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m273.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m273.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m273.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m274",
+   "kind": "costume",
+   "code": "MCO-274",
+   "title": {
+    "zh": "蒙古袍 · 宝蓝缎面 · 橘黄腰带 · 长筒靴",
+    "en": "Mongolian deel · Royal blue satin · Orange sash · Tall boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 蒙古袍 宝蓝色 缎面 立领 右衽 橘黄色 宽腰带 黑色 皮革 长筒靴 毛毡帽 银色刀鞘 银色手环 皮革小包 皮手套",
+    "en": "menswear outfit board mongolian deel royal blue satin robe orange sash black leather tall boots felt hat silver sheath bracelet leather pouch leather gloves"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m274_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m274.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m274.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m274.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m275",
+   "kind": "costume",
+   "code": "MCO-275",
+   "title": {
+    "zh": "纹付羽织袴 · 黑色羽织 · 条纹袴",
+    "en": "Montsuki haori hakama · Black haori · Striped hakama"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 纹付 羽织 袴 黑色 和服 灰黑 条纹 袴 裤裙 白色 足袋 黑色 草履 羽织绳 折扇 腕表 布包 手帕",
+    "en": "menswear outfit board montsuki haori hakama black haori kimono grey black striped hakama white tabi black zori haori cord folding fan watch cloth bag handkerchief"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m275_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m275.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m275.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m275.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m276",
+   "kind": "costume",
+   "code": "MCO-276",
+   "title": {
+    "zh": "尼赫鲁外套 · 海军蓝立领 · 灰色西裤",
+    "en": "Nehru jacket · Navy band collar · Grey trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 尼赫鲁 外套 海军蓝 立领 白色 长袖 衬衫 灰色 西裤 深棕色 乐福鞋 口袋巾别针 金色腕表 酒红口袋巾 皮带 公文包",
+    "en": "menswear outfit board nehru jacket navy band collar white shirt grey trousers brown loafers lapel pin gold watch burgundy pocket square brown belt briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m276_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m276.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m276.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m276.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m277",
+   "kind": "costume",
+   "code": "MCO-277",
+   "title": {
+    "zh": "西非印花衬衫 · 几何蜡染 · 海军蓝长裤",
+    "en": "West African print shirt · Geometric wax print · Navy trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 西非 印花 长袖 衬衫 橘蓝 米白 几何 蜡染 海军蓝 直筒 长裤 深棕色 麂皮 乐福鞋 木珠手串 金色腕表 橘色口袋巾 皮带 托特包",
+    "en": "menswear outfit board west african wax print long sleeve shirt orange blue geometric navy trousers brown suede loafers wooden beads gold watch orange pocket square brown belt leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m277_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m277.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m277.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m277.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m278",
+   "kind": "costume",
+   "code": "MCO-278",
+   "title": {
+    "zh": "阿尔卑斯外套 · 鹿角扣 · 灰绿羊毛",
+    "en": "Alpine Trachten jacket · Horn buttons · Loden green"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 阿尔卑斯 外套 灰绿色 羊毛 立领 鹿角扣 绿色 滚边 白色 衬衫 深灰绿 长裤 深棕色 布洛克鞋 毛毡帽 腕表 羊毛围巾 皮带 皮革背包",
+    "en": "menswear outfit board alpine trachten janker loden green wool horn buttons white shirt grey green trousers brown brogues felt hat watch wool scarf belt leather rucksack"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m278_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m278.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m278.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m278.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m279",
+   "kind": "costume",
+   "code": "MCO-279",
+   "title": {
+    "zh": "广告狂人 · 灰色修身西装 · 窄版领带",
+    "en": "Sixties ad man · Slim grey suit · Skinny tie"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 60年代 广告狂人 灰色 修身 单排扣 西装 白色 衬衫 黑色 窄版 领带 黑色 乐福鞋 窄边 绅士帽 领带夹 腕表 公文包",
+    "en": "menswear outfit board 1960s ad man slim grey suit white shirt black skinny tie black loafers trilby hat tie bar watch leather briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m279_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m279.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m279.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m279.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m280",
+   "kind": "costume",
+   "code": "MCO-280",
+   "title": {
+    "zh": "建筑师 · 黑色立领衬衫 · 炭灰外套",
+    "en": "Architect · Black band-collar shirt · Charcoal blazer"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 建筑师 炭灰色 羊毛 西装外套 黑色 立领 衬衫 黑色 锥形 长裤 黑色 德比鞋 圆形眼镜 黑色腕表 钢笔 黑色皮带 图筒包",
+    "en": "menswear outfit board architect charcoal wool blazer black band collar shirt black tapered trousers black derby shoes round glasses black watch fountain pen black belt tube bag"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m280_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m280.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m280.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m280.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m281",
+   "kind": "costume",
+   "code": "MCO-281",
+   "title": {
+    "zh": "马术 · 深绿骑士外套 · 米色马裤 · 长筒马靴",
+    "en": "Equestrian · Green riding jacket · Breeches · Riding boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 马术 深绿色 羊毛 骑士外套 白色 立领 衬衫 米色 马裤 深棕色 长筒 马靴 骑士手套 腕表 马鞭 皮带 丝质领巾",
+    "en": "menswear outfit board equestrian green wool riding jacket white shirt beige breeches brown tall riding boots riding gloves watch crop brown belt silk stock tie"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m281_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m281.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m281.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m281.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m282",
+   "kind": "costume",
+   "code": "MCO-282",
+   "title": {
+    "zh": "条纹工作外套 · 蓝白细条纹 · 原色丹宁",
+    "en": "Hickory stripe chore jacket · Raw denim · Work boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 条纹 工作外套 蓝白 细直条纹 棉质 贴袋 白色 圆领T恤 深蓝 原色 丹宁 直筒裤 棕色 系带 工作靴 铁路工帽 腕表 红色方巾 皮带 帆布托特包",
+    "en": "menswear outfit board hickory stripe chore jacket white t-shirt raw denim straight jeans brown work boots railroad cap watch red bandana belt canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m282_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m282.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m282.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m282.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m283",
+   "kind": "costume",
+   "code": "MCO-283",
+   "title": {
+    "zh": "画家工作外套 · 颜料点 · 卡其宽裤",
+    "en": "Painter's chore coat · Paint splatter · Khaki wide pants"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 画家 米白色 帆布 工作外套 颜料点 白色 圆领T恤 卡其色 宽版 工作裤 白色 帆布鞋 圆形眼镜 腕表 画笔 帆布托特包 方巾",
+    "en": "menswear outfit board painter chore coat cream canvas paint splatter white t-shirt khaki wide work pants white canvas sneakers round glasses watch paint brushes canvas tote bandana"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m283_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m283.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m283.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m283.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m284",
+   "kind": "costume",
+   "code": "MCO-284",
+   "title": {
+    "zh": "酒红单色 · 针织Polo · 打褶长裤",
+    "en": "Burgundy monochrome · Knit polo · Pleated trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 酒红 单色 同色系 长袖 针织 polo 打褶 羊毛 长裤 深酒红 麂皮 乐福鞋 金框眼镜 金色腕表 羊毛围巾 皮带 皮革手拿包",
+    "en": "menswear outfit board burgundy monochrome long sleeve knit polo pleated wool trousers burgundy suede loafers gold glasses gold watch wool scarf brown belt leather clutch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m284_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m284.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m284.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m284.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m285",
+   "kind": "costume",
+   "code": "MCO-285",
+   "title": {
+    "zh": "大地棕单色 · 麂皮衬衫外套 · 驼色毛衣",
+    "en": "Earth brown monochrome · Suede overshirt · Camel sweater"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 大地棕 单色 棕色 麂皮 衬衫外套 驼色 细针 圆领毛衣 深棕色 打褶 宽裤 棕色 麂皮 德比鞋 玳瑁眼镜 金色腕表 羊毛围巾 皮带 托特包",
+    "en": "menswear outfit board earth brown monochrome brown suede overshirt camel fine knit sweater dark brown pleated wide trousers brown suede derby shoes tortoiseshell glasses gold watch wool scarf belt leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m285_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m285.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m285.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m285.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m286",
+   "kind": "costume",
+   "code": "MCO-286",
+   "title": {
+    "zh": "灰阶层次 · 浅灰针织外套 · 深灰宽裤",
+    "en": "Grey gradient · Light grey cardigan · Charcoal wide trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 灰阶 层次 浅灰色 针织 开襟外套 中灰色 圆领T恤 深灰色 宽版 长裤 灰色 麂皮 球鞋 银框眼镜 钢带腕表 羊毛毛帽 帆布托特包 短袜",
+    "en": "menswear outfit board grey gradient light grey knit cardigan mid grey t-shirt charcoal wide trousers grey suede sneakers silver glasses steel watch wool beanie canvas tote socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m286_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m286.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m286.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m286.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m287",
+   "kind": "costume",
+   "code": "MCO-287",
+   "title": {
+    "zh": "绿色麂皮衬衫外套 · 米色打褶裤",
+    "en": "Olive suede overshirt · Beige pleated trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 深橄榄绿 麂皮 衬衫外套 奶油白 圆领T恤 米色 打褶 长裤 深棕色 麂皮 切尔西靴 玳瑁墨镜 金色腕表 皮带 羊毛围巾 托特包",
+    "en": "menswear outfit board olive suede overshirt cream t-shirt beige pleated trousers brown suede chelsea boots tortoiseshell sunglasses gold watch brown belt wool scarf leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m287_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m287.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m287.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m287.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m288",
+   "kind": "costume",
+   "code": "MCO-288",
+   "title": {
+    "zh": "墨绿丝绒 · 青果领外套 · 立领衬衫",
+    "en": "Emerald velvet · Shawl-lapel jacket · Band-collar shirt"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 墨绿色 丝绒 西装外套 缎面 青果领 白色 立领 礼服衬衫 黑色 修身 西裤 黑色 丝绒 乐福鞋 金色袖扣 金色腕表 丝质口袋巾 项链 缎面手拿包",
+    "en": "menswear outfit board emerald velvet shawl lapel jacket white band collar dress shirt black slim trousers black velvet loafers gold cufflinks gold watch silk pocket square chain satin clutch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m288_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m288.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m288.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m288.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m289",
+   "kind": "costume",
+   "code": "MCO-289",
+   "title": {
+    "zh": "沙色亚麻西装 · 立领衬衫 · 编织乐福鞋",
+    "en": "Sand linen suit · Band-collar shirt · Woven loafers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 沙色 亚麻 单排扣 西装 白色 亚麻 立领 衬衫 深棕色 编织 乐福鞋 玳瑁墨镜 金色腕表 亚麻口袋巾 编织皮带 草编帽",
+    "en": "menswear outfit board sand linen suit white linen band collar shirt brown woven loafers tortoiseshell sunglasses gold watch linen pocket square woven belt straw hat"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m289_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m289.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m289.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m289.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m290",
+   "kind": "costume",
+   "code": "MCO-290",
+   "title": {
+    "zh": "薄荷绿夏日 · 开领衬衫 · 米白宽裤",
+    "en": "Mint summer · Camp-collar shirt · Cream wide trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 薄荷绿 夏日 长袖 开领 衬衫 米白色 打褶 宽裤 白色 皮革 球鞋 白框墨镜 腕表 帆布皮带 帆布托特包 银色手环",
+    "en": "menswear outfit board mint summer long sleeve camp collar shirt cream pleated wide trousers white leather sneakers white sunglasses watch canvas belt canvas tote silver bracelet"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m290_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m290.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m290.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m290.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m291",
+   "kind": "costume",
+   "code": "MCO-291",
+   "title": {
+    "zh": "白领结燕尾服 · 白色背心 · 翼领衬衫",
+    "en": "White tie · Tailcoat · White waistcoat · Wing collar"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 白领结 燕尾服 黑色 白色 凸纹 背心 翼领 礼服衬衫 白色 领结 侧边缎带 长裤 黑色 漆皮 牛津鞋 珍珠袖扣 白色手套 金色怀表 丝质口袋巾",
+    "en": "menswear outfit board white tie tailcoat white pique waistcoat wing collar shirt white bow tie trousers with braid black patent oxfords pearl studs white gloves gold pocket watch silk pocket square"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m291_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m291.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m291.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m291.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m292",
+   "kind": "costume",
+   "code": "MCO-292",
+   "title": {
+    "zh": "午夜蓝双排扣礼服 · 丝绒领结",
+    "en": "Midnight blue double-breasted tuxedo · Velvet bow tie"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 午夜蓝 双排扣 礼服 外套 黑色 缎面 戗驳领 白色 礼服衬衫 丝绒领结 黑色 漆皮 乐福鞋 银色袖扣 薄型腕表 丝质口袋巾 漆皮卡夹",
+    "en": "menswear outfit board midnight blue double-breasted tuxedo black satin peak lapel white dress shirt velvet bow tie patent loafers silver cufflinks slim watch silk pocket square patent card holder"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m292_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m292.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m292.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m292.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m293",
+   "kind": "costume",
+   "code": "MCO-293",
+   "title": {
+    "zh": "N-1 甲板外套 · 毛绒领 · 原色丹宁",
+    "en": "N-1 deck jacket · Pile lining · Raw denim"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 N-1 甲板外套 海军蓝 毛绒 衬里 灰色 圆领 羊毛衫 深蓝 原色 丹宁 棕色 系带 短靴 毛帽 帆布表带 野战腕表 墨镜 皮带 帆布行李袋",
+    "en": "menswear outfit board n-1 deck jacket navy alpaca pile lining grey crew sweater raw denim brown lace-up boots beanie canvas strap field watch sunglasses brown belt canvas duffle"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m293_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m293.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m293.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m293.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m294",
+   "kind": "costume",
+   "code": "MCO-294",
+   "title": {
+    "zh": "复古刷毛外套 · 双色拼接 · 卡其工作裤",
+    "en": "Retro snap fleece · Two-tone · Khaki work pants"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 复古 刷毛外套 米白 深绿 双色 拼接 按扣 深灰色 圆领T恤 卡其色 工作 长裤 棕色 麂皮 健行鞋 鸭舌帽 尼龙表带 腕表 墨镜 帆布腰包 保温瓶",
+    "en": "menswear outfit board retro snap fleece cream green two tone charcoal t-shirt khaki work pants brown suede hiking shoes cap nylon strap watch sunglasses canvas belt bag insulated bottle"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m294_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m294.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m294.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m294.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m295",
+   "kind": "costume",
+   "code": "MCO-295",
+   "title": {
+    "zh": "日系层次叠穿 · 针织背心 · 长版衬衫",
+    "en": "Japanese layering · Sweater vest · Long shirt"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 日系 层次 叠穿 长版 白色 牛津衬衫 燕麦色 V领 针织背心 深蓝色 短版 工作外套 灰色 宽版 打褶 长裤 黑色 德比鞋 圆形眼镜 腕表 帆布托特包 羊毛袜 方巾",
+    "en": "menswear outfit board japanese layering long white oxford shirt oatmeal v-neck sweater vest navy cropped work jacket grey wide pleated trousers black derby shoes round glasses watch canvas tote wool socks bandana"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m295_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m295.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m295.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m295.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m296",
+   "kind": "costume",
+   "code": "MCO-296",
+   "title": {
+    "zh": "露营水牛格纹 · 羊毛衬衫外套 · 工作靴",
+    "en": "Camping buffalo check · Wool shirt jacket · Work boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 露营 红黑 水牛 格纹 羊毛 衬衫外套 灰色 连帽上衣 卡其色 帆布 工作裤 棕色 系带 工作靴 毛帽 腕表 保温瓶 皮带 帆布后背包",
+    "en": "menswear outfit board camping red black buffalo check wool shirt jacket grey hoodie khaki canvas work pants brown lace-up work boots orange beanie watch insulated bottle belt canvas backpack"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m296_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m296.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m296.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m296.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m297",
+   "kind": "costume",
+   "code": "MCO-297",
+   "title": {
+    "zh": "驼色麂皮西装外套 · 牛津衬衫 · 炭灰西裤",
+    "en": "Camel suede blazer · Oxford shirt · Charcoal trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 驼色 麂皮 单排扣 西装外套 白色 牛津衬衫 炭灰色 羊毛 西裤 深棕色 麂皮 乐福鞋 玳瑁墨镜 金色腕表 酒红口袋巾 皮带 公文包",
+    "en": "menswear outfit board camel suede blazer white oxford shirt charcoal wool trousers brown suede loafers tortoiseshell sunglasses gold watch burgundy pocket square brown belt briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m297_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m297.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m297.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m297.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m298",
+   "kind": "costume",
+   "code": "MCO-298",
+   "title": {
+    "zh": "复古单车衫 · 深绿羊毛 · 卡其长裤",
+    "en": "Vintage cycling jersey · Green wool · Khaki trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 复古 单车衫 深绿色 羊毛 长袖 米白 条纹 滚边 卡其色 修身 长裤 白色 帆布鞋 单车帽 单车手套 腕表 金属水壶 鞍座包",
+    "en": "menswear outfit board vintage wool cycling jersey green cream stripes khaki slim trousers white canvas sneakers cycling cap leather cycling gloves watch metal bottle saddle bag"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m298_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m298.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m298.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m298.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m299",
+   "kind": "costume",
+   "code": "MCO-299",
+   "title": {
+    "zh": "划船俱乐部条纹外套 · 白色长裤",
+    "en": "Rowing blazer · Striped club jacket · White trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 划船 俱乐部 奶油白 酒红 宽直条纹 外套 白色 滚边 白色 长袖 polo衫 白色 斜纹棉裤 深棕色 麂皮 乐福鞋 草编平顶帽 金色腕表 酒红口袋巾 编织皮带 帆布托特包",
+    "en": "menswear outfit board rowing blazer cream burgundy stripes white piping white long sleeve polo white chinos brown suede loafers straw boater gold watch burgundy pocket square woven belt canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m299_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m299.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m299.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m299.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m300",
+   "kind": "costume",
+   "code": "MCO-300",
+   "title": {
+    "zh": "皮革工匠围裙 · 丹宁衬衫 · 工作靴",
+    "en": "Leather craftsman apron · Denim shirt · Work boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 皮革 工匠 围裙 深棕色 浅蓝色 丹宁 长袖 衬衫 卡其色 斜纹棉裤 棕色 系带 工作靴 工具卷包 腕表 黑框眼镜 皮带 帆布托特包",
+    "en": "menswear outfit board leather craftsman apron brown light blue denim shirt khaki chinos brown work boots leather tool roll watch glasses belt canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m300_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m300.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m300.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m300.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m301",
+   "kind": "costume",
+   "code": "MCO-301",
+   "title": {
+    "zh": "浅蓝窗格纹西装 · 酒红领带 · 布洛克鞋",
+    "en": "Light blue windowpane suit · Burgundy tie · Brogues"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 浅灰蓝色 窗格纹 单排扣 西装 白色 衬衫 酒红色 领带 深棕色 雕花 布洛克鞋 金色腕表 白色口袋巾 皮带 公文包",
+    "en": "menswear outfit board light blue windowpane suit white shirt burgundy tie brown brogues gold watch white pocket square brown belt briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m301_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m301.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m301.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m301.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m302",
+   "kind": "costume",
+   "code": "MCO-302",
+   "title": {
+    "zh": "鼠尾草绿西装 · 浅粉牛津衬衫",
+    "en": "Sage green suit · Pale pink oxford shirt"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 鼠尾草绿 单排扣 西装 浅粉红色 牛津衬衫 深棕色 麂皮 乐福鞋 玳瑁墨镜 金色腕表 口袋巾 皮带 托特包",
+    "en": "menswear outfit board sage green suit pale pink oxford shirt brown suede loafers tortoiseshell sunglasses gold watch pocket square brown belt leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m302_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m302.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m302.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m302.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m303",
+   "kind": "costume",
+   "code": "MCO-303",
+   "title": {
+    "zh": "驼色格纹大衣 · 黑色毛衣 · 切尔西靴",
+    "en": "Camel check overcoat · Black sweater · Chelsea boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 驼色 深棕 大格纹 羊毛 单排扣 大衣 黑色 细针 圆领毛衣 深灰色 西裤 深棕色 切尔西靴 金色腕表 皮手套 羊毛围巾 玳瑁墨镜 公文包",
+    "en": "menswear outfit board camel brown large check wool overcoat black fine knit sweater charcoal trousers brown chelsea boots gold watch leather gloves wool scarf tortoiseshell sunglasses briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m303_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m303.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m303.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m303.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m304",
+   "kind": "costume",
+   "code": "MCO-304",
+   "title": {
+    "zh": "黑色羊皮飞行夹克 · 毛绒翻领 · 深灰牛仔裤",
+    "en": "Black shearling aviator · Fleece collar · Grey jeans"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 黑色 羊皮 飞行夹克 米白 毛绒 大翻领 白色 圆领T恤 深灰色 水洗 牛仔裤 黑色 皮革 短靴 飞行员墨镜 钢带腕表 皮手套 黑色皮带 斜背包",
+    "en": "menswear outfit board black shearling aviator jacket cream fleece collar white t-shirt grey washed jeans black leather boots aviator sunglasses steel watch leather gloves black belt crossbody bag"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m304_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m304.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m304.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m304.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m305",
+   "kind": "costume",
+   "code": "MCO-305",
+   "title": {
+    "zh": "黑色皮裤 · 宽版白衬衫 · 切尔西靴",
+    "en": "Black leather trousers · Oversized white shirt"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 黑色 皮裤 直筒 宽版 白色 长袖 棉衬衫 黑色 皮革 切尔西靴 方框墨镜 钢带腕表 银色戒指 项链 托特包",
+    "en": "menswear outfit board black leather straight trousers oversized white cotton shirt black chelsea boots square sunglasses steel watch silver ring chain necklace leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m305_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m305.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m305.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m305.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m306",
+   "kind": "costume",
+   "code": "MCO-306",
+   "title": {
+    "zh": "艾森豪夹克 · 橄榄绿羊毛 · 卡其长裤",
+    "en": "Eisenhower jacket · Olive wool · Khaki chinos"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 艾森豪 短夹克 橄榄绿 羊毛 腰带式 下摆 米白色 圆领 羊毛衫 卡其色 斜纹棉裤 深棕色 系带 短靴 白色表盘 腕表 皮手套 黑框眼镜 皮带 帆布邮差包",
+    "en": "menswear outfit board eisenhower jacket olive wool cream crew sweater khaki chinos brown lace-up boots white dial watch leather gloves glasses brown belt canvas messenger bag"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m306_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m306.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m306.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m306.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m307",
+   "kind": "costume",
+   "code": "MCO-307",
+   "title": {
+    "zh": "降落伞裤 · 黑色短版夹克 · 厚底球鞋",
+    "en": "Parachute pants · Cropped black jacket · Chunky sneakers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 降落伞裤 灰色 尼龙 束口 黑色 短版 尼龙夹克 白色 宽版 T恤 白色 厚底 球鞋 鸭舌帽 电子腕表 银色链条 斜背小包 长袜",
+    "en": "menswear outfit board parachute pants grey nylon cropped black nylon jacket white boxy t-shirt white chunky sneakers cap digital watch silver chain crossbody bag crew socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m307_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m307.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m307.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m307.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m308",
+   "kind": "costume",
+   "code": "MCO-308",
+   "title": {
+    "zh": "阿拉伯长袍 · 白色立领长袍",
+    "en": "Thobe · White ankle-length robe"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 阿拉伯 长袍 白色 长版 棉质 立领 袖扣 白色短袜 棕色 乐福鞋 金色袖扣 金色腕表 木珠手串 皮革手拿包 玳瑁墨镜",
+    "en": "menswear outfit board thobe white ankle length cotton robe band collar cufflinks white socks brown loafers gold cufflinks gold watch prayer beads leather clutch tortoiseshell sunglasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m308_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m308.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m308.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m308.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m309",
+   "kind": "costume",
+   "code": "MCO-309",
+   "title": {
+    "zh": "印尼蜡染衬衫 · 深棕金黄 · 黑色长裤",
+    "en": "Indonesian batik shirt · Brown gold · Black trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 印尼 蜡染 长袖 衬衫 深棕 金黄 传统花纹 黑色 直筒 长裤 黑色 乐福鞋 无边帽 金色腕表 木珠手串 黑色皮带 手拿包",
+    "en": "menswear outfit board indonesian batik long sleeve shirt brown gold traditional pattern black straight trousers black loafers velvet peci cap gold watch wooden beads black belt leather clutch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m309_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m309.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m309.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m309.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m310",
+   "kind": "costume",
+   "code": "MCO-310",
+   "title": {
+    "zh": "北国毛帽大衣 · 灰色双排扣 · 护耳帽",
+    "en": "Northern winter coat · Grey double-breasted · Ushanka"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 北国 灰色 羊毛 双排扣 长大衣 深灰色 粗针 高领毛衣 黑色 羊毛 长裤 黑色 皮革 长筒靴 护耳帽 皮手套 羊毛围巾 腕表 公文包",
+    "en": "menswear outfit board northern winter grey double-breasted wool coat charcoal chunky turtleneck black wool trousers black tall boots ushanka leather gloves wool scarf watch briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m310_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m310.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m310.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m310.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m311",
+   "kind": "costume",
+   "code": "MCO-311",
+   "title": {
+    "zh": "巴黎左岸 · 贝雷帽 · 黑色高领毛衣",
+    "en": "Paris Left Bank · Beret · Black turtleneck"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 巴黎 左岸 炭灰色 羊毛 短大衣 黑色 细针 高领毛衣 黑色 直筒 长裤 黑色 切尔西靴 贝雷帽 圆形眼镜 腕表 精装书 邮差包",
+    "en": "menswear outfit board paris left bank charcoal wool short coat black fine turtleneck black straight trousers black chelsea boots beret round glasses watch cloth hardcover book leather messenger bag"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m311_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m311.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m311.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m311.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m312",
+   "kind": "costume",
+   "code": "MCO-312",
+   "title": {
+    "zh": "长版开襟针织 · 炭灰 · 黑色宽裤",
+    "en": "Longline cardigan · Charcoal knit · Black wide trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 长版 针织 开襟外套 炭灰色 白色 圆领T恤 黑色 宽版 打褶 长裤 黑色 乐福鞋 银框眼镜 钢带腕表 羊毛围巾 黑色皮带 托特包",
+    "en": "menswear outfit board longline cardigan charcoal knit white t-shirt black wide pleated trousers black loafers silver glasses steel watch wool scarf black belt leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m312_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m312.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m312.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m312.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m313",
+   "kind": "costume",
+   "code": "MCO-313",
+   "title": {
+    "zh": "孔雀蓝层次 · 衬衫外套 · 蓝绿毛衣",
+    "en": "Teal layers · Overshirt · Deep teal sweater"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 孔雀蓝 层次 棉质 衬衫外套 深蓝绿 细针 圆领毛衣 海军蓝 直筒 长裤 深棕色 麂皮 德比鞋 银框眼镜 钢带腕表 皮带 羊毛围巾 帆布托特包",
+    "en": "menswear outfit board teal layers cotton overshirt deep teal fine knit sweater navy straight trousers brown suede derby shoes silver glasses steel watch brown belt wool scarf canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m313_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m313.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m313.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m313.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m314",
+   "kind": "costume",
+   "code": "MCO-314",
+   "title": {
+    "zh": "烟粉色西装 · 白色T恤 · 白色球鞋",
+    "en": "Dusty pink suit · White tee · White sneakers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 烟粉色 单排扣 西装 白色 圆领T恤 白色 皮革 球鞋 白框墨镜 金色腕表 项链 白色皮带 托特包",
+    "en": "menswear outfit board dusty pink suit white t-shirt white leather sneakers white sunglasses gold watch gold chain white belt leather tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m314_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m314.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m314.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m314.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m315",
+   "kind": "costume",
+   "code": "MCO-315",
+   "title": {
+    "zh": "黑白撞色针织 · 色块毛衣 · 黑色长裤",
+    "en": "Black and white color-block knit · Black trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 黑白 撞色 色块 圆领毛衣 黑色 直筒 长裤 黑白 双色 球鞋 方框墨镜 钢带腕表 毛帽 黑色皮带 帆布托特包",
+    "en": "menswear outfit board black white color block crew sweater black straight trousers black white sneakers square sunglasses steel watch beanie black belt canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m315_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m315.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m315.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m315.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m316",
+   "kind": "costume",
+   "code": "MCO-316",
+   "title": {
+    "zh": "豹纹丝质衬衫 · 黑色西裤 · 尖头靴",
+    "en": "Leopard silk shirt · Black trousers · Pointed boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 豹纹 丝质 长袖 衬衫 黑色 修身 西裤 黑色 皮革 尖头 切尔西靴 墨镜 金色腕表 金色项链 金色戒指 手拿包",
+    "en": "menswear outfit board leopard print silk shirt black slim trousers black pointed chelsea boots sunglasses gold watch gold chain gold ring leather clutch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m316_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m316.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m316.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m316.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m317",
+   "kind": "costume",
+   "code": "MCO-317",
+   "title": {
+    "zh": "同色短袖套装 · 灰褐古巴领 · 打褶长裤",
+    "en": "Matching short-sleeve set · Taupe camp shirt · Pleated trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 同色 套装 灰褐色 短袖 古巴领 衬衫 同料 打褶 长裤 白色 皮革 球鞋 玳瑁墨镜 金色腕表 帆布托特包 渔夫帽 短袜",
+    "en": "menswear outfit board matching set taupe short sleeve camp collar shirt pleated trousers white leather sneakers tortoiseshell sunglasses gold watch canvas tote bucket hat socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m317_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m317.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m317.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m317.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m318",
+   "kind": "costume",
+   "code": "MCO-318",
+   "title": {
+    "zh": "大衣配运动风 · 连帽上衣 · 运动长裤",
+    "en": "Overcoat with athleisure · Hoodie · Joggers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 灰色 羊毛 长大衣 浅灰色 连帽上衣 黑色 束口 运动长裤 白色 跑鞋 毛帽 钢带腕表 尼龙腰包 运动袜 尼龙后背包",
+    "en": "menswear outfit board grey wool overcoat light grey hoodie black joggers white running shoes beanie steel watch nylon belt bag sports socks nylon backpack"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m318_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m318.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m318.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m318.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-m319",
+   "kind": "costume",
+   "code": "MCO-319",
+   "title": {
+    "zh": "灰色法兰绒西装 · 针织领带 · 麂皮靴",
+    "en": "Grey flannel suit · Knit tie · Suede boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "male",
+     "zh": "男性",
+     "en": "Male"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "男装 穿搭陈列 中灰色 法兰绒 单排扣 西装 白色 牛津衬衫 海军蓝 针织领带 深棕色 麂皮 切尔西靴 金色腕表 白色口袋巾 皮带 公文包",
+    "en": "menswear outfit board mid grey flannel suit white oxford shirt navy knit tie brown suede chelsea boots gold watch white pocket square brown belt briefcase"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製男裝穿搭陳列（批次 set5）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-m319_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-m319.webp",
+     "image": "/muse-assets/costume/images/muse-costume-m319.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-m319.jpg"
+    }
+   ]
   }
  ]
 }
