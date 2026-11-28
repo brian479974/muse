@@ -440322,6 +440322,2706 @@
      "original": "/muse-assets/costume/originals/muse-costume-m319.jpg"
     }
    ]
+  },
+  {
+   "id": "muse-costume-f414",
+   "kind": "costume",
+   "code": "FCO-414",
+   "title": {
+    "zh": "驼色大衣通勤 · 奶油高领 · 黑色阔腿裤",
+    "en": "Camel coat commute · Cream turtleneck · Black wide trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 驼色 双排扣 羊毛 长大衣 奶油色 高领 针织衫 黑色 高腰 阔腿裤 尖头 乐福鞋 金色腕表 托特包 围巾 珍珠耳环 细皮带",
+    "en": "womenswear outfit board camel double breasted wool coat cream turtleneck black high waist wide leg trousers pointed loafers gold watch leather tote scarf pearl earrings belt"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f414_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f414.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f414.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f414.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f415",
+   "kind": "costume",
+   "code": "FCO-415",
+   "title": {
+    "zh": "海军蓝裤装西装 · 白色丝质衬衫 · 低跟鞋",
+    "en": "Navy pantsuit · White silk blouse · Low heels"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 海军蓝 修身 西装外套 直筒 西装裤 套装 白色 丝质 衬衫 黑色 低跟 包头鞋 银色腕表 公文包 项链 皮带 黑框眼镜",
+    "en": "womenswear outfit board navy pantsuit tailored blazer straight trousers white silk blouse black low heel pumps silver watch leather briefcase necklace belt glasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f415_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f415.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f415.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f415.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f416",
+   "kind": "costume",
+   "code": "FCO-416",
+   "title": {
+    "zh": "灰格纹西装 · 铅笔裙 · 黑色高领",
+    "en": "Grey check blazer · Pencil skirt · Black turtleneck"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 灰色 格纹 西装外套 黑色 细针 高领 及膝 铅笔裙 黑色 短靴 裤袜 手提包 金色腕表 皮手套 玳瑁眼镜",
+    "en": "womenswear outfit board grey check blazer black fine knit turtleneck knee length pencil skirt black ankle boots opaque tights handbag gold watch leather gloves tortoiseshell glasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f416_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f416.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f416.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f416.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f417",
+   "kind": "costume",
+   "code": "FCO-417",
+   "title": {
+    "zh": "白衬衫卡其阔腿裤 · 打褶 · 编织平底鞋",
+    "en": "White shirt · Khaki pleated wide trousers · Woven flats"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 白色 宽版 棉质 长袖 衬衫 卡其色 高腰 打褶 阔腿裤 棕色 皮带 米色 编织 平底鞋 草编托特包 圈形耳环 墨镜 腕表",
+    "en": "womenswear outfit board white oversized cotton shirt khaki high waist pleated wide trousers brown belt woven flats straw tote hoop earrings sunglasses watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f417_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f417.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f417.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f417.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f418",
+   "kind": "costume",
+   "code": "FCO-418",
+   "title": {
+    "zh": "格纹长裙 · 黑色高领毛衣 · 切尔西靴",
+    "en": "Tartan maxi skirt · Black turtleneck · Chelsea boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 黑色 粗针 高领 毛衣 红黑 苏格兰 格纹 及踝 长裙 切尔西靴 斜背包 红色围巾 银色腕表 贝雷帽 皮手套",
+    "en": "womenswear outfit board black chunky turtleneck red black tartan maxi skirt chelsea boots crossbody bag red scarf silver watch beret leather gloves"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f418_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f418.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f418.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f418.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f419",
+   "kind": "costume",
+   "code": "FCO-419",
+   "title": {
+    "zh": "奶油针织套装 · 开襟衫 · 针织中长裙",
+    "en": "Cream knit set · Cardigan · Knit midi skirt"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 奶油色 细针 开襟衫 针织 中长裙 背心 罗纹 裤袜 棕色 麂皮 短靴 肩背包 金色腕表 珍珠发夹 围巾",
+    "en": "womenswear outfit board cream fine knit cardigan knit midi skirt camisole ribbed tights brown suede ankle boots shoulder bag gold watch pearl hair clips scarf"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f419_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f419.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f419.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f419.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f420",
+   "kind": "costume",
+   "code": "FCO-420",
+   "title": {
+    "zh": "经典风衣 · 条纹上衣 · 直筒牛仔裤",
+    "en": "Trench coat · Breton stripe top · Straight jeans"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 米色 双排扣 风衣 白底 海军蓝 条纹 长袖 上衣 浅蓝 直筒 牛仔裤 白色 皮革 球鞋 帆布托特包 墨镜 手环 丝巾",
+    "en": "womenswear outfit board beige double breasted trench coat breton stripe long sleeve top light blue straight jeans white leather sneakers canvas tote sunglasses bracelet silk scarf"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f420_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f420.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f420.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f420.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f421",
+   "kind": "costume",
+   "code": "FCO-421",
+   "title": {
+    "zh": "墨绿丝质衬衫 · 黑色西装裤 · 穆勒鞋",
+    "en": "Emerald silk blouse · Black trousers · Mules"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 墨绿色 丝质 长袖 衬衫 黑色 高腰 直筒 西装裤 穆勒鞋 金色链条包 金色腕表 圈形耳环 细皮带 墨镜",
+    "en": "womenswear outfit board emerald green silk blouse black high waist straight trousers black leather mules gold chain bag gold watch hoop earrings belt sunglasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f421_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f421.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f421.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f421.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f422",
+   "kind": "costume",
+   "code": "FCO-422",
+   "title": {
+    "zh": "酒红针织洋装 · 过膝长靴 · 黑色裤袜",
+    "en": "Burgundy knit dress · Over-the-knee boots · Black tights"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 酒红色 长袖 罗纹 针织 洋装 及膝 黑色 裤袜 过膝 长靴 手提包 金色腕表 皮手套 灰色围巾",
+    "en": "womenswear outfit board burgundy long sleeve ribbed knit dress knee length black opaque tights over the knee boots handbag gold watch leather gloves grey scarf"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f422_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f422.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f422.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f422.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f423",
+   "kind": "costume",
+   "code": "FCO-423",
+   "title": {
+    "zh": "粉蓝西装套装 · 白色T恤 · 白色球鞋",
+    "en": "Powder blue suit · White tee · White sneakers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 粉蓝色 宽松 西装外套 直筒 西装裤 套装 白色 圆领 长袖 T恤 白色 皮革 球鞋 小肩背包 银色腕表 项链 短袜 透明框眼镜",
+    "en": "womenswear outfit board powder blue relaxed blazer matching trousers suit white long sleeve tee white leather sneakers mini shoulder bag silver watch necklace socks clear glasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f423_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f423.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f423.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f423.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f424",
+   "kind": "costume",
+   "code": "FCO-424",
+   "title": {
+    "zh": "牛仔外套 · 白色长洋装 · 帆布鞋",
+    "en": "Denim jacket · White maxi dress · Canvas sneakers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 浅蓝 牛仔外套 白色 长袖 棉质 长洋装 及踝 细褶 白色 帆布鞋 草编 圆形 斜背包 墨镜 木珠手串 宽檐草帽",
+    "en": "womenswear outfit board light blue denim jacket white long sleeve cotton maxi dress white canvas sneakers round straw crossbody sunglasses wooden beads straw hat"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f424_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f424.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f424.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f424.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f425",
+   "kind": "costume",
+   "code": "FCO-425",
+   "title": {
+    "zh": "连帽卫衣 · 运动长裤 · 老爹鞋",
+    "en": "Hoodie · Joggers · Chunky sneakers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 麻灰色 宽松 连帽 卫衣 黑色 抽绳 运动长裤 束口 厚底 老爹鞋 尼龙腰包 棒球帽 运动短袜 无线耳机 运动腕表",
+    "en": "womenswear outfit board heather grey oversized hoodie black drawstring joggers chunky dad sneakers nylon belt bag baseball cap sports socks wireless earbuds sports watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f425_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f425.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f425.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f425.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f426",
+   "kind": "costume",
+   "code": "FCO-426",
+   "title": {
+    "zh": "条纹针织 · 直筒牛仔裤 · 红色芭蕾鞋",
+    "en": "Striped knit · Straight jeans · Red ballet flats"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 白底 黑色 细条纹 长袖 针织 上衣 深蓝 高腰 直筒 牛仔裤 红色 芭蕾 平底鞋 斜背包 红色丝巾 金色腕表 墨镜",
+    "en": "womenswear outfit board white black fine stripe long sleeve knit top dark blue high waist straight jeans red ballet flats crossbody bag red silk scarf gold watch sunglasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f426_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f426.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f426.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f426.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f427",
+   "kind": "costume",
+   "code": "FCO-427",
+   "title": {
+    "zh": "军绿飞行夹克 · 工装裤 · 马汀靴",
+    "en": "Olive bomber · Cargo trousers · Combat boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 军绿色 飞行夹克 黑色 圆领 长袖 T恤 卡其色 宽松 工装裤 黑色 马汀靴 帆布 后背包 链条项链 毛线帽 皮带 墨镜",
+    "en": "womenswear outfit board olive bomber jacket black long sleeve tee khaki relaxed cargo trousers black combat boots canvas backpack chain necklace beanie belt sunglasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f427_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f427.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f427.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f427.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f428",
+   "kind": "costume",
+   "code": "FCO-428",
+   "title": {
+    "zh": "法兰绒格纹衬衫 · 黑色牛仔裤 · 工作靴",
+    "en": "Flannel check shirt · Black jeans · Work boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 红黑 格纹 法兰绒 长袖 衬衫 白色 长袖 T恤 黑色 直筒 牛仔裤 棕色 绑带 工作靴 皮带 毛线帽 腕表 帆布托特包 羊毛袜",
+    "en": "womenswear outfit board red black flannel check shirt white long sleeve tee black straight jeans brown lace up work boots belt beanie watch canvas tote wool socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f428_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f428.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f428.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f428.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f429",
+   "kind": "costume",
+   "code": "FCO-429",
+   "title": {
+    "zh": "机车皮衣 · 白色T恤 · 黑色窄管裤",
+    "en": "Biker jacket · White tee · Black skinny jeans"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 黑色 皮革 机车夹克 白色 圆领 长袖 T恤 黑色 窄管 牛仔裤 及踝 短靴 斜背包 银色腕表 银戒指 墨镜 皮带",
+    "en": "womenswear outfit board black leather biker jacket white long sleeve tee black skinny jeans black ankle boots crossbody bag silver watch silver rings sunglasses belt"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f429_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f429.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f429.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f429.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f430",
+   "kind": "costume",
+   "code": "FCO-430",
+   "title": {
+    "zh": "铁锈色灯芯绒外套 · 米色高领 · 宽版牛仔裤",
+    "en": "Rust corduroy jacket · Beige turtleneck · Wide jeans"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 铁锈橘色 灯芯绒 外套 米色 高领 针织衫 深蓝 宽版 牛仔裤 棕色 皮革 乐福鞋 肩背包 金色腕表 丝巾 玳瑁眼镜",
+    "en": "womenswear outfit board rust orange corduroy jacket beige turtleneck dark blue wide leg jeans brown leather loafers shoulder bag gold watch silk scarf tortoiseshell glasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f430_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f430.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f430.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f430.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f431",
+   "kind": "costume",
+   "code": "FCO-431",
+   "title": {
+    "zh": "燕麦粗针开襟衫 · 浅蓝牛仔裤 · 麂皮短靴",
+    "en": "Oatmeal chunky cardigan · Light jeans · Suede boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 燕麦色 粗针 长版 开襟衫 白色 长袖 T恤 浅蓝 直筒 牛仔裤 灰褐色 麂皮 短靴 肩背包 金色腕表 毛线帽 项链 羊毛袜",
+    "en": "womenswear outfit board oatmeal chunky long cardigan white long sleeve tee light blue straight jeans taupe suede ankle boots shoulder bag gold watch beanie necklace wool socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f431_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f431.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f431.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f431.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f432",
+   "kind": "costume",
+   "code": "FCO-432",
+   "title": {
+    "zh": "墨绿丝绒旗袍 · 立领盘扣 · 缎面低跟鞋",
+    "en": "Emerald velvet qipao · Mandarin collar · Satin heels"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 墨绿色 丝绒 长袖 长旗袍 立领 盘扣 及踝 黑色 缎面 低跟 包头鞋 珍珠项链 手拿包 金色手环 流苏披肩 珍珠耳环",
+    "en": "womenswear outfit board emerald velvet long sleeve qipao cheongsam mandarin collar frog buttons ankle length black satin low heels pearl necklace clutch gold bracelet fringe shawl pearl earrings"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f432_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f432.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f432.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f432.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f433",
+   "kind": "costume",
+   "code": "FCO-433",
+   "title": {
+    "zh": "韩服 · 淡粉上衣 · 深蓝长裙",
+    "en": "Hanbok · Pale pink jeogori · Navy chima"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 韩服 淡粉色 长袖 短上衣 飘带 深蓝色 高腰 及地 长裙 契玛 白色 绣花 布鞋 荷包 发簪 布袜 流苏 折扇",
+    "en": "womenswear outfit board hanbok pale pink jeogori long sleeve short jacket ribbon tie navy chima high waist floor length skirt white embroidered shoes pouch hairpin socks tassel folding fan"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f433_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f433.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f433.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f433.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f434",
+   "kind": "costume",
+   "code": "FCO-434",
+   "title": {
+    "zh": "蓝花和服 · 金色腰带 · 草履",
+    "en": "Indigo kimono · Gold obi · Zori sandals"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 和服 靛蓝色 白色 桔梗 花纹 长袖 及踝 金色 织纹 腰带 白色 足袋 草履 折扇 巾着袋 腰绳 木梳",
+    "en": "womenswear outfit board kimono indigo white bellflower pattern long sleeve ankle length gold obi white tabi socks zori sandals paper fan drawstring pouch obijime cord comb"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f434_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f434.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f434.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f434.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f435",
+   "kind": "costume",
+   "code": "FCO-435",
+   "title": {
+    "zh": "白色奥黛 · 越南长衫 · 缎面阔腿裤",
+    "en": "White ao dai · Vietnamese long dress · Satin trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 白色 长袖 奥黛 越南 长衫 立领 开衩 白色 缎面 阔腿裤 及地 平底鞋 斗笠 竹编 珍珠耳环 手拿包 发夹 丝巾",
+    "en": "womenswear outfit board white ao dai vietnamese long tunic mandarin collar side slits white satin wide trousers flats conical hat pearl earrings embroidered clutch hair clip silk scarf"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f435_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f435.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f435.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f435.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f436",
+   "kind": "costume",
+   "code": "FCO-436",
+   "title": {
+    "zh": "印度库尔塔套装 · 孔雀蓝刺绣 · 披巾",
+    "en": "Kurta set · Peacock blue embroidery · Dupatta"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 印度 库尔塔 长衫 孔雀蓝 金色 刺绣 长袖 白色 窄管 长裤 披巾 金色 刺绣 平底鞋 金色手环 耳坠 手拿包 串珠项链",
+    "en": "womenswear outfit board indian kurta set peacock blue gold embroidery long sleeve white churidar trousers dupatta gold embroidered flats bangles earrings clutch beaded necklace"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f436_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f436.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f436.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f436.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f437",
+   "kind": "costume",
+   "code": "FCO-437",
+   "title": {
+    "zh": "刺绣阿巴雅长袍 · 金色刺绣 · 缎面平底鞋",
+    "en": "Embroidered abaya · Gold embroidery · Satin flats"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 阿巴雅 黑色 长袖 长袍 及地 金色 刺绣 袖口 前襟 黑色 长裙 缎面 平底鞋 金色手拿包 腕表 香水瓶 流苏耳环 丝质围巾",
+    "en": "womenswear outfit board black embroidered abaya long sleeve floor length gold embroidery black maxi skirt satin flats gold clutch watch perfume bottle tassel earrings silk scarf"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f437_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f437.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f437.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f437.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f438",
+   "kind": "costume",
+   "code": "FCO-438",
+   "title": {
+    "zh": "蒙古袍 · 宝蓝缎面 · 橘色腰带",
+    "en": "Mongolian deel · Royal blue satin · Orange sash"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 蒙古袍 宝蓝色 缎面 长袖 右衽 金色 滚边 橘色 腰带 深棕色 长靴 银手镯 珊瑚 荷包 耳坠 毡帽 木碗",
+    "en": "womenswear outfit board mongolian deel royal blue satin long sleeve gold trim orange sash brown tall boots silver coral bracelet pouch earrings felt hat wooden bowl"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f438_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f438.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f438.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f438.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f439",
+   "kind": "costume",
+   "code": "FCO-439",
+   "title": {
+    "zh": "摩洛哥卡夫坦 · 陶土红 · 巴布什鞋",
+    "en": "Moroccan kaftan · Terracotta · Babouche slippers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 摩洛哥 卡夫坦 长袍 陶土红 长袖 及踝 金色 小扣 刺绣 黄色 皮革 巴布什 平底鞋 黄铜手环 流苏腰带 手拿包 耳坠 香水瓶",
+    "en": "womenswear outfit board moroccan kaftan terracotta long sleeve ankle length gold buttons embroidered cuffs yellow leather babouche flats brass bangles tassel belt clutch earrings perfume bottle"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f439_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f439.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f439.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f439.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f440",
+   "kind": "costume",
+   "code": "FCO-440",
+   "title": {
+    "zh": "新中式马面裙 · 立领盘扣 · 绣花布鞋",
+    "en": "Neo-Chinese mamian skirt · Frog buttons · Embroidered shoes"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 新中式 米白色 立领 盘扣 长袖 上衣 黑色 织金 马面裙 及踝 打褶 绣花 布鞋 玉镯 发簪 手提包 珍珠耳环 团扇",
+    "en": "womenswear outfit board neo chinese ivory mandarin collar frog button long sleeve top black gold brocade mamian skirt pleated embroidered shoes jade bangle hairpin handbag pearl earrings round fan"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f440_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f440.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f440.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f440.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f441",
+   "kind": "costume",
+   "code": "FCO-441",
+   "title": {
+    "zh": "墨西哥刺绣上衣 · 深蓝长裙 · 棕色短靴",
+    "en": "Mexican embroidered blouse · Navy maxi skirt · Brown boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 墨西哥 白色 长袖 棉质 上衣 彩色 花朵 刺绣 深蓝色 长裙 及踝 棕色 皮革 短靴 编织腰带 草编斜背包 耳坠 条纹披肩 木珠手串",
+    "en": "womenswear outfit board mexican white embroidered long sleeve blouse colorful floral embroidery navy maxi skirt brown leather ankle boots woven belt straw crossbody earrings striped shawl wooden beads"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f441_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f441.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f441.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f441.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f442",
+   "kind": "costume",
+   "code": "FCO-442",
+   "title": {
+    "zh": "黑色长袖晚宴礼服 · 缎面 · 高跟鞋",
+    "en": "Black long sleeve gown · Satin · Heels"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 黑色 长袖 缎面 晚宴 长礼服 及地 合身 高领 黑色 缎面 高跟鞋 耳坠 亮片 手拿包 银色手环 丝绒披肩 香水瓶",
+    "en": "womenswear outfit board black long sleeve satin evening gown floor length fitted high neck black satin heels drop earrings sequin clutch silver bracelet velvet wrap perfume bottle"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f442_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f442.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f442.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f442.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f443",
+   "kind": "costume",
+   "code": "FCO-443",
+   "title": {
+    "zh": "香槟缎面衬衫 · 丝绒阔腿裤 · 金色高跟鞋",
+    "en": "Champagne satin blouse · Velvet wide trousers · Gold heels"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 香槟色 缎面 长袖 衬衫 黑色 丝绒 高腰 阔腿裤 金色 金属感 高跟鞋 链条包 宽手环 耳环 细皮带 金色腕表",
+    "en": "womenswear outfit board champagne satin long sleeve blouse black velvet high waist wide leg trousers gold metallic heels chain bag cuff bracelet earrings belt gold watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f443_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f443.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f443.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f443.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f444",
+   "kind": "costume",
+   "code": "FCO-444",
+   "title": {
+    "zh": "五〇年代圆点洋装 · 伞裙 · 玛莉珍鞋",
+    "en": "1950s polka dot dress · Swing skirt · Mary Janes"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 五〇年代 复古 海军蓝 白色 圆点 长袖 洋装 收腰 及膝 伞裙 白色 细腰带 黑色 裤袜 玛莉珍鞋 手提包 珍珠项链 红色丝巾 猫眼墨镜",
+    "en": "womenswear outfit board 1950s vintage navy white polka dot long sleeve dress fitted waist knee length swing skirt white belt black tights mary jane shoes handbag pearl necklace red scarf cat eye sunglasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f444_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f444.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f444.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f444.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f445",
+   "kind": "costume",
+   "code": "FCO-445",
+   "title": {
+    "zh": "七〇年代喇叭裤 · 印花衬衫 · 流苏背心",
+    "en": "1970s flares · Print shirt · Fringe vest"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 七〇年代 复古 芥末黄 棕色 印花 长袖 衬衫 大尖领 麂皮 流苏 背心 深蓝 高腰 喇叭 牛仔裤 厚底鞋 圆框墨镜 流苏斜背包 木珠项链 宽皮带 头巾",
+    "en": "womenswear outfit board 1970s vintage mustard brown print long sleeve shirt pointed collar suede fringe vest dark blue high waist flared jeans platform shoes round sunglasses fringe bag wooden bead necklace wide belt bandana"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f445_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f445.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f445.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f445.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f446",
+   "kind": "costume",
+   "code": "FCO-446",
+   "title": {
+    "zh": "学院风百褶裙 · 海军蓝西装 · 乐福鞋",
+    "en": "Preppy pleated skirt · Navy blazer · Loafers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 学院风 海军蓝 单排扣 西装外套 白色 长袖 衬衫 斜纹 领带 灰色 及膝 百褶裙 深灰色 裤袜 深棕色 乐福鞋 书包 金色腕表 发带",
+    "en": "womenswear outfit board preppy navy single breasted blazer white long sleeve shirt striped tie grey knee length pleated skirt dark grey tights brown loafers satchel gold watch headband"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f446_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f446.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f446.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f446.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f447",
+   "kind": "costume",
+   "code": "FCO-447",
+   "title": {
+    "zh": "粗花呢套装 · 金色钮扣 · 黑色短靴",
+    "en": "Tweed suit · Gold buttons · Black ankle boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 粗花呢 粉白黑 混色 短外套 圆领 金色 钮扣 及膝 直筒裙 黑色 细针 高领 裤袜 尖头 短靴 菱格纹 链条包 珍珠项链 皮手套 金色腕表",
+    "en": "womenswear outfit board tweed jacket collarless gold buttons matching knee length skirt black fine knit turtleneck black tights pointed ankle boots quilted chain bag pearl necklace leather gloves gold watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f447_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f447.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f447.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f447.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f448",
+   "kind": "costume",
+   "code": "FCO-448",
+   "title": {
+    "zh": "黄色雨衣 · 牛仔裤 · 橡胶雨靴",
+    "en": "Yellow raincoat · Jeans · Rubber rain boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 亮黄色 连帽 长版 雨衣 灰色 圆领 长袖 针织衫 深蓝 直筒 牛仔裤 墨绿色 橡胶 雨靴 透明雨伞 防水后背包 羊毛袜 银色腕表 毛线帽",
+    "en": "womenswear outfit board bright yellow hooded long raincoat grey crew knit dark blue straight jeans dark green rubber rain boots clear umbrella waterproof backpack wool socks silver watch beanie"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f448_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f448.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f448.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f448.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f449",
+   "kind": "costume",
+   "code": "FCO-449",
+   "title": {
+    "zh": "白色羽绒长外套 · 高领毛衣 · 雪靴",
+    "en": "White long puffer · Turtleneck · Snow boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 白色 连帽 羽绒 长外套 及膝 浅灰色 高领 毛衣 黑色 刷毛 长裤 米白色 毛绒 雪靴 毛线帽 毛球 针织手套 围巾 保温瓶 银色腕表",
+    "en": "womenswear outfit board white hooded long puffer coat knee length light grey turtleneck black fleece lined trousers cream shearling snow boots pompom beanie knit gloves scarf thermos silver watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f449_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f449.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f449.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f449.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f450",
+   "kind": "costume",
+   "code": "FCO-450",
+   "title": {
+    "zh": "淡紫色长洋装 · 婚礼宾客 · 银色低跟鞋",
+    "en": "Lilac maxi dress · Wedding guest · Silver heels"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 淡紫色 雪纺 长袖 长洋装 及踝 腰间 打褶 婚礼 宾客 银色 低跟 包头鞋 手拿包 珍珠耳环 银色手环 丝质披肩 珍珠发夹",
+    "en": "womenswear outfit board lilac chiffon long sleeve maxi dress ankle length gathered waist wedding guest silver low heels clutch pearl earrings silver bracelet silk wrap pearl hair clip"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f450_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f450.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f450.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f450.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f451",
+   "kind": "costume",
+   "code": "FCO-451",
+   "title": {
+    "zh": "银色亮片派对 · 缎面阔腿裤 · 高跟鞋",
+    "en": "Silver sequin party top · Satin wide trousers · Heels"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 银色 亮片 长袖 上衣 黑色 缎面 高腰 阔腿裤 黑色 缎面 高跟鞋 手拿包 长耳坠 宽手环 丝绒发箍 银色腕表",
+    "en": "womenswear outfit board silver sequin long sleeve top black satin high waist wide leg trousers black satin heels clutch drop earrings cuff bracelet velvet headband silver watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f451_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f451.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f451.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f451.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f452",
+   "kind": "costume",
+   "code": "FCO-452",
+   "title": {
+    "zh": "红色防风外套 · 抓绒 · 登山鞋",
+    "en": "Red shell jacket · Fleece · Hiking boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 红色 连帽 防风外套 灰色 抓绒 中层 黑色 登山长裤 登山鞋 后背包 登山杖 羊毛袜 遮阳帽 保温瓶",
+    "en": "womenswear outfit board red hooded shell jacket grey fleece mid layer black hiking trousers hiking boots backpack trekking poles wool hiking socks sun cap thermos"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f452_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f452.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f452.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f452.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f453",
+   "kind": "costume",
+   "code": "FCO-453",
+   "title": {
+    "zh": "马术骑士 · 骑士外套 · 高筒马靴",
+    "en": "Equestrian · Riding jacket · Tall riding boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 马术 深蓝色 合身 骑士外套 白色 高领衫 米白色 马裤 黑色 高筒 马靴 骑士头盔 皮手套 马鞭 皮带 金色腕表",
+    "en": "womenswear outfit board equestrian navy fitted riding jacket white turtleneck cream breeches black tall riding boots riding helmet leather gloves crop belt gold watch"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f453_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f453.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f453.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f453.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f454",
+   "kind": "costume",
+   "code": "FCO-454",
+   "title": {
+    "zh": "吊带工作裤 · 条纹上衣 · 帆布鞋",
+    "en": "Denim overalls · Striped top · Canvas sneakers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 中蓝色 丹宁 吊带 工作裤 白底 红色 细条纹 长袖 上衣 白色 帆布鞋 工具围裙 彩色铅笔 红色头巾 短袜 帆布托特包",
+    "en": "womenswear outfit board mid blue denim overalls white red stripe long sleeve top white canvas sneakers canvas apron colored pencils red bandana socks canvas tote"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f454_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f454.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f454.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f454.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f455",
+   "kind": "costume",
+   "code": "FCO-455",
+   "title": {
+    "zh": "薄荷针织背心 · 白衬衫 · 浅灰阔腿裤",
+    "en": "Mint knit vest · White shirt · Grey wide trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 薄荷绿 V领 针织背心 白色 长袖 衬衫 浅灰色 高腰 阔腿裤 白色 皮革 乐福鞋 小肩背包 金色腕表 发带 短袜 项链",
+    "en": "womenswear outfit board mint green v neck knit vest white long sleeve shirt light grey high waist wide trousers white leather loafers mini shoulder bag gold watch headband socks necklace"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f455_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f455.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f455.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f455.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f456",
+   "kind": "costume",
+   "code": "FCO-456",
+   "title": {
+    "zh": "卡其工装连身裤 · 皮带 · 皮革短靴",
+    "en": "Khaki utility jumpsuit · Belt · Leather boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 卡其色 长袖 工装 连身裤 口袋 棕色 皮带 棕色 皮革 短靴 腕表 军绿色 帆布 斜背包 墨镜 渔夫帽",
+    "en": "womenswear outfit board khaki long sleeve utility jumpsuit pockets brown belt brown leather ankle boots watch olive canvas crossbody sunglasses bucket hat"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f456_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f456.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f456.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f456.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f457",
+   "kind": "costume",
+   "code": "FCO-457",
+   "title": {
+    "zh": "棕色皮革风衣 · 黑色长裙 · 长靴",
+    "en": "Brown leather trench · Black maxi skirt · Tall boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 深棕色 皮革 长风衣 系腰带 黑色 高领 针织衫 黑色 及踝 长裙 黑色 长靴 肩背包 金色腕表 皮手套 围巾 墨镜",
+    "en": "womenswear outfit board dark brown leather trench coat belted black turtleneck black maxi skirt black tall boots shoulder bag gold watch leather gloves camel scarf sunglasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f457_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f457.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f457.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f457.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f458",
+   "kind": "costume",
+   "code": "FCO-458",
+   "title": {
+    "zh": "灰色羊毛斗篷 · 黑色高领 · 骑士靴",
+    "en": "Grey wool cape · Black turtleneck · Riding boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 灰色 羊毛 斗篷 黑色 高领 针织衫 黑色 内搭裤 骑士靴 斜背包 毛线帽 皮手套 银色腕表 羊毛袜",
+    "en": "womenswear outfit board grey wool cape black turtleneck black leggings black riding boots crossbody bag beanie leather gloves silver watch wool socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f458_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f458.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f458.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f458.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f459",
+   "kind": "costume",
+   "code": "FCO-459",
+   "title": {
+    "zh": "夏日亚麻 · 短袖衬衫 · 亚麻阔腿裤",
+    "en": "Summer linen · Short sleeve shirt · Linen wide trousers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 夏日 白色 短袖 亚麻 衬衫 米色 亚麻 高腰 阔腿裤 米色 帆布鞋 草编宽檐帽 藤编手提包 墨镜 金色手环 丝巾",
+    "en": "womenswear outfit board summer white short sleeve linen shirt beige linen high waist wide trousers beige canvas sneakers straw hat rattan bag sunglasses gold bracelet silk scarf"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f459_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f459.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f459.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f459.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f460",
+   "kind": "costume",
+   "code": "FCO-460",
+   "title": {
+    "zh": "高尔夫 Polo · 海军蓝长裤 · 高尔夫球鞋",
+    "en": "Golf polo · Navy trousers · Golf shoes"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 高尔夫 白色 短袖 polo衫 海军蓝 合身 长裤 白色 高尔夫 球鞋 遮阳帽 高尔夫手套 高尔夫球袋 运动腕表 高尔夫球",
+    "en": "womenswear outfit board golf white short sleeve polo shirt navy slim trousers white golf shoes visor golf glove golf bag sports watch golf balls"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f460_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f460.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f460.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f460.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f461",
+   "kind": "costume",
+   "code": "FCO-461",
+   "title": {
+    "zh": "芥末黄毛衣 · 灯芯绒长裙 · 棕色短靴",
+    "en": "Mustard sweater · Corduroy maxi skirt · Brown boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 芥末黄 粗针 圆领 毛衣 棕色 灯芯绒 及踝 长裙 棕色 皮革 短靴 肩背包 玳瑁眼镜 毛毡帽 金色腕表 羊毛袜",
+    "en": "womenswear outfit board mustard chunky crew sweater brown corduroy maxi skirt brown leather ankle boots shoulder bag tortoiseshell glasses felt hat gold watch wool socks"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f461_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f461.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f461.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f461.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f462",
+   "kind": "costume",
+   "code": "FCO-462",
+   "title": {
+    "zh": "牛仔套装 · 白色T恤 · 牛仔靴",
+    "en": "Double denim · White tee · Western boots"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 深蓝 牛仔外套 高腰 直筒 牛仔裤 同色 白色 圆领 长袖 T恤 深棕色 牛仔靴 皮带 银色扣头 牛仔帽 流苏斜背包 银色腕表 红色头巾",
+    "en": "womenswear outfit board dark denim jacket matching high waist straight jeans double denim white long sleeve tee brown western boots belt cowboy hat fringe crossbody silver watch red bandana"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f462_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f462.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f462.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f462.jpg"
+    }
+   ]
+  },
+  {
+   "id": "muse-costume-f463",
+   "kind": "costume",
+   "code": "FCO-463",
+   "title": {
+    "zh": "针织背心长洋装 · 叠穿衬衫 · 乐福鞋",
+    "en": "Knit pinafore maxi dress · Layered shirt · Loafers"
+   },
+   "category": {
+    "id": "outfit-board",
+    "zh": "穿搭陈列",
+    "en": "Outfit boards"
+   },
+   "series": {
+    "zh": "服装参考",
+    "en": "Costume reference"
+   },
+   "extended": false,
+   "tags": [
+    {
+     "id": "female",
+     "zh": "女性",
+     "en": "Female"
+    },
+    {
+     "id": "photo",
+     "zh": "写实",
+     "en": "Photographic"
+    }
+   ],
+   "keywords": {
+    "zh": "女装 穿搭陈列 炭灰色 无袖 高领 针织 长洋装 及踝 白色 长袖 衬衫 叠穿 黑色 乐福鞋 肩背包 银色腕表 项链 短袜 黑框眼镜",
+    "en": "womenswear outfit board charcoal sleeveless high neck knit maxi dress white long sleeve shirt layered black loafers shoulder bag silver watch necklace socks glasses"
+   },
+   "source": "muse",
+   "provenance": {
+    "provider": "OpenAI GPT Image（ChatGPT）",
+    "created": "2026-11-28",
+    "note": "Muse 自製女裝穿搭陳列（批次 set6）：中央隱形人整套穿搭、左欄衣物、右欄配件，淺灰無縫背景；逐張放大檢查過沒有皮膚、布標、文字與標誌"
+   },
+   "variants": [
+    {
+     "id": "muse-costume-f463_front",
+     "angle": "front",
+     "label": {
+      "zh": "正面",
+      "en": "Front"
+     },
+     "thumbnail": "/muse-assets/costume/thumbnails/muse-costume-f463.webp",
+     "image": "/muse-assets/costume/images/muse-costume-f463.webp",
+     "original": "/muse-assets/costume/originals/muse-costume-f463.jpg"
+    }
+   ]
   }
  ]
 }
